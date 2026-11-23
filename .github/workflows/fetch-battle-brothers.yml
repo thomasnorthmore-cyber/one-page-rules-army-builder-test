@@ -1,0 +1,31 @@
+name: Fetch Battle Brothers source (manual validation)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install OPR client pinned to reviewed version
+        run: npm install --no-save --ignore-scripts opr-army-db@2.0.3
+      - name: Retrieve and validate raw Army Forge data
+        env:
+          OPR_BOOK_ID: 78qp9l5alslt6yj8
+          OPR_BOOK_REVISION: '2'
+        run: node scripts/fetch-army.mjs
+      - name: Upload source as build artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: battle-brothers-source
+          path: import-data/
+          retention-days: 3
