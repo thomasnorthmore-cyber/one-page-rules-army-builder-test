@@ -2,41 +2,64 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import * as opr from 'opr-army-db';
 
 const bookId = process.env.OPR_BOOK_ID || '78qp9l5alslt6yj8';
-const revision = Number(process.env.OPR_BOOK_REVISION || 2);
-const outDir = 'import-data';
-if (!/^[a-zA-Z0-9_-]{8,40}$/.test(bookId)) throw new Error('Invalid book ID');
-if (!Number.isInteger(revision) || revision < 1 || revision > 100) throw new Error('Invalid revision');
+if (!/^[a-zA-Z0-9_-]{8,40}$/.test(bookId)) throw Error('Invalid book ID');
+if (typeof opr.getArmyBook !== 'function') throw Error('getArmyBook is not exported');
+await mkdir('import-data', { recursive: true });
 
-console.log('Available package exports:', Object.keys(opr).join(', '));
-if (typeof opr.getArmyBook !== 'function') throw new Error('getArmyBook is not exported');
+const report = {
+  bookId,
+  expectedGameSystem: 'grimdark-future',
+  expectedMajorMinor: '3.6',
+  retrievedAt: new Date().toISOString(),
+  attempts: [],
+  status: 'not-verified',
+};
+const sourceText = String(opr.getArmyBook);
+console.log('getArmyBook signature:', sourceText.slice(0, 1500));
 
-const fn = opr.getArmyBook;
-console.log('getArmyBook declared argument count:', fn.length);
-console.log('getArmyBook function signature/source (first 700 chars):', String(fn).slice(0, 700));
-let response;
-try {
-  response = await fn(bookId, revision);
-} catch (err) {
-  console.error('getArmyBook call failed:', String(err));
-  if (err?.stack) console.error(err.stack);
-  throw err;
+const attempts = [
+  { label: 'no second argument', args: [bookId] },
+  { label: 'second argument 2', args: [bookId, 2] },
+  { label: 'second argument 3', args: [bookId, 3] },
+  { label: 'second argument 9', args: [bookId, 9] },
+  { label: 'second argument 10', args: [bookId, 10] },
+];
+let verified = null;
+for (const attempt of attempts) {
+  try {
+    const data = await opr.getArmyBook(...attempt.args);
+    if (!data || typeof data !== 'object') throw Error('Empty or nonobject response');
+    const candidate = data.armyBook ?? data.book ?? data.data ?? data;
+    const units = candidate.units ?? candidate.unitList ?? candidate.armyUnits;
+    const summary = {
+      label: attempt.label,
+      gameSystemId: candidate.gameSystemId ?? null,
+      gameSystemSlug: candidate.gameSystemSlug ?? null,
+      versionString: candidate.versionString ?? null,
+      unitCount: Array.isArray(units) ? units.length : 0,
+      upgrades: Array.isArray(candidate.upgradePackages) ? candidate.upgradePackages.length : 0,
+    };
+    report.attempts.push(summary);
+    console.log('Probe:', JSON.stringify(summary));
+    if (summary.gameSystemSlug === 'grimdark-future' &&
+        String(summary.versionString).startsWith('3.6') &&
+        summary.unitCount >= 10 && summary.upgrades > 0) {
+      verified = data;
+      report.status = 'verified-source';
+      report.chosenAttempt = attempt.label;
+      break;
+    }
+  } catch (error) {
+    const summary = { label: attempt.label, error: String(error) };
+    report.attempts.push(summary);
+    console.log('Probe failure:', JSON.stringify(summary));
+  }
 }
-if (!response || typeof response !== 'object') {
-  console.error('Response type:', typeof response);
-  throw new Error('Unexpected empty or non-object result from getArmyBook');
+await writeFile('import-data/validation-report.json', JSON.stringify(report, null, 2));
+if (!verified) {
+  console.error('No matching GF 3.6 army book found. Only the probe report will be uploaded.');
+  process.exitCode = 2;
+} else {
+  await writeFile('import-data/battle-brothers-source.json', JSON.stringify(verified, null, 2));
+  console.log('Saved verified Grimdark Future 3.6 source. Existing New Recruit files unchanged.');
 }
-const candidate = response.armyBook ?? response.book ?? response.data ?? response;
-console.log('Top-level response keys:', Object.keys(response).slice(0, 40));
-console.log('Candidate keys:', Object.keys(candidate).slice(0, 40));
-const units = candidate.units ?? candidate.unitList ?? candidate.armyUnits ?? response.units;
-const count = Array.isArray(units) ? units.length : 0;
-console.log('Units located:', count);
-if (count < 10) throw new Error('Army-book schema unrecognised or incomplete; no file written');
-await mkdir(outDir, { recursive: true });
-await writeFile(`${outDir}/battle-brothers-source.json`, JSON.stringify(response, null, 2));
-await writeFile(`${outDir}/validation-report.json`, JSON.stringify({
-  bookId, revision, retrievedAt: new Date().toISOString(),
-  units: count, unitNames: units.map(u => u?.name ?? u?.unitName ?? '(unknown)'),
-  status: 'raw-source-only', note: 'Manual review required before generating New Recruit catalogues.'
-}, null, 2));
-console.log('Saved unmodified source and validation summary; live catalogues untouched.');
