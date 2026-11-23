@@ -1,4 +1,4 @@
-name: Fetch Battle Brothers source (manual validation)
+name: Legacy OPR snapshot diagnostic (NOT live 3.6)
 
 on:
   workflow_dispatch:
