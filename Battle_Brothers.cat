@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (WORK IN PROGRESS)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="1">
+  <selectionEntries>
+    <selectionEntry id="b174-c09d-3660-b101" name="Battle Brothers (DATA PENDING)" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-3670-b101" name="Battle Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">TBD</characteristic>
+        <characteristic name="Defense" typeId="b174-c09d-3660-f012">TBD</characteristic>
+        <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">INCOMPLETE: verify against official 3.6 Army Forge</characteristic>
+      </characteristics></profile></profiles>
+      <categoryLinks><categoryLink id="b174-c09d-3680-b101" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-3660-b102" name="Veteran Battle Brothers (DATA PENDING)" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-3670-b102" name="Veteran Battle Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">TBD</characteristic>
+        <characteristic name="Defense" typeId="b174-c09d-3660-f012">TBD</characteristic>
+        <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">INCOMPLETE: verify against official 3.6 Army Forge</characteristic>
+      </characteristics></profile></profiles>
+      <categoryLinks><categoryLink id="b174-c09d-3680-b102" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-3660-b103" name="Brother Bikers (DATA PENDING)" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-3670-b103" name="Brother Bikers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">TBD</characteristic>
+        <characteristic name="Defense" typeId="b174-c09d-3660-f012">TBD</characteristic>
+        <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">INCOMPLETE: verify against official 3.6 Army Forge</characteristic>
+      </characteristics></profile></profiles>
+      <categoryLinks><categoryLink id="b174-c09d-3680-b103" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
