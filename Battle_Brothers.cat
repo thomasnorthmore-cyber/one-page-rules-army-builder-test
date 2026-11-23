@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Rules Reference v3.6.0)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="1">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Rules Reference v3.6.0)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="1">
   <sharedRules>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If the majority of this unit has Battleborn, roll at the beginning of a round when Shaken; on 4+, remove Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>After failing a morale test, this unit has a chance to turn the failure into a pass on a 4+.</description></rule>
@@ -7,7 +7,7 @@
     <rule id="b174-c09d-3660-c103" name="Tough(X)" hidden="false"><description>Requires X wounds to be removed. Track wounds on individual models and apply the Tough wound-allocation rules.</description></rule>
     <rule id="b174-c09d-3660-c104" name="Versatile Expert" hidden="false"><description>When activated, choose one benefit for these models until the end of their activation: +1 AP on attacks, or +1 to hit on attacks.</description></rule>
     <rule id="b174-c09d-3660-c105" name="Strider" hidden="false"><description>Ignores difficult terrain penalties while moving.</description></rule>
-    <rule id="b174-c09d-3660-c106" name="Armor(X)" hidden="false"><description>Armor value modifies Defense for this unit; consult the current core rule reference for the exact modifier.</description></rule>
+    <rule id="b174-c09d-3660-c106" name="Armor(2+)" hidden="false"><description>This unit has the listed 2+ armour value; use the Armor rules in the current Grimdark Future reference.</description></rule>
     <rule id="b174-c09d-3660-c107" name="Scout" hidden="false"><description>Uses a special pre-game deployment/movement option; consult the current core rules for distance and timing.</description></rule>
     <rule id="b174-c09d-3660-c108" name="Stealth" hidden="false"><description>Makes this unit harder to hit with shooting when the required range/target conditions apply.</description></rule>
     <rule id="b174-c09d-3660-c109" name="Relentless" hidden="false"><description>When firing during a Hold action, unmodified hit rolls of 6 produce an additional hit.</description></rule>
@@ -224,6 +224,7 @@
       <infoLink id="b174-c09d-d007-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
       <infoLink id="b174-c09d-d007-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
       <infoLink id="b174-c09d-d007-0003" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
+      <infoLink id="b174-c09d-d01f-00ff" name="Armor(2+)" hidden="false" targetId="b174-c09d-3660-c106" type="rule"/>
       </infoLinks>
       <categoryLinks><categoryLink id="b174-c09d-1000-0a8e" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0a8f" name="Veteran Assault Brothers Models" hidden="false" collective="false" import="true" type="model">
