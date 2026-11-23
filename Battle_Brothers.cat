@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Rules Reference v3.6.0)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="1">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Categorised v3.6.0)" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If the majority of this unit has Battleborn, roll at the beginning of a round when Shaken; on 4+, remove Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>After failing a morale test, this unit has a chance to turn the failure into a pass on a 4+.</description></rule>
@@ -45,7 +45,7 @@
       <infoLink id="b174-c09d-d000-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
       <infoLink id="b174-c09d-d000-0005" name="Spell Amplifier" hidden="false" targetId="b174-c09d-3660-c11b" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-07d2" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-07d2" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-07d3" name="Master Destroyer Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-07d4" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-07d5" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -70,7 +70,7 @@
       <infoLink id="b174-c09d-d001-0007" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       <infoLink id="b174-c09d-d001-0008" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0836" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0836" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0837" name="Veteran Master Brother Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0838" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0839" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -98,7 +98,7 @@
       <infoLink id="b174-c09d-d002-0006" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       <infoLink id="b174-c09d-d002-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-089a" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-089a" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-089b" name="Master Brother Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-089c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-089d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -127,7 +127,7 @@
       <infoLink id="b174-c09d-d003-0007" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       <infoLink id="b174-c09d-d003-0008" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-08fe" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-08fe" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-08ff" name="Elite Pathfinder Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0900" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0901" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -152,7 +152,7 @@
       <infoLink id="b174-c09d-d004-0003" name="Strider" hidden="false" targetId="b174-c09d-3660-c105" type="rule"/>
       <infoLink id="b174-c09d-d004-0004" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0962" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0962" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0963" name="Pathfinders Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0964" type="min" field="selections" scope="parent" value="5" shared="true"/><constraint id="b174-c09d-1000-0965" type="max" field="selections" scope="parent" value="5" shared="true"/></constraints>
         <profiles>
@@ -176,7 +176,7 @@
       <infoLink id="b174-c09d-d005-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
       <infoLink id="b174-c09d-d005-0003" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-09c6" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-09c6" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-09c7" name="Battle Brothers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-09c8" type="min" field="selections" scope="parent" value="5" shared="true"/><constraint id="b174-c09d-1000-09c9" type="max" field="selections" scope="parent" value="5" shared="true"/></constraints>
         <profiles>
@@ -201,7 +201,7 @@
       <infoLink id="b174-c09d-d006-0003" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       <infoLink id="b174-c09d-d006-0004" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0a2a" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0a2a" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0a2b" name="Assault Brothers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0a2c" type="min" field="selections" scope="parent" value="5" shared="true"/><constraint id="b174-c09d-1000-0a2d" type="max" field="selections" scope="parent" value="5" shared="true"/></constraints>
         <profiles>
@@ -226,7 +226,7 @@
       <infoLink id="b174-c09d-d007-0003" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
       <infoLink id="b174-c09d-d01f-00ff" name="Armor(2+)" hidden="false" targetId="b174-c09d-3660-c106" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0a8e" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0a8e" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0a8f" name="Veteran Assault Brothers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0a90" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0a91" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -248,7 +248,7 @@
       <infoLink id="b174-c09d-d008-0004" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
       <infoLink id="b174-c09d-d008-0005" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0af2" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0af2" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0af3" name="Veteran Battle Brothers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0af4" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0af5" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -278,7 +278,7 @@
       <infoLink id="b174-c09d-d009-0008" name="Smash" hidden="false" targetId="b174-c09d-3660-c119" type="rule"/>
       <infoLink id="b174-c09d-d009-0009" name="Takedown" hidden="false" targetId="b174-c09d-3660-c11a" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0b56" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0b56" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0b57" name="Pathfinder Snipers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0b58" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0b59" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -305,7 +305,7 @@
       <infoLink id="b174-c09d-d00a-0005" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
       <infoLink id="b174-c09d-d00a-0006" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0bba" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0bba" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0bbb" name="Support Brothers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0bbc" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0bbd" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -332,7 +332,7 @@
       <infoLink id="b174-c09d-d00b-0005" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       <infoLink id="b174-c09d-d00b-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0c1e" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0c1e" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0c1f" name="Pathfinder Bikers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0c20" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0c21" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -359,7 +359,7 @@
       <infoLink id="b174-c09d-d00c-0005" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
       <infoLink id="b174-c09d-d00c-0006" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0c82" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0c82" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0c83" name="Destroyers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0c84" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0c85" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -385,7 +385,7 @@
       <infoLink id="b174-c09d-d00d-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
       <infoLink id="b174-c09d-d00d-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0ce6" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0ce6" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0ce7" name="Brother Bikers Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0ce8" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0ce9" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
         <profiles>
@@ -418,7 +418,7 @@
       <infoLink id="b174-c09d-d00e-0007" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
       <infoLink id="b174-c09d-d00e-0008" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0d4a" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0d4a" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0d4b" name="Drop Pod Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0d4c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0d4d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -441,7 +441,7 @@
       <infoLink id="b174-c09d-d00f-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
       <infoLink id="b174-c09d-d00f-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0dae" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0dae" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0daf" name="Heavy Exo-Suit Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0db0" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0db1" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -468,7 +468,7 @@
       <infoLink id="b174-c09d-d010-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
       <infoLink id="b174-c09d-d010-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0e12" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0e12" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0e13" name="Support Bike Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0e14" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0e15" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -501,7 +501,7 @@
       <infoLink id="b174-c09d-d011-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       <infoLink id="b174-c09d-d011-0008" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0e76" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0e76" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0e77" name="Attack Vehicle Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0e78" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0e79" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -530,7 +530,7 @@
       <infoLink id="b174-c09d-d012-0007" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
       <infoLink id="b174-c09d-d012-0008" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0eda" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0eda" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0edb" name="APC Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0edc" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0edd" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -561,7 +561,7 @@
       <infoLink id="b174-c09d-d013-0009" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       <infoLink id="b174-c09d-d013-000a" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0f3e" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0f3e" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0f3f" name="Attack Speeder Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0f40" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0f41" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -587,7 +587,7 @@
       <infoLink id="b174-c09d-d014-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
       <infoLink id="b174-c09d-d014-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-0fa2" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0fa2" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-0fa3" name="Combat Walker Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-0fa4" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0fa5" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -614,7 +614,7 @@
       <infoLink id="b174-c09d-d015-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
       <infoLink id="b174-c09d-d015-0007" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-1006" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1006" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-1007" name="Battle Tank Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-1008" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1009" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -641,7 +641,7 @@
       <infoLink id="b174-c09d-d016-0005" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
       <infoLink id="b174-c09d-d016-0006" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-106a" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-106a" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-106b" name="Veteran Combat Walker Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-106c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-106d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -668,7 +668,7 @@
       <infoLink id="b174-c09d-d017-0006" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
       <infoLink id="b174-c09d-d017-0007" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-10ce" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-10ce" name="Artillery" hidden="false" targetId="b174-c09d-3660-f045" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-10cf" name="Artillery Gun Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-10d0" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-10d1" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -699,7 +699,7 @@
       <infoLink id="b174-c09d-d018-0009" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
       <infoLink id="b174-c09d-d018-000a" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-1132" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1132" name="Titans" hidden="false" targetId="b174-c09d-3660-f046" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-1133" name="Heavy Battle Tank Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-1134" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1135" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -733,7 +733,7 @@
       <infoLink id="b174-c09d-d019-0008" name="Deadly(X)" hidden="false" targetId="b174-c09d-3660-c11d" type="rule"/>
       <infoLink id="b174-c09d-d019-0009" name="Unstoppable" hidden="false" targetId="b174-c09d-3660-c11e" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-1196" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1196" name="Aircraft" hidden="false" targetId="b174-c09d-3660-f047" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-1197" name="Light Gunship Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-1198" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1199" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
@@ -768,7 +768,7 @@
       <infoLink id="b174-c09d-d01a-0008" name="Deadly(X)" hidden="false" targetId="b174-c09d-3660-c11d" type="rule"/>
       <infoLink id="b174-c09d-d01a-0009" name="Unstoppable" hidden="false" targetId="b174-c09d-3660-c11e" type="rule"/>
       </infoLinks>
-      <categoryLinks><categoryLink id="b174-c09d-1000-11fa" name="Units" hidden="false" targetId="b174-c09d-3660-f040" primary="true"/></categoryLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-11fa" name="Aircraft" hidden="false" targetId="b174-c09d-3660-f047" primary="true"/></categoryLinks>
       <selectionEntries><selectionEntry id="b174-c09d-1000-11fb" name="Heavy Gunship Models" hidden="false" collective="false" import="true" type="model">
         <constraints><constraint id="b174-c09d-1000-11fc" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-11fd" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
         <profiles>
