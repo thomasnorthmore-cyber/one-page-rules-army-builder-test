@@ -2,46 +2,41 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import * as opr from 'opr-army-db';
 
 const bookId = process.env.OPR_BOOK_ID || '78qp9l5alslt6yj8';
-const game = 'grimdark-future';
 const revision = Number(process.env.OPR_BOOK_REVISION || 2);
 const outDir = 'import-data';
-
-if (!/^[a-zA-Z0-9_-]{8,40}$/.test(bookId)) throw new Error('Unsafe army book ID');
+if (!/^[a-zA-Z0-9_-]{8,40}$/.test(bookId)) throw new Error('Invalid book ID');
 if (!Number.isInteger(revision) || revision < 1 || revision > 100) throw new Error('Invalid revision');
-console.log('opr-army-db module exports:', Object.keys(opr));
-console.log('Export types:', Object.fromEntries(Object.entries(opr).map(([k,v]) => [k, typeof v])));
-const candidates = ['OprApiClient', 'OPRApiClient', 'ArmyForgeClient', 'ApiClient', 'Client'];
-const clientName = candidates.find(k => typeof opr[k] === 'function');
-if (!clientName) {
-  console.error('The package does not export any recognised API client. Diagnose the actual exports above before using the package.');
-  throw new Error('No supported Army Forge client export found');
-}
-const client = new opr[clientName]();
-if (typeof client.getArmyBookDetails !== 'function') {
-  console.error('Selected client:', clientName);
-  console.error('Client methods:', Object.getOwnPropertyNames(Object.getPrototypeOf(client)));
-  throw new Error('The installed client lacks getArmyBookDetails; endpoint adapter required');
-}
-console.log(`Requesting Army Forge book ${bookId}, revision ${revision}, game ${game}`);
-const result = await client.getArmyBookDetails(bookId, revision, game);
-if (!result || typeof result !== 'object') throw new Error('Invalid API result: missing book data');
 
-const candidate = result.armyBook ?? result.book ?? result.data ?? result;
-const units = candidate.units ?? candidate.unitList ?? candidate.armyUnits ?? result.units;
-const unitCount = Array.isArray(units) ? units.length : 0;
-const body = JSON.stringify(result, null, 2);
-if (body.length < 1000 || unitCount < 10) {
-  console.error('Received payload keys:', Object.keys(result));
-  console.error('Candidate keys:', Object.keys(candidate));
-  throw new Error(`Rejected incomplete or unrecognised army-book response (${unitCount} recognised units). No catalogue modified.`);
+console.log('Available package exports:', Object.keys(opr).join(', '));
+if (typeof opr.getArmyBook !== 'function') throw new Error('getArmyBook is not exported');
+
+const fn = opr.getArmyBook;
+console.log('getArmyBook declared argument count:', fn.length);
+console.log('getArmyBook function signature/source (first 700 chars):', String(fn).slice(0, 700));
+let response;
+try {
+  response = await fn(bookId, revision);
+} catch (err) {
+  console.error('getArmyBook call failed:', String(err));
+  if (err?.stack) console.error(err.stack);
+  throw err;
 }
-const names = units.map(x => x?.name ?? x?.unitName ?? '(unidentified)');
+if (!response || typeof response !== 'object') {
+  console.error('Response type:', typeof response);
+  throw new Error('Unexpected empty or non-object result from getArmyBook');
+}
+const candidate = response.armyBook ?? response.book ?? response.data ?? response;
+console.log('Top-level response keys:', Object.keys(response).slice(0, 40));
+console.log('Candidate keys:', Object.keys(candidate).slice(0, 40));
+const units = candidate.units ?? candidate.unitList ?? candidate.armyUnits ?? response.units;
+const count = Array.isArray(units) ? units.length : 0;
+console.log('Units located:', count);
+if (count < 10) throw new Error('Army-book schema unrecognised or incomplete; no file written');
 await mkdir(outDir, { recursive: true });
-await writeFile(`${outDir}/battle-brothers-source.json`, body, 'utf8');
+await writeFile(`${outDir}/battle-brothers-source.json`, JSON.stringify(response, null, 2));
 await writeFile(`${outDir}/validation-report.json`, JSON.stringify({
-  bookId, revision, game, retrievedAt: new Date().toISOString(),
-  unitCount, names, source: 'Army Forge through opr-army-db',
-  status: 'raw-source-only',
-  nextStep: 'Review equipment/upgrade schema and verify edition before generating .cat'
-}, null, 2), 'utf8');
-console.log(`Retrieved ${unitCount} units. Saved raw source for review; live catalogues unchanged.`);
+  bookId, revision, retrievedAt: new Date().toISOString(),
+  units: count, unitNames: units.map(u => u?.name ?? u?.unitName ?? '(unknown)'),
+  status: 'raw-source-only', note: 'Manual review required before generating New Recruit catalogues.'
+}, null, 2));
+console.log('Saved unmodified source and validation summary; live catalogues untouched.');
