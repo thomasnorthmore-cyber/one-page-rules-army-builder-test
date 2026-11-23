@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from 'node:fs/promises';
-import { OprApiClient } from 'opr-army-db';
+import * as opr from 'opr-army-db';
 
 const bookId = process.env.OPR_BOOK_ID || '78qp9l5alslt6yj8';
 const game = 'grimdark-future';
@@ -8,7 +8,20 @@ const outDir = 'import-data';
 
 if (!/^[a-zA-Z0-9_-]{8,40}$/.test(bookId)) throw new Error('Unsafe army book ID');
 if (!Number.isInteger(revision) || revision < 1 || revision > 100) throw new Error('Invalid revision');
-const client = new OprApiClient();
+console.log('opr-army-db module exports:', Object.keys(opr));
+console.log('Export types:', Object.fromEntries(Object.entries(opr).map(([k,v]) => [k, typeof v])));
+const candidates = ['OprApiClient', 'OPRApiClient', 'ArmyForgeClient', 'ApiClient', 'Client'];
+const clientName = candidates.find(k => typeof opr[k] === 'function');
+if (!clientName) {
+  console.error('The package does not export any recognised API client. Diagnose the actual exports above before using the package.');
+  throw new Error('No supported Army Forge client export found');
+}
+const client = new opr[clientName]();
+if (typeof client.getArmyBookDetails !== 'function') {
+  console.error('Selected client:', clientName);
+  console.error('Client methods:', Object.getOwnPropertyNames(Object.getPrototypeOf(client)));
+  throw new Error('The installed client lacks getArmyBookDetails; endpoint adapter required');
+}
 console.log(`Requesting Army Forge book ${bookId}, revision ${revision}, game ${game}`);
 const result = await client.getArmyBookDetails(bookId, revision, game);
 if (!result || typeof result !== 'object') throw new Error('Invalid API result: missing book data');
