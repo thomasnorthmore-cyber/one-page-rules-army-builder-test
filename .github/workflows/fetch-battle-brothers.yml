@@ -23,7 +23,7 @@ jobs:
           OPR_BOOK_REVISION: '2'
         run: node scripts/fetch-army.mjs
       - name: Upload source as build artifact
-        if: success()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: battle-brothers-source
