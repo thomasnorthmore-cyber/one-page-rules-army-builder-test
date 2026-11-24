@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
-    <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If the majority of this unit has Battleborn, roll at the beginning of a round when Shaken; on 4+, remove Shaken.</description></rule>
-    <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>After failing a morale test, this unit has a chance to turn the failure into a pass on a 4+.</description></rule>
-    <rule id="b174-c09d-3660-c102" name="Hero" hidden="false"><description>May attach to an eligible multi-model unit under the hero attachment rules; its morale can be used for that unit.</description></rule>
-    <rule id="b174-c09d-3660-c103" name="Tough(X)" hidden="false"><description>Requires X wounds to be removed. Track wounds on individual models and apply the Tough wound-allocation rules.</description></rule>
-    <rule id="b174-c09d-3660-c104" name="Versatile Expert" hidden="false"><description>When activated, choose one benefit for these models until the end of their activation: +1 AP on attacks, or +1 to hit on attacks.</description></rule>
-    <rule id="b174-c09d-3660-c105" name="Strider" hidden="false"><description>Ignores difficult terrain penalties while moving.</description></rule>
-    <rule id="b174-c09d-3660-c106" name="Armor(2+)" hidden="false"><description>This unit has the listed 2+ armour value; use the Armor rules in the current Grimdark Future reference.</description></rule>
-    <rule id="b174-c09d-3660-c107" name="Scout" hidden="false"><description>Uses a special pre-game deployment/movement option; consult the current core rules for distance and timing.</description></rule>
-    <rule id="b174-c09d-3660-c108" name="Stealth" hidden="false"><description>Makes this unit harder to hit with shooting when the required range/target conditions apply.</description></rule>
-    <rule id="b174-c09d-3660-c109" name="Relentless" hidden="false"><description>When firing during a Hold action, unmodified hit rolls of 6 produce an additional hit.</description></rule>
-    <rule id="b174-c09d-3660-c10a" name="Fast" hidden="false"><description>Increases the distance moved by Advance, Rush and Charge actions.</description></rule>
-    <rule id="b174-c09d-3660-c10b" name="Ambush" hidden="false"><description>May be held off-table and deployed later under the reserve deployment rules.</description></rule>
-    <rule id="b174-c09d-3660-c10c" name="Immobile" hidden="false"><description>May only take Hold actions.</description></rule>
-    <rule id="b174-c09d-3660-c10d" name="Transport(X)" hidden="false"><description>Carries eligible friendly models up to the listed capacity; follow transport embark, disembark and destruction rules.</description></rule>
-    <rule id="b174-c09d-3660-c10e" name="Fear(X)" hidden="false"><description>Adds X to this unit's effective wounds for determining the winner of melee.</description></rule>
-    <rule id="b174-c09d-3660-c10f" name="Vanguard" hidden="false"><description>After deployment, may reposition within 9 inches of its starting position, staying over 9 inches from non-Vanguard enemy units.</description></rule>
-    <rule id="b174-c09d-3660-c110" name="Artillery" hidden="false"><description>Artillery unit restrictions apply; consult the current Grimdark Future core rules.</description></rule>
-    <rule id="b174-c09d-3660-c111" name="Cumbersome" hidden="false"><description>Restricted to Hold or Advance; cannot fire if it moves.</description></rule>
-    <rule id="b174-c09d-3660-c112" name="Aircraft" hidden="false"><description>Uses aircraft-specific movement, deployment and targeting restrictions.</description></rule>
-    <rule id="b174-c09d-3660-c113" name="AP(X)" hidden="false"><description>Targets suffer an X penalty to Defense rolls against this weapon's hits.</description></rule>
-    <rule id="b174-c09d-3660-c114" name="Blast(X)" hidden="false"><description>Spreads hits across multiple models, up to the number of models in the target unit; check the current Blast procedure.</description></rule>
-    <rule id="b174-c09d-3660-c115" name="Reliable" hidden="false"><description>Uses improved hit accuracy as defined by the current core rules.</description></rule>
-    <rule id="b174-c09d-3660-c116" name="Anti-Cover" hidden="false"><description>Counters the target's cover benefits; check the current core rules for precise interaction.</description></rule>
-    <rule id="b174-c09d-3660-c117" name="Assault" hidden="false"><description>May shoot under the additional movement circumstances allowed by the Assault weapon rule.</description></rule>
-    <rule id="b174-c09d-3660-c118" name="Surge" hidden="false"><description>Weapon has the Surge special effect; consult the current weapon rule reference.</description></rule>
-    <rule id="b174-c09d-3660-c119" name="Smash" hidden="false"><description>When attacking beyond half the weapon range, target re-rolls unmodified Defense results of 6.</description></rule>
-    <rule id="b174-c09d-3660-c11a" name="Takedown" hidden="false"><description>Weapon has the Takedown targeting effect; consult the current weapon rule reference.</description></rule>
-    <rule id="b174-c09d-3660-c11b" name="Spell Amplifier" hidden="false"><description>Weapon has a spell-related special effect; consult the current Army Forge special rules.</description></rule>
-    <rule id="b174-c09d-3660-c11c" name="Thrust" hidden="false"><description>Weapon has a charge/movement interaction; consult the current weapon rule reference.</description></rule>
-    <rule id="b174-c09d-3660-c11d" name="Deadly(X)" hidden="false"><description>Each unsaved hit deals X wounds to a single model, without spilling excess wounds to other models.</description></rule>
-    <rule id="b174-c09d-3660-c11e" name="Unstoppable" hidden="false"><description>Ignores Regeneration and negative attack modifiers not caused by the attacking model's own special rules.</description></rule>
+    <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
+    <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
+    <rule id="b174-c09d-3660-c102" name="Hero" hidden="false"><description>A Hero with Tough(6) or less may join a multi-model unit that does not already include another Hero; it may take Morale tests for the unit, and is generally allocated wounds after ordinary models.</description></rule>
+    <rule id="b174-c09d-3660-c103" name="Tough(X)" hidden="false"><description>This model must suffer X wounds before being removed. Allocate and track wounds on each Tough model rather than removing it after a single wound.</description></rule>
+    <rule id="b174-c09d-3660-c104" name="Versatile Expert" hidden="false"><description>When this unit is activated, choose one effect until the end of that activation: models with this rule in this unit gain AP(+1) when attacking, or gain +1 to hit rolls when attacking.</description></rule>
+    <rule id="b174-c09d-3660-c105" name="Strider" hidden="false"><description>Ignores the effects of difficult terrain when moving.</description></rule>
+    <rule id="b174-c09d-3660-c106" name="Armor(2+)" hidden="false"><description>This unit has Armor (2+), giving it a 2+ armour protection rating when defending against attacks.</description></rule>
+    <rule id="b174-c09d-3660-c107" name="Scout" hidden="false"><description>After other units have deployed, this model may make a special pre-game move of up to 12", ignoring terrain. If both players have Scouts, roll off and alternate placing or moving them.</description></rule>
+    <rule id="b174-c09d-3660-c108" name="Stealth" hidden="false"><description>Enemies suffer -1 to hit when shooting at a unit where all models have Stealth from more than 12" away.</description></rule>
+    <rule id="b174-c09d-3660-c109" name="Relentless" hidden="false"><description>When using a Hold action and shooting, unmodified rolls of 6 to hit count as two hits. Only the original hit counts as an unmodified 6 for other rules.</description></rule>
+    <rule id="b174-c09d-3660-c10a" name="Fast" hidden="false"><description>Moves farther than standard units: +2" on Advance and +4" on Rush and Charge.</description></rule>
+    <rule id="b174-c09d-3660-c10b" name="Ambush" hidden="false"><description>This unit may be kept off the table at deployment. At the start of a round after the first, deploy it anywhere more than 9" from enemy units, following the Ambush deployment order.</description></rule>
+    <rule id="b174-c09d-3660-c10c" name="Immobile" hidden="false"><description>This unit may only use Hold actions.</description></rule>
+    <rule id="b174-c09d-3660-c10d" name="Transport(X)" hidden="false"><description>This model transports up to X eligible models. Passengers may deploy inside, embark by moving into contact, or disembark during a move and be placed within 6". If the transport is destroyed, passengers take dangerous terrain tests and become Shaken.</description></rule>
+    <rule id="b174-c09d-3660-c10e" name="Fear(X)" hidden="false"><description>When deciding who won a melee, add X to the number of wounds dealt by this unit.</description></rule>
+    <rule id="b174-c09d-3660-c10f" name="Vanguard" hidden="false"><description>After deployment, this model may be placed anywhere fully within 9" of its original position, more than 9" away from enemy units without Vanguard.</description></rule>
+    <rule id="b174-c09d-3660-c110" name="Artillery" hidden="false"><description>This unit is classed as Artillery and is subject to the artillery movement and firing restrictions.</description></rule>
+    <rule id="b174-c09d-3660-c111" name="Cumbersome" hidden="false"><description>May only use Hold or Advance actions, and cannot shoot when moving.</description></rule>
+    <rule id="b174-c09d-3660-c112" name="Aircraft" hidden="false"><description>This model is an Aircraft, which uses aircraft-specific movement and targeting rules.</description></rule>
+    <rule id="b174-c09d-3660-c113" name="AP(X)" hidden="false"><description>When blocking hits from this weapon, the target gets -X to its Defense rolls.</description></rule>
+    <rule id="b174-c09d-3660-c114" name="Blast(X)" hidden="false"><description>This weapon ignores cover. After resolving its other special rules, each hit is multiplied by X, to a maximum number of hits equal to the number of models in the target unit.</description></rule>
+    <rule id="b174-c09d-3660-c115" name="Reliable" hidden="false"><description>This weapon attacks using Quality 2+.</description></rule>
+    <rule id="b174-c09d-3660-c116" name="Anti-Cover" hidden="false"><description>When attacking with this weapon, ignore the target's cover protection.</description></rule>
+    <rule id="b174-c09d-3660-c117" name="Assault" hidden="false"><description>This ranged weapon can also be used when attacking in melee, instead of a melee weapon.</description></rule>
+    <rule id="b174-c09d-3660-c118" name="Surge" hidden="false"><description>Unmodified rolls of 6 to hit with this weapon generate one additional hit. Only the original hit is treated as a roll of 6 for other special rules.</description></rule>
+    <rule id="b174-c09d-3660-c119" name="Smash" hidden="false"><description>When attacking units beyond half of this weapon's range, the target must re-roll unmodified Defense results of 6.</description></rule>
+    <rule id="b174-c09d-3660-c11a" name="Takedown" hidden="false"><description>When attacking with this weapon, the attacker may choose an individual model within the target unit to resolve the attack against, treating that model as a separate target for that attack.</description></rule>
+    <rule id="b174-c09d-3660-c11b" name="Spell Amplifier" hidden="false"><description>This weapon improves the model's ability to cast spells, granting +1 to its spell casting rolls.</description></rule>
+    <rule id="b174-c09d-3660-c11c" name="Thrust" hidden="false"><description>When charging, attacks with this weapon gain +1 to hit and AP(+1) in melee.</description></rule>
+    <rule id="b174-c09d-3660-c11d" name="Deadly(X)" hidden="false"><description>An unsaved hit deals X wounds to a single model. Excess wounds do not carry over to other models.</description></rule>
+    <rule id="b174-c09d-3660-c11e" name="Unstoppable" hidden="false"><description>This weapon ignores Regeneration and all negative modifiers that do not come from the attacking model's own special rules.</description></rule>
   </sharedRules>
   <selectionEntries>
     <selectionEntry id="b174-c09d-1000-07d0" name="Master Destroyer" hidden="false" collective="false" import="true" type="unit">
