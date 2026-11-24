@@ -1,0 +1,18 @@
+name: Validate OPR New Recruit catalogues
+on:
+  push:
+    paths:
+      - 'Battle_Brothers.cat'
+      - 'Grimdark_Future.gst'
+      - 'scripts/validate_catalogues.py'
+      - '.github/workflows/validate-catalogues.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate XML and links
+        run: python3 scripts/validate_catalogues.py
