@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Individual Model Loadouts v3.6.0)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+  <sharedRules>
+    <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If the majority of this unit has Battleborn, roll at the beginning of a round when Shaken; on 4+, remove Shaken.</description></rule>
+    <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>After failing a morale test, this unit has a chance to turn the failure into a pass on a 4+.</description></rule>
+    <rule id="b174-c09d-3660-c102" name="Hero" hidden="false"><description>May attach to an eligible multi-model unit under the hero attachment rules; its morale can be used for that unit.</description></rule>
+    <rule id="b174-c09d-3660-c103" name="Tough(X)" hidden="false"><description>Requires X wounds to be removed. Track wounds on individual models and apply the Tough wound-allocation rules.</description></rule>
+    <rule id="b174-c09d-3660-c104" name="Versatile Expert" hidden="false"><description>When activated, choose one benefit for these models until the end of their activation: +1 AP on attacks, or +1 to hit on attacks.</description></rule>
+    <rule id="b174-c09d-3660-c105" name="Strider" hidden="false"><description>Ignores difficult terrain penalties while moving.</description></rule>
+    <rule id="b174-c09d-3660-c106" name="Armor(2+)" hidden="false"><description>This unit has the listed 2+ armour value; use the Armor rules in the current Grimdark Future reference.</description></rule>
+    <rule id="b174-c09d-3660-c107" name="Scout" hidden="false"><description>Uses a special pre-game deployment/movement option; consult the current core rules for distance and timing.</description></rule>
+    <rule id="b174-c09d-3660-c108" name="Stealth" hidden="false"><description>Makes this unit harder to hit with shooting when the required range/target conditions apply.</description></rule>
+    <rule id="b174-c09d-3660-c109" name="Relentless" hidden="false"><description>When firing during a Hold action, unmodified hit rolls of 6 produce an additional hit.</description></rule>
+    <rule id="b174-c09d-3660-c10a" name="Fast" hidden="false"><description>Increases the distance moved by Advance, Rush and Charge actions.</description></rule>
+    <rule id="b174-c09d-3660-c10b" name="Ambush" hidden="false"><description>May be held off-table and deployed later under the reserve deployment rules.</description></rule>
+    <rule id="b174-c09d-3660-c10c" name="Immobile" hidden="false"><description>May only take Hold actions.</description></rule>
+    <rule id="b174-c09d-3660-c10d" name="Transport(X)" hidden="false"><description>Carries eligible friendly models up to the listed capacity; follow transport embark, disembark and destruction rules.</description></rule>
+    <rule id="b174-c09d-3660-c10e" name="Fear(X)" hidden="false"><description>Adds X to this unit's effective wounds for determining the winner of melee.</description></rule>
+    <rule id="b174-c09d-3660-c10f" name="Vanguard" hidden="false"><description>After deployment, may reposition within 9 inches of its starting position, staying over 9 inches from non-Vanguard enemy units.</description></rule>
+    <rule id="b174-c09d-3660-c110" name="Artillery" hidden="false"><description>Artillery unit restrictions apply; consult the current Grimdark Future core rules.</description></rule>
+    <rule id="b174-c09d-3660-c111" name="Cumbersome" hidden="false"><description>Restricted to Hold or Advance; cannot fire if it moves.</description></rule>
+    <rule id="b174-c09d-3660-c112" name="Aircraft" hidden="false"><description>Uses aircraft-specific movement, deployment and targeting restrictions.</description></rule>
+    <rule id="b174-c09d-3660-c113" name="AP(X)" hidden="false"><description>Targets suffer an X penalty to Defense rolls against this weapon's hits.</description></rule>
+    <rule id="b174-c09d-3660-c114" name="Blast(X)" hidden="false"><description>Spreads hits across multiple models, up to the number of models in the target unit; check the current Blast procedure.</description></rule>
+    <rule id="b174-c09d-3660-c115" name="Reliable" hidden="false"><description>Uses improved hit accuracy as defined by the current core rules.</description></rule>
+    <rule id="b174-c09d-3660-c116" name="Anti-Cover" hidden="false"><description>Counters the target's cover benefits; check the current core rules for precise interaction.</description></rule>
+    <rule id="b174-c09d-3660-c117" name="Assault" hidden="false"><description>May shoot under the additional movement circumstances allowed by the Assault weapon rule.</description></rule>
+    <rule id="b174-c09d-3660-c118" name="Surge" hidden="false"><description>Weapon has the Surge special effect; consult the current weapon rule reference.</description></rule>
+    <rule id="b174-c09d-3660-c119" name="Smash" hidden="false"><description>When attacking beyond half the weapon range, target re-rolls unmodified Defense results of 6.</description></rule>
+    <rule id="b174-c09d-3660-c11a" name="Takedown" hidden="false"><description>Weapon has the Takedown targeting effect; consult the current weapon rule reference.</description></rule>
+    <rule id="b174-c09d-3660-c11b" name="Spell Amplifier" hidden="false"><description>Weapon has a spell-related special effect; consult the current Army Forge special rules.</description></rule>
+    <rule id="b174-c09d-3660-c11c" name="Thrust" hidden="false"><description>Weapon has a charge/movement interaction; consult the current weapon rule reference.</description></rule>
+    <rule id="b174-c09d-3660-c11d" name="Deadly(X)" hidden="false"><description>Each unsaved hit deals X wounds to a single model, without spilling excess wounds to other models.</description></rule>
+    <rule id="b174-c09d-3660-c11e" name="Unstoppable" hidden="false"><description>Ignores Regeneration and negative attack modifiers not caused by the attacking model's own special rules.</description></rule>
+  </sharedRules>
+  <selectionEntries>
+    <selectionEntry id="b174-c09d-1000-07d0" name="Master Destroyer" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-07d1" name="Master Destroyer" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Hero, Tough(6)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d000-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d000-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d000-0003" name="Hero" hidden="false" targetId="b174-c09d-3660-c102" type="rule"/>
+      <infoLink id="b174-c09d-d000-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d000-0005" name="Spell Amplifier" hidden="false" targetId="b174-c09d-3660-c11b" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-07d2" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-07d3" name="Master Destroyer Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-07d4" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-07d5" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-07da" name="Archivist Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="155"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0834" name="Veteran Master Brother" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0835" name="Veteran Master Brother" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Hero, Tough(3), Versatile Expert</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d001-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d001-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d001-0003" name="Hero" hidden="false" targetId="b174-c09d-3660-c102" type="rule"/>
+      <infoLink id="b174-c09d-d001-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d001-0005" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
+      <infoLink id="b174-c09d-d001-0006" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d001-0007" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      <infoLink id="b174-c09d-d001-0008" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0836" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0837" name="Veteran Master Brother Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0838" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0839" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-083e" name="Flamer Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Assault, Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-083f" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="90"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0898" name="Master Brother" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0899" name="Master Brother" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Hero, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d002-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d002-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d002-0003" name="Hero" hidden="false" targetId="b174-c09d-3660-c102" type="rule"/>
+      <infoLink id="b174-c09d-d002-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d002-0005" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d002-0006" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      <infoLink id="b174-c09d-d002-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-089a" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-089b" name="Master Brother Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-089c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-089d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-08a2" name="Flamer Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Assault, Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-08a3" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="80"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-08fc" name="Elite Pathfinder" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-08fd" name="Elite Pathfinder" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Hero, Strider, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d003-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d003-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d003-0003" name="Hero" hidden="false" targetId="b174-c09d-3660-c102" type="rule"/>
+      <infoLink id="b174-c09d-d003-0004" name="Strider" hidden="false" targetId="b174-c09d-3660-c105" type="rule"/>
+      <infoLink id="b174-c09d-d003-0005" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d003-0006" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d003-0007" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      <infoLink id="b174-c09d-d003-0008" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-08fe" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-08ff" name="Elite Pathfinder Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0900" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0901" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0906" name="Flamer Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Assault, Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0907" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="65"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0960" name="Pathfinders" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0961" name="Pathfinders" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Strider</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d004-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d004-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d004-0003" name="Strider" hidden="false" targetId="b174-c09d-3660-c105" type="rule"/>
+      <infoLink id="b174-c09d-d004-0004" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0962" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0963" name="Pathfinders Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0964" type="min" field="selections" scope="parent" value="5" shared="true"/><constraint id="b174-c09d-1000-0965" type="max" field="selections" scope="parent" value="5" shared="true"/></constraints>
+        <profiles>
+          
+          <profile id="b174-c09d-1000-096b" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+        
+    </selectionEntry></selectionEntries>
+      <selectionEntryGroups><selectionEntryGroup id="bb36-000075" name="Ranged weapons — PDF v3.6.0 (choose one loadout)" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36-000045"><constraints><constraint id="bb36-000076" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="bb36-000077" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints><selectionEntries><selectionEntry id="bb36-000045" name="Standard: 5 Heavy Rifles" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000056" name="5x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="bb36-000046" name="5 Heavy Pistols" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000057" name="5x Heavy Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="10"/></costs></selectionEntry><selectionEntry id="bb36-000047" name="5 Shotguns" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000058" name="5x Shotgun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry><selectionEntry id="bb36-000048" name="4 Heavy Rifles + 1 Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000059" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000060" name="1x Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="10"/></costs></selectionEntry><selectionEntry id="bb36-000049" name="4 Heavy Rifles + 1 Anti-Matter-Sniper Carbine" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000061" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000062" name="1x Anti-Matter-Sniper Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Smash, Takedown</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="10"/></costs></selectionEntry><selectionEntry id="bb36-000050" name="4 Heavy Rifles + 1 Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000063" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000064" name="1x Sniper Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Takedown</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry><selectionEntry id="bb36-000051" name="4 Heavy Rifles + 1 Plasma Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000065" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000066" name="1x Plasma Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry><selectionEntry id="bb36-000052" name="4 Heavy Rifles + 1 Arc-Charger Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000067" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000068" name="1x Arc-Charger Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry><selectionEntry id="bb36-000053" name="4 Heavy Rifles + 1 Anti-Matter Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000069" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000070" name="1x Anti-Matter Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry><selectionEntry id="bb36-000054" name="4 Heavy Rifles + 1 Heavy Machinegun" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000071" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000072" name="1x Heavy Machinegun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry><selectionEntry id="bb36-000055" name="4 Heavy Rifles + 1 Missile Launcher" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000073" name="4x Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36-000074" name="1x Missile Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="110"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-09c4" name="Battle Brothers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-09c5" name="Battle Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d005-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d005-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d005-0003" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-09c6" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b174-c09d-1000-09c7" name="Four Battle Brothers — fixed equipment" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="bb36b-001031" type="min" field="selections" scope="parent" shared="true" value="4"/><constraint id="bb36b-001032" type="max" field="selections" scope="parent" shared="true" value="4"/></constraints><profiles><profile id="bb36b-001033" name="Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile><profile id="bb36b-001034" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+        <selectionEntry id="bb36b-001035" name="Fifth Battle Brother — customisable weapon" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="bb36b-001036" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="bb36b-001037" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="bb36b-001038" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><selectionEntryGroups><selectionEntryGroup id="bb36b-001028" name="Fifth Brother — Heavy Rifle replacement" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36b-001000"><constraints><constraint id="bb36b-001029" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="bb36b-001030" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="bb36b-001000" name="Heavy Rifle (standard)" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001014" name="Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001001" name="Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001015" name="Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001002" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001016" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001003" name="Arc-Charger Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001017" name="Arc-Charger Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001004" name="Plasma Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001018" name="Plasma Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001005" name="Fusion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001019" name="Fusion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001006" name="Arc-Charger Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001020" name="Arc-Charger Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001007" name="Anti-Matter Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001021" name="Anti-Matter Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001008" name="Heavy Machinegun" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001022" name="Heavy Machinegun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001009" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001023" name="Plasma Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001010" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001024" name="Missile Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="35"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001011" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001025" name="Heavy Fusion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="35"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001012" name="Anti-Matter Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001026" name="Anti-Matter Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="40"/></costs></selectionEntry>
+<selectionEntry id="bb36b-001013" name="Laser Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36b-001027" name="Laser Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="50"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+      </selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="135"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0a28" name="Assault Brothers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0a29" name="Assault Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d006-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d006-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d006-0003" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d006-0004" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0a2a" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0a2b" name="Assault Brothers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0a2c" type="min" field="selections" scope="parent" value="5" shared="true"/><constraint id="b174-c09d-1000-0a2d" type="max" field="selections" scope="parent" value="5" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0a32" name="Heavy Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0a33" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="150"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0a8c" name="Veteran Assault Brothers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0a8d" name="Veteran Assault Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Armor(2+), Battleborn, Fearless, Versatile Expert</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d007-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d007-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d007-0003" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
+      <infoLink id="b174-c09d-d01f-00ff" name="Armor(2+)" hidden="false" targetId="b174-c09d-3660-c106" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0a8e" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0a8f" name="Veteran Assault Brothers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0a90" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0a91" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0a96" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="110"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0af0" name="Veteran Battle Brothers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0af1" name="Veteran Battle Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Versatile Expert</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d008-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d008-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d008-0003" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
+      <infoLink id="b174-c09d-d008-0004" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d008-0005" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0af2" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0af3" name="Veteran Battle Brothers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0af4" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0af5" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0afa" name="Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0afb" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="120"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0b54" name="Pathfinder Snipers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0b55" name="Pathfinder Snipers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Scout, Stealth, Strider</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d009-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d009-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d009-0003" name="Scout" hidden="false" targetId="b174-c09d-3660-c107" type="rule"/>
+      <infoLink id="b174-c09d-d009-0004" name="Stealth" hidden="false" targetId="b174-c09d-3660-c108" type="rule"/>
+      <infoLink id="b174-c09d-d009-0005" name="Strider" hidden="false" targetId="b174-c09d-3660-c105" type="rule"/>
+      <infoLink id="b174-c09d-d009-0006" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d009-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      <infoLink id="b174-c09d-d009-0008" name="Smash" hidden="false" targetId="b174-c09d-3660-c119" type="rule"/>
+      <infoLink id="b174-c09d-d009-0009" name="Takedown" hidden="false" targetId="b174-c09d-3660-c11a" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0b56" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0b57" name="Pathfinder Snipers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0b58" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0b59" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          
+          <profile id="b174-c09d-1000-0b5f" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <selectionEntryGroups><selectionEntryGroup id="bb36-000560" name="Replace all Anti-Matter-Sniper Carbines" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36-000558"><constraints><constraint id="bb36-000561" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="bb36-000562" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints><selectionEntries><selectionEntry id="bb36-000558" name="Anti-Matter-Sniper Carbine" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000563" name="Anti-Matter-Sniper Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Smash, Takedown</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="bb36-000559" name="Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000564" name="Sniper Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Takedown</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
+
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="120"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0bb8" name="Support Brothers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0bb9" name="Support Brothers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Relentless</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00a-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00a-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00a-0003" name="Relentless" hidden="false" targetId="b174-c09d-3660-c109" type="rule"/>
+      <infoLink id="b174-c09d-d00a-0004" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d00a-0005" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d00a-0006" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0bba" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0bbb" name="Support Brothers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0bbc" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0bbd" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          
+          <profile id="b174-c09d-1000-0bc3" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <selectionEntryGroups><selectionEntryGroup id="bb36-000509" name="Model 1 — replace Heavy Flamer" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36-000501"><constraints><constraint id="bb36-000510" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="bb36-000511" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints><selectionEntries><selectionEntry id="bb36-000501" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000512" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="bb36-000502" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000513" name="Plasma Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000503" name="Heavy Machinegun" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000514" name="Heavy Machinegun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000504" name="Arc-Charger Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000515" name="Arc-Charger Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000505" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000516" name="Missile Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000506" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000517" name="Heavy Fusion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000507" name="Anti-Matter Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000518" name="Anti-Matter Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="35"/></costs></selectionEntry><selectionEntry id="bb36-000508" name="Laser Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000519" name="Laser Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="50"/></costs></selectionEntry></selectionEntries></selectionEntryGroup>
+<selectionEntryGroup id="bb36-000528" name="Model 2 — replace Heavy Flamer" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36-000520"><constraints><constraint id="bb36-000529" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="bb36-000530" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints><selectionEntries><selectionEntry id="bb36-000520" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000531" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="bb36-000521" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000532" name="Plasma Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000522" name="Heavy Machinegun" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000533" name="Heavy Machinegun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000523" name="Arc-Charger Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000534" name="Arc-Charger Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000524" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000535" name="Missile Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000525" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000536" name="Heavy Fusion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000526" name="Anti-Matter Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000537" name="Anti-Matter Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="35"/></costs></selectionEntry><selectionEntry id="bb36-000527" name="Laser Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000538" name="Laser Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="50"/></costs></selectionEntry></selectionEntries></selectionEntryGroup>
+<selectionEntryGroup id="bb36-000547" name="Model 3 — replace Heavy Flamer" hidden="false" collective="false" import="true" defaultSelectionEntryId="bb36-000539"><constraints><constraint id="bb36-000548" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="bb36-000549" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints><selectionEntries><selectionEntry id="bb36-000539" name="Heavy Flamer" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000550" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="bb36-000540" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000551" name="Plasma Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000541" name="Heavy Machinegun" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000552" name="Heavy Machinegun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000542" name="Arc-Charger Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000553" name="Arc-Charger Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="bb36-000543" name="Missile Launcher" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000554" name="Missile Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000544" name="Heavy Fusion Rifle" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000555" name="Heavy Fusion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="30"/></costs></selectionEntry><selectionEntry id="bb36-000545" name="Anti-Matter Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000556" name="Anti-Matter Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Smash</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="35"/></costs></selectionEntry><selectionEntry id="bb36-000546" name="Laser Cannon" hidden="false" collective="false" import="true" type="upgrade"><profiles><profile id="bb36-000557" name="Laser Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="50"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups>
+
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="135"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0c1c" name="Pathfinder Bikers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0c1d" name="Pathfinder Bikers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00b-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00b-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d00b-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00b-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d00b-0005" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      <infoLink id="b174-c09d-d00b-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0c1e" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0c1f" name="Pathfinder Bikers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0c20" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0c21" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0c26" name="Assault Grenade Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Assault, Blast(3)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0c27" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="185"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0c80" name="Destroyers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0c81" name="Destroyers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00c-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00c-0002" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00c-0003" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d00c-0004" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d00c-0005" name="Assault" hidden="false" targetId="b174-c09d-3660-c117" type="rule"/>
+      <infoLink id="b174-c09d-d00c-0006" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0c82" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0c83" name="Destroyers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0c84" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0c85" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0c8a" name="Assault Cyclic Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Assault, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0c8b" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="215"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0ce4" name="Brother Bikers" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0ce5" name="Brother Bikers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00d-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00d-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d00d-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00d-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d00d-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0ce6" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0ce7" name="Brother Bikers Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0ce8" type="min" field="selections" scope="parent" value="3" shared="true"/><constraint id="b174-c09d-1000-0ce9" type="max" field="selections" scope="parent" value="3" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0cee" name="Heavy Bike-Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0cef" name="Heavy Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0cf0" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="265"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0d48" name="Drop Pod" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0d49" name="Drop Pod" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ambush, Battleborn, Fearless, Immobile, Tough(6), Transport(11)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00e-0001" name="Ambush" hidden="false" targetId="b174-c09d-3660-c10b" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0002" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0004" name="Immobile" hidden="false" targetId="b174-c09d-3660-c10c" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0005" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0006" name="Transport(X)" hidden="false" targetId="b174-c09d-3660-c10d" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0007" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d00e-0008" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0d4a" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0d4b" name="Drop Pod Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0d4c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0d4d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0d52" name="Burst Cyclic Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="135"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0dac" name="Heavy Exo-Suit" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0dad" name="Heavy Exo-Suit" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fear(1), Fearless, Tough(6)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d00f-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d00f-0002" name="Fear(X)" hidden="false" targetId="b174-c09d-3660-c10e" type="rule"/>
+      <infoLink id="b174-c09d-d00f-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d00f-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d00f-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0dae" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0daf" name="Heavy Exo-Suit Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0db0" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0db1" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0db6" name="Dual Fists" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0db7" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1)</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="140"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0e10" name="Support Bike" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0e11" name="Support Bike" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(6)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d010-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d010-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d010-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d010-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d010-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d010-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d010-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0e12" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0e13" name="Support Bike Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0e14" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0e15" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0e1a" name="Bike-Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">24&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023"></characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0e1b" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0e1c" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="165"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0e74" name="Attack Vehicle" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0e75" name="Attack Vehicle" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(6)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d011-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d011-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d011-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d011-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d011-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d011-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d011-0007" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      <infoLink id="b174-c09d-d011-0008" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0e76" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0e77" name="Attack Vehicle Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0e78" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0e79" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0e7e" name="Heavy Flamer" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0e7f" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="170"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0ed8" name="APC" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0ed9" name="APC" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(6), Transport(11)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d012-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d012-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d012-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d012-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d012-0005" name="Transport(X)" hidden="false" targetId="b174-c09d-3660-c10d" type="rule"/>
+      <infoLink id="b174-c09d-d012-0006" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d012-0007" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      <infoLink id="b174-c09d-d012-0008" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0eda" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0edb" name="APC Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0edc" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0edd" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0ee2" name="Burst Cyclic Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0ee3" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="190"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0f3c" name="Attack Speeder" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0f3d" name="Attack Speeder" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Strider, Tough(6), Vanguard</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d013-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d013-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d013-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d013-0004" name="Strider" hidden="false" targetId="b174-c09d-3660-c105" type="rule"/>
+      <infoLink id="b174-c09d-d013-0005" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d013-0006" name="Vanguard" hidden="false" targetId="b174-c09d-3660-c10f" type="rule"/>
+      <infoLink id="b174-c09d-d013-0007" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d013-0008" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d013-0009" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      <infoLink id="b174-c09d-d013-000a" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0f3e" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0f3f" name="Attack Speeder Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0f40" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0f41" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0f46" name="Heavy Flamer x2" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0f47" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="215"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-0fa0" name="Combat Walker" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-0fa1" name="Combat Walker" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fear(2), Fearless, Tough(12)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d014-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d014-0002" name="Fear(X)" hidden="false" targetId="b174-c09d-3660-c10e" type="rule"/>
+      <infoLink id="b174-c09d-d014-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d014-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d014-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-0fa2" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-0fa3" name="Combat Walker Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-0fa4" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-0fa5" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-0faa" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-0fab" name="Walker Combat Fist x2" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="400"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-1004" name="Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-1005" name="Battle Tank" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(12)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d015-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d015-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d015-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d015-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d015-0005" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d015-0006" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d015-0007" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1006" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-1007" name="Battle Tank Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-1008" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1009" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-100e" name="Heavy Siege Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(6)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-100f" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="425"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-1068" name="Veteran Combat Walker" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-1069" name="Veteran Combat Walker" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fear(2), Fearless, Tough(12), Versatile Expert</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d016-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d016-0002" name="Fear(X)" hidden="false" targetId="b174-c09d-3660-c10e" type="rule"/>
+      <infoLink id="b174-c09d-d016-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d016-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d016-0005" name="Versatile Expert" hidden="false" targetId="b174-c09d-3660-c104" type="rule"/>
+      <infoLink id="b174-c09d-d016-0006" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-106a" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-106b" name="Veteran Combat Walker Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-106c" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-106d" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-1072" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-1073" name="Walker Combat Fist x2" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="430"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-10cc" name="Artillery Gun" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-10cd" name="Artillery Gun" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Artillery, Battleborn, Cumbersome, Fearless, Tough(3)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d017-0001" name="Artillery" hidden="false" targetId="b174-c09d-3660-c110" type="rule"/>
+      <infoLink id="b174-c09d-d017-0002" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d017-0003" name="Cumbersome" hidden="false" targetId="b174-c09d-3660-c111" type="rule"/>
+      <infoLink id="b174-c09d-d017-0004" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d017-0005" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d017-0006" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d017-0007" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-10ce" name="Artillery" hidden="false" targetId="b174-c09d-3660-f045" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-10cf" name="Artillery Gun Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-10d0" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-10d1" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-10d6" name="Gatling Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-10d7" name="Crew" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="145"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-1130" name="Heavy Battle Tank" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-1131" name="Heavy Battle Tank" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(18)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d018-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d018-0002" name="Fast" hidden="false" targetId="b174-c09d-3660-c10a" type="rule"/>
+      <infoLink id="b174-c09d-d018-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d018-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d018-0005" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d018-0006" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      <infoLink id="b174-c09d-d018-0007" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d018-0008" name="Blast(X)" hidden="false" targetId="b174-c09d-3660-c114" type="rule"/>
+      <infoLink id="b174-c09d-d018-0009" name="Reliable" hidden="false" targetId="b174-c09d-3660-c115" type="rule"/>
+      <infoLink id="b174-c09d-d018-000a" name="Thrust" hidden="false" targetId="b174-c09d-3660-c11c" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1132" name="Titans" hidden="false" targetId="b174-c09d-3660-f046" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-1133" name="Heavy Battle Tank Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-1134" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1135" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-113a" name="Hull Gatling Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-113b" name="Sponson Heavy Flamer Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(6), Reliable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-113c" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="725"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-1194" name="Light Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-1195" name="Light Gunship" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Battleborn, Fearless, Tough(6)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d019-0001" name="Aircraft" hidden="false" targetId="b174-c09d-3660-c112" type="rule"/>
+      <infoLink id="b174-c09d-d019-0002" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d019-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d019-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d019-0005" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d019-0006" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      <infoLink id="b174-c09d-d019-0007" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d019-0008" name="Deadly(X)" hidden="false" targetId="b174-c09d-3660-c11d" type="rule"/>
+      <infoLink id="b174-c09d-d019-0009" name="Unstoppable" hidden="false" targetId="b174-c09d-3660-c11e" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-1196" name="Aircraft" hidden="false" targetId="b174-c09d-3660-f047" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-1197" name="Light Gunship Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-1198" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-1199" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-119e" name="Strafing Gatling Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">15&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-119f" name="Strafing Light Laser Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Deadly(3)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-11a0" name="Strafing Linked Missile-Arrays" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="270"/></costs>
+    </selectionEntry>
+    <selectionEntry id="b174-c09d-1000-11f8" name="Heavy Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles><profile id="b174-c09d-1000-11f9" name="Heavy Gunship" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Battleborn, Fearless, Tough(9)</characteristic>
+      </characteristics></profile></profiles>
+      <infoLinks>
+      <infoLink id="b174-c09d-d01a-0001" name="Aircraft" hidden="false" targetId="b174-c09d-3660-c112" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0002" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0003" name="Fearless" hidden="false" targetId="b174-c09d-3660-c101" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0004" name="Tough(X)" hidden="false" targetId="b174-c09d-3660-c103" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0005" name="Anti-Cover" hidden="false" targetId="b174-c09d-3660-c116" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0006" name="Surge" hidden="false" targetId="b174-c09d-3660-c118" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0007" name="AP(X)" hidden="false" targetId="b174-c09d-3660-c113" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0008" name="Deadly(X)" hidden="false" targetId="b174-c09d-3660-c11d" type="rule"/>
+      <infoLink id="b174-c09d-d01a-0009" name="Unstoppable" hidden="false" targetId="b174-c09d-3660-c11e" type="rule"/>
+      </infoLinks>
+      <categoryLinks><categoryLink id="b174-c09d-1000-11fa" name="Aircraft" hidden="false" targetId="b174-c09d-3660-f047" primary="true"/></categoryLinks>
+      <selectionEntries><selectionEntry id="b174-c09d-1000-11fb" name="Heavy Gunship Models" hidden="false" collective="false" import="true" type="model">
+        <constraints><constraint id="b174-c09d-1000-11fc" type="min" field="selections" scope="parent" value="1" shared="true"/><constraint id="b174-c09d-1000-11fd" type="max" field="selections" scope="parent" value="1" shared="true"/></constraints>
+        <profiles>
+          <profile id="b174-c09d-1000-1202" name="Strafing Gatling Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">15&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-1203" name="Strafing Linked Missile-Arrays" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3), Unstoppable</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-1204" name="Strafing Rocket Launcher" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Deadly(3)</characteristic>
+          </characteristics></profile>
+          <profile id="b174-c09d-1000-1205" name="Strafing Linked Heavy Rifle-Arrays" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics>
+            <characteristic name="Range" typeId="b174-c09d-3660-f021">9&quot;</characteristic>
+            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1)</characteristic>
+          </characteristics></profile>
+        </profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs>
+      </selectionEntry></selectionEntries>
+      <costs><cost name="pts" typeId="b174-c09d-3660-f002" value="390"/></costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
