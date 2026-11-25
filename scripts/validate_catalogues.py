@@ -30,13 +30,26 @@ entries=root.findall(".//"+NS+"selectionEntries/"+NS+"selectionEntry")
 units=[x for x in entries if x.attrib.get("type")=="unit"]
 if len(units)!=27: raise AssertionError(f"Expected 27 units, got {len(units)}")
 for unit in units:
-    models=unit.findall("./"+NS+"selectionEntries/"+NS+"selectionEntry")
-    if not models or not all(m.attrib.get("type")=="model" for m in models):
-        raise AssertionError(f"{unit.attrib['name']} is missing model entries")
+    # Squad-wide alternatives may nest model entries beneath selectable loadout upgrades.
+    models=[m for m in unit.findall(".//"+NS+"selectionEntry") if m.attrib.get("type")=="model"]
+    if not models:
+        raise AssertionError(f"{unit.attrib['name']} has no model entries, including its alternate loadouts")
     for m in models:
-        if not (m.find("./"+NS+"selectionEntries") is not None or m.find("./"+NS+"selectionEntryGroups") is not None or m.find("./"+NS+"profiles") is not None):
-            raise AssertionError(f"{unit.attrib['name']} has an unequipped model")
-        constraints=m.find("./"+NS+"constraints")
-        if constraints is None: raise AssertionError(f"Missing model quantity constraints in {unit.attrib['name']}")
+        if not any(m.find("./"+NS+tag) is not None for tag in ("selectionEntries","selectionEntryGroups","profiles")):
+            raise AssertionError(f"{unit.attrib['name']} contains an unequipped model")
+        if m.find("./"+NS+"constraints") is None:
+            raise AssertionError(f"Missing model quantity constraints in {unit.attrib['name']}")
+# Every required choice must have a valid, selectable default.
+for group in root.findall(".//"+NS+"selectionEntryGroup"):
+    constraints=group.find("./"+NS+"constraints")
+    limits={c.attrib.get("type"):c.attrib.get("value") for c in constraints} if constraints is not None else {}
+    required=limits.get("min")=="1"
+    default=group.attrib.get("defaultSelectionEntryId")
+    if required and not default:
+        raise AssertionError(f"Required equipment group missing default: {group.attrib.get('name')}")
+    if default:
+        child_ids={x.attrib.get("id") for x in group.findall("./"+NS+"selectionEntries/"+NS+"selectionEntry")}
+        if default not in child_ids:
+            raise AssertionError(f"Default selection not in group {group.attrib.get('name')}: {default}")
 print(f"VALID: {len(units)} units, {len(ids)} unique catalogue IDs, game system and rule/profile/category links resolved")
 print("NOTE: This validates catalogue structure, not New Recruit or YellowScribe export compatibility.")
