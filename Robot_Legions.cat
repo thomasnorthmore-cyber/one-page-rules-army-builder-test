@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -118,6 +118,34 @@
     <rule id="rl36-103277c9cb1a" name="Piercing Bots (3)" hidden="false">
       <description>Pick one enemy unit within 18" in line of sight, which takes 6 hits with AP(2).</description>
     </rule>
+      <rule id="rl36-core-0001" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
+    <rule id="rl36-core-0002" name="Hero" hidden="false"><description>A Hero with Tough(6) or less may join a multi-model unit that does not already include another Hero; it may take Morale tests for the unit, and is generally allocated wounds after ordinary models.</description></rule>
+    <rule id="rl36-core-0003" name="Tough(X)" hidden="false"><description>This model must suffer X wounds before being removed. Allocate and track wounds on each Tough model rather than removing it after a single wound.</description></rule>
+    <rule id="rl36-core-0004" name="Strider" hidden="false"><description>Ignores the effects of difficult terrain when moving.</description></rule>
+    <rule id="rl36-core-0005" name="Armor(2+)" hidden="false"><description>This unit has Armor (2+), giving it a 2+ armour protection rating when defending against attacks.</description></rule>
+    <rule id="rl36-core-0006" name="Scout" hidden="false"><description>After other units have deployed, this model may make a special pre-game move of up to 12", ignoring terrain. If both players have Scouts, roll off and alternate placing or moving them.</description></rule>
+    <rule id="rl36-core-0007" name="Stealth" hidden="false"><description>Enemies suffer -1 to hit when shooting at a unit where all models have Stealth from more than 12" away.</description></rule>
+    <rule id="rl36-core-0008" name="Relentless" hidden="false"><description>When using a Hold action and shooting, unmodified rolls of 6 to hit count as two hits. Only the original hit counts as an unmodified 6 for other rules.</description></rule>
+    <rule id="rl36-core-0009" name="Fast" hidden="false"><description>Moves farther than standard units: +2" on Advance and +4" on Rush and Charge.</description></rule>
+    <rule id="rl36-core-0010" name="Ambush" hidden="false"><description>This unit may be kept off the table at deployment. At the start of a round after the first, deploy it anywhere more than 9" from enemy units, following the Ambush deployment order.</description></rule>
+    <rule id="rl36-core-0011" name="Transport(X)" hidden="false"><description>This model transports up to X eligible models. Passengers may deploy inside, embark by moving into contact, or disembark during a move and be placed within 6". If the transport is destroyed, passengers take dangerous terrain tests and become Shaken.</description></rule>
+    <rule id="rl36-core-0012" name="Fear(X)" hidden="false"><description>When deciding who won a melee, add X to the number of wounds dealt by this unit.</description></rule>
+    <rule id="rl36-core-0013" name="Artillery" hidden="false"><description>This unit is classed as Artillery and is subject to the artillery movement and firing restrictions.</description></rule>
+    <rule id="rl36-core-0014" name="Aircraft" hidden="false"><description>This model is an Aircraft, which uses aircraft-specific movement and targeting rules.</description></rule>
+    <rule id="rl36-core-0015" name="AP(X)" hidden="false"><description>When blocking hits from this weapon, the target gets -X to its Defense rolls.</description></rule>
+    <rule id="rl36-core-0016" name="Blast(X)" hidden="false"><description>This weapon ignores cover. After resolving its other special rules, each hit is multiplied by X, to a maximum number of hits equal to the number of models in the target unit.</description></rule>
+    <rule id="rl36-core-0017" name="Reliable" hidden="false"><description>This weapon attacks using Quality 2+.</description></rule>
+    <rule id="rl36-core-0018" name="Anti-Cover" hidden="false"><description>When attacking with this weapon, ignore the target's cover protection.</description></rule>
+    <rule id="rl36-core-0019" name="Assault" hidden="false"><description>This ranged weapon can also be used when attacking in melee, instead of a melee weapon.</description></rule>
+    <rule id="rl36-core-0020" name="Surge" hidden="false"><description>Unmodified rolls of 6 to hit with this weapon generate one additional hit. Only the original hit is treated as a roll of 6 for other special rules.</description></rule>
+    <rule id="rl36-core-0021" name="Takedown" hidden="false"><description>When attacking with this weapon, the attacker may choose an individual model within the target unit to resolve the attack against, treating that model as a separate target for that attack.</description></rule>
+    <rule id="rl36-core-0022" name="Spell Amplifier" hidden="false"><description>This weapon improves the model's ability to cast spells, granting +1 to its spell casting rolls.</description></rule>
+    <rule id="rl36-core-0023" name="Thrust" hidden="false"><description>When charging, attacks with this weapon gain +1 to hit and AP(+1) in melee.</description></rule>
+    <rule id="rl36-core-0024" name="Deadly(X)" hidden="false"><description>An unsaved hit deals X wounds to a single model. Excess wounds do not carry over to other models.</description></rule>
+    <rule id="rl36-core-0025" name="Indirect" hidden="false"><description>May shoot at enemies outside line of sight when using a Hold action.</description></rule>
+    <rule id="rl36-core-0026" name="Limited" hidden="false"><description>This weapon can only be used once per game.</description></rule>
+    <rule id="rl36-core-0027" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
+    <rule id="rl36-core-0028" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
   </sharedRules>
   <selectionEntries>
     <selectionEntry id="rl36-55eedb2f4a16" name="Tri-Scorpion Lord" hidden="false" type="unit" collective="false" import="true">
@@ -136,7 +164,17 @@
       <infoLinks>
         <infoLink id="rl36-4cd4881291e6" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-c99db988c967" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-0-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-0-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-0-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-0-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
+<infoLink id="rl36-link-0-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-0-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-0-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-0-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-0-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-0-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(6))</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-10aad761186b" name="Tri-Scorpion Lord — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -320,7 +358,21 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-c4788d9d7aaf" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-1-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-1-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
+<infoLink id="rl36-link-1-0008" name="Relentless" hidden="false" targetId="rl36-core-0008" type="rule"/>
+<infoLink id="rl36-link-1-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-1-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-1-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-1-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-1-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-1-0022" name="Spell Amplifier" hidden="false" targetId="rl36-core-0022" type="rule"/>
+<infoLink id="rl36-link-1-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-1-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-7c0b5339af18" name="Annihilator Lord — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -767,7 +819,27 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f640c061d036" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-2-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-2-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-2-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-2-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
+<infoLink id="rl36-link-2-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
+<infoLink id="rl36-link-2-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
+<infoLink id="rl36-link-2-0008" name="Relentless" hidden="false" targetId="rl36-core-0008" type="rule"/>
+<infoLink id="rl36-link-2-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
+<infoLink id="rl36-link-2-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-2-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-2-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-2-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-2-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-2-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-2-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-2-0022" name="Spell Amplifier" hidden="false" targetId="rl36-core-0022" type="rule"/>
+<infoLink id="rl36-link-2-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+<infoLink id="rl36-link-2-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-2-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+<infoLink id="rl36-link-2-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-361ba1660c3c" name="Robot Lord — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1436,7 +1508,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-46392978c0ca" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-3-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-3-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-3-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-3-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-3-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-a68754af93cd" name="Warriors — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1712,7 +1789,9 @@
       <infoLinks>
         <infoLink id="rl36-9a68bcdc4800" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-e46199b7f62a" name="Infiltrate" hidden="false" targetId="rl36-483ef483642e" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-4-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-4-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-161bc448496e" name="Flesh-Eaters — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1831,7 +1910,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-983b6b7d52f5" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-5-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
+<infoLink id="rl36-link-5-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-5-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-5-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-5-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-c563415ea056" name="Guardians — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1985,7 +2069,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-90114841bd99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-6-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-6-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-6-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-6-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-6-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-6-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-351a5c286ace" name="Eternals — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2263,7 +2353,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2cf28c9a9c68" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-7-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-7-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-7-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-7-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-7-0021" name="Takedown" hidden="false" targetId="rl36-core-0021" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-6b7b92dbec3d" name="Snipers — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2414,7 +2509,10 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-064385924994" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-8-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-8-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-8-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-e739c91ebad5" name="Bot Swarms — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2500,7 +2598,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-255aed7a3f71" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-9-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-9-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-9-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-9-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-9-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-afb6b91ccfa6" name="Forge Spiderlings — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2651,7 +2754,14 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-7c981834a6ae" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-a-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-a-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-a-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
+<infoLink id="rl36-link-a-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-a-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-a-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+<infoLink id="rl36-link-a-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-53615e132a53" name="Destroyer Snakes — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -2918,7 +3028,16 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f4bd1e2daf47" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-b-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-b-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
+<infoLink id="rl36-link-b-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
+<infoLink id="rl36-link-b-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-b-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-b-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-b-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-b-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-f70b6b63ad06" name="Hover Bikes — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -3084,7 +3203,15 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f888c881167e" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-c-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-c-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-c-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-c-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-c-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-c-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-c-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-c-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-b9f6b49a9a8d" name="Annihilators — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -3329,7 +3456,15 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-a46de3c7cc99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-d-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-d-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-d-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
+<infoLink id="rl36-link-d-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-d-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-d-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-d-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-d-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-68184e7611bc" name="Robot Snakes — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -3462,7 +3597,13 @@
       <infoLinks>
         <infoLink id="rl36-ba4a5613a282" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-0ea0f82ceac1" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-e-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-e-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-e-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-e-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+<infoLink id="rl36-link-e-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(2))</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-b87543ada77b" name="Tri-Scorpions — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -3717,7 +3858,12 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-fdc6802d1075" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-f-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-f-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-f-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-f-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-f-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bb4734ad9581" name="Forge Spider — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -3847,7 +3993,16 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-cd4fa37fc985" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-10-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-10-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-10-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
+<infoLink id="rl36-link-10-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-10-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-10-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-10-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-10-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-10-0025" name="Indirect" hidden="false" targetId="rl36-core-0025" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-a5f1d80ec386" name="Tripod Walker — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4026,7 +4181,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2e82ab0001f0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-11-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-11-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-11-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
+<infoLink id="rl36-link-11-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
+<infoLink id="rl36-link-11-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-11-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-340caebf4414" name="Transport Tank — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4148,7 +4309,15 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-3ebfbc17b29b" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-12-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-12-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-12-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-12-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-12-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-12-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-12-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-12-0025" name="Indirect" hidden="false" targetId="rl36-core-0025" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-c04ae36b53b4" name="Heavy Annihilator — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4289,7 +4458,17 @@
       <infoLinks>
         <infoLink id="rl36-f64e44300715" name="Ambushing Piercing Shot" hidden="false" targetId="rl36-f5c4bf05b0d9" type="rule" />
         <infoLink id="rl36-4af3900a6209" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-13-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-13-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-13-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
+<infoLink id="rl36-link-13-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-13-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
+<infoLink id="rl36-link-13-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-13-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-13-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-13-0021" name="Takedown" hidden="false" targetId="rl36-core-0021" type="rule"/>
+<infoLink id="rl36-link-13-0025" name="Indirect" hidden="false" targetId="rl36-core-0025" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bf3b243e39dc" name="Tri-Scorpion Pistoleer — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4400,7 +4579,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2a2e0648a64c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-14-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-14-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-14-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-14-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-14-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+<infoLink id="rl36-link-14-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-18c2412fa341" name="Doom Tank — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4506,7 +4691,14 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-a3decaafa0ed" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-15-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-15-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-15-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-15-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-15-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-15-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-15-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-530ddd34878c" name="Spider Walker — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4628,7 +4820,16 @@
         <infoLink id="rl36-d81866a79748" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
         <infoLink id="rl36-86eaefa119be" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-474a60922780" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-16-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+<infoLink id="rl36-link-16-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-16-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-16-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-16-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-16-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-16-0022" name="Spell Amplifier" hidden="false" targetId="rl36-core-0022" type="rule"/>
+<infoLink id="rl36-link-16-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-16-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bcb40112b6d2" name="Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4747,7 +4948,15 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-ccb522e71ab0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-17-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-17-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-17-0013" name="Artillery" hidden="false" targetId="rl36-core-0013" type="rule"/>
+<infoLink id="rl36-link-17-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-17-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-17-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-17-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+<infoLink id="rl36-link-17-0025" name="Indirect" hidden="false" targetId="rl36-core-0025" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-0d49ea406c75" name="Support Platform — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4956,7 +5165,16 @@
         <infoLink id="rl36-ab5fd0abee04" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
         <infoLink id="rl36-8298e5729d7a" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-b8b0d9348ec4" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-18-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+<infoLink id="rl36-link-18-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-18-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-18-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-18-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-18-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-18-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-18-0022" name="Spell Amplifier" hidden="false" targetId="rl36-core-0022" type="rule"/>
+<infoLink id="rl36-link-18-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-6cb7d5a21c3b" name="Great Monolith — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -5095,7 +5313,18 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-8c2fe6c1cff8" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-19-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+<infoLink id="rl36-link-19-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-19-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-19-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
+<infoLink id="rl36-link-19-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-19-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-19-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-19-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-19-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-19-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
+<infoLink id="rl36-link-19-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-76827118095b" name="Death Fortress — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -5253,7 +5482,16 @@
         <infoLink id="rl36-0a29886a65c5" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
         <infoLink id="rl36-458c4d66deeb" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-55fdde895ce6" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1a-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+<infoLink id="rl36-link-1a-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1a-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
+<infoLink id="rl36-link-1a-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1a-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-1a-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-1a-0022" name="Spell Amplifier" hidden="false" targetId="rl36-core-0022" type="rule"/>
+<infoLink id="rl36-link-1a-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
+<infoLink id="rl36-link-1a-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Wraith Seer (Enhanced Self-Repair Buff)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-1d8af111cd58" name="Great Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5414,7 +5652,13 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-748378c64fb9" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1b-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1b-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
+<infoLink id="rl36-link-1b-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1b-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
+<infoLink id="rl36-link-1b-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-1b-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-acb4c582b586" name="Doom Fighter — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -5523,7 +5767,14 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-296706ddd21d" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1c-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1c-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
+<infoLink id="rl36-link-1c-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
+<infoLink id="rl36-link-1c-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1c-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
+<infoLink id="rl36-link-1c-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+<infoLink id="rl36-link-1c-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
+</infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-aa4cb3b2d51f" name="Night Gunship — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -5639,7 +5890,12 @@
         <infoLink id="rl36-02095a123f1e" name="Protection Feat" hidden="false" targetId="rl36-495620287019" type="rule" />
         <infoLink id="rl36-deebc555ac8c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-f9e09fdfc220" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1d-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-1d-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1d-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+<infoLink id="rl36-link-1d-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1d-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Mission Critical (Protection Feat)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-a02c146af434" name="Oath-U7X1 — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5690,6 +5946,9 @@
       <costs>
         <cost name="pts" typeId="b174-c09d-3660-f002" value="205" />
       </costs>
+      <constraints>
+        <constraint id="rl36uni-12a5d4fa61" type="max" value="1" field="selections" scope="roster" shared="true" />
+      </constraints>
     </selectionEntry>
     <selectionEntry id="rl36-b4fe48bb6425" name="Echo-3G01" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
@@ -5708,7 +5967,12 @@
         <infoLink id="rl36-5a8639740a22" name="Stealth Buff" hidden="false" targetId="rl36-2171364187e2" type="rule" />
         <infoLink id="rl36-0bd47564c2dc" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-d707049849ff" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1e-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-1e-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1e-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
+<infoLink id="rl36-link-1e-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+<infoLink id="rl36-link-1e-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Paradox Shielding Device (Stealth Buff)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-bc12c79cf44f" name="Echo-3G01 — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5781,6 +6045,9 @@
       <costs>
         <cost name="pts" typeId="b174-c09d-3660-f002" value="120" />
       </costs>
+      <constraints>
+        <constraint id="rl36uni-9eeb518674" type="max" value="1" field="selections" scope="roster" shared="true" />
+      </constraints>
     </selectionEntry>
     <selectionEntry id="rl36-7b23f05abc91" name="Xyros-Z320" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
@@ -5799,7 +6066,11 @@
         <infoLink id="rl36-72c556cda567" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-55528b6cf270" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
         <infoLink id="rl36-fa55adb80f74" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
-      </infoLinks>
+      <infoLink id="rl36-link-1f-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+<infoLink id="rl36-link-1f-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
+<infoLink id="rl36-link-1f-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
+<infoLink id="rl36-link-1f-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
+</infoLinks>
       <comment>Starting equipment ability: Optimized Optics (Unstoppable when Shooting)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-5ed5f5ab59fa" name="Xyros-Z320 — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5854,6 +6125,9 @@
       <costs>
         <cost name="pts" typeId="b174-c09d-3660-f002" value="110" />
       </costs>
+      <constraints>
+        <constraint id="rl36uni-e2151f5f80" type="max" value="1" field="selections" scope="roster" shared="true" />
+      </constraints>
     </selectionEntry>
   </selectionEntries>
 </catalogue>
