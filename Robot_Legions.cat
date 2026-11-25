@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -2513,72 +2513,19 @@
 <infoLink id="rl36-link-8-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-8-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
 </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="rl36m-e739c91ebad5" name="Bot Swarms — Model 1" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint id="rl36m-8fa014a64fc5" type="min" field="selections" scope="parent" shared="true" value="1" />
-            <constraint id="rl36m-7736016605ae" type="max" field="selections" scope="parent" shared="true" value="1" />
-          </constraints>
-          <selectionEntries />
-          <selectionEntryGroups>
-            <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false" defaultSelectionEntryId="rl36-base-11480a3-8714daa" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-28493fd106f4" type="min" value="1" field="selections" scope="parent" shared="true" />
-            <constraint id="rl36-a89cdb1d8422" type="max" value="1" field="selections" scope="parent" shared="true" />
-          </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="rl36-bots-loadout" name="Replace all Bot Claws — whole squad" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-bots-std">
+          <constraints><constraint id="rl36-bots-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-base-11480a3-8714daa" name="Keep 3x Bot Claws" hidden="false" collective="false" import="true" type="upgrade">
-              <profiles>
-                <profile id="rl36-aa59232f2209" name="3x Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-e027f4afacde" name="3x Atomizer Beams (9&quot;, A4, Rending), Claws (A1)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-bdd94757a5b0" name="3x Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic>
-                  </characteristics>
-                </profile>
-                <profile id="rl36-305e75940daa" name="3x Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
-              </costs>
-            </selectionEntry>
+            <selectionEntry id="rl36-bots-std" name="Standard — 3x Bot Claws" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="rl36-bots-claws-m1" name="Bot Swarms — Model 1" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-claws-m1-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-claws-m1-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-claws-m1-claw" name="Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+<selectionEntry id="rl36-bots-claws-m2" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-claws-m2-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-claws-m2-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-claws-m2-claw" name="Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+<selectionEntry id="rl36-bots-claws-m3" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-claws-m3-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-claws-m3-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-claws-m3-claw" name="Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+            <selectionEntry id="rl36-bots-beams" name="Replace all — 3x Atomizer Beams and Claws" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="rl36-bots-beams-m1" name="Bot Swarms — Model 1" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-beams-m1-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-beams-m1-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-beams-m1-beam" name="Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile><profile id="rl36-bots-beams-m1-claw" name="Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+<selectionEntry id="rl36-bots-beams-m2" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-beams-m2-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-beams-m2-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-beams-m2-beam" name="Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile><profile id="rl36-bots-beams-m2-claw" name="Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+<selectionEntry id="rl36-bots-beams-m3" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-bots-beams-m3-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-bots-beams-m3-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-bots-beams-m3-beam" name="Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic></characteristics></profile><profile id="rl36-bots-beams-m3-claw" name="Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="10"/></costs></selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-        <selectionEntry id="rl36m-e40fd9a73e89" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint id="rl36m-fa5889648dcb" type="min" field="selections" scope="parent" shared="true" value="1" />
-            <constraint id="rl36m-0ce9ab20d967" type="max" field="selections" scope="parent" shared="true" value="1" />
-          </constraints>
-          <selectionEntries />
-        </selectionEntry>
-        <selectionEntry id="rl36m-50b90165dc39" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint id="rl36m-a1cbf4011087" type="min" field="selections" scope="parent" shared="true" value="1" />
-            <constraint id="rl36m-52a49982f56b" type="max" field="selections" scope="parent" shared="true" value="1" />
-          </constraints>
-          <selectionEntries />
-        </selectionEntry>
-      </selectionEntries>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="b174-c09d-3660-f002" value="125" />
       </costs>
