@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -139,7 +139,14 @@
       </infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(6))</comment>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-10aad761186b" name="Tri-Scorpion Lord — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-920150d18c10" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-97ceceb42b3f" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-196e6d0eda79" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
@@ -315,7 +322,14 @@
         <infoLink id="rl36-c4788d9d7aaf" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-7c0b5339af18" name="Annihilator Lord — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-0a1e8bec54b4" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-796abe3f0879" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-499a996cdb1e" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
@@ -631,7 +645,14 @@
         <infoLink id="rl36-f640c061d036" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-361ba1660c3c" name="Robot Lord — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-326d317fb1e2" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-2cd02557149a" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-ce5526c94374" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
@@ -1062,22 +1083,130 @@
         <infoLink id="rl36-46392978c0ca" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-1f8885a2450a" name="5x Strikes" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-a68754af93cd" name="Warriors — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-5917997e6bcd" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-2f14ee83f574" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-b42519d90178" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-dca13114b9b8" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-50b74f0c19c9" name="5x Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-9e12cc8503ad" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-c2905675d0a0" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-3e4e4b6ee941" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-540dec911080" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-7a27eb5ba607" name="Warriors — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-1a3620d225f8" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-45fa756f09e7" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-a2552cc0896f" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-475424cdae78" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-7f2be059b14f" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-f937bcf17ad0" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-54dc9df0a671" name="Warriors — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-f5c7525920a9" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-aea25728514f" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-8c123328d5e6" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-3ec885d7f8c3" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-d292e05ab686" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-87ee3fc3d626" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-10982928b9f5" name="Warriors — Model 4" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-b114cc8be9fd" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-ac55fbfc9ac7" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-337e42b4baba" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-363a68fe306a" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-e445b0556f4a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-2429a1c554e0" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-68a20e08d9e6" name="Warriors — Model 5" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-1eb52f665473" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-72b00fd87e35" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-4423907106d3" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-62759146d317" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-221a232c8b3e" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-293e6836dd5d" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1210,7 +1339,42 @@
         <infoLink id="rl36-e46199b7f62a" name="Infiltrate" hidden="false" targetId="rl36-483ef483642e" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-161bc448496e" name="Flesh-Eaters — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-8552448f7e10" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-749d4b084fc5" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-4b5078aa64bd" name="Flesh-Eaters — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-cde857c0c951" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-61eb02c09ea4" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-5c65ac646222" name="Flesh-Eaters — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-988cfbb47234" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-b8af31569acb" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-98af4b264d4c" name="Flesh-Eaters — Model 4" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-481fc4f9180b" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-d00320db3611" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-df5e01b917a6" name="Flesh-Eaters — Model 5" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-19af0dae42cc" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-e3d4b5cc4521" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-0c05a051fcff" name="Replace all Rusted Claws" hidden="false" defaultSelectionEntryId="rl36-base-47548df-051fcff" collective="false" import="true">
           <constraints>
@@ -1294,7 +1458,42 @@
         <infoLink id="rl36-983b6b7d52f5" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-c563415ea056" name="Guardians — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-7acd8b71e530" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-30956c7b0ffc" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-adbec8d0cea2" name="Guardians — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-95d3a5891fde" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-57b656d5b329" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-ade391148209" name="Guardians — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-184f3ecf5207" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0322255046c2" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-ca500208ec7b" name="Guardians — Model 4" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-4e22d43d50ca" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-b7f8c8eff120" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-1ac778b02a3d" name="Guardians — Model 5" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-4071561c72f2" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-f53db92bba0e" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-b8fba4894e8b" name="Replace all Doom Scythes" hidden="false" defaultSelectionEntryId="rl36-base-af69721-4894e8b" collective="false" import="true">
           <constraints>
@@ -1413,22 +1612,130 @@
         <infoLink id="rl36-90114841bd99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-b240cd7a7509" name="5x Strikes" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-351a5c286ace" name="Eternals — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-2a6330e54231" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-6f1496ccccca" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-e5822f4426b8" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0086d8b89565" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-94319d3bc407" name="5x Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-c648efd603bd" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-e39dbf9550fb" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-6b4b01cdfef4" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-5a538993a4b2" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-f1e4e5b95474" name="Eternals — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-a73b765513c2" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-7006ff7d48c2" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-732ceeb2fbc1" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-0e6017388600" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-4ddd681d4a66" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-4a47a25f6918" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-16b03bf95e05" name="Eternals — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-a6caabb3c928" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-cc510d042c29" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-39d069f3a39e" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-c983c740ced0" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-10edb3daf200" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-8df26799d7d5" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-784399a30b68" name="Eternals — Model 4" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-31be7ff796c2" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-7f20436910a8" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-94b86d482c36" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-8f80d4e84e06" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-ed1f13f23d1f" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-802e2253816d" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-a4146b8a12b5" name="Eternals — Model 5" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-2841fb322b83" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-a25d7be4fc41" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-df09161e4c46" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-3c81347d8c9f" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-db1432d3f564" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-b5abe6b36657" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1563,22 +1870,80 @@
         <infoLink id="rl36-2cf28c9a9c68" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-11cff8dab15b" name="3x Strikes" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-6b7b92dbec3d" name="Snipers — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-afa29c051de8" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-9de7c1d34535" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-c231186596c8" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-8e67a93462ee" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-6d43211ee220" name="3x Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-bee780a0c217" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-89b5c733ac00" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-926bb82b1011" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-83c7fc08d76e" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-0f73709d5605" name="Snipers — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-592953f60a30" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-22c4455f2c48" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-52180a8b510b" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-2ece1bedccee" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-24ab904b12a7" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-2d5b8768893a" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-696853267df1" name="Snipers — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-28f5e51bea2f" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-ed4b0f67dc6c" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-1c437e4193f1" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-77c8e4584c2c" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-52538764dcac" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-79a92ec4dce7" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1656,7 +2021,28 @@
         <infoLink id="rl36-064385924994" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-e739c91ebad5" name="Bot Swarms — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-8fa014a64fc5" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-7736016605ae" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-e40fd9a73e89" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-fa5889648dcb" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0ce9ab20d967" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-50b90165dc39" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-a1cbf4011087" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-52a49982f56b" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false" defaultSelectionEntryId="rl36-base-11480a3-8714daa" collective="false" import="true">
           <constraints>
@@ -1721,22 +2107,80 @@
         <infoLink id="rl36-255aed7a3f71" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-58d64d4dcc44" name="3x Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-afb6b91ccfa6" name="Forge Spiderlings — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-bf70abe88fe3" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-fe63e6907c9d" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-1519efadfd74" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-c3c35606b83c" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-4713803644b3" name="3x Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-007cf912d3db" name="Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-9d10c506572c" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-714c50c201b0" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-1b2fb11da17b" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-31946531844c" name="Forge Spiderlings — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-38c100c6f9df" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-84c8271a9ad3" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-7b9d238941fa" name="Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-3643afd2f49a" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-9d0edd7dec48" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-55a9ec961cb9" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-19ba381399f1" name="Forge Spiderlings — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-b88f29405e80" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-2182e6250762" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-ff779fdd2c7d" name="Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-1394bea79783" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-c41bc3b29281" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-a82f2294a36d" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1814,67 +2258,212 @@
         <infoLink id="rl36-7c981834a6ae" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-12ba768ab004" name="3x Dual Ion Blades" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-53615e132a53" name="Destroyer Snakes — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-58bfb8a8492b" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-28b049a784e2" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-14a13a245ac6" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-2d53abc56402" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-cf5d002ca030" name="3x Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-1d1ca0545b80" name="Dual Ion Blades — Model 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-54dab9e8cdd1">
+              <constraints>
+                <constraint id="rl36m-b3748c7b3dac" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-a2aae57ceb56" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-54dab9e8cdd1" name="Keep Dual Ion Blades" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-4ccbde2a3484" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-602c54becc08" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-d949d9ab2c16" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-ef2a68e9dc6c" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-d0e23130b32d" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-2c08d9eba07c" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-56ec5c2ce535" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-0641d9dddb76" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-6a80fd723347" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-27bb154e085c" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-4ef78a409523" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry id="rl36m-853ad1c508bf" name="Destroyer Snakes — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-2390deb9eee4" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-88cba3dacf96" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-862814860e05" name="Dual Ion Blades — Model 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-73b4ba17c861">
+              <constraints>
+                <constraint id="rl36m-3970ff0c409b" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-fec663d37c15" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-73b4ba17c861" name="Keep Dual Ion Blades" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-500acfdadc51" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-35449b710f55" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-e91c0c539ea6" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-d92f16f515b7" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-5a0bb6155312" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-20864654c73b" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-f75950a43983" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-00eeddace772" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-e12374434add" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-af308239f38d" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-69527620080b" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry id="rl36m-7ff599318bad" name="Destroyer Snakes — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-d4f94eeb92ad" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-641458d9ba85" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-cc912a2f9f9b" name="Dual Ion Blades — Model 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-44a6f21ae40b">
+              <constraints>
+                <constraint id="rl36m-04cd4347cf46" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-12de10d409fd" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-44a6f21ae40b" name="Keep Dual Ion Blades" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-08cdccac42a5" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-45dbdf4c6f0b" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-55a5e0192c0a" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-f2292fea85ff" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-4eff4f6853c0" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-9ab7f2e8787b" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-93c6671aa834" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-c47abfe9dfbd" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-cb61b91183f4" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-b08453aae8c8" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-3263aa773867" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-41093bfeee33" name="Replace any Dual Ion Blades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-e3340e9f255b" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-4a3a6041427a" type="max" value="3" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-edc0cf48bf10" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
-              <constraints>
-                <constraint id="rl36-fc2efbe6a6ff" type="min" value="0" field="selections" scope="parent" shared="false" />
-                <constraint id="rl36-a12c01c712d0" type="max" value="3" field="selections" scope="parent" shared="false" />
-              </constraints>
-              <profiles>
-                <profile id="rl36-1a119200a7d6" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-e11d4b64cac4" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
-              <constraints>
-                <constraint id="rl36-5c13f84dbc86" type="min" value="0" field="selections" scope="parent" shared="false" />
-                <constraint id="rl36-70249b414596" type="max" value="3" field="selections" scope="parent" shared="false" />
-              </constraints>
-              <profiles>
-                <profile id="rl36-d270ad4c5307" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="rl36-5662c3a8e60d" name="Replace one Dual Ion Blades" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-2db9c598ce7f" type="min" value="0" field="selections" scope="parent" shared="false" />
@@ -1945,22 +2534,80 @@
       </infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-1be697f2baa1" name="3x Strikes" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-f70b6b63ad06" name="Hover Bikes — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-79670521b855" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-67a0c4c94832" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-1d76230bee8a" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-347200b9209e" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-33fc20d3ef4c" name="3x Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-807de7be8028" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-d78a31b1848a" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-5d1d9f759ed4" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-43766ea66414" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-046ddcd7fb9a" name="Hover Bikes — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-47fc543dafa2" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-3a052be6d658" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-1ff1d2a80201" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-a3df3a01cf4d" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-7374ffacb2aa" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-d8104df3ae58" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+        <selectionEntry id="rl36m-2493a3387ce7" name="Hover Bikes — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-b35783c1e792" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-a54db49e0138" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="rl36m-a27781135fd6" name="Strikes" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-6afc148ff741" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-ebed3e27bd7b" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-71e11c166c60" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2052,7 +2699,28 @@
         <infoLink id="rl36-f888c881167e" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-b9f6b49a9a8d" name="Annihilators — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-279db71fdae5" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-9bb85fa19c50" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-685eaf118f29" name="Annihilators — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-2ad4f9f7e2c9" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-931c273e052d" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-02fffa0383a7" name="Annihilators — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-36985e0404b4" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-25a5d7ad8474" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-08667a55aa61" name="Replace all Dual Uranium Daggers" hidden="false" defaultSelectionEntryId="rl36-base-08aeb24-a55aa61" collective="false" import="true">
           <constraints>
@@ -2276,7 +2944,28 @@
         <infoLink id="rl36-a46de3c7cc99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-68184e7611bc" name="Robot Snakes — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-ad6ecb7507d8" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-5629afaa606d" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-24476d630362" name="Robot Snakes — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-8f3e17aa5e82" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-9629e3cdf8b0" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-58fbbfee8db8" name="Robot Snakes — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-19df90675f18" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-073758fbec0e" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-3d9e55cbdff1" name="Replace all Metal Fangs" hidden="false" defaultSelectionEntryId="rl36-base-7012a6c-5cbdff1" collective="false" import="true">
           <constraints>
@@ -2389,67 +3078,212 @@
       </infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(2))</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-82110aa59cf3" name="3x Dual Uranium Daggers" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-b87543ada77b" name="Tri-Scorpions — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-926b80194c79" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-0f99a8008144" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-45bf888e4311" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-618a84020e88" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-0c2e04e74512" name="3x Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-c9b8ccadade4" name="Dual Uranium Daggers — Model 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-88d41ddf5ab5">
+              <constraints>
+                <constraint id="rl36m-007739625afc" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-8faa8c013056" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-88d41ddf5ab5" name="Keep Dual Uranium Daggers" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-f4a7bc4d1639" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-0678f04ed7a9" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-39bf469fc3fd" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-42c42a262bf2" name="Dual Atomizer Swords (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-cb8a8e10d809" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-761fc591d17a" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-8e8998a2bda0" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-fad9c600d2fc" name="Dual Ion Blades (A3, Shred)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-845d09a09584" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-bebf8747315d" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-67e29194931c" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry id="rl36m-7b50deb7e0ac" name="Tri-Scorpions — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-23477c34c135" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-bcccc04a8f67" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-27f07a5a880d" name="Dual Uranium Daggers — Model 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-f73caf1b44a1">
+              <constraints>
+                <constraint id="rl36m-1dc98ecf8801" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-1bf0ebb127bf" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-f73caf1b44a1" name="Keep Dual Uranium Daggers" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-cde5545bfefe" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-71aeaef2cba0" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-94d6d808d09f" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-b41ea2780195" name="Dual Atomizer Swords (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-f549204ba59c" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-2266b215db60" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-327a30c41d6f" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-578762135d41" name="Dual Ion Blades (A3, Shred)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-010515a0d895" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-0bd0a3ff51e4" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-88f5e940d916" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry id="rl36m-117f355a1756" name="Tri-Scorpions — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-49e8e22f5d35" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-02de0d4842a1" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36m-356c7642c012" name="Dual Uranium Daggers — Model 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36m-17f76bd2c212">
+              <constraints>
+                <constraint id="rl36m-cd94c16cea8f" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-51efdaa84c32" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="rl36m-17f76bd2c212" name="Keep Dual Uranium Daggers" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-c80d0e38c178" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-2a4cefda37fa" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-2bc8391727b2" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-24c8223d23de" name="Dual Atomizer Swords (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-1905f80be046" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-5404e61ed8ea" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-755315f37392" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36m-f115296ff64d" name="Dual Ion Blades (A3, Shred)" hidden="false" type="upgrade" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36m-36fa6598c578" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36m-8d4eb1b568fb" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="rl36m-7c398190431a" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-d6dca972b558" name="Replace any Dual Uranium Daggers" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-c6f1e08dfbf3" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-e2d15c358849" type="max" value="3" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-74dfdd268ecc" name="Dual Atomizer Swords (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
-              <constraints>
-                <constraint id="rl36-e6289e162ed5" type="min" value="0" field="selections" scope="parent" shared="false" />
-                <constraint id="rl36-581c8ca27ab6" type="max" value="3" field="selections" scope="parent" shared="false" />
-              </constraints>
-              <profiles>
-                <profile id="rl36-ef946eece6c6" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-920457e4648f" name="Dual Ion Blades (A3, Shred)" hidden="false" type="upgrade" collective="false" import="true">
-              <constraints>
-                <constraint id="rl36-dfea50980b8a" type="min" value="0" field="selections" scope="parent" shared="false" />
-                <constraint id="rl36-9c4d5c1a05b8" type="max" value="3" field="selections" scope="parent" shared="false" />
-              </constraints>
-              <profiles>
-                <profile id="rl36-246577e14ff4" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="rl36-72df6d27a8bc" name="Replace one Dual Uranium Daggers" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-aadcafd417ca" type="min" value="0" field="selections" scope="parent" shared="false" />
@@ -2506,7 +3340,14 @@
         <infoLink id="rl36-fdc6802d1075" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-bb4734ad9581" name="Forge Spider — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-680689f530d5" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0502eb5d9b47" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-e98613fad277" name="Replace Radium Cannon and Spider Fangs" hidden="false" defaultSelectionEntryId="rl36-base-a18127e-3fad277" collective="false" import="true">
           <constraints>
@@ -2629,22 +3470,30 @@
         <infoLink id="rl36-cd4fa37fc985" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-e1f4d0129c92" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-a5f1d80ec386" name="Tripod Walker — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-a8e58ee8b70e" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-1fbecd42e0f6" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-f7dad215bcef" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-22709f8ea508" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-7497574809e1" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-c20998fe291a" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-84446417940e" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-73abd6fb399a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-dafef90f1f65" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2800,22 +3649,30 @@
         <infoLink id="rl36-2e82ab0001f0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-360a26bf382a" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-340caebf4414" name="Transport Tank — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-eefd369003df" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-9d4d427dc5cf" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-41f4a012ca54" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-1526dfe4a09f" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-1fc34690487b" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-a7eb949ecd35" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-a6ebfc16347b" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-8faac00e1f03" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-f33e7eeb1d1f" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2914,22 +3771,30 @@
         <infoLink id="rl36-3ebfbc17b29b" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-803462927571" name="Strike" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-c04ae36b53b4" name="Heavy Annihilator — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-408d991779d9" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-46375be9608c" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-13384c25c88e" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-60758a6a75aa" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-079054887885" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-1a8d70ab5ffd" name="Strike" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-d62697216a30" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-c0f0007e3250" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-f2c26c19c2dd" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3047,7 +3912,14 @@
         <infoLink id="rl36-4af3900a6209" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-bf3b243e39dc" name="Tri-Scorpion Pistoleer — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-eb0c80a01bb8" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-897501ae4bad" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-3988378f19e8" name="Replace Hunting Reaper Pistols" hidden="false" defaultSelectionEntryId="rl36-base-a3561fd-78f19e8" collective="false" import="true">
           <constraints>
@@ -3151,43 +4023,51 @@
         <infoLink id="rl36-2a2e0648a64c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-07008a694f89" name="Photon Gun Array" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-18c2412fa341" name="Doom Tank — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-743cb719e81a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-ec540f599bb9" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-7b83120314d6" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-e660cb701275" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-6d9fe2b11952" name="Photon Gun Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-e185221687e3" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-d93a0d1b5354" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-9f88c4f8e76b" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-9cbfd73afdf2" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-b520cc2c7c16" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-14e289c686b5" name="Photon Gun Array" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-8e525bf1feff" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-c825fc165d56" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-4b1e1a063d35" name="Photon Gun Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36m-22adade400ce" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="rl36m-0dee722ff6de" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-47c9695e80d9" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-0f5119e9646e" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-e26eaf23d2d9" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3249,22 +4129,30 @@
         <infoLink id="rl36-a3decaafa0ed" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-ac619141451b" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-530ddd34878c" name="Spider Walker — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-ab38c6864104" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-14dd671a5749" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-dcd116d178f3" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-f99908f133ee" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-2a61123c41e7" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-c85de3b328a7" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-44bc790a0229" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-486807cb2cb6" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-b2b2df8abbcd" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3363,22 +4251,30 @@
         <infoLink id="rl36-474a60922780" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-8beb01c4b839" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-bcb40112b6d2" name="Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-f5403fbd4d6f" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-72e12c2796bc" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-36c148afaf2d" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-85793c4d5022" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-dd063f620f88" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-648904e3dd1f" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-70d9748699f8" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-ed15fc67838d" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-0847073ceb94" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), -</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3474,22 +4370,30 @@
         <infoLink id="rl36-ccb522e71ab0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-8adfbf7b055c" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-0d49ea406c75" name="Support Platform — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-10ad9be5d9db" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-148bba1a33ca" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-d0564d049891" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-31e7eab0e3b9" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-f9509dfb7ad6" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-e458da58d428" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-4ce956f7916c" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-4b5ee0fa844a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-a4101ddb1f20" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3675,22 +4579,30 @@
         <infoLink id="rl36-b8b0d9348ec4" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-b234241b0d21" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-6cb7d5a21c3b" name="Great Monolith — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-8291a00656d6" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-47fb59fc7b94" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-4ee41a94276b" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-65eb81f58eb3" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-ad03c5b5c6e4" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2), -</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-3f4192141a63" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-f3e4720f6db8" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-9ca3199e435c" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-8641a2cc596f" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2), -</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3806,22 +4718,30 @@
         <infoLink id="rl36-8c2fe6c1cff8" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-aa35cf8b996c" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-76827118095b" name="Death Fortress — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-ec0638dd6bb7" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-6fcce8100cf1" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-8148630e2bc1" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-5b795d7ff297" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-b0d0a2443e25" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-5a77744c4a4f" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-9b59f279450c" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-83cae1508ae6" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-24a2740214c6" name="Overrun" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Thrust</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3957,42 +4877,50 @@
       </infoLinks>
       <comment>Starting equipment ability: Wraith Seer (Enhanced Self-Repair Buff)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-9e96ea265c51" name="Dual Seer Swords" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-1d8af111cd58" name="Great Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-aed7a80a6f71" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-e041be98897d" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-ecae81053741" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-a837263b5524" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-6aff5e9b9492" name="Dual Seer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shatter</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-8cc07b014509" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-4dc37870ecfd" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-f7e4ef18645b" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-fbe3f79e3362" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-5deb156e84f2" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2), -</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-e52fd1f03c8b" name="Dual Seer Swords" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-8147382e4d22" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-c90177e9e2cd" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-e05d46b00dfb" name="Dual Seer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36m-ee3ac3771641" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="rl36m-610b5fbea70a" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-3043b0687033" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-d33f6926722a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-a8ca3d298fe4" name="Stomp" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2), -</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4109,7 +5037,14 @@
         <infoLink id="rl36-748378c64fb9" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-acb4c582b586" name="Doom Fighter — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-71ab57a0dac3" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0874ce8d0228" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-f76946dd9663" name="Replace Strafing Uranium Blaster" hidden="false" defaultSelectionEntryId="rl36-base-8901f97-6dd9663" collective="false" import="true">
           <constraints>
@@ -4211,7 +5146,14 @@
         <infoLink id="rl36-296706ddd21d" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        </selectionEntries>
+        <selectionEntry id="rl36m-aa4cb3b2d51f" name="Night Gunship — Model 1" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-f6388535cf3f" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-5a75e18481cb" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-ad2733aeb6f5" name="Replace Strafing Ion Rifle Array" hidden="false" defaultSelectionEntryId="rl36-base-4b6c61b-3aeb6f5" collective="false" import="true">
           <constraints>
@@ -4321,22 +5263,30 @@
       </infoLinks>
       <comment>Starting equipment ability: Mission Critical (Protection Feat)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-8d36a9160d82" name="Enforcement Blades" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-a02c146af434" name="Oath-U7X1 — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-a9520f9b2ee9" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-18c80491dd11" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-01d0ebe47e96" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-c137f8fabdc9" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-b157c9e7d4b9" name="Enforcement Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A8</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Surge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-71f54f79696c" name="Enforcement Blades" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-f01cd87fca8a" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-883b212e1d4b" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-48c0f2c2d58e" name="Enforcement Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A8</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Surge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4382,40 +5332,48 @@
       </infoLinks>
       <comment>Starting equipment ability: Paradox Shielding Device (Stealth Buff)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-32cfa3f3738e" name="Panoptic Staff" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-bc12c79cf44f" name="Echo-3G01 — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-0d7b54cf0e5a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-6b1a4b0174b1" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-c5514c86795d" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-44171b905051" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-6d807893c9ce" name="Panoptic Staff" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending, Assault</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-775490304960" name="Strike" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-ea50d71b6aba" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-eaef37e62ab0" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-26ddb31ab7e7" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-01f6f2d48d81" name="Panoptic Staff" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-998f88d40de0" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-c6e93013324a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-da375d44e45b" name="Panoptic Staff" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending, Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="rl36m-b84e79650a06" name="Strike" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-edcfe2026f83" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-013eaf2d424a" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-7b1388e12912" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4465,26 +5423,34 @@
       </infoLinks>
       <comment>Starting equipment ability: Optimized Optics (Unstoppable when Shooting)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-5bd9151d3126" name="Experimental Arms" hidden="false" type="upgrade" collective="false" import="true">
+        <selectionEntry id="rl36m-5ed5f5ab59fa" name="Xyros-Z320 — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint id="rl36-43a03874ccac" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-313f58721546" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36m-0c724a862924" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-af8e60277df2" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
-          <profiles>
-            <profile id="rl36-e653b6bee7b3" name="Experimental Arms" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-e9f5e66d008a" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
+          <selectionEntries>
+            <selectionEntry id="rl36m-e38b3f85dcf6" name="Experimental Arms" hidden="false" type="upgrade" collective="false" import="true">
+              <constraints>
+                <constraint id="rl36m-92cb333d46ca" type="min" value="1" field="selections" scope="parent" shared="false" />
+                <constraint id="rl36m-2b778a12d641" type="max" value="1" field="selections" scope="parent" shared="false" />
+              </constraints>
+              <profiles>
+                <profile id="rl36m-fca54ec79074" name="Experimental Arms" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36m-d823725afcbd" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4511,4 +5477,5 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+</catalogue>
 </catalogue>
