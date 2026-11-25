@@ -76,8 +76,8 @@ function onLoad(saved)
     originalName=self.getName():gsub("^%[[%x]+%]%d+/%d+%[%-%]%s*","")
   end
   self.clearContextMenu()
-  self.addContextMenuItem("Take 1 wound",function() changeWounds(-1) end,false)
-  self.addContextMenuItem("Heal 1 wound",function() changeWounds(1) end,false)
+  self.addContextMenuItem("Take 1 wound (1)",function() changeWounds(-1) end,false)
+  self.addContextMenuItem("Heal 1 wound (2)",function() changeWounds(1) end,false)
   self.addContextMenuItem("Reset wounds",function() wounds=maxWounds;label() end,false)
   label()
 end
@@ -85,6 +85,26 @@ function changeWounds(amount)
   wounds=math.max(0,math.min(maxWounds,wounds+amount))
   label()
 end
+
+local function isHoveredBy(playerColor)
+  local player = Player[playerColor]
+  return player ~= nil and player.getHoverObject() == self
+end
+
+-- Numpad scripting buttons, while hovering the miniature.
+function onScriptingButtonDown(index, playerColor)
+  if not isHoveredBy(playerColor) then return end
+  if index == 1 then changeWounds(-1)
+  elseif index == 2 then changeWounds(1) end
+end
+
+-- Number-key typing on the miniature (may fire after a short delay).
+function onNumberTyped(playerColor, number)
+  if not isHoveredBy(playerColor) then return end
+  if number == 1 then changeWounds(-1)
+  elseif number == 2 then changeWounds(1) end
+end
+
 function onSave()
   return JSON.encode({wounds=wounds,max=maxWounds,name=originalName})
 end
