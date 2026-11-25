@@ -25,18 +25,48 @@ export function convertRosz(bytes){
     const definitions=[];
     for(const model of models.length?models:[unit]){
       const gear=[model,...descendants(model)].flatMap(x=>arr(x?.profiles?.profile)).filter(p=>['Ranged Weapon','Melee Weapon'].includes(p.typeName));
-      const rules=new Map();
-      for(const x of [unit,model,...descendants(model)])for(const rule of arr(x?.rules?.rule)){
-        const name=String(rule.name||''),description=val(rule.description).replace(/\s+/g,' ').trim();
-        if(name&&description)rules.set(name,description);
+      // Tabletop Simulator tooltip BB codes; short model name on normal hover.
+      const green = text => '[A4FF61]'+text+'[-]';
+      const red = text => '[FF6565][b]'+text+'[/b][-]';
+      const yellow = text => '[FFE477][b]'+text+'[/b][-]';
+      const purple = text => '[F48BDD][b]'+text+'[/b][-]';
+      const pale = text => '[E8EDF2]'+text+'[-]';
+      const baseName = String(model.name||unit.name||'Model');
+      const unitSingular = String(unit.name||'Model').replace(/Brothers$/,'Brother').replace(/Snipers$/,'Sniper').replace(/Pathfinders$/,'Pathfinder').replace(/Bikers$/,'Biker').replace(/s$/,'');
+      const name = /fixed equipment|standard models|four standard|three models/i.test(baseName)
+        ? unitSingular
+        : /specialist model/i.test(baseName)
+          ? unitSingular+' Specialist'
+          : baseName.replace(/\s*[—–-]\s*(fixed equipment|model \d+)$/i,'').trim();
+      const descriptions=[];
+      descriptions.push(green('Quality '+qua+'   Defense '+def));
+      const ranged=gear.filter(p=>p.typeName==='Ranged Weapon');
+      const melee=gear.filter(p=>p.typeName==='Melee Weapon');
+      const writeWeapon=(p)=>{
+        const info=[stat(p,'Range'),stat(p,'Attacks'),stat(p,'Special Rules')].filter(Boolean).join('  ');
+        descriptions.push(yellow(String(p.name)));
+        if(info)descriptions.push(pale(info));
+      };
+      if(ranged.length){descriptions.push('',red('Ranged weapons'));ranged.forEach(writeWeapon)}
+      if(melee.length){descriptions.push('',red('Melee weapons'));melee.forEach(writeWeapon)}
+      // List abilities by name only. Do not repeat long rule definitions or
+      // weapon rules in the Abilities section.
+      const abilityNames=new Set();
+      for(const rule of String(unitRules||'').split(/,\s*(?![^()]*\))/).map(x=>x.trim()))if(rule)abilityNames.add(rule);
+      for(const sel of [unit,model,...descendants(model)]){
+        const selectionRules=arr(sel?.rules?.rule);
+        for(const rule of selectionRules)if(rule.name && !/^AP\(X\)|Blast\(X\)|Deadly\(X\)$/i.test(String(rule.name)))abilityNames.add(String(rule.name));
       }
-      const details=['Quality: '+qua+' | Defense: '+def,'WEAPONS',...gear.map(p=>p.name+': '+[stat(p,'Range'),stat(p,'Attacks'),stat(p,'Special Rules')].filter(Boolean).join(' | ')),'RULES',...Array.from(rules,([n,d])=>n+': '+d)].join('\r\n');
+      // Rule links on weapon selection entries are not model-level abilities.
+      const weaponNames=new Set(gear.flatMap(p=>stat(p,'Special Rules').split(/,\s*/).map(s=>s.trim())));
+      for(const w of weaponNames)abilityNames.delete(w);
+      if(abilityNames.size)descriptions.push('',purple('Abilities'),...Array.from(abilityNames,x=>pale(x)));
+      const details=descriptions.join('\r\n');
       const quantity=Number(model.number??1);
       if(!Number.isInteger(quantity)||quantity<1||quantity>100)throw Error('Invalid model quantity');
       const tough=Number(unitRules.match(/Tough\((\d+)\)/i)?.[1]||0);
       for(let i=0;i<quantity;i++){
-        const name=String(model.name||unit.name||'Model');
-        definitions.push({name,loadoutCSV:gear.map(p=>p.name).join(', '),ttsNameOutput:name+'\r\nQuality '+qua+' / Defense '+def,ttsDescriptionOutput:details,originalToughValue:tough,originalCasterValue:0});
+        definitions.push({name,loadoutCSV:gear.map(p=>p.name).join(', '),ttsNameOutput:name,ttsDescriptionOutput:details,originalToughValue:tough,originalCasterValue:0});
       }
     }
     units.push({name:String(unit.name||'Unit'),selectionId:String(unit.id||unit.entryId||'unit'),unitId:crypto.randomUUID(),modelDefinitions:definitions});
