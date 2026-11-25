@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
@@ -51,6 +51,12 @@
     <rule id="opr36-rules-1000001" name="Limited" hidden="false"><description>This weapon can only be used once per game.</description></rule>
     <rule id="opr36-rules-1000002" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
     <rule id="opr36-rules-1000003" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
+    <rule id="opr36-spell-1500000" name="Protective Dome (1)" hidden="false"><description>Pick one friendly unit within 12 inches, which gets Evasive once (the next time the effect would apply).</description></rule>
+    <rule id="opr36-spell-1500001" name="Psychic Terror (1)" hidden="false"><description>Pick one enemy unit within 6 inches, which takes 3 hits with Bane.</description></rule>
+    <rule id="opr36-spell-1500002" name="Advanced Sight (2)" hidden="false"><description>Pick up to two enemy units within 18 inches and line of sight. Friendly units get Unstoppable on their weapons when shooting those units once (the next time the effect would apply).</description></rule>
+    <rule id="opr36-spell-1500003" name="Lightning Fog (2)" hidden="false"><description>Pick up to two enemy units within 9 inches, which take 4 hits each.</description></rule>
+    <rule id="opr36-spell-1500004" name="Blessed Ammo (3)" hidden="false"><description>Pick up to three friendly units within 18 inches, which get Shred on their weapons when shooting once (the next time the effect would apply).</description></rule>
+    <rule id="opr36-spell-1500005" name="Cerebral Trauma (3)" hidden="false"><description>Pick one enemy unit within 24 inches and line of sight, which takes 6 hits with AP(1) and Smash.</description></rule>
 </sharedRules>
   <selectionEntries>
     <selectionEntry id="b174-c09d-1000-07d0" name="Master Destroyer" hidden="false" collective="false" import="true" type="unit">
