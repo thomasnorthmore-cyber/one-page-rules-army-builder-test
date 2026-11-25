@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -1588,7 +1588,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-warriors-9" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36-60ac6fbd4741" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
@@ -1735,7 +1735,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-warriors-29" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36p-885103de54b5" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
@@ -1945,7 +1945,7 @@
                   </characteristics>
                 </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36-d67e686cce7a" name="Imprecise" hidden="false" targetId="rl36-cb200f2d4cf3" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
@@ -2173,7 +2173,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-eternals-4" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36-2c631d29eb12" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
@@ -2320,7 +2320,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-eternals-24" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36p-22adb1c2f127" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="40" />
@@ -2359,7 +2359,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-eternals-29" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36p-033224f01309" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
@@ -2580,7 +2580,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-forgespide-5" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36-9ab15bcabd7c" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
@@ -2981,7 +2981,7 @@
                   </characteristics>
                 </profile><profile id="rl36-wfix-hoverbikes-8" name="Strikes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries>
               <infoLinks>
-                <infoLink id="rl36-6a351ee3935d" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="45" />
