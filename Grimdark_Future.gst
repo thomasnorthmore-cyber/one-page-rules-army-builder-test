@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="b174-c09d-3660-f001" name="One Page Rules - Grimdark Future (Community Test)" revision="2" battleScribeVersion="2.03" authorName="Community test" >
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="b174-c09d-3660-f001" name="One Page Rules - Grimdark Future (Community Test)" revision="3" battleScribeVersion="2.03" authorName="Community test" >
   <costTypes><costType id="b174-c09d-3660-f002" name="pts" defaultCostLimit="-1" hidden="false"/></costTypes>
   <profileTypes>
     <profileType id="b174-c09d-3660-f010" name="Unit"><characteristicTypes>
@@ -19,6 +19,7 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="b174-c09d-3660-f041" name="Heroes" hidden="false"/>
+    <categoryEntry id="b174-c09d-3660-f048" name="Epic Heroes" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f042" name="Core Units" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f043" name="Light Vehicles / Small Monsters" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f044" name="Vehicles / Monsters" hidden="false"/>
@@ -29,6 +30,7 @@
   <forceEntries><forceEntry id="b174-c09d-3660-f050" name="Army" hidden="false">
     <categoryLinks>
         <categoryLink id="b174-c09d-3660-f060" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="false"/>
+        <categoryLink id="b174-c09d-3660-f068" name="Epic Heroes" hidden="false" targetId="b174-c09d-3660-f048" primary="false"/>
         <categoryLink id="b174-c09d-3660-f061" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="false"/>
         <categoryLink id="b174-c09d-3660-f062" name="Light Vehicles / Small Monsters" hidden="false" targetId="b174-c09d-3660-f043" primary="false"/>
         <categoryLink id="b174-c09d-3660-f063" name="Vehicles / Monsters" hidden="false" targetId="b174-c09d-3660-f044" primary="false"/>
