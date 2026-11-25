@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -157,7 +157,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Ravage(6), Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Ravage(6), Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -352,7 +352,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -813,7 +813,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Slow, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Slow</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2503,7 +2503,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">5+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">6+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2520,27 +2520,11 @@
             <constraint id="rl36m-7736016605ae" type="max" field="selections" scope="parent" shared="true" value="1" />
           </constraints>
           <selectionEntries />
-        </selectionEntry>
-        <selectionEntry id="rl36m-e40fd9a73e89" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false" defaultSelectionEntryId="rl36-base-11480a3-8714daa" collective="false" import="true">
           <constraints>
-            <constraint id="rl36m-fa5889648dcb" type="min" field="selections" scope="parent" shared="true" value="1" />
-            <constraint id="rl36m-0ce9ab20d967" type="max" field="selections" scope="parent" shared="true" value="1" />
-          </constraints>
-          <selectionEntries />
-        </selectionEntry>
-        <selectionEntry id="rl36m-50b90165dc39" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint id="rl36m-a1cbf4011087" type="min" field="selections" scope="parent" shared="true" value="1" />
-            <constraint id="rl36m-52a49982f56b" type="max" field="selections" scope="parent" shared="true" value="1" />
-          </constraints>
-          <selectionEntries />
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false" defaultSelectionEntryId="rl36-base-11480a3-8714daa" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-28493fd106f4" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-a89cdb1d8422" type="max" value="1" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-28493fd106f4" type="min" value="1" field="selections" scope="parent" shared="true" />
+            <constraint id="rl36-a89cdb1d8422" type="max" value="1" field="selections" scope="parent" shared="true" />
           </constraints>
           <selectionEntries>
             <selectionEntry id="rl36-base-11480a3-8714daa" name="Keep 3x Bot Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -2578,7 +2562,23 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-      </selectionEntryGroups>
+          </selectionEntryGroups>
+        </selectionEntry>
+        <selectionEntry id="rl36m-e40fd9a73e89" name="Bot Swarms — Model 2" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-fa5889648dcb" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-0ce9ab20d967" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+        <selectionEntry id="rl36m-50b90165dc39" name="Bot Swarms — Model 3" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint id="rl36m-a1cbf4011087" type="min" field="selections" scope="parent" shared="true" value="1" />
+            <constraint id="rl36m-52a49982f56b" type="max" field="selections" scope="parent" shared="true" value="1" />
+          </constraints>
+          <selectionEntries />
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="pts" typeId="b174-c09d-3660-f002" value="125" />
       </costs>
@@ -2592,7 +2592,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2748,7 +2748,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3022,7 +3022,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3197,7 +3197,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3450,7 +3450,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fast, Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fast, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3590,7 +3590,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ravage(2), Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ravage(2), Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3843,7 +3843,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3978,7 +3978,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(1), Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(1), Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4166,7 +4166,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6), Transport(11)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Transport(11)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4294,7 +4294,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4442,7 +4442,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ambushing Piercing Shot, Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ambushing Piercing Shot, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4564,7 +4564,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(9)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4676,7 +4676,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(2), Self-Repair, Strider, Tough(12)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(2), Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4799,7 +4799,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">2+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(2), Fearless, Flying, Self-Repair, Tough(12)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(2), Fearless, Flying, Self-Repair</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4933,7 +4933,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Artillery, Self-Repair, Strider, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Artillery, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5144,7 +5144,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(3), Fearless, Self-Repair, Strider, Tough(18)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(3), Fearless, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5298,7 +5298,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(3), Fearless, Self-Repair, Strider, Tough(18)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(3), Fearless, Self-Repair, Strider</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5459,7 +5459,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">2+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(4), Enhanced Self-Repair Buff, Fear(3), Fearless, Self-Repair, Tough(18)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(4), Enhanced Self-Repair Buff, Fear(3), Fearless, Self-Repair</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5637,7 +5637,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5752,7 +5752,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair, Tough(6)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5873,7 +5873,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Protection Feat, Self-Repair, Strider, Tough(6), Unique Hero</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Protection Feat, Self-Repair, Strider, Unique Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5950,7 +5950,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Stealth Buff, Tough(3), Unique Hero</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Stealth Buff, Unique Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6049,7 +6049,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Tough(3), Unique Hero, Unstoppable when Shooting</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Unique Hero, Unstoppable when Shooting</characteristic>
           </characteristics>
         </profile>
       </profiles>
