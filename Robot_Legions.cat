@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -157,7 +157,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Ravage(6), Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Ravage(6), Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -165,7 +165,6 @@
         <infoLink id="rl36-4cd4881291e6" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-c99db988c967" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
       <infoLink id="rl36-link-0-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-0-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-0-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-0-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
 <infoLink id="rl36-link-0-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
@@ -352,14 +351,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-c4788d9d7aaf" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-1-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-1-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-1-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-1-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
 <infoLink id="rl36-link-1-0008" name="Relentless" hidden="false" targetId="rl36-core-0008" type="rule"/>
@@ -813,14 +811,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Slow</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Slow, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f640c061d036" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-2-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-2-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-2-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-2-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
 <infoLink id="rl36-link-2-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
@@ -2503,14 +2500,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">5+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">6+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-064385924994" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-8-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-8-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-8-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-8-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
 </infoLinks>
       <selectionEntryGroups>
@@ -2539,14 +2535,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-255aed7a3f71" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-9-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-9-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-9-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-9-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
 <infoLink id="rl36-link-9-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-9-0028" name="Shred" hidden="false" targetId="rl36-core-0028" type="rule"/>
@@ -2695,14 +2690,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-7c981834a6ae" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-a-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-a-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-a-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-a-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
 <infoLink id="rl36-link-a-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-a-0024" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/>
@@ -2969,14 +2963,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f4bd1e2daf47" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-b-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-b-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
 <infoLink id="rl36-link-b-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
 <infoLink id="rl36-link-b-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
@@ -3144,14 +3137,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f888c881167e" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-c-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-c-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-c-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-c-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
 <infoLink id="rl36-link-c-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-c-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
@@ -3397,14 +3389,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fast, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fast, Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-a46de3c7cc99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-d-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-d-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-d-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-d-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
 <infoLink id="rl36-link-d-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-d-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
@@ -3537,15 +3528,14 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ravage(2), Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ravage(2), Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-ba4a5613a282" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-0ea0f82ceac1" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
-      <infoLink id="rl36-link-e-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-e-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-e-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
 <infoLink id="rl36-link-e-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
@@ -3790,14 +3780,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-fdc6802d1075" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-f-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-f-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-f-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-f-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
 <infoLink id="rl36-link-f-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
 <infoLink id="rl36-link-f-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
@@ -3925,14 +3914,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(1), Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(1), Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-cd4fa37fc985" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-10-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-10-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-10-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-10-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
 <infoLink id="rl36-link-10-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 <infoLink id="rl36-link-10-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
@@ -4113,14 +4101,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Transport(11)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6), Transport(11)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2e82ab0001f0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-11-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-11-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-11-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-11-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
 <infoLink id="rl36-link-11-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
 <infoLink id="rl36-link-11-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
@@ -4241,14 +4228,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-3ebfbc17b29b" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-12-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-12-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-12-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-12-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
 <infoLink id="rl36-link-12-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-12-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
@@ -4389,15 +4375,14 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ambushing Piercing Shot, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Ambushing Piercing Shot, Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f64e44300715" name="Ambushing Piercing Shot" hidden="false" targetId="rl36-f5c4bf05b0d9" type="rule" />
         <infoLink id="rl36-4af3900a6209" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-13-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-13-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-13-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-13-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
 <infoLink id="rl36-link-13-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-13-0017" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/>
@@ -4511,14 +4496,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(9)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2a2e0648a64c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-14-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-14-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-14-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-14-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-14-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
 <infoLink id="rl36-link-14-0023" name="Thrust" hidden="false" targetId="rl36-core-0023" type="rule"/>
@@ -4623,14 +4607,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(2), Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(2), Self-Repair, Strider, Tough(12)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-a3decaafa0ed" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-15-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-15-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-15-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-15-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 <infoLink id="rl36-link-15-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-15-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
@@ -4746,7 +4729,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">2+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(2), Fearless, Flying, Self-Repair</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(2), Fearless, Flying, Self-Repair, Tough(12)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4759,7 +4742,6 @@
         <infoLink id="rl36-86eaefa119be" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-474a60922780" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       <infoLink id="rl36-link-16-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
-<infoLink id="rl36-link-16-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-16-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 <infoLink id="rl36-link-16-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-16-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
@@ -4880,14 +4862,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Artillery, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Artillery, Self-Repair, Strider, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-ccb522e71ab0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-17-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-17-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-link-17-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-17-0013" name="Artillery" hidden="false" targetId="rl36-core-0013" type="rule"/>
 <infoLink id="rl36-link-17-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-17-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
@@ -5091,7 +5072,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(3), Fearless, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(3), Fear(3), Fearless, Self-Repair, Strider, Tough(18)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5104,7 +5085,6 @@
         <infoLink id="rl36-8298e5729d7a" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-b8b0d9348ec4" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       <infoLink id="rl36-link-18-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
-<infoLink id="rl36-link-18-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-18-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-18-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 <infoLink id="rl36-link-18-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
@@ -5245,14 +5225,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(3), Fearless, Self-Repair, Strider</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Fear(3), Fearless, Self-Repair, Strider, Tough(18)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-8c2fe6c1cff8" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-19-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
-<infoLink id="rl36-link-19-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-19-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-19-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
 <infoLink id="rl36-link-19-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
@@ -5406,7 +5385,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">2+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">2+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(4), Enhanced Self-Repair Buff, Fear(3), Fearless, Self-Repair</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Caster(4), Enhanced Self-Repair Buff, Fear(3), Fearless, Self-Repair, Tough(18)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5421,7 +5400,6 @@
         <infoLink id="rl36-458c4d66deeb" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
         <infoLink id="rl36-55fdde895ce6" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       <infoLink id="rl36-link-1a-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
-<infoLink id="rl36-link-1a-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-1a-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 <infoLink id="rl36-link-1a-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-1a-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
@@ -5584,14 +5562,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-748378c64fb9" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-1b-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-1b-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
+      <infoLink id="rl36-link-1b-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
 <infoLink id="rl36-link-1b-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-1b-0016" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/>
 <infoLink id="rl36-link-1b-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
@@ -5699,14 +5676,13 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Aircraft, Self-Repair, Tough(6)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-296706ddd21d" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-1c-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
-<infoLink id="rl36-link-1c-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
+      <infoLink id="rl36-link-1c-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
 <infoLink id="rl36-link-1c-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
 <infoLink id="rl36-link-1c-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-1c-0018" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/>
@@ -5820,7 +5796,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Protection Feat, Self-Repair, Strider, Unique Hero</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Protection Feat, Self-Repair, Strider, Tough(6), Unique Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5829,7 +5805,6 @@
         <infoLink id="rl36-deebc555ac8c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-f9e09fdfc220" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
       <infoLink id="rl36-link-1d-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-1d-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-1d-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-1d-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-1d-0020" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/>
@@ -5897,7 +5872,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Stealth Buff, Unique Hero</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Stealth Buff, Tough(3), Unique Hero</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5906,7 +5881,6 @@
         <infoLink id="rl36-0bd47564c2dc" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-d707049849ff" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
       <infoLink id="rl36-link-1e-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-1e-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-1e-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
 <infoLink id="rl36-link-1e-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
 <infoLink id="rl36-link-1e-0027" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/>
@@ -5996,7 +5970,7 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Unique Hero, Unstoppable when Shooting</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Slow, Tough(3), Unique Hero, Unstoppable when Shooting</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6005,7 +5979,6 @@
         <infoLink id="rl36-55528b6cf270" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
         <infoLink id="rl36-fa55adb80f74" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
       <infoLink id="rl36-link-1f-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-1f-0003" name="Tough(X)" hidden="false" targetId="rl36-core-0003" type="rule"/>
 <infoLink id="rl36-link-1f-0015" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/>
 <infoLink id="rl36-link-1f-0019" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/>
 </infoLinks>
