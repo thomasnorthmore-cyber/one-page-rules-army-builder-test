@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -139,26 +139,9 @@
       </infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(6))</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-f27eb475dcb7" name="Dual Heavy Ion Blades" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-0229f920bb3a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-a2852c8aabaa" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-ad0d975a6e72" name="Dual Heavy Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A8</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-196e6d0eda79" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-196e6d0eda79" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-7c96f2800eb2" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-535b32f20b9f" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -209,12 +192,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-74d0cf21d84c" name="Replace Dual Heavy Ion Blades" hidden="false">
+        <selectionEntryGroup id="rl36-74d0cf21d84c" name="Replace Dual Heavy Ion Blades" hidden="false" defaultSelectionEntryId="rl36-base-b2f4a16-f21d84c" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-bdae37166815" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-bdae37166815" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ab5510fbbc93" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-b2f4a16-f21d84c" name="Keep Dual Heavy Ion Blades" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-ad0d975a6e72" name="Dual Heavy Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A8</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-614a7980305d" name="Radium Pulse Gun (15&quot;, A1, AP(1), Blast(3), Assault), Dual Ion Blades (A6, Shred)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-9d009b0cbcee" name="Radium Pulse Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -319,26 +315,9 @@
         <infoLink id="rl36-c4788d9d7aaf" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-3483bfabc740" name="Technomancer Staff" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-c5e7132e58c6" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-12eeabd63351" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-f73744891678" name="Technomancer Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-499a996cdb1e" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-499a996cdb1e" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-0c615955d92d" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-af8c3179eb4b" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -402,12 +381,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-bb3acdfcadf5" name="Replace Technomancer Staff" hidden="false">
+        <selectionEntryGroup id="rl36-bb3acdfcadf5" name="Replace Technomancer Staff" hidden="false" defaultSelectionEntryId="rl36-base-e712ba1-dfcadf5" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-470ebb278b9a" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-470ebb278b9a" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-c54c5be6c7a3" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-e712ba1-dfcadf5" name="Keep Technomancer Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-f73744891678" name="Technomancer Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-f00197c26637" name="Burst Wrist-Spark (6&quot;, A1, Blast(3), Reliable, Assault), Hand Weapon (A6)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-84c47aa94a9c" name="Burst Wrist-Spark" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -427,6 +419,47 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36-7bfd6a92e62c" name="Replace Burst Wrist-Spark" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36-78ebab930191" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36-b0d85815a8b0" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36-12985d73c05a" name="Burst Wrist-Plasma (12&quot;, A2, AP(2), Assault)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36-045effb4e6da" name="Burst Wrist-Plasma" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Assault</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36-ff7b3d6483df" name="Burst Photon Pistol (9&quot;, A3, AP(1), Assault, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36-4ec7a919c1b5" name="Burst Photon Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36-50b1da9efc9b" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-2cf1f48eee18" name="Dual Atomizer Swords (A8, Rending)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -503,46 +536,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-7bfd6a92e62c" name="Replace Burst Wrist-Spark" hidden="false">
-          <constraints>
-            <constraint id="rl36-78ebab930191" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-b0d85815a8b0" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-12985d73c05a" name="Burst Wrist-Plasma (12&quot;, A2, AP(2), Assault)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-045effb4e6da" name="Burst Wrist-Plasma" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Assault</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-ff7b3d6483df" name="Burst Photon Pistol (9&quot;, A3, AP(1), Assault, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-4ec7a919c1b5" name="Burst Photon Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="rl36-50b1da9efc9b" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-fc64470029b1" name="Replace Hand Weapon" hidden="false">
+        <selectionEntryGroup id="rl36-fc64470029b1" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-9c5252e1d58f" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-57ccda64c29e" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -602,7 +596,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-23d293f99e50" name="Upgrade with" hidden="false">
+        <selectionEntryGroup id="rl36-23d293f99e50" name="Upgrade with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-46225eade0c9" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-8fd27da263f5" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -637,44 +631,9 @@
         <infoLink id="rl36-f640c061d036" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-80fb68fe280a" name="Wrist-Spark" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-571ed39e340a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-91761c1fa0d1" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-5eec91e1ad13" name="Wrist-Spark" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">6"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Reliable, Anti-Cover, Assault</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-69e5be0c3117" name="Hand Weapon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-40c99508e980" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-af87fe70492b" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-8117e7033a2e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-ce5526c94374" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-ce5526c94374" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-4b5584596c95" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-9f656b616ed6" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -737,12 +696,34 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-b20cba7a7d9a" name="Replace Hand Weapon and Wrist-Spark" hidden="false">
+        <selectionEntryGroup id="rl36-b20cba7a7d9a" name="Replace Hand Weapon and Wrist-Spark" hidden="false" defaultSelectionEntryId="rl36-base-c99d7c1-a7a7d9a" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-e7f4ab627a86" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-e7f4ab627a86" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-7fed8808cb4b" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-c99d7c1-a7a7d9a" name="Keep Wrist-Spark + Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-5eec91e1ad13" name="Wrist-Spark" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">6"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Reliable, Anti-Cover, Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <profiles>
+                <profile id="rl36-8117e7033a2e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-0a06d06666aa" name="Burst Ion Rifle (18&quot;, A3, Shred), Hand Weapon (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-57c127f350a0" name="Burst Ion Rifle" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -838,7 +819,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-95b30bfb1826" name="Replace Wrist-Spark" hidden="false">
+        <selectionEntryGroup id="rl36-95b30bfb1826" name="Replace Wrist-Spark" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-283e13d29036" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-690a53d4f5f7" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -882,7 +863,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-991b02c2e3a7" name="Replace Hand Weapon" hidden="false">
+        <selectionEntryGroup id="rl36-991b02c2e3a7" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-107774ee928e" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ca1fb497acec" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -942,7 +923,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-8916cf8e6cc0" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-8916cf8e6cc0" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-a803681e0562" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-5536e43d7bfc" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1020,7 +1001,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-628e6b3e3a62" name="Replace Radium Cannon" hidden="false">
+        <selectionEntryGroup id="rl36-628e6b3e3a62" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-0b5fac69ea49" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-51dd1bebcef7" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1081,24 +1062,6 @@
         <infoLink id="rl36-46392978c0ca" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-aa4d914f4b94" name="5x Ion Rifles" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-e9d4ab31c1d5" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-e746b27de21b" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-78250179b56c" name="5x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-1f8885a2450a" name="5x Strikes" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-5917997e6bcd" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -1118,12 +1081,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-a175b89832ab" name="Replace all Ion Rifles" hidden="false">
+        <selectionEntryGroup id="rl36-a175b89832ab" name="Replace all Ion Rifles" hidden="false" defaultSelectionEntryId="rl36-base-015bc0e-89832ab" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-dc374500cc68" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-dc374500cc68" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-f2c92a13ba47" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-015bc0e-89832ab" name="Keep 5x Ion Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-78250179b56c" name="5x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-fd1c8adccab5" name="Photon Gun (18&quot;, A1, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-8df10f7a32ef" name="Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1143,7 +1120,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-cf049af6670c" name="Replace one Ion Rifle" hidden="false">
+        <selectionEntryGroup id="rl36-cf049af6670c" name="Replace one Ion Rifle" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-107c0ec6ea96" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-67bf019bc126" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1233,31 +1210,27 @@
         <infoLink id="rl36-e46199b7f62a" name="Infiltrate" hidden="false" targetId="rl36-483ef483642e" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-20197c9fe6be" name="5x Rusted Claws" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-a135bd69d4d4" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-fe17cc28e465" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-cd9da1b3df70" name="5x Rusted Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-0c05a051fcff" name="Replace all Rusted Claws" hidden="false">
+        <selectionEntryGroup id="rl36-0c05a051fcff" name="Replace all Rusted Claws" hidden="false" defaultSelectionEntryId="rl36-base-47548df-051fcff" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-2bc34594c903" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-2bc34594c903" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ebe34cfe7dcb" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-47548df-051fcff" name="Keep 5x Rusted Claws" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-cd9da1b3df70" name="5x Rusted Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-098a5a17e40b" name="Spiked Claws (A1, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-65751774a94e" name="Spiked Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1286,7 +1259,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-1f45b465ae20" name="Upgrade one model with" hidden="false">
+        <selectionEntryGroup id="rl36-1f45b465ae20" name="Upgrade one model with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-1f6ba10ecece" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-42a6019cab25" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1321,34 +1294,30 @@
         <infoLink id="rl36-983b6b7d52f5" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-d66d4041256a" name="5x Doom Scythes" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-4882f79171f8" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-95ff518e8998" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-f904766c5b82" name="5x Doom Scythes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Imprecise</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-d67e686cce7a" name="Imprecise" hidden="false" targetId="rl36-cb200f2d4cf3" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-b8fba4894e8b" name="Replace all Doom Scythes" hidden="false">
+        <selectionEntryGroup id="rl36-b8fba4894e8b" name="Replace all Doom Scythes" hidden="false" defaultSelectionEntryId="rl36-base-af69721-4894e8b" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-1eb2c38db3a9" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-1eb2c38db3a9" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ecb76768f2ac" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-af69721-4894e8b" name="Keep 5x Doom Scythes" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-f904766c5b82" name="5x Doom Scythes" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Imprecise</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36-d67e686cce7a" name="Imprecise" hidden="false" targetId="rl36-cb200f2d4cf3" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-3607fed05ccf" name="Atomizer Sword (A1, Rending), Combat Shield (Armor(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-85e31c6f40f5" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1398,7 +1367,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-db2f4bb699f7" name="Upgrade all models with one" hidden="false">
+        <selectionEntryGroup id="rl36-db2f4bb699f7" name="Upgrade all models with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-356741048dc5" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-380f673c23af" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1444,27 +1413,6 @@
         <infoLink id="rl36-90114841bd99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-e38731d071f9" name="5x Photon Rifles" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-145aa8569484" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-dd5cfa6c3ff7" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-0ecdef2b9a98" name="5x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-2c631d29eb12" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-b240cd7a7509" name="5x Strikes" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-2a6330e54231" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -1484,12 +1432,29 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-c467a502f1c9" name="Replace all Photon Rifles" hidden="false">
+        <selectionEntryGroup id="rl36-c467a502f1c9" name="Replace all Photon Rifles" hidden="false" defaultSelectionEntryId="rl36-base-0570b83-502f1c9" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-7d314bed5f22" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-7d314bed5f22" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-1e381da08917" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-0570b83-502f1c9" name="Keep 5x Photon Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-0ecdef2b9a98" name="5x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36-2c631d29eb12" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-236e4cc6ed53" name="Transonic Carbine (18&quot;, A1, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-5aa11dd9b89f" name="Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1506,7 +1471,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-6d6d2af12fde" name="Replace one Photon Rifle" hidden="false">
+        <selectionEntryGroup id="rl36-6d6d2af12fde" name="Replace one Photon Rifle" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-ad0dc9b12feb" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-989b8979718b" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1598,24 +1563,6 @@
         <infoLink id="rl36-2cf28c9a9c68" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-50a3f55deade" name="3x Reaper Sniper Rifles" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-faa4d4384223" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-fa68d9cace6b" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-fff379cf49f5" name="3x Reaper Sniper Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Takedown</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-11cff8dab15b" name="3x Strikes" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-afa29c051de8" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -1635,12 +1582,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-253b7f5e1487" name="Replace all Reaper Sniper Rifles" hidden="false">
+        <selectionEntryGroup id="rl36-253b7f5e1487" name="Replace all Reaper Sniper Rifles" hidden="false" defaultSelectionEntryId="rl36-base-5664c69-f5e1487" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-04582ada6dbb" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-04582ada6dbb" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-2d547d40de77" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-5664c69-f5e1487" name="Keep 3x Reaper Sniper Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-fff379cf49f5" name="3x Reaper Sniper Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Takedown</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-b46a72d43026" name="Spark-Sniper Carbine (18&quot;, A1, Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-ab6c4d7b024c" name="Spark-Sniper Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1657,7 +1618,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-c04f7762c72c" name="Upgrade all models with" hidden="false">
+        <selectionEntryGroup id="rl36-c04f7762c72c" name="Upgrade all models with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-e654fc5a6c67" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-cea957f3daf8" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1695,31 +1656,27 @@
         <infoLink id="rl36-064385924994" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-9f510eee742b" name="3x Bot Claws" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-9f8d8b70e795" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-01e0593d18db" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-aa59232f2209" name="3x Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false">
+        <selectionEntryGroup id="rl36-c631c8714daa" name="Replace all Bot Claws" hidden="false" defaultSelectionEntryId="rl36-base-11480a3-8714daa" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-28493fd106f4" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-28493fd106f4" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-a89cdb1d8422" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-11480a3-8714daa" name="Keep 3x Bot Claws" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-aa59232f2209" name="3x Bot Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-e027f4afacde" name="Atomizer Beams (9&quot;, A4, Rending), Claws (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-bdd94757a5b0" name="Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1764,24 +1721,6 @@
         <infoLink id="rl36-255aed7a3f71" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-e8f3db88d927" name="3x Burst Ion Rifles" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-590c6bbff6e1" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-5a9a458d517c" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-0bfd06a4785f" name="3x Burst Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-58d64d4dcc44" name="3x Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-bf70abe88fe3" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -1801,12 +1740,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-62b3d99d1fed" name="Replace all Burst Ion Rifles" hidden="false">
+        <selectionEntryGroup id="rl36-62b3d99d1fed" name="Replace all Burst Ion Rifles" hidden="false" defaultSelectionEntryId="rl36-base-782320e-99d1fed" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-3e64b2dde455" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-3e64b2dde455" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-796cafe5380d" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-782320e-99d1fed" name="Keep 3x Burst Ion Rifles" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-0bfd06a4785f" name="3x Burst Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-27f97c97a09c" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-9be4346eebbe" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1826,7 +1779,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-93c53d4d5a11" name="Upgrade all models with" hidden="false">
+        <selectionEntryGroup id="rl36-93c53d4d5a11" name="Upgrade all models with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-9060ceba6900" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-b0bb1a9171cc" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1880,7 +1833,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-41093bfeee33" name="Replace any Dual Ion Blades" hidden="false">
+        <selectionEntryGroup id="rl36-41093bfeee33" name="Replace any Dual Ion Blades" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-e3340e9f255b" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-4a3a6041427a" type="max" value="3" field="selections" scope="parent" shared="false" />
@@ -1922,7 +1875,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-5662c3a8e60d" name="Replace one Dual Ion Blades" hidden="false">
+        <selectionEntryGroup id="rl36-5662c3a8e60d" name="Replace one Dual Ion Blades" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-2db9c598ce7f" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-7f1cb3a366b0" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1943,7 +1896,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-c92a0981dfac" name="Upgrade all models with any" hidden="false">
+        <selectionEntryGroup id="rl36-c92a0981dfac" name="Upgrade all models with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-59dfa737863d" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-c20602a5e6d6" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -1992,24 +1945,6 @@
       </infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
       <selectionEntries>
-        <selectionEntry id="rl36-c0ff7d217973" name="3x Radium Cannons" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-cce3d8854837" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-03e74c707aa0" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-f54e41f9c928" name="3x Radium Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-1be697f2baa1" name="3x Strikes" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-79670521b855" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -2029,12 +1964,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-284e47ddb93c" name="Replace all Radium Cannons" hidden="false">
+        <selectionEntryGroup id="rl36-284e47ddb93c" name="Replace all Radium Cannons" hidden="false" defaultSelectionEntryId="rl36-base-4b551c8-7ddb93c" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-9c15976c35d9" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-9c15976c35d9" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-b6bc3e2c50fb" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-4b551c8-7ddb93c" name="Keep 3x Radium Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-f54e41f9c928" name="3x Radium Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-354a133c16b6" name="Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-263999127955" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -2068,7 +2017,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-c7f888395fd9" name="Replace all Rapid Skimmer Modules" hidden="false">
+        <selectionEntryGroup id="rl36-c7f888395fd9" name="Replace all Rapid Skimmer Modules" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-cfeb2e44bbdb" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-a88b59011fa9" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2103,31 +2052,27 @@
         <infoLink id="rl36-f888c881167e" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-be9a767a29e8" name="3x Dual Uranium Daggers" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-c48d062da99f" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-a7451e3a9893" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-ed99f10dc2e7" name="3x Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-08667a55aa61" name="Replace all Dual Uranium Daggers" hidden="false">
+        <selectionEntryGroup id="rl36-08667a55aa61" name="Replace all Dual Uranium Daggers" hidden="false" defaultSelectionEntryId="rl36-base-08aeb24-a55aa61" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-de595e0f9fa8" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-de595e0f9fa8" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-9ae8c54410af" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-08aeb24-a55aa61" name="Keep 3x Dual Uranium Daggers" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-ed99f10dc2e7" name="3x Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-0365403b6336" name="Fusion Ray (18&quot;, A1, AP(4), Deadly(3)), Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-8adf92950d50" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -2147,10 +2092,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36-16ff6ae30400" name="Replace one Fusion Ray" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36-33ab29e6c2e4" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36-77f3f95def53" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36-be8acd760072" name="Radium Ray (18&quot;, A4, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36-d30962e14a04" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Unstoppable</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36-c7e058f09176" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36-3c80bc5592cb" name="Heavy Fusion Ray (18&quot;, A1, AP(4), Deadly(6), Anti-Regen)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36-03072f19d0ac" name="Heavy Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(6), Anti-Regen</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36-0388e8aaead4" name="Heavy Photon Cannon (36&quot;, A6, AP(1), Anti-Cover, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36-1ca8afd3e059" name="Heavy Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">36"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Anti-Cover, Shatter</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36-406b07c121df" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="75" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-0c139fb070b5" name="Replace any Dual Uranium Daggers" hidden="false">
+        <selectionEntryGroup id="rl36-0c139fb070b5" name="Replace any Dual Uranium Daggers" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-842c77ed94dc" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-052adb0e4584" type="max" value="3" field="selections" scope="parent" shared="false" />
@@ -2209,7 +2212,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-859b693c3669" name="Replace any Fusion Ray" hidden="false">
+        <selectionEntryGroup id="rl36-859b693c3669" name="Replace any Fusion Ray" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-e9b41eb228a8" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-8f90d96417dc" type="max" value="3" field="selections" scope="parent" shared="false" />
@@ -2238,63 +2241,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-16ff6ae30400" name="Replace one Fusion Ray" hidden="false">
-          <constraints>
-            <constraint id="rl36-33ab29e6c2e4" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-77f3f95def53" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-be8acd760072" name="Radium Ray (18&quot;, A4, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-d30962e14a04" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Unstoppable</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="rl36-c7e058f09176" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-3c80bc5592cb" name="Heavy Fusion Ray (18&quot;, A1, AP(4), Deadly(6), Anti-Regen)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-03072f19d0ac" name="Heavy Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(6), Anti-Regen</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-0388e8aaead4" name="Heavy Photon Cannon (36&quot;, A6, AP(1), Anti-Cover, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-1ca8afd3e059" name="Heavy Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">36"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Anti-Cover, Shatter</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="rl36-406b07c121df" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="75" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-8db07796b1b4" name="Upgrade all models with" hidden="false">
+        <selectionEntryGroup id="rl36-8db07796b1b4" name="Upgrade all models with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-12d396906c70" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-9ac8e56b49b1" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2329,31 +2276,27 @@
         <infoLink id="rl36-a46de3c7cc99" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-1d6543377a5d" name="3x Metal Fangs" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-42829f655849" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-8881c82f5366" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-de8eb6adc091" name="3x Metal Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-3d9e55cbdff1" name="Replace all Metal Fangs" hidden="false">
+        <selectionEntryGroup id="rl36-3d9e55cbdff1" name="Replace all Metal Fangs" hidden="false" defaultSelectionEntryId="rl36-base-7012a6c-5cbdff1" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-9ba6dc46c068" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-9ba6dc46c068" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-0fbcd0615e26" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-7012a6c-5cbdff1" name="Keep 3x Metal Fangs" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-de8eb6adc091" name="3x Metal Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-954bd3fa4d2f" name="Transonic Scourges (A3, AP(1), Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-bf5406321456" name="Transonic Scourges" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -2465,7 +2408,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-d6dca972b558" name="Replace any Dual Uranium Daggers" hidden="false">
+        <selectionEntryGroup id="rl36-d6dca972b558" name="Replace any Dual Uranium Daggers" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-c6f1e08dfbf3" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-e2d15c358849" type="max" value="3" field="selections" scope="parent" shared="false" />
@@ -2507,7 +2450,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-72df6d27a8bc" name="Replace one Dual Uranium Daggers" hidden="false">
+        <selectionEntryGroup id="rl36-72df6d27a8bc" name="Replace one Dual Uranium Daggers" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-aadcafd417ca" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-15bfcdf74b44" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2528,7 +2471,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-4b94ec5f39b2" name="Upgrade all models with" hidden="false">
+        <selectionEntryGroup id="rl36-4b94ec5f39b2" name="Upgrade all models with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-d30aec9244fc" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-b31a89c502c8" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2563,49 +2506,36 @@
         <infoLink id="rl36-fdc6802d1075" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-2df476ef98e2" name="Radium Cannon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-944954db8ce3" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-cfc28d8b9632" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-a5bb0e974bfb" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-92000831c52c" name="Spider Fangs" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-05479f2cb8d4" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-8ca8906ecc71" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-d66f340997c8" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-e98613fad277" name="Replace Radium Cannon and Spider Fangs" hidden="false">
+        <selectionEntryGroup id="rl36-e98613fad277" name="Replace Radium Cannon and Spider Fangs" hidden="false" defaultSelectionEntryId="rl36-base-a18127e-3fad277" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-8dfbd9c3e43a" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-8dfbd9c3e43a" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-bb4d8b423f5d" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-a18127e-3fad277" name="Keep Radium Cannon + Spider Fangs" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-a5bb0e974bfb" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <profiles>
+                <profile id="rl36-d66f340997c8" name="Spider Fangs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Bane</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-9ba0c23faf2c" name="Assault Radium Cannon (12&quot;, A1, Blast(3), Assault), Great" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-bcc02393068d" name="Assault Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -2622,7 +2552,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-980edb2ef0e0" name="Upgrade with any" hidden="false">
+        <selectionEntryGroup id="rl36-980edb2ef0e0" name="Upgrade with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-92d50d28b2d6" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-837a720cfcbc" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2699,24 +2629,6 @@
         <infoLink id="rl36-cd4fa37fc985" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-bfa9a87f2b84" name="Heavy Spark-Pulse Caster" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-e50a4a8ef46a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-7d91239d2639" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-69a28c4a906d" name="Heavy Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-e1f4d0129c92" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-a8e58ee8b70e" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -2736,12 +2648,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-aab8e0b0c6c3" name="Replace Heavy Spark-Pulse Caster" hidden="false">
+        <selectionEntryGroup id="rl36-aab8e0b0c6c3" name="Replace Heavy Spark-Pulse Caster" hidden="false" defaultSelectionEntryId="rl36-base-7b7130c-0b0c6c3" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-434299785e05" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-434299785e05" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-5963adfdb792" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-7b7130c-0b0c6c3" name="Keep Heavy Spark-Pulse Caster" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-69a28c4a906d" name="Heavy Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3), Reliable</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-2c0eefe4ef42" name="Uranium Blaster (18&quot;, A2, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-f7882014df5b" name="Uranium Blaster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -2775,7 +2701,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-a9c2503d5dbb" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-a9c2503d5dbb" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-543ec94af560" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-0c115335f220" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2809,7 +2735,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-2c44205f928a" name="Upgrade with any" hidden="false">
+        <selectionEntryGroup id="rl36-2c44205f928a" name="Upgrade with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-122cafc0eac7" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-6a30c443828c" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2874,27 +2800,6 @@
         <infoLink id="rl36-2e82ab0001f0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-abe3c3b4a57a" name="Burst Photon Gun" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-e77729ae0d1a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-53c310f271ea" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-1745a17c8869" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-6f163e83fdfb" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-360a26bf382a" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-eefd369003df" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -2914,12 +2819,29 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-0bca05a87e8f" name="Replace Burst Photon Gun" hidden="false">
+        <selectionEntryGroup id="rl36-0bca05a87e8f" name="Replace Burst Photon Gun" hidden="false" defaultSelectionEntryId="rl36-base-bf22a70-5a87e8f" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-0a2a9f8233ad" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-0a2a9f8233ad" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-0b8e905de7a5" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-bf22a70-5a87e8f" name="Keep Burst Photon Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-1745a17c8869" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36-6f163e83fdfb" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-792e98bf196d" name="Photon Gun Array (18&quot;, A6, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-5e8307f48c4c" name="Photon Gun Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -2939,7 +2861,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-f48d501fb63e" name="Upgrade with any" hidden="false">
+        <selectionEntryGroup id="rl36-f48d501fb63e" name="Upgrade with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-d87282604d3d" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-13a606e03fdf" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2992,24 +2914,6 @@
         <infoLink id="rl36-3ebfbc17b29b" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-f2d74a8e7939" name="Plasma Ray Cannon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-92f9dda6049a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-8dc96d815a51" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-b3eb72a7fd43" name="Plasma Ray Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-803462927571" name="Strike" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-408d991779d9" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3029,12 +2933,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-c43b984a4771" name="Replace Plasma Ray Cannon" hidden="false">
+        <selectionEntryGroup id="rl36-c43b984a4771" name="Replace Plasma Ray Cannon" hidden="false" defaultSelectionEntryId="rl36-base-2d306a6-84a4771" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-6eb48c6b5f18" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-6eb48c6b5f18" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-396eef783636" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-2d306a6-84a4771" name="Keep Plasma Ray Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-b3eb72a7fd43" name="Plasma Ray Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-ab99f16eb481" name="Radium Ray Cannon (30&quot;, A4, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-53b704f95429" name="Radium Ray Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3085,7 +3003,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-4af762c1f3b6" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-4af762c1f3b6" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-7579a36267c2" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-f219d44e015f" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3129,32 +3047,28 @@
         <infoLink id="rl36-4af3900a6209" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-c33350cd7ff5" name="Hunting Reaper Pistols" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-cd7ed47ec947" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-6e793a660f2f" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-d84bcae7cbc6" name="Hunting Reaper Pistols" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Assault, Takedown</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-3988378f19e8" name="Replace Hunting Reaper Pistols" hidden="false">
+        <selectionEntryGroup id="rl36-3988378f19e8" name="Replace Hunting Reaper Pistols" hidden="false" defaultSelectionEntryId="rl36-base-a3561fd-78f19e8" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-94109123dee5" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-94109123dee5" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-5df830cc4247" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-a3561fd-78f19e8" name="Keep Hunting Reaper Pistols" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-d84bcae7cbc6" name="Hunting Reaper Pistols" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Reliable, Assault, Takedown</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-add746ee3aa2" name="Dueling Reaper Pistols (9&quot;, A6, Reliable, Assault, Takedown)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-f96ddafbd07f" name="Dueling Reaper Pistols" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3199,7 +3113,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-4ed05f3cbbe5" name="Upgrade with" hidden="false">
+        <selectionEntryGroup id="rl36-4ed05f3cbbe5" name="Upgrade with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-0f62bcebc491" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-57698c60c76c" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3237,24 +3151,6 @@
         <infoLink id="rl36-2a2e0648a64c" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-b75666886ad5" name="Uranium Blaster Cannon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-bba95b92c1e6" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-f30896ad6e88" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-7195cbdbadaa" name="Uranium Blaster Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-07008a694f89" name="Photon Gun Array" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-743cb719e81a" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3295,12 +3191,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-4064e3eeb307" name="Replace Uranium Blaster Cannon" hidden="false">
+        <selectionEntryGroup id="rl36-4064e3eeb307" name="Replace Uranium Blaster Cannon" hidden="false" defaultSelectionEntryId="rl36-base-e4f0d69-3eeb307" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-15810e5bc5f8" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-15810e5bc5f8" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-e49b59178bf6" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-e4f0d69-3eeb307" name="Keep Uranium Blaster Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-7195cbdbadaa" name="Uranium Blaster Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-66841d81dfa1" name="Fusion Pulse Cannon (30&quot;, A3, AP(3), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-6c77dc19af84" name="Fusion Pulse Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3339,24 +3249,6 @@
         <infoLink id="rl36-a3decaafa0ed" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-8f329cd7ec72" name="Linked Heavy Fusion Ray" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-44861d846f61" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-2a66e97cf9d9" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-7dec91916c80" name="Linked Heavy Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(6), Anti-Regen</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-ac619141451b" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-ab38c6864104" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3376,12 +3268,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-3e32beebdaa2" name="Replace Linked Heavy Fusion Ray" hidden="false">
+        <selectionEntryGroup id="rl36-3e32beebdaa2" name="Replace Linked Heavy Fusion Ray" hidden="false" defaultSelectionEntryId="rl36-base-2f3ee39-eebdaa2" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-c8fa9c325e19" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-c8fa9c325e19" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-9296b26866b0" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-2f3ee39-eebdaa2" name="Keep Linked Heavy Fusion Ray" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-7dec91916c80" name="Linked Heavy Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(6), Anti-Regen</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-28ec41a679cc" name="Linked Heavy Plasma Ray Cannon (30&quot;, A2, AP(3), Blast(6))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-5efadd30862c" name="Linked Heavy Plasma Ray Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3474,31 +3380,27 @@
             <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="rl36-f84d9d91dedd" name="Wraith Staff" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-07d933f4ca0a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-e0d61ca76241" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-3118a00209a8" name="Wraith Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-4a6e0f054c20" name="Replace Wraith Staff" hidden="false">
+        <selectionEntryGroup id="rl36-4a6e0f054c20" name="Replace Wraith Staff" hidden="false" defaultSelectionEntryId="rl36-base-3252ad6-f054c20" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-24268917f7e3" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-24268917f7e3" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ae0cfe6a4eed" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-3252ad6-f054c20" name="Keep Wraith Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-3118a00209a8" name="Wraith Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-6e10d0ae6639" name="Wraith Strike (A8, Rending)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-3f7a5fdcfbe1" name="Wraith Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -3514,7 +3416,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-e9069b4e7cbf" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-e9069b4e7cbf" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-fde5ae28f5ac" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-f2f5db222ef5" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3572,45 +3474,6 @@
         <infoLink id="rl36-ccb522e71ab0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-b5b0273ec0ce" name="Heavy Transonic Cannon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-ada35d8d717d" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-1e790b57b55b" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-c42438d2fb2f" name="Heavy Transonic Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A9</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-a5af90ca127b" name="Radium Ray" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-2f31452af53a" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-da610f8c445c" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-5a81acceabac" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Unstoppable</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="rl36-bfda261e94f4" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
-          </infoLinks>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-8adfbf7b055c" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-10ad9be5d9db" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3630,12 +3493,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-0b7e3e8d8c50" name="Replace Heavy Transonic Cannon" hidden="false">
+        <selectionEntryGroup id="rl36-0b7e3e8d8c50" name="Replace Heavy Transonic Cannon" hidden="false" defaultSelectionEntryId="rl36-base-09209cd-e8d8c50" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-39298a1a4d21" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-39298a1a4d21" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-afff0397f286" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-09209cd-e8d8c50" name="Keep Heavy Transonic Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-c42438d2fb2f" name="Heavy Transonic Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A9</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-9b634b49220e" name="Overseer Pilot (Burst Photon Gun (18&quot;, A9, AP(1), Shatter), Swift Buff)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-b09dfa40a3f8" name="Overseer Pilot" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -3680,12 +3557,29 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-bde9fa3eeddf" name="Replace Radium Ray" hidden="false">
+        <selectionEntryGroup id="rl36-bde9fa3eeddf" name="Replace Radium Ray" hidden="false" defaultSelectionEntryId="rl36-base-09209cd-a3eeddf" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-5b157142e166" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-5b157142e166" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-20100ddca36e" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-09209cd-a3eeddf" name="Keep Radium Ray" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-5a81acceabac" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Unstoppable</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="rl36-bfda261e94f4" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-0bd36ac32104" name="Transonic Cannon (30&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-fc8f8c5dc7d6" name="Transonic Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3719,7 +3613,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-a9c27bb10139" name="Upgrade with any" hidden="false">
+        <selectionEntryGroup id="rl36-a9c27bb10139" name="Upgrade with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-9d655de1db3a" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-29e6c63f7a42" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3781,24 +3675,6 @@
         <infoLink id="rl36-b8b0d9348ec4" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-eaec74676810" name="Monolith Blast" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-98a79eca50bd" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-6e742a4ce399" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-c8a692713819" name="Monolith Blast" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Assault</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-b234241b0d21" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-8291a00656d6" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3816,31 +3692,28 @@
             <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="rl36-d8bd5bc38de8" name="Technomancer Staff" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-0ec27354ae32" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-83df81ec4722" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-ff72cd4db6d7" name="Technomancer Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-c42e77ebcd2f" name="Replace Monolith Blast" hidden="false">
+        <selectionEntryGroup id="rl36-c42e77ebcd2f" name="Replace Monolith Blast" hidden="false" defaultSelectionEntryId="rl36-base-3b21b02-7ebcd2f" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-c8925ec5f233" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-c8925ec5f233" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-71d35dabde4f" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-3b21b02-7ebcd2f" name="Keep Monolith Blast" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-c8a692713819" name="Monolith Blast" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Assault</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-cb843a0f6a0b" name="Monolith Beam (9&quot;, A2, AP(2), Deadly(3), Assault)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-a6497f52d4b0" name="Monolith Beam" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3857,12 +3730,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-7f7f09a66a43" name="Replace Technomancer Staff" hidden="false">
+        <selectionEntryGroup id="rl36-7f7f09a66a43" name="Replace Technomancer Staff" hidden="false" defaultSelectionEntryId="rl36-base-3b21b02-9a66a43" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-ae3151ae7268" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-ae3151ae7268" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-c70bc8a6be3d" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-3b21b02-9a66a43" name="Keep Technomancer Staff" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-ff72cd4db6d7" name="Technomancer Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A4</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Spell Amplifier</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-2d96afa87349" name="Crushing Legs (A6, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-406c9f797516" name="Crushing Legs" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -3878,7 +3764,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-9fa7a42919a0" name="Upgrade with up to two" hidden="false">
+        <selectionEntryGroup id="rl36-9fa7a42919a0" name="Upgrade with up to two" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-fb35e84ebf7d" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-e99cf066ea30" type="max" value="2" field="selections" scope="parent" shared="false" />
@@ -3920,42 +3806,6 @@
         <infoLink id="rl36-8c2fe6c1cff8" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-543d7282d8d9" name="Heavy Radium Pulse Cannon" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-7209475a27df" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-8c77750b8d5c" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-d4cccbcbfffc" name="Heavy Radium Pulse Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(6)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-6310d5dbbc68" name="Transonic Turret-Array" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-9b84ae1b4e2c" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-14729070b916" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-4fdec867d562" name="Transonic Turret-Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-aa35cf8b996c" name="Overrun" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-ec0638dd6bb7" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -3975,12 +3825,26 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-a48cc5564396" name="Replace Heavy Radium Pulse Cannon" hidden="false">
+        <selectionEntryGroup id="rl36-a48cc5564396" name="Replace Heavy Radium Pulse Cannon" hidden="false" defaultSelectionEntryId="rl36-base-2ac5062-5564396" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-f193a8da25fa" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-f193a8da25fa" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ef1a184944e3" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-2ac5062-5564396" name="Keep Heavy Radium Pulse Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-d4cccbcbfffc" name="Heavy Radium Pulse Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Blast(6)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-050128165d05" name="Heavy Fusion Pulse Cannon (30&quot;, A2, AP(4), Deadly(6))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-302ced04a074" name="Heavy Fusion Pulse Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -3997,12 +3861,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-d5ba4d0f8ada" name="Replace Transonic Turret-Array" hidden="false">
+        <selectionEntryGroup id="rl36-d5ba4d0f8ada" name="Replace Transonic Turret-Array" hidden="false" defaultSelectionEntryId="rl36-base-2ac5062-d0f8ada" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-8f9f90b942f3" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-8f9f90b942f3" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-54b414c02d2c" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-2ac5062-d0f8ada" name="Keep Transonic Turret-Array" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-4fdec867d562" name="Transonic Turret-Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-6e6984d4a5f1" name="Photon Turret-Array (18&quot;, A6, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-c2abe52c8ec9" name="Photon Turret-Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -4022,7 +3900,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-9954ffad8ec5" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-9954ffad8ec5" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-eabd0f584285" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-8f2378739772" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -4099,23 +3977,6 @@
             <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
           </costs>
         </selectionEntry>
-        <selectionEntry id="rl36-2c9a94982545" name="Great Wraith Strike" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-645b4640faf8" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-289e45362e9c" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-63c68af8ecdd" name="Great Wraith Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-              <characteristics>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
         <selectionEntry id="rl36-4dc37870ecfd" name="Stomp" hidden="false" type="upgrade" collective="false" import="true">
           <constraints>
             <constraint id="rl36-f7e4ef18645b" type="min" value="1" field="selections" scope="parent" shared="false" />
@@ -4135,12 +3996,25 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-fe2043ca575e" name="Replace Great Wraith Strike" hidden="false">
+        <selectionEntryGroup id="rl36-fe2043ca575e" name="Replace Great Wraith Strike" hidden="false" defaultSelectionEntryId="rl36-base-c189db7-3ca575e" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-cc34f0b4dcbd" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-cc34f0b4dcbd" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-b89505f6eb0b" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-c189db7-3ca575e" name="Keep Great Wraith Strike" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-63c68af8ecdd" name="Great Wraith Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-ab47bf7ecc21" name="Wraith Staff (A4, Spell Amplifier)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-2bbdc16370e2" name="Wraith Staff" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -4156,7 +4030,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-fcaba5622d23" name="Upgrade with one" hidden="false">
+        <selectionEntryGroup id="rl36-fcaba5622d23" name="Upgrade with one" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-b0a4a6eb7b52" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-222a9daac049" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -4192,7 +4066,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-39daf6f77c3e" name="Replace Wraith Seer" hidden="false">
+        <selectionEntryGroup id="rl36-39daf6f77c3e" name="Replace Wraith Seer" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-fa13ffeafcd8" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-e130b677779f" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -4235,50 +4109,28 @@
         <infoLink id="rl36-748378c64fb9" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-2592b20ff562" name="Strafing Transonic Cannons" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-883b95c703f9" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-1434072c3b98" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-602720ccee87" name="Strafing Transonic Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-4bd316407fd4" name="Strafing Uranium Blaster" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-baafce559e46" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-5912f7450ffd" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-9236307638f2" name="Strafing Uranium Blaster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-f76946dd9663" name="Replace Strafing Uranium Blaster" hidden="false">
+        <selectionEntryGroup id="rl36-f76946dd9663" name="Replace Strafing Uranium Blaster" hidden="false" defaultSelectionEntryId="rl36-base-8901f97-6dd9663" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-e9d067d633f0" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-e9d067d633f0" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-4b89a1a5dcec" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-8901f97-6dd9663" name="Keep Strafing Uranium Blaster" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-9236307638f2" name="Strafing Uranium Blaster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Blast(3)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-71bf14c937d9" name="Strafing Radium Ray Cannon (15&quot;, A4, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-92896fd28d31" name="Strafing Radium Ray Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -4298,12 +4150,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-dfb58b3c4a45" name="Replace Strafing Transonic Cannons" hidden="false">
+        <selectionEntryGroup id="rl36-dfb58b3c4a45" name="Replace Strafing Transonic Cannons" hidden="false" defaultSelectionEntryId="rl36-base-8901f97-b3c4a45" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-3492bd12829f" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-3492bd12829f" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-1983baa02a6c" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-8901f97-b3c4a45" name="Keep Strafing Transonic Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-602720ccee87" name="Strafing Transonic Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-57d55de31300" name="Strafing Photon Cannons (15&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-b16b62d3163b" name="Strafing Photon Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -4345,50 +4211,28 @@
         <infoLink id="rl36-296706ddd21d" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="rl36-0db75cd0849e" name="Strafing Transonic Cannons" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-f5f5497f6ce2" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-5bc66e8026bc" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-46c5c72ac574" name="Strafing Transonic Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="rl36-81ced7110afb" name="Strafing Ion Rifle Array" hidden="false" type="upgrade" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-eafba221c8b2" type="min" value="1" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-1776babe1e05" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <profiles>
-            <profile id="rl36-5e1c62b6b0b8" name="Strafing Ion Rifle Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+        </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-ad2733aeb6f5" name="Replace Strafing Ion Rifle Array" hidden="false">
+        <selectionEntryGroup id="rl36-ad2733aeb6f5" name="Replace Strafing Ion Rifle Array" hidden="false" defaultSelectionEntryId="rl36-base-4b6c61b-3aeb6f5" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-8947d48ec4cf" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-8947d48ec4cf" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-30d74692493d" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-4b6c61b-3aeb6f5" name="Keep Strafing Ion Rifle Array" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-5e1c62b6b0b8" name="Strafing Ion Rifle Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-b25540aa8210" name="Strafing Photon Gun Array (9&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-75203787bdd7" name="Strafing Photon Gun Array" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -4413,12 +4257,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-5773524054ef" name="Replace Strafing Transonic Cannons" hidden="false">
+        <selectionEntryGroup id="rl36-5773524054ef" name="Replace Strafing Transonic Cannons" hidden="false" defaultSelectionEntryId="rl36-base-4b6c61b-24054ef" collective="false" import="true">
           <constraints>
-            <constraint id="rl36-0510914b3112" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-0510914b3112" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-826878e493a0" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
+            <selectionEntry id="rl36-base-4b6c61b-24054ef" name="Keep Strafing Transonic Cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="rl36-46c5c72ac574" name="Strafing Transonic Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">15"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
+              </costs>
+            </selectionEntry>
             <selectionEntry id="rl36-387c90ac7396" name="Strafing Photon Cannons (15&quot;, A6, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
                 <profile id="rl36-c191af72861a" name="Strafing Photon Cannons" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -4482,7 +4340,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-3f227b37c5c2" name="Replace Mission Critical" hidden="false">
+        <selectionEntryGroup id="rl36-3f227b37c5c2" name="Replace Mission Critical" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-fab5b28eec8e" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-b136e710a3ae" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -4561,7 +4419,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-a7f59fe42794" name="Replace Paradox Shielding Device" hidden="false">
+        <selectionEntryGroup id="rl36-a7f59fe42794" name="Replace Paradox Shielding Device" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-ed009e4a866c" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-ab4a396d5f16" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -4630,7 +4488,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-f958dc5c785c" name="Replace Optimized Optics" hidden="false">
+        <selectionEntryGroup id="rl36-f958dc5c785c" name="Replace Optimized Optics" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-b6eea1161036" type="min" value="0" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-aeda1b1a6f66" type="max" value="1" field="selections" scope="parent" shared="false" />
