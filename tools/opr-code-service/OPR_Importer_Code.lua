@@ -158,7 +158,9 @@ function assign(o,player,alt)
     obj.setDescription(tostring(entry.model.ttsDescriptionOutput or ""))
     if entry.unitId~="" then obj.addTag("OPR_"..entry.unitId:gsub("[^%w_]","_")) end
     local tough=tonumber(entry.model.originalToughValue) or 0
-    if tough>1 then
+    -- A model without Tough(X) still has one wound: display 1/1.
+    if tough<1 then tough=1 end
+    if tough>=1 then
       -- Preserve any existing TTS/ForceOrg model script, avoiding destructive overwrites.
       local existing=obj.getLuaScript() or ""
       if existing:gsub("%s+","") == "" then
