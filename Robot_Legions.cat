@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -473,6 +473,66 @@
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="rl36p-1f85bde9c39c" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-5e02ce9005cf" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-49f20555b4cd" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-dd8469529557" name="Uranium Dagger (A2, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-84f034b81f51" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-156cdac8c664" name="Atomizer Sword (A6, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-a5325937470d" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-e46b78f93e97" name="Legion Glaive (A6, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-7ac5a1c6ae51" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-ffd7c7767364" name="Great Doom Scythe (A2, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-3260a1a63f98" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-2cf1f48eee18" name="Dual Atomizer Swords (A8, Rending)" hidden="false" type="upgrade" collective="false" import="true">
@@ -524,6 +584,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-5f15fa649c73" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-80460bd5d292" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-f3d5b6aeb374" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-22224b566099" name="Uranium Dagger (A2, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-5bd19d4bd960" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-76a9179d7c50" name="Atomizer Sword (A6, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-b004a87a3913" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-a3b96be3ae5b" name="Legion Glaive (A6, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-2630a7a6a35f" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-e461b0e1f49d" name="Great Doom Scythe (A2, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-5a56659e8e1d" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-1aee7a53976e" name="Heavy Photon Cannon (36&quot;, A6, AP(1), Anti-Cover, Shatter), Hand Weapon (A2)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -547,66 +669,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="80" />
               </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-fc64470029b1" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-9c5252e1d58f" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-57ccda64c29e" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-75c1b8bcbeb0" name="Uranium Dagger (A2, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-72bfa003db69" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-eb57d4bd979e" name="Atomizer Sword (A6, Rending)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-abc1740e90c1" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-dffe06c3d10a" name="Legion Glaive (A6, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-f4e8480a4076" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-6c377a9bee92" name="Great Doom Scythe (A2, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-ba6da5b92e77" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
-              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-0f1c0bcd7534" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-ffa28ac35437" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-eaa3141f64e2" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-6bb4d60402a1" name="Uranium Dagger (A2, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-58e0ad19c510" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-17cc18cd4724" name="Atomizer Sword (A6, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-d93442b4ed16" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-805fbcdaae11" name="Legion Glaive (A6, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-c8acf5de1829" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-9fef201cf872" name="Great Doom Scythe (A2, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-e09d56ac90a4" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -744,6 +868,112 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-0f37931fae03" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-8fb0903229d9" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-929aa32df2bb" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-02f12fd6d511" name="Uranium Dagger (A1, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-1978e01aad6a" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-a6f5805528fe" name="Atomizer Sword (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-dfc0b0c11d82" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-9a5814b57650" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-4cd431a75778" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-9451f583a3aa" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-82356ea49547" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="rl36p-327aaff1c1d1" name="Replace Wrist-Spark" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-f68218d777ca" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-e2d24a0a8914" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-e17fc28e3f14" name="Combat Shield (Armor(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-117f319fa523" name="Photon Pistol (9&quot;, A1, AP(1), Assault, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-c6223bb81112" name="Photon Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36p-4e3d57e9672b" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-fee110d52111" name="Wrist-Plasma (12&quot;, A1, AP(2), Assault)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-9d5c78d31c8e" name="Wrist-Plasma" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Assault</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-0a06d06666aa" name="Burst Ion Rifle (18&quot;, A3, Shred), Hand Weapon (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -764,6 +994,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-bbd24745bc11" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-36a88c5bf59e" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-3edd0575ec98" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-c6bbcf1318f6" name="Uranium Dagger (A1, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-913d084c5294" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-629430c7a07b" name="Atomizer Sword (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-2bf178a915f2" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-975ef6abe646" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-010864228c9f" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-38688f31c6a4" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-fd24a1c5d884" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-090dfa340707" name="Burst Photon Rifle (24&quot;, A3, Shatter), Hand Weapon (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -787,6 +1079,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-a937f7ddc7e5" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-19e1c02bd900" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-9e03d7ad9278" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-bbd397c6863b" name="Uranium Dagger (A1, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-517e22b7dcfb" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-44cbf3eefc30" name="Atomizer Sword (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-abbe2552f418" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-ee6733e47af3" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-ff56ad7e5514" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-1bd89c25f106" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-48e9e3fb91c1" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-e08cc0f84975" name="Technomancer Staff (A2, Spell Amplifier)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -823,6 +1177,68 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36p-2d4f1764e25b" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36p-7bd98365c9a8" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-1fd0a63ff3b3" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36p-553b7688372b" name="Uranium Dagger (A1, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-ddc321edf81b" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-c70424a7a3dd" name="Atomizer Sword (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-b9a916528434" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-7a9712dcd0ce" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-2438deb01ce3" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36p-62adb9d74bae" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36p-e5e1e712cbe8" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                          <characteristics>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-b41436b38872" name="Power Staff (9&quot;, A4, Assault, Bane)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -831,110 +1247,6 @@
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Assault, Bane</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-95b30bfb1826" name="Replace Wrist-Spark" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-283e13d29036" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-690a53d4f5f7" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-9dc5900eb8db" name="Combat Shield (Armor(2))" hidden="false" type="upgrade" collective="false" import="true">
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-b8bf96d03da6" name="Photon Pistol (9&quot;, A1, AP(1), Assault, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-d2eb5d31effb" name="Photon Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Assault, Shatter</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="rl36-96989dd17bb4" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-dd73f815444e" name="Wrist-Plasma (12&quot;, A1, AP(2), Assault)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-33a1fff8a413" name="Wrist-Plasma" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2), Assault</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-991b02c2e3a7" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-107774ee928e" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-ca1fb497acec" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-e8ebcd74af59" name="Uranium Dagger (A1, AP(1), Blast(3))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-4001da66afd4" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-6a7943a4c630" name="Atomizer Sword (A3, Rending)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-1eb1f3084de8" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-8c48db4a86da" name="Legion Glaive (A3, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-414885e17cf2" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-93ed2a7dd292" name="Great Doom Scythe (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-edd78b3eb537" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -996,6 +1308,47 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
               </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36bike-25e42f0e010" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36bike-a9788151add" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36bike-d3f52b53198" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36bike-891f229d7f4" name="Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36bike-c09becc1461" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36bike-2d101743cc6" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36bike-0bfadb0acbe" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36bike-9c10bf125f8" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-7d2c1d45ad13" name="Skimmer Bike (Radium Cannon (24&quot;, A1, Blast(3)), Scout, Strider, Swift, Tough(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
@@ -1019,45 +1372,47 @@
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
               </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-628e6b3e3a62" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-0b5fac69ea49" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-51dd1bebcef7" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-713b83400d27" name="Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-af130ed68536" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="rl36-cb347124c007" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-5a1f8935d149" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="rl36-c03f3dbd57cd" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
-              </infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
-              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36bike-5e33e5d281b" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint id="rl36bike-ed88af61466" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36bike-91763fca6a8" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="rl36bike-742f20b0b6f" name="Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36bike-27f6a9833fd" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Anti-Cover, Surge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="rl36bike-60cd83bc6fe" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+                      <profiles>
+                        <profile id="rl36bike-b80e71e9b5b" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                            <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
+                            <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="rl36bike-9f39dd17284" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1230,9 +1585,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-fd1c8adccab5" name="Photon Gun (18&quot;, A1, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-fd1c8adccab5" name="5x Photon Gun (18&quot;, A1, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-8df10f7a32ef" name="Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-8df10f7a32ef" name="5x Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1247,17 +1602,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-cf049af6670c" name="Replace one Ion Rifle" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-107c0ec6ea96" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-67bf019bc126" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-2ba5e1dc08cc" name="Spark-Pulse Caster (12&quot;, A1, Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-2c031a6adcdb" name="4x Ion Rifles + 1x Spark-Pulse Caster (12&quot;, A1, Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-0e797ececce3" name="Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-01e327103fd3" name="4x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-82ca576a8815" name="5x Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1269,9 +1623,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-460f2e196d76" name="Plasma Caster (24&quot;, A2, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-37313a585c2c" name="4x Ion Rifles + 1x Plasma Caster (24&quot;, A2, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-cdfac72a1555" name="Plasma Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-a8e383732b97" name="4x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-b3e5603efcde" name="5x Plasma Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
@@ -1283,9 +1644,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-91f51889d7be" name="Fusion Caster (12&quot;, A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-b61ba93f3abd" name="4x Ion Rifles + 1x Fusion Caster (12&quot;, A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-59e77ae305c4" name="Fusion Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-8cbf01d8bf65" name="4x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-cb626c9b05d8" name="5x Fusion Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1297,9 +1665,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-3414a195eae8" name="Radium Ray (18&quot;, A2, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-7746d890818c" name="4x Ion Rifles + 1x Radium Ray (18&quot;, A2, AP(3), Unstoppable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-7b0cf6cba3af" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-fa08bac0d7c3" name="4x Ion Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-209012a84319" name="5x Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
@@ -1308,7 +1683,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="rl36-cc8fed5e2cf2" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
+                <infoLink id="rl36p-885103de54b5" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
@@ -1395,9 +1770,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-098a5a17e40b" name="Spiked Claws (A1, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-098a5a17e40b" name="5x Spiked Claws (A1, AP(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-65751774a94e" name="Spiked Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-65751774a94e" name="5x Spiked Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
@@ -1408,9 +1783,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-7293080cbe49" name="Razor Claws (A2)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-7293080cbe49" name="5x Razor Claws (A2)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-8e7e6ab3ada2" name="Razor Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-8e7e6ab3ada2" name="5x Razor Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -1517,9 +1892,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-3607fed05ccf" name="Atomizer Sword (A1, Rending), Combat Shield (Armor(2))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-3607fed05ccf" name="5x Atomizer Sword (A1, Rending), Combat Shield (Armor(2))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-85e31c6f40f5" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-85e31c6f40f5" name="5x Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic>
@@ -1530,16 +1905,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-c830aa127238" name="Radium Pistol (12&quot;, A1, Assault), Hand Weapon (A1)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-c830aa127238" name="5x Radium Pistol (12&quot;, A1, Assault), Hand Weapon (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-98fe0b64c23b" name="Radium Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-98fe0b64c23b" name="5x Radium Pistol" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Assault</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-e1c9e4fe5cb7" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-e1c9e4fe5cb7" name="5x Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -1550,9 +1925,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-7e8446215a6e" name="Power Staff (9&quot;, A2, Assault, Bane)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-7e8446215a6e" name="5x Power Staff (9&quot;, A2, Assault, Bane)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-3c803c46d5f6" name="Power Staff" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-3c803c46d5f6" name="5x Power Staff" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A2</characteristic>
@@ -1762,9 +2137,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-236e4cc6ed53" name="Transonic Carbine (18&quot;, A1, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-236e4cc6ed53" name="5x Transonic Carbine (18&quot;, A1, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-5aa11dd9b89f" name="Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-5aa11dd9b89f" name="5x Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1776,17 +2151,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
             </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-6d6d2af12fde" name="Replace one Photon Rifle" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-ad0dc9b12feb" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-989b8979718b" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-6dabe3ad3090" name="Heavy Spark-Pulse Caster (12&quot;, A1, AP(1), Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-a057bd37eebd" name="4x Photon Rifles + 1x Heavy Spark-Pulse Caster (12&quot;, A1, AP(1), Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-0986972c478f" name="Heavy Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-fbbbf8465283" name="4x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-a5cd72d00a80" name="5x Heavy Spark-Pulse Caster" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1798,9 +2172,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-0465fc2f649c" name="Fusion Ray (18&quot;, A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-338a3782385b" name="4x Photon Rifles + 1x Fusion Ray (18&quot;, A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-39781ed4cdbb" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-616b30cedf1b" name="4x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-4b2aea4d32f1" name="5x Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -1812,9 +2193,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-507c4dafbb15" name="Photon Cannon (30&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-9df92317504b" name="4x Photon Rifles + 1x Photon Cannon (30&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-825d1b6f9053" name="Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-a9a5e7539f8c" name="4x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-7e75e09e1771" name="5x Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">30"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
@@ -1823,15 +2211,22 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="rl36-e6c6b1ab44e7" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                <infoLink id="rl36p-22adb1c2f127" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="40" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-ce7191298fa6" name="Heavy Photon Cannon (36&quot;, A3, AP(1), Anti-Cover, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36p-fe7ddd6145a7" name="4x Photon Rifles + 1x Heavy Photon Cannon (36&quot;, A3, AP(1), Anti-Cover, Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-c922655dfa90" name="Heavy Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36p-5f1a41ad2aa4" name="4x Photon Rifles" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="rl36p-7880a1104e52" name="5x Heavy Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">36"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
@@ -1840,7 +2235,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink id="rl36-49047251442b" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
+                <infoLink id="rl36p-033224f01309" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
@@ -1967,9 +2362,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-b46a72d43026" name="Spark-Sniper Carbine (18&quot;, A1, Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-b46a72d43026" name="3x Spark-Sniper Carbine (18&quot;, A1, Blast(3), Reliable)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-ab6c4d7b024c" name="Spark-Sniper Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-ab6c4d7b024c" name="3x Spark-Sniper Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
@@ -2063,16 +2458,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-e027f4afacde" name="Atomizer Beams (9&quot;, A4, Rending), Claws (A1)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-e027f4afacde" name="3x Atomizer Beams (9&quot;, A4, Rending), Claws (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-bdd94757a5b0" name="Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-bdd94757a5b0" name="3x Atomizer Beams" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Rending</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-305e75940daa" name="Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-305e75940daa" name="3x Claws" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -2204,9 +2599,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-27f97c97a09c" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-27f97c97a09c" name="3x Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-9be4346eebbe" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-9be4346eebbe" name="3x Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
@@ -2320,6 +2715,19 @@
                   </profiles>
                   <costs>
                     <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36p-ceb9b313b866" name="Heavy Ion Blade (A6, Shred)" hidden="false" type="upgrade" collective="false" import="true">
+                  <profiles>
+                    <profile id="rl36p-510655aee863" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2464,27 +2872,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-5662c3a8e60d" name="Replace one Dual Ion Blades" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-2db9c598ce7f" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-7f1cb3a366b0" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-91469a1f9530" name="Heavy Ion Blade (A6, Shred)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-919395394747" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="rl36-c92a0981dfac" name="Upgrade all models with any" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-59dfa737863d" type="min" value="0" field="selections" scope="parent" shared="false" />
@@ -2631,9 +3018,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-354a133c16b6" name="Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-354a133c16b6" name="3x Burst Transonic Carbine (18&quot;, A3, Anti-Cover, Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-263999127955" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-263999127955" name="3x Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
@@ -2645,9 +3032,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="30" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-d94d1316129a" name="Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-d94d1316129a" name="3x Burst Photon Gun (18&quot;, A3, AP(1), Shatter)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-5f9d64d481cd" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-5f9d64d481cd" name="3x Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
@@ -2670,7 +3057,7 @@
             <constraint id="rl36-a88b59011fa9" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-c463bce13f8b" name="Advanced Jet Thrusters (Fast)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-c463bce13f8b" name="3x Advanced Jet Thrusters (Fast)" hidden="false" type="upgrade" collective="false" import="true">
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
@@ -2741,16 +3128,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-0365403b6336" name="Fusion Ray (18&quot;, A1, AP(4), Deadly(3)), Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-0365403b6336" name="3x Fusion Ray (18&quot;, A1, AP(4), Deadly(3)), Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-8adf92950d50" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-8adf92950d50" name="3x Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-8be15504ffed" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-8be15504ffed" name="3x Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -2986,9 +3373,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-954bd3fa4d2f" name="Transonic Scourges (A3, AP(1), Surge)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-954bd3fa4d2f" name="3x Transonic Scourges (A3, AP(1), Surge)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-bf5406321456" name="Transonic Scourges" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-bf5406321456" name="3x Transonic Scourges" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Surge</characteristic>
@@ -2999,9 +3386,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-0090244fad6c" name="Spiked Scourges (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-0090244fad6c" name="3x Spiked Scourges (A1, AP(4), Deadly(3))" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-6081f52b95f0" name="Spiked Scourges" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-6081f52b95f0" name="3x Spiked Scourges" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
@@ -3012,16 +3399,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-419363f6aeae" name="Death Gaze (9&quot;, A4, AP(2)), Tail Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-419363f6aeae" name="3x Death Gaze (9&quot;, A4, AP(2)), Tail Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-8ab5dd37b3a9" name="Death Gaze" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-8ab5dd37b3a9" name="3x Death Gaze" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(2)</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-886fee94e3af" name="Tail Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-886fee94e3af" name="3x Tail Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -3032,16 +3419,16 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-76833578058d" name="Dual Radium Pistols (12&quot;, A3, Assault), Tail Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-76833578058d" name="3x Dual Radium Pistols (12&quot;, A3, Assault), Tail Strike (A1)" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-f2bfdc63e087" name="Dual Radium Pistols" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                <profile id="rl36-f2bfdc63e087" name="3x Dual Radium Pistols" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">12"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Assault</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-9d85eef06c24" name="Tail Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                <profile id="rl36-9d85eef06c24" name="3x Tail Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
@@ -3140,6 +3527,19 @@
                   </profiles>
                   <costs>
                     <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="rl36p-78a45c51ded8" name="Heavy Ion Blade (A6, Shred)" hidden="false" type="upgrade" collective="false" import="true">
+                  <profiles>
+                    <profile id="rl36p-a25ab4f1dd55" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                      <characteristics>
+                        <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
+                        <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -3284,27 +3684,6 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="rl36-72df6d27a8bc" name="Replace one Dual Uranium Daggers" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint id="rl36-aadcafd417ca" type="min" value="0" field="selections" scope="parent" shared="false" />
-            <constraint id="rl36-15bfcdf74b44" type="max" value="1" field="selections" scope="parent" shared="false" />
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-4e2f794022ce" name="Heavy Ion Blade (A6, Shred)" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                <profile id="rl36-164faa8558ae" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
         <selectionEntryGroup id="rl36-4b94ec5f39b2" name="Upgrade all models with" hidden="false" collective="false" import="true">
           <constraints>
             <constraint id="rl36-d30aec9244fc" type="min" value="0" field="selections" scope="parent" shared="false" />
