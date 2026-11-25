@@ -1,0 +1,12 @@
+name = "opr-forceorg-code-service"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[kv_namespaces]]
+binding = "ARMIES"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
