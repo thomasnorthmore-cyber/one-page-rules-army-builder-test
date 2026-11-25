@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OPR Army Codes</title>
+<style>
+:root{color-scheme:dark}body{margin:0;padding:32px 16px;background:#111820;color:#edf3f8;font-family:system-ui,-apple-system,sans-serif;display:grid;place-items:center;min-height:80vh}main{box-sizing:border-box;width:min(580px,100%);border:1px solid #394759;border-radius:16px;padding:28px;background:#202b36}h1{margin:0 0 8px}p{color:#bac9d6;line-height:1.5}input{display:block;width:100%;margin:16px 0}button{font:inherit;cursor:pointer;padding:12px 16px;background:#c9f2dc;color:#09251b;border:0;border-radius:8px;font-weight:600}button:disabled{opacity:.5;cursor:not-allowed}#result{margin:20px 0;font-size:26px;font-weight:700;letter-spacing:.06em;overflow-wrap:anywhere}#status{white-space:pre-wrap;color:#bac9d6}small{color:#94a5b3}
+</style></head><body><main><h1>OPR → ForceOrg</h1><p>Export a <strong>.rosz</strong> from New Recruit. Upload it here to generate a code valid for 10 minutes.</p><input id="file" type="file" accept=".rosz"><button id="generate">Generate code</button><div id="result" role="status"></div><button id="copy" hidden>Copy army code</button><p id="status"></p><small>After ten minutes, the roster expires. Re-upload for a new code. No permanent archive.</small></main>
+<script>
+let code='';const $=id=>document.getElementById(id);
+$('generate').addEventListener('click',async()=>{
+ const file=$('file').files[0];if(!file){$('status').textContent='Select a .rosz file.';return}
+ if(!file.name.toLowerCase().endsWith('.rosz')){$('status').textContent='Only .rosz files supported.';return}
+ $('generate').disabled=true;$('status').textContent='Uploading...';$('copy').hidden=true;$('result').textContent='';
+ try{const r=await fetch('/api/upload',{method:'POST',body:file});const data=await r.json();if(!r.ok)throw Error(data.error||'Upload failed');code=data.code;$('result').textContent=code;$('copy').hidden=false;$('status').textContent='Ready: '+data.units+' units and '+data.models+' models. Expires in 10 minutes.'}
+ catch(e){$('status').textContent='Error: '+e.message}
+ finally{$('generate').disabled=false}
+});
+$('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(code);$('status').textContent='Code copied; paste it into OPR ForceOrg.'}catch{$('status').textContent='Copy the code above manually.'}});
+</script></body></html>
