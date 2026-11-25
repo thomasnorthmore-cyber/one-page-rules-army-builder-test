@@ -3,7 +3,7 @@
 local server,code,models,current,name,status,busy="","",{},1,"No army","Enter Worker URL once, then an OPR code",false
 local function refresh()
   local s="OPR CODE IMPORTER\n"..name.."\n"..status
-  if #models>0 then s=s.."\n"..current.."/"..#models..": "..models[current].unit.."/"..tostring(models[current].model.name) end
+  if #models>0 then s=s.."\n"..current.."/"..#models..": "..models[current].unit.." — "..models[current].quantity.."x "..tostring(models[current].label) end
   self.editButton({index=0,label=s})
 end
 function noop() end
@@ -38,15 +38,45 @@ function importCode(o,p,alt)
     end
     local ok,data=pcall(JSON.decode,response.text or "")
     if not ok or type(data)~="table" or type(data.listJson)~="table" or type(data.listJson.units)~="table" then status="Invalid roster response";refresh();return end
+    -- Group identical model loadouts *within each unit*.
+    -- 4 standard Battle Brothers become one 4x choice; the fifth specialist
+    -- keeps its own choice even if equipped with the same weapon.
     local nextModels={}
     for _,u in ipairs(data.listJson.units) do
       if type(u.modelDefinitions)=="table" then
-        for _,m in ipairs(u.modelDefinitions) do table.insert(nextModels,{unit=tostring(u.name or "Unit"),unitId=tostring(u.unitId or ""),model=m}) end
+        local grouped={}
+        for _,m in ipairs(u.modelDefinitions) do
+          local rawName=tostring(m.name or "Model")
+          local role=rawName:lower():find("fifth",1,true) and "specialist" or
+                     rawName:lower():find("specialist",1,true) and "specialist" or
+                     rawName:lower():find("customisable",1,true) and "specialist" or
+                     rawName:lower():find("standard",1,true) and "standard" or
+                     rawName:lower():find("fixed equipment",1,true) and "standard" or "normal"
+          local loadout=tostring(m.loadoutCSV or "")
+          -- Ignore numerical model labels, not equipment or model roles.
+          local nameKey=rawName:lower():gsub("model%s+%d+","model #")
+          local key=role.."|"..nameKey.."|"..loadout.."|"..
+                    tostring(m.ttsDescriptionOutput or "").."|"..
+                    tostring(m.originalToughValue or 0)
+          local group=grouped[key]
+          if group then
+            group.quantity=group.quantity+1
+          else
+            local label=rawName
+            if role=="standard" then label="Standard models"
+            elseif role=="specialist" then label="Specialist model" end
+            group={unit=tostring(u.name or "Unit"),unitId=tostring(u.unitId or ""),
+                   model=m,quantity=1,label=label}
+            grouped[key]=group
+            table.insert(nextModels,group)
+          end
+        end
       end
     end
     if #nextModels==0 then status="No model profiles found";refresh();return end
     models=nextModels;current=1;name=tostring(data.listJson.listName or "OPR army")
-    status="Loaded "..#models.." model profiles";refresh()
+    local total=0; for _,group in ipairs(models) do total=total+group.quantity end
+    status="Loaded "..total.." models in "..#models.." equipment groups";refresh()
   end)
 end
 function previous()if #models>0 then current=((current-2)%#models)+1;refresh()end end
@@ -118,6 +148,11 @@ function assign(o,player,alt)
   local selection=p.getSelectedObjects()
   if #selection==0 then broadcastToColor("Select a miniature first",player,{1,0.6,0.2});return end
   local entry=models[current]
+  if #selection>entry.quantity then
+    status="Selected "..#selection.." models, but this group has "..entry.quantity..". Select fewer.";refresh()
+    broadcastToColor(status,player,{1,0.6,0.2})
+    return
+  end
   for _,obj in ipairs(selection) do
     obj.setName(tostring(entry.model.ttsNameOutput or entry.model.name))
     obj.setDescription(tostring(entry.model.ttsDescriptionOutput or ""))
@@ -135,5 +170,5 @@ function assign(o,player,alt)
       end
     end
   end
-  status="Assigned "..#selection.." miniature(s)";refresh()
+  status="Assigned "..#selection.." / "..entry.quantity.." matching miniatures";refresh()
 end
