@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="2">
   <sharedRules>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
@@ -32,7 +32,22 @@
     <rule id="b174-c09d-3660-c11c" name="Thrust" hidden="false"><description>When charging, attacks with this weapon gain +1 to hit and AP(+1) in melee.</description></rule>
     <rule id="b174-c09d-3660-c11d" name="Deadly(X)" hidden="false"><description>An unsaved hit deals X wounds to a single model. Excess wounds do not carry over to other models.</description></rule>
     <rule id="b174-c09d-3660-c11e" name="Unstoppable" hidden="false"><description>This weapon ignores Regeneration and all negative modifiers that do not come from the attacking model's own special rules.</description></rule>
-  </sharedRules>
+      <rule id="oprv36-rule-258" name="Evasive" hidden="false"><description>Enemies get -1 to hit rolls when attacking units where most models have this rule.</description></rule>
+    <rule id="oprv36-rule-259" name="Melee Shrouding" hidden="false"><description>When a unit where most models have this rule is targeted by an enemy unit for charging, that enemy unit gets -2" range to a minimum of 6".</description></rule>
+    <rule id="oprv36-rule-25a" name="Mend" hidden="false"><description>Once per activation, before attacking, pick one friendly model within 3" with Tough and remove D3 wounds from it.</description></rule>
+    <rule id="oprv36-rule-25b" name="Rapid Rush" hidden="false"><description>This model moves +6" when using Rush actions.</description></rule>
+    <rule id="oprv36-rule-25c" name="Re-Deployment" hidden="false"><description>After all other units are deployed (excluding set-aside units), remove up to two friendly units and deploy them again. Players alternate placing Re-Deployment units, starting with the player who activates next.</description></rule>
+    <rule id="oprv36-rule-25d" name="Steadfast" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
+    <rule id="oprv36-rule-25e" name="Unstoppable Mark" hidden="false"><description>Once per activation, before attacking, pick one enemy unit within 18" in line of sight. Friendly units get Unstoppable on their weapons against that unit once (the next time the effect would apply).</description></rule>
+    <rule id="oprv36-rule-25f" name="Versatile Reach" hidden="false"><description>When this unit is activated, choose one effect: until the end of its activation, models with this rule in this unit either get +4" range when shooting or move +2" when charging.</description></rule>
+    <rule id="oprv36-rule-260" name="Bane in Melee Aura" hidden="false"><description>This model and its unit get Bane on their weapons in melee.</description></rule>
+    <rule id="oprv36-rule-261" name="Bane when Shooting Aura" hidden="false"><description>This model and its unit get Bane on their weapons when shooting.</description></rule>
+    <rule id="oprv36-rule-262" name="Bravery Aura" hidden="false"><description>This model and its unit get +1 to Morale test rolls.</description></rule>
+    <rule id="oprv36-rule-263" name="Melee Shrouding Aura" hidden="false"><description>This model and its unit get Melee Shrouding.</description></rule>
+    <rule id="oprv36-rule-264" name="Rapid Rush Aura" hidden="false"><description>This model and its unit get Rapid Rush.</description></rule>
+    <rule id="oprv36-rule-265" name="Regeneration Aura" hidden="false"><description>This model and its unit get Regeneration.</description></rule>
+    <rule id="oprv36-rule-266" name="Versatile Reach Aura" hidden="false"><description>This model and its unit get Versatile Reach.</description></rule>
+</sharedRules>
   <selectionEntries>
     <selectionEntry id="b174-c09d-1000-07d0" name="Master Destroyer" hidden="false" collective="false" import="true" type="unit">
       <profiles><profile id="b174-c09d-1000-07d1" name="Master Destroyer" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
