@@ -107,7 +107,8 @@ function assign(o,player,alt)
       -- Preserve any existing TTS/ForceOrg model script, avoiding destructive overwrites.
       local existing=obj.getLuaScript() or ""
       if existing:gsub("%s+","") == "" then
-        obj.setLuaScript(OPR_TOUGH_SCRIPT:gsub("__MAX__",tostring(tough)))
+        local newScript=OPR_TOUGH_SCRIPT:gsub("__MAX__",tostring(tough))
+        obj.setLuaScript(newScript)
         obj.reload()
       else
         broadcastToColor("OPR: model already has a script; Tough tracker not installed to avoid overwriting it.",player,{1,0.8,0.25})
