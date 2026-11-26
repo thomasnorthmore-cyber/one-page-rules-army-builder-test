@@ -1,33 +1,36 @@
-name: Validate OPR New Recruit catalogues
+name: Validate every OPR faction
 on:
   push:
     paths:
-      - 'Battle_Brothers.cat'
-      - 'Custodian_Brothers.cat'
-      - 'Robot_Legions.cat'
-      - 'scripts/validate_robot_rules.py'
-      - 'scripts/validate_equipped_rules.py'
-      - 'scripts/validate_all_equipped_weapon_rules.py'
-      - 'scripts/validate_custodian.py'
-      - 'Grimdark_Future.gst'
-      - 'scripts/validate_catalogues.py'
+      - '*.cat'
+      - '*.gst'
+      - 'reference/**'
+      - 'scripts/validate_all_factions.py'
+      - '.github/workflows/validate-catalogues.yml'
+  pull_request:
+    paths:
+      - '*.cat'
+      - '*.gst'
+      - 'reference/**'
+      - 'scripts/validate_all_factions.py'
       - '.github/workflows/validate-catalogues.yml'
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  verify:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate XML and links
-        run: python3 scripts/validate_catalogues.py
-
-      - name: Validate Custodian Brothers roster and links
-        run: python3 scripts/validate_custodian.py
-      - name: Validate Robot Legions permanent rule links
-        run: python3 scripts/validate_robot_rules.py
-      - name: Validate equipped-only rules across all three armies
-        run: python3 scripts/validate_equipped_rules.py
-      - name: Audit every equipped weapon rule in all three armies
-        run: python3 scripts/validate_all_equipped_weapon_rules.py
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check every faction and produce coverage report
+        run: python3 scripts/validate_all_factions.py --strict --output validation-report.json
+      - name: Upload detailed report even when checks fail
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: opr-faction-validation
+          path: validation-report.json
+          if-no-files-found: warn
