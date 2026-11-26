@@ -10857,12 +10857,92 @@
       ]
     },
     {
-      "profile": "opr-blood-r2-0000d2",
+      "profile": "opr-blood-audit3-00003c",
       "unit": "opr-blood-00004e",
       "model": "opr-blood-00004d",
       "weapon": "Hand Weapon",
       "field": "b174-c09d-3660-f032",
       "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000040",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000043",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000046",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00004a",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
       "fixed": [],
       "conditional": [
         {
@@ -10911,26 +10991,6 @@
             {
               "scope": "opr-blood-00004e",
               "child": "opr-blood-r2-000072"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "profile": "opr-blood-r2-0000d8",
-      "unit": "opr-blood-00004e",
-      "model": "opr-blood-00004d",
-      "weapon": "Hand Weapon",
-      "field": "b174-c09d-3660-f032",
-      "base": "",
-      "fixed": [],
-      "conditional": [
-        {
-          "keyword": "Bane",
-          "conditions": [
-            {
-              "scope": "opr-blood-00004e",
-              "child": "opr-blood-r2-000071"
             }
           ]
         }
@@ -11031,6 +11091,106 @@
             {
               "scope": "opr-blood-00004e",
               "child": "opr-blood-r2-000072"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00004f",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000053",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000056",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000059",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00005d",
+      "unit": "opr-blood-00004e",
+      "model": "opr-blood-00004d",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-00004e",
+              "child": "opr-blood-r2-000071"
             }
           ]
         }
@@ -11357,12 +11517,92 @@
       ]
     },
     {
-      "profile": "opr-blood-r2-00016a",
+      "profile": "opr-blood-audit3-000062",
       "unit": "opr-blood-000062",
       "model": "opr-blood-000061",
       "weapon": "Hand Weapon",
       "field": "b174-c09d-3660-f032",
       "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000066",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000069",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00006c",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000070",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
       "fixed": [],
       "conditional": [
         {
@@ -11411,26 +11651,6 @@
             {
               "scope": "opr-blood-000062",
               "child": "opr-blood-r2-00010c"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "profile": "opr-blood-r2-000170",
-      "unit": "opr-blood-000062",
-      "model": "opr-blood-000061",
-      "weapon": "Hand Weapon",
-      "field": "b174-c09d-3660-f032",
-      "base": "",
-      "fixed": [],
-      "conditional": [
-        {
-          "keyword": "Bane",
-          "conditions": [
-            {
-              "scope": "opr-blood-000062",
-              "child": "opr-blood-r2-00010b"
             }
           ]
         }
@@ -11531,6 +11751,106 @@
             {
               "scope": "opr-blood-000062",
               "child": "opr-blood-r2-00010c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000075",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000079",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00007c",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00007f",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000083",
+      "unit": "opr-blood-000062",
+      "model": "opr-blood-000061",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000062",
+              "child": "opr-blood-r2-00010b"
             }
           ]
         }
@@ -11797,26 +12117,6 @@
       ]
     },
     {
-      "profile": "opr-blood-r2-0001e3",
-      "unit": "opr-blood-000077",
-      "model": "opr-blood-000076",
-      "weapon": "Hand Weapon",
-      "field": "b174-c09d-3660-f032",
-      "base": "",
-      "fixed": [],
-      "conditional": [
-        {
-          "keyword": "Bane",
-          "conditions": [
-            {
-              "scope": "opr-blood-000077",
-              "child": "opr-blood-r2-0001a3"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "profile": "opr-blood-r2-0001ee",
       "unit": "opr-blood-000077",
       "model": "opr-blood-000076",
@@ -11897,6 +12197,106 @@
       ]
     },
     {
+      "profile": "opr-blood-audit3-000088",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00008c",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00008f",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000092",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-000096",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "profile": "opr-blood-r2-0001fd",
       "unit": "opr-blood-000077",
       "model": "opr-blood-000076",
@@ -11917,12 +12317,92 @@
       ]
     },
     {
-      "profile": "opr-blood-r2-0001fe",
+      "profile": "opr-blood-audit3-00009b",
       "unit": "opr-blood-000077",
       "model": "opr-blood-000076",
       "weapon": "Hand Weapon",
       "field": "b174-c09d-3660-f032",
       "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-00009f",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000a2",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000a5",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000a9",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
       "fixed": [],
       "conditional": [
         {
@@ -11957,12 +12437,92 @@
       ]
     },
     {
-      "profile": "opr-blood-r2-000201",
+      "profile": "opr-blood-audit3-0000ae",
       "unit": "opr-blood-000077",
       "model": "opr-blood-000076",
       "weapon": "Hand Weapon",
       "field": "b174-c09d-3660-f032",
       "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000b2",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000b5",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000b8",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-blood-000077",
+              "child": "opr-blood-r2-0001a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-blood-audit3-0000bc",
+      "unit": "opr-blood-000077",
+      "model": "opr-blood-000076",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
       "fixed": [],
       "conditional": [
         {
