@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="32" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -155,7 +155,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
     <rule id="rl36-core-0026" name="Limited" hidden="false"><description>This weapon can only be used once per game.</description></rule>
     <rule id="rl36-core-0027" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
     <rule id="rl36-core-0028" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
-  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>This weapon ignores Regeneration. When defending against it, the target must re-roll unmodified Defense results of 6.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-equipped-rending-melee" name="Rending in Melee" hidden="false"><description>Weapons used by this model in melee gain Rending.</description></rule><rule id="rl36-core-slow-rule" name="Slow" hidden="false"><description>Moves -2&quot; when using Advance, and -4&quot; when using Rush/Charge.</description></rule></sharedRules>
+  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>This weapon ignores Regeneration. When defending against it, the target must re-roll unmodified Defense results of 6.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-core-slow-rule" name="Slow" hidden="false"><description>Moves -2&quot; when using Advance, and -4&quot; when using Rush/Charge.</description></rule></sharedRules>
   <selectionEntries>
     <selectionEntry id="rl36-55eedb2f4a16" name="Tri-Scorpion Lord" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
@@ -2789,7 +2789,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
             <constraint id="rl36-c20602a5e6d6" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-ced1734a694d" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-4" name="Rending in Melee" hidden="false" targetId="rl36-equipped-rending-melee" type="rule"/></infoLinks>
+            <selectionEntry id="rl36-ced1734a694d" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-4" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-056871bc4fbf" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-8c3a6df38a65" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2823,13 +2823,14 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f4bd1e2daf47" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+      <infoLink id="rl36-hover-scout-v33" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
 
 </infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
@@ -3389,7 +3390,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
             <constraint id="rl36-b31a89c502c8" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-4f71817c1b09" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-7" name="Rending in Melee" hidden="false" targetId="rl36-equipped-rending-melee" type="rule"/></infoLinks>
+            <selectionEntry id="rl36-4f71817c1b09" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-7" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
