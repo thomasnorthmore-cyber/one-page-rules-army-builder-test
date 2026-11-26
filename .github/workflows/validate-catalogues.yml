@@ -70,6 +70,10 @@ jobs:
         if: always()
         run: |
           if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_weapon_profiles.py; fi
+      - name: Verify Blood Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_allocation.py; fi
       - name: Verify Wolf Brothers source default loadouts
         if: always()
         run: |
