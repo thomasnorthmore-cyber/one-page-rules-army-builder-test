@@ -8,7 +8,7 @@ N = {"c": "http://www.battlescribe.net/schema/catalogueSchema"}
 root = ET.parse(Path("Robot_Legions.cat")).getroot()
 def norm(text):
     import re
-    return re.sub(r"\\(\\d+\\)", "(X)", text.strip())
+    return re.sub(r"\(\d+\)", "(X)", text.strip())
 ids = [n.attrib["id"] for n in root.iter() if "id" in n.attrib]
 duplicates = [name for name, total in Counter(ids).items() if total > 1]
 assert not duplicates, f"Duplicate IDs: {duplicates[:10]}"
