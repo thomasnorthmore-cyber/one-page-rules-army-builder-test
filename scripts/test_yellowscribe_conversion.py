@@ -66,7 +66,7 @@ class ExportTests(unittest.TestCase):
                 profile = unit.find("./" + N + "profiles/" + N + "profile/" + N + "characteristics/" + N + "characteristic")
                 self.assertEqual(profile.text, "Hero, Tough(3), Reanimation Aura, Reanimation, Armor(2+), Flying")
                 self.assertEqual(len(changes), 1)
-                self.assertNotIn(b"Reanimation Aura", original)
+                self.assertIsNone(ET.fromstring(original).find(".//" + N + "selection[@type='unit']/" + N + "rules"))
                 again, repeated = module.adapt(converted)
                 self.assertEqual(repeated, [])
                 self.assertEqual(ET.tostring(ET.fromstring(again)), ET.tostring(ET.fromstring(converted)))
