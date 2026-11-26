@@ -130,7 +130,7 @@ def main():
         totals.update(levels);totals["units"]+=len(units)
         totals["weapon_profiles"]+=counts["weapon_profiles"]
         report["factions"].append({"file":path.name,"revision":root.get("revision"),"counts":dict(counts),"findings":issues})
-        print(f"{path.name} v{root.get('revision')}: {len(units)} units, {levels['error']} errors, {levels['warning']} warnings, {counts['coverage_percent']}% independently source-checked")
+        print(f"{path.name} v{root.get('revision')}: {len(units)} units, {levels['error']} errors, {levels['warning']} warnings, {counts['coverage_percent']}% unit base-stat/points source coverage")
         for x in issues:
             if x["severity"]=="error":print(f"  ERROR [{x['code']}] {x['unit']}: {x['detail']}")
     known_path=base/"reference/known-issues.json"
