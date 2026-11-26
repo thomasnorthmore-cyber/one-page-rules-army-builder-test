@@ -384,6 +384,38 @@
       "6 hits with AP(1) and Smash"
     ]
   ],
+  "Wolf_Brothers.cat": [
+    [
+      "Wolf Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Godly Thunder",
+      1,
+      "1 hit with AP(4)"
+    ],
+    [
+      "Wolf Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Storm of Power",
+      2,
+      "4 hits with Surge"
+    ],
+    [
+      "Righteous Fury",
+      3,
+      "Enhanced Wolfborn"
+    ],
+    [
+      "Wolf Trauma",
+      3,
+      "6 hits with AP(1) and Smash"
+    ]
+  ],
   "Blood_Brothers.cat": [
     [
       "Blood Dome",

@@ -2652,6 +2652,161 @@
       }
     }
   },
+  "Wolf_Brothers.cat": {
+    "source": "Wolf_Brothers_3.6.0.pdf pp.2–3 and unit headers pp.5–13",
+    "units": {
+      "Wolf Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Wolf Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 90
+      },
+      "Wolf Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 80
+      },
+      "Wolf Elite Pathfinder": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 65
+      },
+      "Hunting Wolves": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 105
+      },
+      "Wolf Pathfinders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110
+      },
+      "Wolf Rookies": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 130
+      },
+      "Wolf Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Wolf Veteran Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 115
+      },
+      "Wolf Veteran Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 120
+      },
+      "Wolf Pathfinder Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 120
+      },
+      "Wolf Support Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Wolf Pathfinder Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 185
+      },
+      "Werewolf Brothers": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 205
+      },
+      "Wolf Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 220
+      },
+      "Wolf Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 270
+      },
+      "Wolf Riders": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 295
+      },
+      "Wolf Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135
+      },
+      "Wolf Heavy Exo-Suit": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Wolf Support Bike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Wolf Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170
+      },
+      "Wolf APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 190
+      },
+      "Wolf Attack Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Wolf Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 400
+      },
+      "Wolf Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 425
+      },
+      "Wolf Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 430
+      },
+      "Wolf Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Wolf Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 725
+      },
+      "Wolf Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 270
+      },
+      "Wolf Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 390
+      }
+    }
+  },
   "Blood_Brothers.cat": {
     "source": "Blood_Brothers_3.6.0.pdf pp.2–3",
     "units": {

@@ -1,0 +1,854 @@
+{
+  "source": "Wolf_Brothers_3.6.0.pdf pp.2–3 and unit default rows pp.5–13.",
+  "units": {
+    "Wolf Master Destroyer": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Hero",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Archivist Staff",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Spell Amplifier"
+          ]
+        }
+      ]
+    },
+    "Wolf Veteran Master Brother": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Master Brother": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Elite Pathfinder": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Hero",
+        "Strider",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Pathfinders": {
+      "models": 5,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Strider"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Battle Brothers": {
+      "models": 5,
+      "rules": [
+        "Wolfborn",
+        "Fearless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Veteran Assault Brothers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Armor(2)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Veteran Battle Brothers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Pathfinder Snipers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Scout",
+        "Stealth",
+        "Strider"
+      ],
+      "weapons": [
+        {
+          "name": "Anti-Matter-Sniper Carbine",
+          "range": "24\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Reliable",
+            "Smash",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Support Brothers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Relentless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Pathfinder Bikers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Grenade Launcher",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Destroyers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Cyclic Rifle",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "Anti-Cover",
+            "Assault",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Brother Bikers": {
+      "models": 3,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bike-Rifle",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Drop Pod": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Ambush",
+        "Immobile",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        }
+      ]
+    },
+    "Wolf Heavy Exo-Suit": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fear(1)",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Dual Fists",
+          "range": "",
+          "attacks": "A4",
+          "rules": []
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Wolf Support Bike": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Bike-Rifle",
+          "range": "24\"",
+          "attacks": "A3",
+          "rules": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A2",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Attack Vehicle": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Wolf APC": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Wolf Attack Speeder": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Vanguard"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Wolf Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Wolf Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Siege Cannon",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Wolf Veteran Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Wolf Artillery Gun": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Artillery",
+        "Cumbersome",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Wolf Heavy Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Fast",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Hull Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Sponson Heavy Flamer Cannons",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Wolf Light Gunship": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Light Laser Cannon",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        }
+      ]
+    },
+    "Wolf Heavy Gunship": {
+      "models": 1,
+      "rules": [
+        "Wolfborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(9)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Strafing Rocket Launcher",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Heavy Rifle-Arrays",
+          "range": "9\"",
+          "attacks": "A3",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Hunting Wolves": {
+      "models": 5,
+      "rules": [
+        "Fast",
+        "Strider",
+        "Wolfborn"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bites",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Wolf Rookies": {
+      "models": 5,
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Wolfborn"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Werewolf Brothers": {
+      "models": 3,
+      "rules": [
+        "Fast",
+        "Fearless",
+        "Tough(3)",
+        "Wolfborn"
+      ],
+      "weapons": [
+        {
+          "name": "Energy Were-Claws",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "Rending"
+          ]
+        }
+      ]
+    },
+    "Wolf Riders": {
+      "models": 3,
+      "rules": [
+        "Fast",
+        "Fearless",
+        "Strider",
+        "Tough(3)",
+        "Wolfborn"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    }
+  }
+}
