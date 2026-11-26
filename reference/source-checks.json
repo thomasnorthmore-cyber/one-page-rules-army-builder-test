@@ -3,7 +3,8 @@
     "Independently transcribed from user-supplied OPR Grimdark Future v3.6.0 PDFs.",
     "This is a deliberately partial baseline; SOURCE_NOT_VERIFIED means the remaining entries are NOT certified.",
     "Extend unit-by-unit against the supplied source PDFs. Conditional equipment rules must not be listed as permanent unit rules.",
-    "Quality, Defense and base points were transcribed by strict name-matched parsing of supplied v3.6.0 PDF unit tables; units not reliably parsed remain unverified."
+    "Quality, Defense and base points were transcribed by strict name-matched parsing of supplied v3.6.0 PDF unit tables; units not reliably parsed remain unverified.",
+    "All 122 unit entries now have independently source-checked Quality, Defense and base points. This does not certify every weapon, ability, upgrade or ForceOrg state."
   ],
   "Alien_Hives.cat": {
     "units": {
@@ -167,6 +168,61 @@
         "Quality": "4+",
         "Defense": "3+",
         "points": 185
+      },
+      "Swarm-Bringer Beast": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 105
+      },
+      "Invasion Carrier Spore": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Spawning Great Beast": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 370
+      },
+      "Devourer Great Beast": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 455
+      },
+      "Invasion Artillery Spore": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 195
+      },
+      "Drekhor the Vengeful": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 440
+      },
+      "Ksi'adoz Smokeborn": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 245
+      },
+      "Troseis": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 130
+      },
+      "Vradhez": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 130
+      },
+      "Druzhak": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 115
+      },
+      "Nisuv": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 105
       }
     }
   },
@@ -323,6 +379,26 @@
         "Quality": "3+",
         "Defense": "3+",
         "points": 265
+      },
+      "Tri-Scorpion Pistoleer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 200
+      },
+      "Oath-U7X1": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 205
+      },
+      "Echo-3G01": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 120
+      },
+      "Xyros-Z320": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 110
       }
     }
   },
@@ -437,6 +513,11 @@
         "Quality": "3+",
         "Defense": "2+",
         "points": 815
+      },
+      "Custodian Heavy Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 585
       }
     }
   },
@@ -566,6 +647,26 @@
         "Quality": "3+",
         "Defense": "3+",
         "points": 390
+      },
+      "Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 90
+      },
+      "Veteran Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 110
+      },
+      "Veteran Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 120
+      },
+      "Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 430
       }
     }
   }
