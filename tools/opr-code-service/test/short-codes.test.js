@@ -60,7 +60,7 @@ test('selected Plasmabot grants Rending to melee weapons only, without duplicate
   for(const m of build(true).units[0].modelDefinitions){
     assert.match(m.ttsDescriptionOutput,/AP\(1\), Blast\(3\), Rending/);
     assert.doesNotMatch(m.ttsDescriptionOutput,/Rending, Rending/);
-    assert.match(m.ttsDescriptionOutput,/Rifle\[\-\]\r\n\[E8EDF2\]A1  AP\(1\)\[\-\]/);
+    assert.match(m.ttsDescriptionOutput,/Rifle\[\/b\]\[\-\]\r\n\[E8EDF2\]A1  AP\(1\)\[\-\]/);
   }
   assert.doesNotMatch(build(false).units[0].modelDefinitions[0].ttsDescriptionOutput,/Blast\(3\), Rending/);
 });
