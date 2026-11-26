@@ -51,3 +51,16 @@ test('every upload gets a different code',async()=>{
   const a=await (await post()).json(),b=await (await post()).json();
   assert.notEqual(a.code,b.code);
 });
+test('selected Plasmabot grants Rending to melee weapons only, without duplicates',()=>{
+  const weapon=(name,type,rules)=>`<selection type="upgrade" name="${name}"><profiles><profile name="${name}" typeName="${type}"><characteristics><characteristic name="Attacks">A1</characteristic><characteristic name="Special Rules">${rules}</characteristic></characteristics></profile></profiles></selection>`;
+  const gear=weapon('Daggers','Melee Weapon','AP(1), Blast(3)')+weapon('Swords','Melee Weapon','Rending')+weapon('Rifle','Ranged Weapon','AP(1)');
+  const model=`<selection type="model" name="Tri-Scorpion" number="3"><selections>${gear}</selections></selection>`;
+  const bot='<selection type="upgrade" name="Plasmabot"><rules><rule name="Rending in Melee"/></rules></selection>';
+  const build=selected=>convertRosz(zipSync({'Test.ros':strToU8(`<roster name="Test"><forces><force><selections><selection type="unit" name="Tri-Scorpions"><selections>${model}${selected?bot:''}</selections></selection></selections></force></forces></roster>`)}));
+  for(const m of build(true).units[0].modelDefinitions){
+    assert.match(m.ttsDescriptionOutput,/AP\(1\), Blast\(3\), Rending/);
+    assert.doesNotMatch(m.ttsDescriptionOutput,/Rending, Rending/);
+    assert.match(m.ttsDescriptionOutput,/Rifle\[\-\]\r\n\[E8EDF2\]A1  AP\(1\)\[\-\]/);
+  }
+  assert.doesNotMatch(build(false).units[0].modelDefinitions[0].ttsDescriptionOutput,/Blast\(3\), Rending/);
+});
