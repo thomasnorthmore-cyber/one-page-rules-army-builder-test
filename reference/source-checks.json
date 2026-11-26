@@ -45,7 +45,7 @@
       "Tri-Scorpions": {
         "Quality": "3+",
         "Defense": "3+",
-        "points": 205,
+        "points": 210,
         "rules": [
           "Ravage(2)",
           "Self-Repair",
