@@ -46,3 +46,44 @@ for path, expected in cases.items():
             assert rule in linked, f"{path}: {entry_id} missing equipped {rule}"
     print(f"PASS {path}: unique IDs, valid rule targets, conditional upgrades checked")
 print("Reminder: New Recruit display and PDF/source-by-source parity require separate checks")
+
+
+# Check that a purchased replacement never leaves its starting weapon active.
+replacement_cases = {
+    "Battle_Brothers.cat": {"opr36c-49558": "Hand Weapon"},
+    "Robot_Legions.cat": {
+        "rl36-f00197c26637": "Burst Wrist-Spark",
+        "rl36-5eded7729c0b": "Hand Weapon",
+        "rl36-1aee7a53976e": "Hand Weapon",
+        "rl36-base-c99d7c1-a7a7d9a": "Hand Weapon",
+        "rl36-0a06d06666aa": "Hand Weapon",
+        "rl36-090dfa340707": "Hand Weapon",
+        "rl36-8da5e915b607": "Hand Weapon",
+        "rl36-7a20140900b5": "Radium Cannon",
+        "rl36-7d2c1d45ad13": "Radium Cannon",
+    },
+}
+for path, cases in replacement_cases.items():
+    root = ET.parse(path).getroot()
+    for entry_id, weapon_name in cases.items():
+        entry = root.find(f".//c:selectionEntry[@id='{entry_id}']", ns)
+        assert entry is not None, f"{path}: lost equipment selection {entry_id}"
+        assert entry.find(f"./c:profiles/c:profile[@name='{weapon_name}']", ns) is None, (
+            f"{path}: {entry_id} still permanently equips replaced {weapon_name}"
+        )
+        groups = entry.findall("./c:selectionEntryGroups/c:selectionEntryGroup", ns)
+        groups = [g for g in groups if (g.get("name") or "").startswith("Replace ")]
+        assert groups, f"{path}: missing replacement group {entry_id}"
+        group = groups[0]
+        default_id = group.get("defaultSelectionEntryId")
+        options = group.findall("./c:selectionEntries/c:selectionEntry", ns)
+        default = next((o for o in options if o.get("id") == default_id), None)
+        assert default is not None, f"{path}: no default equipped weapon for {entry_id}"
+        assert default.find(f"./c:profiles/c:profile[@name='{weapon_name}']", ns) is not None, (
+            f"{path}: default option does not equip {weapon_name}"
+        )
+        constraints = {c.get("type"): c.get("value") for c in group.findall("./c:constraints/c:constraint", ns)}
+        assert constraints.get("min") == "1" and constraints.get("max") == "1", (
+            f"{path}: replacement must be exactly one choice for {entry_id}"
+        )
+print("PASS: 10 conditional weapon replacements do not retain their unequipped weapons.")
