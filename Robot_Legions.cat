@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -802,6 +802,15 @@
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-361ba1660c3c" name="Robot Lord — Model 1" hidden="false" collective="false" import="true" type="model">
+          <profiles>
+            <profile id="rl36-robot-lord-model-profile-r29" name="Robot Lord" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit">
+              <characteristics>
+                <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic>
+                <characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic>
+                <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Hero, Self-Repair, Slow, Tough(3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <constraints>
             <constraint id="rl36m-326d317fb1e2" type="min" field="selections" scope="parent" shared="true" value="1" />
             <constraint id="rl36m-2cd02557149a" type="max" field="selections" scope="parent" shared="true" value="1" />
