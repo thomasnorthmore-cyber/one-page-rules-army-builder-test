@@ -1,0 +1,131 @@
+{
+  "_source": "Original user-supplied Grimdark Future v3.6.0 army PDFs, Army Spells section on PDF page 3. Spell order, name, cost and text markers independently from catalogue.",
+  "Alien_Hives.cat": [
+    [
+      "Terror Seeker",
+      1,
+      "Hit & Run Fighter"
+    ],
+    [
+      "Hive Shriek",
+      1,
+      "2 hits with AP(1)"
+    ],
+    [
+      "Animate Spirit",
+      2,
+      "Enhanced Hive Bond"
+    ],
+    [
+      "Overwhelming Strike",
+      2,
+      "4 hits with Fragment"
+    ],
+    [
+      "Infuse Bloodthirst",
+      3,
+      "Unpredictable Fighter"
+    ],
+    [
+      "Psychic Blast",
+      3,
+      "6 hits with AP(2)"
+    ]
+  ],
+  "Battle_Brothers.cat": [
+    [
+      "Protective Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Psychic Terror",
+      1,
+      "3 hits with Bane"
+    ],
+    [
+      "Advanced Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Lightning Fog",
+      2,
+      "4 hits each"
+    ],
+    [
+      "Blessed Ammo",
+      3,
+      "Shred"
+    ],
+    [
+      "Cerebral Trauma",
+      3,
+      "6 hits with AP(1)"
+    ]
+  ],
+  "Custodian_Brothers.cat": [
+    [
+      "Guardian Protection",
+      1,
+      "Enhanced Guardian"
+    ],
+    [
+      "Dread Strike",
+      1,
+      "Disintegrate"
+    ],
+    [
+      "The Founder's Curse",
+      2,
+      "Shred"
+    ],
+    [
+      "Thunderous Mist",
+      2,
+      "4 hits"
+    ],
+    [
+      "Focused Defender",
+      3,
+      "Unpredictable Fighter"
+    ],
+    [
+      "Mind Gash",
+      3,
+      "6 hits with Shred"
+    ]
+  ],
+  "Robot_Legions.cat": [
+    [
+      "Triangulation Bots",
+      1,
+      "Indirect"
+    ],
+    [
+      "Gauss Bots",
+      1,
+      "3 hits with AP(1) and Shatter"
+    ],
+    [
+      "Inspiring Bots",
+      2,
+      "Rapid Advance"
+    ],
+    [
+      "Flame Bots",
+      2,
+      "4 hits each"
+    ],
+    [
+      "Mending Bots",
+      3,
+      "Enhanced Self-Repair"
+    ],
+    [
+      "Piercing Bots",
+      3,
+      "6 hits with AP(2)"
+    ]
+  ]
+}
