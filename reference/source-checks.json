@@ -1,0 +1,96 @@
+{
+  "_notes": [
+    "Independently transcribed from user-supplied OPR Grimdark Future v3.6.0 PDFs.",
+    "This is a deliberately partial baseline; SOURCE_NOT_VERIFIED means the remaining entries are NOT certified.",
+    "Extend unit-by-unit against the supplied source PDFs. Conditional equipment rules must not be listed as permanent unit rules."
+  ],
+  "Alien_Hives.cat": {
+    "units": {
+      "Hive Lord": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 330,
+        "rules": [
+          "Fear(2)",
+          "Hero",
+          "Hive Bond",
+          "Tough(12)"
+        ]
+      },
+      "Prime Warrior": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 90,
+        "rules": [
+          "Hero",
+          "Hive Bond",
+          "Tough(6)"
+        ]
+      }
+    }
+  },
+  "Robot_Legions.cat": {
+    "units": {
+      "Robot Lord": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 70,
+        "rules": [
+          "Hero",
+          "Self-Repair",
+          "Slow",
+          "Tough(3)"
+        ]
+      },
+      "Tri-Scorpions": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 205,
+        "rules": [
+          "Ravage(2)",
+          "Self-Repair",
+          "Strider",
+          "Tough(3)"
+        ]
+      }
+    }
+  },
+  "Custodian_Brothers.cat": {
+    "units": {
+      "Great Sister": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 55,
+        "rules": [
+          "Guardian",
+          "Hero",
+          "Tough(3)"
+        ]
+      }
+    }
+  },
+  "Battle_Brothers.cat": {
+    "units": {
+      "Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135,
+        "rules": [
+          "Battleborn",
+          "Fearless"
+        ]
+      },
+      "Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 155,
+        "rules": [
+          "Battleborn",
+          "Fearless",
+          "Hero",
+          "Tough(6)"
+        ]
+      }
+    }
+  }
+}
