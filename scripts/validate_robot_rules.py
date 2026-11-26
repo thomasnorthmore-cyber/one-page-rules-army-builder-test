@@ -20,9 +20,9 @@ for node in root.iter():
         assert node.attrib.get("targetId") in known, f"Dangling rule: {node.attrib}"
 for unit in units:
     names = {
-        norm(x.text or "")
-        for x in unit.findall("./c:profiles/c:profile/c:characteristics/c:characteristic[@name='Special Rules']", N)
-        for x in (x.text or "").split(",")
+        norm(piece)
+        for characteristic in unit.findall("./c:profiles/c:profile/c:characteristics/c:characteristic[@name='Special Rules']", N)
+        for piece in (characteristic.text or "").split(",")
     }
     for link in unit.findall("./c:infoLinks/c:infoLink", N):
         label = norm(link.attrib["name"])
