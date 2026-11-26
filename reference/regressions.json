@@ -4,13 +4,13 @@
     "Robot_Legions.cat": [
       {
         "id": "rl36-ced1734a694d",
-        "rule": "Rending",
-        "name": "Plasmabot grants standard Rending"
+        "rule": "Rending in Melee",
+        "name": "Plasmabot grants melee-only Rending"
       },
       {
         "id": "rl36-4f71817c1b09",
-        "rule": "Rending",
-        "name": "Second Plasmabot grants standard Rending"
+        "rule": "Rending in Melee",
+        "name": "Second Plasmabot grants melee-only Rending"
       },
       {
         "id": "rl36-9f2254b551c8",
