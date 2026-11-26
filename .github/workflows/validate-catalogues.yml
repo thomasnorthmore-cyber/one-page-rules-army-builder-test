@@ -58,6 +58,26 @@ jobs:
         if: always()
         run: |
           if [ -f Dark_Brothers.cat ]; then python3 scripts/validate_dark_brothers_defaults.py; fi
+      - name: Verify Wolf Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_defaults.py; fi
+      - name: Verify Wolf Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_upgrades.py; fi
+      - name: Verify Wolf Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_weapon_profiles.py; fi
+      - name: Verify Wolf Brothers static equipment allocation
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_allocation.py; fi
+      - name: Verify Wolf Brothers source combination gates and rule states
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_combinations.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
