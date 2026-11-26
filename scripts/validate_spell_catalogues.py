@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate optional, points-free spell-reference entries for all four Grimdark Future factions."""
+"""Validate required, points-free spell-reference entries for all Grimdark Future factions."""
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -13,11 +13,13 @@ force=SYSTEM.find(f"./{G}forceEntries/{G}forceEntry/{G}categoryLinks")
 assert force is not None and force[0].get("targetId")=="opr-spell-catalogue-category", "Spell Catalogue must be first"
 import json
 SPELL_SOURCE=json.loads((ROOT/"reference/spell-checks.json").read_text())
-entries={"Alien_Hives.cat":"ah","Battle_Brothers.cat":"bb","Custodian_Brothers.cat":"cust","Robot_Legions.cat":"rl","Goblin_Reclaimers.cat":"gr"}
-for file,slug in entries.items():
-    root=ET.parse(ROOT/file).getroot()
+from validation_common import factions
+SOURCE=json.loads((ROOT/"reference/source-checks.json").read_text())
+for path,root in factions():
+    file=path.name
+    assert file in SPELL_SOURCE, file+": missing source spell fixture"
     units=[x for x in root.findall(f"./{N}selectionEntries/{N}selectionEntry") if x.get("type")=="unit"]
-    ref=root.find(f"./{N}selectionEntries/{N}selectionEntry[@id='opr-spellcat-{slug}-entry']")
+    ref=root.find(f"./{N}selectionEntries/{N}selectionEntry[@name='Spell Catalogue']")
     assert ref is not None and ref.get("type")=="upgrade",file+": missing reference"
     assert list(root.find(N+"selectionEntries"))[0] is ref,file+": spell reference not first"
     assert ref.find(f"./{N}categoryLinks/{N}categoryLink").get("targetId")=="opr-spell-catalogue-category"
@@ -41,5 +43,5 @@ for file,slug in entries.items():
 
         assert defs[link.get("targetId")].get("name")==link.get("name"),file+": spell name mismatch"
         assert defs[link.get("targetId")].findtext(N+"description"),file+": empty description"
-    assert len(units)=={"ah":41,"bb":27,"cust":22,"rl":32,"gr":20}[slug]
+    assert len(units)==len(SOURCE[file]["units"]),file+": source unit count mismatch"
     print(f"PASS {file}: first-category spell reference, 6 links, no points or models")

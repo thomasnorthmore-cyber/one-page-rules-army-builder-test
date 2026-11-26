@@ -23,9 +23,13 @@ def normalize(s):
     s=(s or "").replace("&amp;","&").strip()
     return re.sub(r"\((?:\d+|X)\)$","",s).strip()
 
-for file, expected in DATA.items():
-    if not file.endswith(".cat"):continue
-    root=ET.parse(ROOT/file).getroot()
+from validation_common import factions
+for path, root in factions():
+    file=path.name
+    if file not in DATA:
+        ERRORS.append(f"{file}: missing PDF rule fixture")
+        continue
+    expected=DATA[file]
     defs={r.get("id"):r for r in root.findall(f"./{N}sharedRules/{N}rule")}
     defs.update(CORE)
     byname={}

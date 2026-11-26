@@ -12,9 +12,10 @@ assert "Completed" not in catalogue.get("name", ""), "Unverified army marked Com
 ids = [x.get("id") for x in catalogue.iter() if x.get("id")]
 counts = Counter(ids)
 assert all(n == 1 for n in counts.values()), "Duplicate XML IDs"
-known = set(ids)
+from validation_common import SYSTEM_IDS, rule_definitions, models, active_profiles
+known = set(ids) | SYSTEM_IDS
 for link in catalogue.iter(N + "infoLink"):
-    assert link.get("targetId") in known, "Dangling rule target: " + str(link.get("targetId"))
+    assert link.get("targetId") in rule_definitions(catalogue) if link.get("type") == "rule" else link.get("targetId") in known, "Dangling rule target: " + str(link.get("targetId"))
 for group in catalogue.iter(N + "selectionEntryGroup"):
     default = group.get("defaultSelectionEntryId")
     if default:
@@ -38,9 +39,9 @@ for unit in units:
     assert len(links) == 1, f"{name}: missing primary category"
     if name in epic:
         assert links[0].get("targetId") == "b174-c09d-3660-f048", f"{name}: not Epic Hero"
-    models = unit.findall("./" + N + "selectionEntries/" + N + "selectionEntry")
-    assert models, f"{name}: missing model entries"
-    for model in models:
+    unit_models = models(unit)
+    assert unit_models, f"{name}: missing model entries"
+    for model in unit_models:
         weapons = model.findall("./" + N + "selectionEntries/" + N + "selectionEntry")
         groups = model.findall("./" + N + "selectionEntryGroups/" + N + "selectionEntryGroup")
         assert weapons or groups, f"{name}: unequipped model {model.get('name')}"
@@ -49,9 +50,9 @@ for unit in units:
             for group in groups:
                 if group.get("defaultSelectionEntryId"):
                     default = next(x for x in group.findall("./" + N + "selectionEntries/" + N + "selectionEntry") if x.get("id") == group.get("defaultSelectionEntryId"))
-                    assert default.findall("./" + N + "profiles/" + N + "profile"), f"{name}: default loadout empty"
+                    assert list(active_profiles(default)) or default.findall("./" + N + "infoLinks/" + N + "infoLink"), f"{name}: default loadout empty"
     if "Tough(" in chars["Special Rules"]:
         assert not any(x.get("name","").startswith("Tough(") for x in unit.findall("./" + N + "infoLinks/" + N + "infoLink")), f"{name}: redundant Tough rule link"
 
-print(f"PASS Alien Hives: {len(units)} units, {sum(len(u.findall('./'+N+'selectionEntries/'+N+'selectionEntry')) for u in units)} models, {len(ids)} unique IDs.")
+print(f"PASS Alien Hives: {len(units)} units, {sum(len(models(u)) for u in units)} models, {len(ids)} unique IDs.")
 print("NOTE: Full PDF equipment parity and New Recruit visual tests are still required before marking Completed.")

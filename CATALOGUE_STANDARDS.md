@@ -75,3 +75,7 @@ The 37 universal special rules from Grimdark Future Core Rules v3.6.0 page 2 liv
 ## Faction rule hygiene
 
 Use one definition per exact local rule name. Automatic spell catalogue and caster entries must reference the same spell IDs. Remove inherited foreign definitions only when not used and not present in the faction source manifest. Preserve source-defined rules even with zero direct links, and preserve referenced legacy equipment rules pending source verification. Do not merge parameterized rules with different named payloads without source review.
+
+## Validator ownership
+
+All general validators discover faction catalogues automatically and resolve rule IDs against the shared game system plus the current faction. Nested model sets and required default paths are supported. New factions must supply base-unit, PDF-rule and spell manifests; legacy faction-specific regression fixtures remain active. CI runs both the general and legacy checks. Structural validation does not certify full PDF upgrade parity or visual export.

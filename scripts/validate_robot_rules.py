@@ -12,12 +12,13 @@ def norm(text):
 ids = [n.attrib["id"] for n in root.iter() if "id" in n.attrib]
 duplicates = [name for name, total in Counter(ids).items() if total > 1]
 assert not duplicates, f"Duplicate IDs: {duplicates[:10]}"
-known = set(ids)
+from validation_common import SYSTEM_IDS, rule_definitions
+known = set(ids) | SYSTEM_IDS
 units = root.findall("./c:selectionEntries/c:selectionEntry[@type='unit']", N)
 assert len(units) == 32, f"Expected 32 units, found {len(units)}"
 for node in root.iter():
     if node.tag.endswith("infoLink"):
-        assert node.attrib.get("targetId") in known, f"Dangling rule: {node.attrib}"
+        assert node.attrib.get("targetId") in (rule_definitions(root) if node.get("type")=="rule" else known), f"Dangling rule: {node.attrib}"
 for unit in units:
     names = {
         norm(piece)

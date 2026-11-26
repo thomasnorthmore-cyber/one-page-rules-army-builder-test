@@ -34,10 +34,11 @@ expected = {
 ids = [node.attrib["id"] for node in root.iter() if "id" in node.attrib]
 duplicate = [id_ for id_, n in collections.Counter(ids).items() if n > 1]
 assert not duplicate, f"Duplicate IDs: {duplicate[:10]}"
-all_ids = set(ids)
+from validation_common import SYSTEM_IDS, rule_definitions
+all_ids = set(ids) | SYSTEM_IDS
 for node in root.iter():
     if node.tag.endswith("infoLink"):
-        assert node.attrib.get("targetId") in all_ids, f"Unresolved rule: {node.attrib}"
+        assert node.attrib.get("targetId") in (rule_definitions(root) if node.get("type")=="rule" else all_ids), f"Unresolved rule: {node.attrib}"
     if node.tag.endswith("selectionEntryGroup"):
         default = node.attrib.get("defaultSelectionEntryId")
         if default:
@@ -46,8 +47,8 @@ for node in root.iter():
     if node.tag.endswith("selectionEntry"):
         for c in node.findall("./c:constraints/c:constraint", NS):
             if c.attrib.get("type") == "min" and c.attrib.get("value") == "1":
-                assert any(x.tag.endswith(("selectionEntries", "selectionEntryGroups", "profiles")) for x in node), f"Empty required selection {node.attrib.get('name')}"
-units = root.findall("./c:selectionEntries/c:selectionEntry", NS)
+                assert any(x.tag.endswith(("selectionEntries", "selectionEntryGroups", "profiles", "infoLinks")) for x in node), f"Empty required selection {node.attrib.get('name')}"
+units = root.findall("./c:selectionEntries/c:selectionEntry[@type='unit']", NS)
 assert {u.attrib["name"] for u in units} == set(expected), "Mismatch with 22 Custodian PDF units"
 for unit in units:
     points = unit.find("./c:costs/c:cost", NS)

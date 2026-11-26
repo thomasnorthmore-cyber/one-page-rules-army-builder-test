@@ -14,31 +14,27 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 N = "{http://www.battlescribe.net/schema/catalogueSchema}"
-FILES = ("Battle_Brothers.cat", "Robot_Legions.cat", "Custodian_Brothers.cat")
-CORE_RULES = {"AP", "Blast", "Deadly"}
-def normalize(name: str) -> str:
-    if re.fullmatch(r"(AP|Blast|Deadly)\(\d+\)", name):
-        return re.sub(r"\(\d+\)", "(X)", name)
-    return name
+from validation_common import factions, rule_definitions, norm as normalize
 
 errors = []
 warnings = []
 count_profiles = 0
 count_entries = 0
-for filename in FILES:
-    root = ET.parse(Path(filename)).getroot()
+for path, root in factions():
+    filename = path.name
     ids = [node.get("id") for node in root.iter() if node.get("id")]
     duplicates = [k for k, v in Counter(ids).items() if v > 1]
     if duplicates:
         errors.append(f"{filename}: duplicate XML IDs: {duplicates[:10]}")
-    rule_ids = {node.get("id") for node in root.findall(f"./{N}sharedRules/{N}rule")}
-    rule_names = {node.get("name") for node in root.findall(f"./{N}sharedRules/{N}rule")}
+    defs = rule_definitions(root)
+    rule_ids = set(defs)
+    rule_names = {normalize(node.get("name")) for node in defs.values()}
     for link in root.iter(f"{N}infoLink"):
         if link.get("type") == "rule" and link.get("targetId") not in rule_ids:
             errors.append(f"{filename}: invalid rule link {link.get('name')}: {link.get('targetId')}")
     for entry in root.iter(f"{N}selectionEntry"):
         count_entries += 1
-        direct_links = {l.get("name") for l in entry.findall(f"./{N}infoLinks/{N}infoLink")}
+        direct_links = {normalize(l.get("name")) for l in entry.findall(f"./{N}infoLinks/{N}infoLink")}
         for prof in entry.findall(f"./{N}profiles/{N}profile"):
             if prof.get("typeName") not in ("Ranged Weapon", "Melee Weapon"):
                 continue
@@ -57,7 +53,7 @@ for filename in FILES:
                 norm = normalize(trait)
                 if norm not in direct_links:
                     errors.append(f"{filename}: {label} / {name}: missing equipped-only rule link '{norm}'")
-                if norm not in rule_names:
+                if norm not in rule_names and not any(normalize(l.get("name"))==norm and l.get("targetId") in rule_ids for l in entry.findall(f"./{N}infoLinks/{N}infoLink")):
                     errors.append(f"{filename}: {label} / {name}: missing rule definition '{norm}'")
     for entry in root.iter(f"{N}selectionEntry"):
         if entry.get("type") != "upgrade":
@@ -72,7 +68,7 @@ for filename in FILES:
         )
         if not (has_profile or has_rule or has_children):
             errors.append(f"{filename}: inert upgrade without profile or rule: {entry.get('name')}")
-    print(f"{filename}: {len(root.findall(f'./{N}selectionEntries/{N}selectionEntry'))} units checked")
+    print(f"{filename}: {len(root.findall(f'./{N}selectionEntries/{N}selectionEntry[@type="unit"]'))} units checked")
 for msg in warnings:
     print("SOURCE REVIEW:", msg)
 for err in errors[:100]:

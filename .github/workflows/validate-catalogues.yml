@@ -5,7 +5,8 @@ on:
       - '*.cat'
       - '*.gst'
       - 'reference/**'
-      - 'scripts/validate_all_factions.py'
+      - 'scripts/validate*.py'
+      - 'scripts/validation_common.py'
       - 'scripts/validate_spell_catalogues.py'
       - 'scripts/validate_pdf_special_rules.py'
       - '.github/workflows/validate-catalogues.yml'
@@ -14,7 +15,8 @@ on:
       - '*.cat'
       - '*.gst'
       - 'reference/**'
-      - 'scripts/validate_all_factions.py'
+      - 'scripts/validate*.py'
+      - 'scripts/validation_common.py'
       - '.github/workflows/validate-catalogues.yml'
   workflow_dispatch:
 permissions:
@@ -33,6 +35,16 @@ jobs:
         run: python3 scripts/validate_spell_catalogues.py
       - name: Verify PDF faction special rules and equipment rule links
         run: python3 scripts/validate_pdf_special_rules.py
+      - name: Audit all faction structure and equipment links
+        run: |
+          python3 scripts/validate_catalogues.py
+          python3 scripts/validate_all_equipped_weapon_rules.py
+      - name: Run legacy faction regression checks
+        run: |
+          python3 scripts/validate_alien_hives.py
+          python3 scripts/validate_robot_rules.py
+          python3 scripts/validate_custodian.py
+          python3 scripts/validate_equipped_rules.py
       - name: Upload detailed report even when checks fail
         if: always()
         uses: actions/upload-artifact@v4

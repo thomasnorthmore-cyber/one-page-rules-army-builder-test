@@ -1,9 +1,9 @@
 name: Alien Hives catalogue checks
 on:
   push:
-    paths: ['Alien_Hives.cat', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
+    paths: ['Alien_Hives.cat', 'Grimdark_Future.gst', 'scripts/validation_common.py', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
   pull_request:
-    paths: ['Alien_Hives.cat', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
+    paths: ['Alien_Hives.cat', 'Grimdark_Future.gst', 'scripts/validation_common.py', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
   workflow_dispatch:
 jobs:
   validate:

@@ -12,10 +12,7 @@ N="{http://www.battlescribe.net/schema/catalogueSchema}"
 G="{http://www.battlescribe.net/schema/gameSystemSchema}"
 PLACEHOLDER=re.compile(r"refer to|as defined|consult (?:the )?(?:rules|book)|follow OPR|use (?:the )?(?:official|grimdark future|alien hives).*rule|TODO|TBD|see (?:the )?rulebook",re.I)
 PARAM=re.compile(r"^([^()]+)\((\d+)\)$")
-def norm(s):
-    s=(s or "").strip()
-    m=PARAM.fullmatch(s)
-    return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Impact","Tough","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target","Retaliate"} else s
+from validation_common import norm
 def tokens(s):
     return [x.strip() for x in re.split(r",\s*(?![^()]*\))",s or "") if x.strip() not in {"","-","undefined"}]
 def rules(e):

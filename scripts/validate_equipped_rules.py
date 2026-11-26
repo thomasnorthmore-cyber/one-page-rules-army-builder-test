@@ -30,20 +30,22 @@ cases = {
     },
     "Custodian_Brothers.cat": {}
 }
-for path, expected in cases.items():
-    root = ET.parse(Path(path)).getroot()
+from validation_common import SYSTEM_IDS, rule_definitions, factions, norm, active_profiles
+for file, root in factions():
+    path = file.name
+    expected = cases.get(path, {})
     ids = [n.attrib["id"] for n in root.iter() if "id" in n.attrib]
     assert len(ids) == len(set(ids)), f"{path}: duplicate XML IDs"
-    known = set(ids)
+    known = set(ids) | SYSTEM_IDS
     for node in root.iter():
         if node.tag.endswith("infoLink"):
-            assert node.attrib["targetId"] in known, f"{path}: dangling rule target"
+            assert node.attrib["targetId"] in (rule_definitions(root) if node.get("type")=="rule" else known), f"{path}: dangling rule target"
     for rule, entry_ids in expected.items():
         for entry_id in entry_ids:
             entry = root.find(f".//c:selectionEntry[@id='{entry_id}']", ns)
             assert entry is not None, f"{path}: missing equipment {entry_id}"
             linked = [n.attrib["name"] for n in entry.findall("./c:infoLinks/c:infoLink", ns)]
-            assert rule in linked, f"{path}: {entry_id} missing equipped {rule}"
+            assert norm(rule) in {norm(x) for x in linked}, f"{path}: {entry_id} missing equipped {rule}"
     print(f"PASS {path}: unique IDs, valid rule targets, conditional upgrades checked")
 print("Reminder: New Recruit display and PDF/source-by-source parity require separate checks")
 
@@ -79,7 +81,7 @@ for path, cases in replacement_cases.items():
         options = group.findall("./c:selectionEntries/c:selectionEntry", ns)
         default = next((o for o in options if o.get("id") == default_id), None)
         assert default is not None, f"{path}: no default equipped weapon for {entry_id}"
-        assert default.find(f"./c:profiles/c:profile[@name='{weapon_name}']", ns) is not None, (
+        assert any(p.get("name")==weapon_name for p in active_profiles(default)), (
             f"{path}: default option does not equip {weapon_name}"
         )
         constraints = {c.get("type"): c.get("value") for c in group.findall("./c:constraints/c:constraint", ns)}
