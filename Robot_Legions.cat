@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -1318,12 +1318,7 @@
             </selectionEntry>
             <selectionEntry id="rl36-7a20140900b5" name="Thruster Bike" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-29273a82bc97" name="Thruster Bike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Radium Cannon (24", Blast(3)), Fast, Strider, Swift, Tough(3)</characteristic>
-                  </characteristics>
-                </profile>
+                
                 <profile id="rl36-2d5641519df8" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
@@ -1382,12 +1377,7 @@
             </selectionEntry>
             <selectionEntry id="rl36-7d2c1d45ad13" name="Skimmer Bike" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-607a0f5f29ee" name="Skimmer Bike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Radium Cannon (24", Blast(3)), Scout, Strider, Swift, Tough(3)</characteristic>
-                  </characteristics>
-                </profile>
+                
                 <profile id="rl36-3f746eae218a" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
@@ -4537,12 +4527,7 @@
             </selectionEntry>
             <selectionEntry id="rl36-9b634b49220e" name="Overseer Pilot" hidden="false" type="upgrade" collective="false" import="true">
               <profiles>
-                <profile id="rl36-b09dfa40a3f8" name="Overseer Pilot" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A9</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Burst Photon Gun (18", Shatter), Swift Buff</characteristic>
-                  </characteristics>
-                </profile>
+                
                 <profile id="rl36-fb7798a10750" name="Burst Photon Gun" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">18"</characteristic>
