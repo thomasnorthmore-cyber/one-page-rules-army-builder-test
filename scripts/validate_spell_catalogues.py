@@ -11,6 +11,8 @@ cat=SYSTEM.find(f"./{G}categoryEntries/{G}categoryEntry[@id='opr-spell-catalogue
 assert cat is not None and cat.get("name")=="Spell Catalogue"
 force=SYSTEM.find(f"./{G}forceEntries/{G}forceEntry/{G}categoryLinks")
 assert force is not None and force[0].get("targetId")=="opr-spell-catalogue-category", "Spell Catalogue must be first"
+import json
+SPELL_SOURCE=json.loads((ROOT/"reference/spell-checks.json").read_text())
 entries={"Alien_Hives.cat":"ah","Battle_Brothers.cat":"bb","Custodian_Brothers.cat":"cust","Robot_Legions.cat":"rl"}
 for file,slug in entries.items():
     root=ET.parse(ROOT/file).getroot()
@@ -27,9 +29,16 @@ for file,slug in entries.items():
     assert not ref.findall(f".//{N}selectionEntry"),file+": spell reference must not add models"
     links=ref.findall(f"./{N}infoLinks/{N}infoLink")
     assert len(links)==6,file+": expected exactly 6 spells"
+    expected=SPELL_SOURCE[file]
+    assert len(links)==len(expected),file+": PDF spells count changed"
+
     defs={r.get("id"):r for r in root.findall(f"./{N}sharedRules/{N}rule")}
-    for link in links:
+    for link,(name,cost,text_marker) in zip(links,expected):
+        assert link.get("name")==f"{name} ({cost})",file+f": spell name/cost differs from supplied PDF: {name}"
         assert link.get("targetId") in defs,file+": missing spell definition"
+        desc=defs[link.get("targetId")].findtext(N+"description") or ""
+        assert text_marker in desc,file+f": spell effect differs from PDF: {name}"
+
         assert defs[link.get("targetId")].get("name")==link.get("name"),file+": spell name mismatch"
         assert defs[link.get("targetId")].findtext(N+"description"),file+": empty description"
     assert len(units)=={"ah":41,"bb":27,"cust":22,"rl":32}[slug]
