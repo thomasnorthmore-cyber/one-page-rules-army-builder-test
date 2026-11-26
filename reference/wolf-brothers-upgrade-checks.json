@@ -1,0 +1,1185 @@
+{
+  "source": "Wolf_Brothers_3.6.0.pdf pp.5–13. Visible equipment prices transcribed by group, including combined squad prices; two clipped Battle Tank rows explicitly excluded from source certification.",
+  "groups": [
+    {
+      "unit": "Wolf Master Destroyer",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Archivist": 40,
+        "Wolf-Saga Keeper": 20,
+        "Master Archivist": 60
+      }
+    },
+    {
+      "unit": "Wolf Master Destroyer",
+      "group": "Weapon loadout",
+      "costs": {
+        "Archivist Staff": 0,
+        "Hand Weapon + Combat Shield": 15,
+        "Assault Burst Cyclic Rifle + Hand Weapon": 20,
+        "Burst Cyclic Rifle + Hand Weapon": 25,
+        "Dual Energy Claws": 35
+      }
+    },
+    {
+      "unit": "Wolf Master Destroyer",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 25,
+        "Energy Sword": 35,
+        "Energy Fist": 50,
+        "Chain-Fist": 60
+      }
+    },
+    {
+      "unit": "Wolf Master Destroyer",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 25
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Role",
+      "costs": {
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Archivist": 40,
+        "Wolf-Saga Keeper": 20,
+        "Master Archivist": 60,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 5,
+        "Burst Cyclic Rifle + Hand Weapon": 15,
+        "Dual Energy Claws": 15,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Combat Shield": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Master Brother",
+      "group": "Mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20,
+        "Combat Bike + Heavy Bike-Rifle": 105,
+        "Assault Bike + Assault Heavy Bike-Rifle": 115,
+        "Wolf Mount": 135
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Role",
+      "costs": {
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Archivist": 40,
+        "Wolf-Saga Keeper": 20,
+        "Master Archivist": 60,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 10,
+        "Burst Cyclic Rifle + Hand Weapon": 10,
+        "Dual Energy Claws": 15,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 10
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 5,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 10,
+        "Fusion-Mod": 10,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Wolf Master Brother",
+      "group": "Mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20,
+        "Combat Bike + Heavy Bike-Rifle": 95,
+        "Assault Bike + Assault Heavy Bike-Rifle": 105,
+        "Wolf Mount": 125
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Preacher": 15,
+        "Captain": 25,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 5,
+        "Sniper Rifle + Hand Weapon": 5,
+        "Burst Shotgun + Hand Weapon": 5
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5,
+        "Fusion Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 5,
+        "Energy Fist": 10,
+        "Chain-Fist": 15
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 5,
+        "Fusion-Mod": 10,
+        "Anti-Matter-Mod": 10
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Mobility",
+      "costs": {
+        "Camo Cloak": 10,
+        "Forward Sentry": 10,
+        "Camo Sentry": 15,
+        "Off-Road Bike + Replace Heavy Bike-Rifle": 80,
+        "Combat Bike + Replace Heavy Bike-Rifle": 90
+      }
+    },
+    {
+      "unit": "Wolf Elite Pathfinder",
+      "group": "Replace Heavy Bike-Rifle",
+      "costs": {
+        "Heavy Bike-Rifle": 0,
+        "Assault Heavy Bike-Rifle": 5
+      }
+    },
+    {
+      "unit": "Hunting Wolves",
+      "group": "Cyborg Body",
+      "costs": {
+        "Cyborg Body": 15
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Rifles": 0,
+        "Heavy Pistols": 10,
+        "Shotguns": 20
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Replace Heavy Rifle",
+      "costs": {
+        "Heavy Rifle": 0,
+        "Flamer": 10,
+        "Anti-Matter-Sniper Carbine": 10,
+        "Sniper Rifle": 15,
+        "Plasma Rifle": 15,
+        "Arc-Charger Rifle": 20,
+        "Anti-Matter Rifle": 20,
+        "Heavy Machinegun": 20,
+        "Missile Launcher": 25
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Hand Weapon": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Replace Sgt. Heavy Pistol",
+      "costs": {
+        "Sgt. Heavy Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Camo Cloaks",
+      "costs": {
+        "Camo Cloaks": 15
+      }
+    },
+    {
+      "unit": "Wolf Pathfinders",
+      "group": "Forward Sentries",
+      "costs": {
+        "Forward Sentries": 15
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Pistols": 0,
+        "Plasma Pistols": 25
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Special weapon loadout",
+      "costs": {
+        "Heavy Pistol + Hand Weapon": 0,
+        "Heavy Pistol + Energy Hammer": 10,
+        "Great Chain-Sword": 10,
+        "Assault Flamer + Strike": 15,
+        "Heavy Pistol + Energy Sword": 25,
+        "Dual Energy Claws": 25,
+        "Assault Plasma Rifle + Strike": 25,
+        "Heavy Pistol + Energy Fist": 25,
+        "Assault Arc-Charger Rifle + Strike": 30,
+        "Assault Anti-Matter Rifle + Strike": 30,
+        "Assault Fusion Rifle + Strike": 35
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Pistol + Hand Weapon": 0,
+        "Sergeant loadout": 0
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Replace Sgt. Heavy Pistol",
+      "costs": {
+        "Sgt. Heavy Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 10,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Wolf Rookies",
+      "group": "Jetpacks",
+      "costs": {
+        "Jetpacks": 25
+      }
+    },
+    {
+      "unit": "Wolf Battle Brothers",
+      "group": "Replace Heavy Rifle",
+      "costs": {
+        "Heavy Rifle": 0,
+        "Flamer": 5,
+        "Heavy Flamer": 15,
+        "Arc-Charger Rifle": 20,
+        "Plasma Rifle": 20,
+        "Fusion Rifle": 25,
+        "Arc-Charger Cannon": 30,
+        "Anti-Matter Rifle": 30,
+        "Heavy Machinegun": 30,
+        "Plasma Cannon": 30,
+        "Missile Launcher": 35,
+        "Heavy Fusion Rifle": 35,
+        "Anti-Matter Cannon": 40,
+        "Laser Cannon": 50
+      }
+    },
+    {
+      "unit": "Wolf Battle Brothers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Wolf Battle Brothers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Battle Brothers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Wolf Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 10,
+        "Detachment Banner": 15,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Wolf Veteran Assault Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Hand Weapons + Combat Shields": 0,
+        "Flamer Pistols + Hand Weapons": 30,
+        "Great Chain-Swords": 40,
+        "Dual Energy Claws": 80
+      }
+    },
+    {
+      "unit": "Wolf Veteran Assault Brothers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Assault Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 5,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Assault Brothers",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10
+      }
+    },
+    {
+      "unit": "Wolf Veteran Assault Brothers",
+      "group": "Squad mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Replace Flamer",
+      "costs": {
+        "Flamer": 0,
+        "Burst Battle Rifle": 10,
+        "Plasma Rifle": 15,
+        "Arc-Charger Rifle": 20,
+        "Fusion Rifle": 20,
+        "Anti-Matter Rifle": 30
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Flamer-Mod",
+      "costs": {
+        "Flamer-Mod": 5
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Plasma-Mod",
+      "costs": {
+        "Plasma-Mod": 10
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Arc-Charger-Mod",
+      "costs": {
+        "Arc-Charger-Mod": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Fusion-Mod",
+      "costs": {
+        "Fusion-Mod": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Anti-Matter-Mod",
+      "costs": {
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Wolf Veteran Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Wolf Pathfinder Snipers",
+      "group": "Squad loadout",
+      "costs": {
+        "Anti-Matter-Sniper Carbines": 0,
+        "Sniper Rifles": 5
+      }
+    },
+    {
+      "unit": "Wolf Support Brothers",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Plasma Cannon": 25,
+        "Heavy Machinegun": 25,
+        "Arc-Charger Cannon": 25,
+        "Missile Launcher": 30,
+        "Heavy Fusion Rifle": 30,
+        "Anti-Matter Cannon": 35,
+        "Laser Cannon": 50
+      }
+    },
+    {
+      "unit": "Wolf Pathfinder Bikers",
+      "group": "Squad loadout",
+      "costs": {
+        "Assault Grenade Launchers + Hand Weapons / High-Speed Tires": 0,
+        "Assault Grenade Launchers + Hand Weapons / Off-Road Tires": 20,
+        "Grenade Launchers + Heavy Rifles + Strikes / High-Speed Tires": 10,
+        "Grenade Launchers + Heavy Rifles + Strikes / Off-Road Tires": 30,
+        "Grenade Launcher + Heavy Pistols + Hand Weapons / High-Speed Tires": 15,
+        "Grenade Launcher + Heavy Pistols + Hand Weapons / Off-Road Tires": 35,
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes / High-Speed Tires": 15,
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes / Off-Road Tires": 35,
+        "Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / High-Speed Tires": 20,
+        "Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / Off-Road Tires": 40,
+        "Assault Grenade Launchers + Heavy Pistols / High-Speed Tires": 20,
+        "Assault Grenade Launchers + Heavy Pistols / Off-Road Tires": 40,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes / High-Speed Tires": 30,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes / Off-Road Tires": 50,
+        "Assault Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / High-Speed Tires": 35,
+        "Assault Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / Off-Road Tires": 55
+      }
+    },
+    {
+      "unit": "Wolf Pathfinder Bikers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Wolf Pathfinder Bikers",
+      "group": "Replace Sgt. Heavy Pistol",
+      "costs": {
+        "Sgt. Heavy Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Pathfinder Bikers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Werewolf Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Energy Were-Claws": 0,
+        "Energy Hammers + Combat Shields": 5,
+        "Energy Were-Claws + Backpack-GLs": 40,
+        "Energy Hammers + Combat Shields + Backpack-GLs": 45
+      }
+    },
+    {
+      "unit": "Werewolf Brothers",
+      "group": "Replace Energy Were-Claws",
+      "costs": {
+        "Energy Were-Claws": 0,
+        "Heavy Were-Claws": 5,
+        "Wolf Axe": 10
+      }
+    },
+    {
+      "unit": "Werewolf Brothers",
+      "group": "Cyborg Body",
+      "costs": {
+        "Cyborg Body": 30
+      }
+    },
+    {
+      "unit": "Wolf Destroyers",
+      "group": "Squad loadout",
+      "costs": {
+        "Assault Cyclic Rifles + Hand Weapons": 0,
+        "Hand Weapons + Combat Shields": 5,
+        "Burst Cyclic Rifles + Hand Weapons": 25,
+        "Dual Energy Claws": 40
+      }
+    },
+    {
+      "unit": "Wolf Destroyers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 5,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Wolf Destroyers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 45,
+        "Medical Training": 65
+      }
+    },
+    {
+      "unit": "Wolf Destroyers",
+      "group": "Replace Burst Cyclic Rifle",
+      "costs": {
+        "Burst Cyclic Rifle": 0,
+        "Heavy Flamer": 15,
+        "Missile Rack + Burst Cyclic Rifle": 45,
+        "Gatling Cannon": 50
+      }
+    },
+    {
+      "unit": "Wolf Destroyers",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 35
+      }
+    },
+    {
+      "unit": "Wolf Brother Bikers",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes": 0,
+        "Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 10,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes": 20,
+        "Assault Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 30
+      }
+    },
+    {
+      "unit": "Wolf Brother Bikers",
+      "group": "Replace Heavy Rifle",
+      "costs": {
+        "Heavy Rifle": 0,
+        "Flamer": 5,
+        "Arc-Charger Rifle": 20,
+        "Plasma Rifle": 20,
+        "Fusion Rifle": 25,
+        "Anti-Matter Rifle": 30
+      }
+    },
+    {
+      "unit": "Wolf Brother Bikers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Wolf Brother Bikers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Brother Bikers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Wolf Riders",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Pistols + Hand Weapons": 0,
+        "Hand Weapons + Combat Shields": 5,
+        "Dual Energy Claws": 35
+      }
+    },
+    {
+      "unit": "Wolf Riders",
+      "group": "Replace Heavy Pistol",
+      "costs": {
+        "Heavy Pistol": 0,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Wolf Riders",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 5,
+        "Energy Fist": 15,
+        "Wolf Axe": 20
+      }
+    },
+    {
+      "unit": "Wolf Drop Pod",
+      "group": "Replace Burst Cyclic Rifle",
+      "costs": {
+        "Burst Cyclic Rifle": 0,
+        "Grenade Launcher": 10,
+        "Twin Burst Cyclic Rifle": 30
+      }
+    },
+    {
+      "unit": "Wolf Drop Pod",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Wolf Heavy Exo-Suit",
+      "group": "Arm loadout",
+      "costs": {
+        "Dual Fists + Stomp": 0,
+        "Dual Assault Flamers + Dual Heavy Fists": 15,
+        "Dual Assault Flamers + Dual Combat Drills": 20,
+        "Dual Assault Fusion Rifles + Dual Heavy Fists": 45,
+        "Dual Assault Fusion Rifles + Dual Combat Drills": 50
+      }
+    },
+    {
+      "unit": "Wolf Heavy Exo-Suit",
+      "group": "Replace Dual Fists",
+      "costs": {
+        "Dual Fists": 0,
+        "Dual Flamers": 10,
+        "Dual Fusion Rifles": 50,
+        "Dual Arc-Charger Cannons": 60,
+        "Dual Heavy Machineguns": 60,
+        "Dual Anti-Matter Cannons": 80,
+        "Dual Laser Cannons": 100
+      }
+    },
+    {
+      "unit": "Wolf Heavy Exo-Suit",
+      "group": "Chest weapon",
+      "costs": {
+        "Chest-Array": 40,
+        "Chest-Missiles": 45
+      }
+    },
+    {
+      "unit": "Wolf Heavy Exo-Suit",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Wolf Support Bike",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Arc-Charger Cannon": 15,
+        "Heavy Machinegun": 15,
+        "Heavy Fusion Rifle": 25,
+        "Anti-Matter Cannon": 30
+      }
+    },
+    {
+      "unit": "Wolf Support Bike",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Wolf Attack Vehicle",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Gatling Cannon": 35,
+        "Heavy Machinegun": 35,
+        "Laser Cannon + Plasma Carbine": 55,
+        "Laser Cannon": 75
+      }
+    },
+    {
+      "unit": "Wolf Attack Vehicle",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 20
+      }
+    },
+    {
+      "unit": "Wolf Attack Vehicle",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Wolf Attack Vehicle",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Wolf APC",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 35,
+        "Pintle Heavy Fusion Rifle": 60
+      }
+    },
+    {
+      "unit": "Wolf APC",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 10
+      }
+    },
+    {
+      "unit": "Wolf APC",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Wolf APC",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Wolf Attack Speeder",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Gatling Cannon": 15,
+        "Heavy Machinegun": 15,
+        "Heavy Fusion Rifle": 25
+      },
+      "variants": [
+        {
+          "Heavy Flamer": 0,
+          "Gatling Cannon": 15,
+          "Heavy Machinegun": 15,
+          "Heavy Fusion Rifle": 25,
+          "Dual Missile Battery": 10
+        }
+      ]
+    },
+    {
+      "unit": "Wolf Attack Speeder",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Wolf Attack Speeder",
+      "group": "Open Sides",
+      "costs": {
+        "Open Sides": 20
+      }
+    },
+    {
+      "unit": "Wolf Attack Speeder",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Wolf Combat Walker",
+      "group": "Arm loadout",
+      "costs": {
+        "Two Walker Combat Fists": 0,
+        "Walker Axe + Combat Shield": 0
+      }
+    },
+    {
+      "unit": "Wolf Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 15,
+        "Twin Flamer Cannon": 20,
+        "Walker Fist + Replace Assault Heavy Flamer": 25,
+        "Linked Heavy Rifle-Array": 20,
+        "Plasma Cannon": 40,
+        "Gatling Cannon": 40,
+        "Twin Heavy Machinegun": 40,
+        "Missile Battery": 50,
+        "Twin Heavy Fusion Rifle": 55,
+        "Twin Laser Cannon": 80,
+        "Twin Autocannon": 80,
+        "Walker Combat Claw": 5,
+        "Light Walker Claw + Replace Heavy Flamer": 15,
+        "Walker Claw + Replace Assault Heavy Flamer": 25
+      }
+    },
+    {
+      "unit": "Wolf Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 15,
+        "Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Wolf Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 5,
+        "Assault Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Wolf Veteran Combat Walker",
+      "group": "Arm loadout",
+      "costs": {
+        "Two Walker Combat Fists": 0,
+        "Walker Axe + Combat Shield": 0
+      }
+    },
+    {
+      "unit": "Wolf Veteran Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 20,
+        "Twin Flamer Cannon": 25,
+        "Walker Fist + Replace Assault Heavy Flamer": 30,
+        "Linked Heavy Rifle-Array": 30,
+        "Plasma Cannon": 50,
+        "Gatling Cannon": 55,
+        "Twin Heavy Machinegun": 55,
+        "Missile Battery": 60,
+        "Twin Heavy Fusion Rifle": 60,
+        "Twin Laser Cannon": 95,
+        "Twin Autocannon": 100,
+        "Walker Combat Claw": 5,
+        "Light Walker Claw + Replace Heavy Flamer": 20,
+        "Walker Claw + Replace Assault Heavy Flamer": 30
+      }
+    },
+    {
+      "unit": "Wolf Veteran Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 25,
+        "Fusion Rifle": 25
+      }
+    },
+    {
+      "unit": "Wolf Veteran Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 10,
+        "Assault Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Wolf Battle Tank",
+      "group": "Replace Heavy Siege Cannon",
+      "costs": {
+        "Heavy Siege Cannon": 0,
+        "Battle Cannon + Replace Sponson Heavy Machineguns": 40,
+        "Heavy Missile Battery": 65,
+        "Interceptor AA-Cannon": 80,
+        "Heavy Rocket Battery": 100,
+        "Autocannon + Replace Sponson Heavy Machineguns": 125,
+        "Twin Laser Cannon + Replace Sponson Heavy Machineguns": 125
+      }
+    },
+    {
+      "unit": "Wolf Battle Tank",
+      "group": "Replace Sponson Heavy Machineguns",
+      "costs": {
+        "Sponson Heavy Machineguns": 0,
+        "Sponson Laser Cannons": 20
+      }
+    },
+    {
+      "unit": "Wolf Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 35,
+        "Pintle Heavy Fusion Rifle": 60
+      }
+    },
+    {
+      "unit": "Wolf Artillery Gun",
+      "group": "Replace Gatling Cannon",
+      "costs": {
+        "Gatling Cannon": 0,
+        "Heavy AA-Cannon": 15,
+        "HE-Bombard": 30,
+        "AT-Bombard": 105
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Replace Hull Gatling Cannon",
+      "costs": {
+        "Hull Gatling Cannon": 0,
+        "Hull Heavy Machinegun": 5
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Replace Sponson Heavy Flamer Cannons",
+      "costs": {
+        "Sponson Heavy Flamer Cannons": 0,
+        "Sponson Linked Heavy Rifle-Arrays": 5,
+        "Sponson Heavy Laser Cannons": 85
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 35,
+        "Pintle Heavy Fusion Rifle": 60
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 10
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 35
+      }
+    },
+    {
+      "unit": "Wolf Heavy Battle Tank",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 95
+      }
+    },
+    {
+      "unit": "Wolf Light Gunship",
+      "group": "Replace Strafing Light Laser Cannon",
+      "costs": {
+        "Strafing Light Laser Cannon": 0,
+        "Strafing Laser Machinegun": 5,
+        "Strafing Interceptor AA-Cannon": 5
+      }
+    },
+    {
+      "unit": "Wolf Light Gunship",
+      "group": "Replace Strafing Linked Missile-Arrays",
+      "costs": {
+        "Strafing Linked Missile-Arrays": 0,
+        "Strafing Heavy Machineguns": 5,
+        "Strafing AA-Missiles": 10,
+        "Strafing Laser Cannons": 20
+      }
+    },
+    {
+      "unit": "Wolf Heavy Gunship",
+      "group": "Replace Strafing Gatling Cannons",
+      "costs": {
+        "Strafing Gatling Cannons": 0,
+        "Strafing Plasma Cannons": 5,
+        "Strafing Laser Cannons": 15,
+        "Cargo Space": 40
+      }
+    },
+    {
+      "unit": "Wolf Heavy Gunship",
+      "group": "Replace Strafing Linked Missile-Arrays",
+      "costs": {
+        "Strafing Linked Missile-Arrays": 0,
+        "Strafing Heavy Machineguns": 5,
+        "Strafing Heavy Fusion Rifles": 5
+      }
+    }
+  ],
+  "unverified": [
+    {
+      "unit": "Wolf Battle Tank",
+      "group": "Disposable Guided Missile",
+      "reason": "Source p.12 clipped after Upgrade with any"
+    },
+    {
+      "unit": "Wolf Battle Tank",
+      "group": "Dozer Blade",
+      "reason": "Source p.12 clipped after Upgrade with any"
+    }
+  ]
+}

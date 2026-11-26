@@ -91,8 +91,11 @@ export function convertRosz(bytes){
       const quantity=Number(model.number??1);
       if(!Number.isInteger(quantity)||quantity<1||quantity>100)throw Error('Invalid model quantity');
       const tough=Number(unitRules.match(/Tough\((\d+)\)/i)?.[1]||0);
+      // Caster may belong to the unit profile or only to an equipped model (Psychic).
+      // Deduplicate repeated rule links; do not propagate a model's caster level to peers.
+      const caster=Math.max(0,...[...abilityNames].map(rule=>Number(rule.match(/^Caster\((\d+)\)$/i)?.[1]||0)));
       for(let i=0;i<quantity;i++){
-        definitions.push({name,loadoutCSV:gear.map(p=>p.name).join(', '),ttsNameOutput:name,ttsDescriptionOutput:details,originalToughValue:tough,originalCasterValue:0});
+        definitions.push({name,loadoutCSV:gear.map(p=>p.name).join(', '),ttsNameOutput:name,ttsDescriptionOutput:details,originalToughValue:tough,originalCasterValue:caster});
       }
     }
     units.push({name:String(unit.name||'Unit'),selectionId:String(unit.id||unit.entryId||'unit'),unitId:crypto.randomUUID(),modelDefinitions:definitions});

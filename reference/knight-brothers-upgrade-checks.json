@@ -1,0 +1,692 @@
+{
+  "source": "Knight_Brothers_3.6.0.pdf pp.4–8. Source-transcribed option costs for each nontrivial group, including combined squad prices and free replacements. Does not verify every legal model allocation or alternative weapon characteristic.",
+  "groups": [
+    {
+      "unit": "Knight Master Destroyer",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Gate-Projector Keeper": 10,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Archivist": 35,
+        "Master Archivist": 55
+      }
+    },
+    {
+      "unit": "Knight Master Destroyer",
+      "group": "Weapon loadout",
+      "costs": {
+        "Archivist Staff": 0,
+        "Dual Energy Sabres": 5,
+        "Hand Weapon + Combat Shield": 15,
+        "Assault Burst Cyclic Rifle + Hand Weapon": 25,
+        "Burst Cyclic Rifle + Hand Weapon": 25,
+        "Dual Energy Claws": 35
+      }
+    },
+    {
+      "unit": "Knight Master Destroyer",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 25,
+        "Energy Staff": 25,
+        "Energy Halberd": 25,
+        "Energy Sword": 35,
+        "Slayer Hammer": 35,
+        "Energy Fist": 50,
+        "Chain-Fist": 60
+      }
+    },
+    {
+      "unit": "Knight Master Destroyer",
+      "group": "Paladin",
+      "costs": {
+        "Paladin": 20
+      }
+    },
+    {
+      "unit": "Knight Master Destroyer",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 25
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Role",
+      "costs": {
+        "Gate-Projector Keeper": 10,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Archivist": 35,
+        "Master Archivist": 55,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 5,
+        "Burst Cyclic Rifle + Hand Weapon": 15,
+        "Burst Heavy Rifle + Hand Weapon": 15,
+        "Dual Energy Claws": 15
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Combat Shield": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20,
+        "Combat Bike + Heavy Bike-Rifle": 110,
+        "Assault Bike + Assault Heavy Bike-Rifle": 120
+      }
+    },
+    {
+      "unit": "Knight Veteran Master Brother",
+      "group": "Knight order",
+      "costs": {
+        "Inceptor": 5,
+        "Purifier": 10,
+        "Striker": 10
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Role",
+      "costs": {
+        "Gate-Projector Keeper": 10,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Archivist": 35,
+        "Master Archivist": 55,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Dual Energy Sabres": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 10,
+        "Burst Cyclic Rifle + Hand Weapon": 10,
+        "Burst Heavy Rifle + Hand Weapon": 10,
+        "Dual Energy Claws": 15
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Assault Cyclic Rifle": 5,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 5,
+        "Energy Staff": 5,
+        "Energy Halberd": 5,
+        "Slayer Hammer": 5,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 10,
+        "Fusion-Mod": 10,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20,
+        "Combat Bike + Heavy Bike-Rifle": 100,
+        "Assault Bike + Assault Heavy Bike-Rifle": 110
+      }
+    },
+    {
+      "unit": "Knight Master Brother",
+      "group": "Knight order",
+      "costs": {
+        "Inceptor": 5,
+        "Purifier": 10,
+        "Striker": 10
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Cyclic Rifles + Strikes": 0,
+        "Assault Cyclic Rifles + Hand Weapon": 10,
+        "Assault Cyclic Rifles + Energy Halberd": 15,
+        "Assault Cyclic Rifles + Energy Staff": 15,
+        "Assault Cyclic Rifles + Energy Sword": 20
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Replace Cyclic Rifle",
+      "costs": {
+        "Cyclic Rifle": 0,
+        "Slayer Blaze-Flamer": 15,
+        "Slayer Chain-Cannon": 30,
+        "Slayer Volley-Gun": 30
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Special weapon loadout",
+      "costs": {
+        "Cyclic Rifle + Strike": 0,
+        "Dual Energy Sabres": 10,
+        "Assault Cyclic Rifle + Slayer Hammer": 20
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 10,
+        "Detachment Banner": 15,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Psychic",
+      "costs": {
+        "Psychic": 15
+      }
+    },
+    {
+      "unit": "Knight Battle Brothers",
+      "group": "Squad order",
+      "costs": {
+        "Inceptors": 10,
+        "Purifiers": 15,
+        "Strikers": 20
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Dual Energy Sabres": 0,
+        "Slayer Blaze-Flamers + Strikes": 15,
+        "Assault Cyclic Rifles + Hand Weapons": 25
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 5,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Psychic",
+      "costs": {
+        "Psychic": 15
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Replace Slayer Blaze-Flamer",
+      "costs": {
+        "Slayer Blaze-Flamer": 0,
+        "Burst Cyclic Rifle": 15,
+        "Slayer Fusion-Beamer": 15,
+        "Slayer Chain-Cannon": 20,
+        "Slayer Volley-Gun": 25
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Staff": 5,
+        "Energy Halberd": 5,
+        "Slayer Hammer": 5,
+        "Energy Sword": 10
+      }
+    },
+    {
+      "unit": "Knight Veteran Brothers",
+      "group": "Squad order",
+      "costs": {
+        "Inceptors": 5,
+        "Purifiers": 10,
+        "Strikers": 10
+      }
+    },
+    {
+      "unit": "Knight Purgation Brothers",
+      "group": "Replace Slayer Blaze-Flamer",
+      "costs": {
+        "Slayer Blaze-Flamer": 0,
+        "Slayer Fusion-Beamer": 15,
+        "Slayer Volley-Gun": 20,
+        "Slayer Chain-Cannon": 25
+      }
+    },
+    {
+      "unit": "Knight Purgation Brothers",
+      "group": "Psychic",
+      "costs": {
+        "Psychic": 15
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Squad loadout",
+      "costs": {
+        "Dual Energy Sabres": 0,
+        "Assault Cyclic Rifles + Hand Weapons": 15,
+        "Burst Cyclic Rifles + Hand Weapons": 40
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 5,
+        "Detachment Banner": 45,
+        "Medical Training": 65
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Psychic",
+      "costs": {
+        "Psychic": 15
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Halberd": 10,
+        "Energy Sword": 15,
+        "Energy Staff": 15,
+        "Slayer Hammer": 15
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Replace Burst Cyclic Rifle",
+      "costs": {
+        "Burst Cyclic Rifle": 0,
+        "Slayer Fusion-Beamer": 5,
+        "Slayer Blaze-Flamer": 15,
+        "Slayer Chain-Cannon": 50,
+        "Slayer Volley-Gun": 50
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Paladins",
+      "costs": {
+        "Paladins": 20
+      }
+    },
+    {
+      "unit": "Knight Destroyers",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 35
+      }
+    },
+    {
+      "unit": "Knight Attack Vehicle",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Gatling Cannon": 35,
+        "Heavy Machinegun": 35,
+        "Laser Cannon + Plasma Carbine": 55,
+        "Laser Cannon": 75
+      }
+    },
+    {
+      "unit": "Knight Attack Vehicle",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 20
+      }
+    },
+    {
+      "unit": "Knight Attack Vehicle",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Knight Attack Vehicle",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Knight Attack Vehicle",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Knight APC",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 35,
+        "Pintle Heavy Fusion Rifle": 60
+      }
+    },
+    {
+      "unit": "Knight APC",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 10
+      }
+    },
+    {
+      "unit": "Knight APC",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Knight APC",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Knight APC",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Knight Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 15,
+        "Twin Flamer Cannon": 20,
+        "Walker Fist + Replace Assault Heavy Flamer": 25,
+        "Linked Heavy Rifle-Array": 20,
+        "Plasma Cannon": 40,
+        "Gatling Cannon": 40,
+        "Twin Heavy Machinegun": 40,
+        "Missile Battery": 50,
+        "Twin Heavy Fusion Rifle": 55,
+        "Twin Laser Cannon": 80,
+        "Twin Autocannon": 80
+      }
+    },
+    {
+      "unit": "Knight Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 15,
+        "Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Knight Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 5,
+        "Assault Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Knight Veteran Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 20,
+        "Twin Flamer Cannon": 25,
+        "Walker Fist + Replace Assault Heavy Flamer": 30,
+        "Linked Heavy Rifle-Array": 30,
+        "Plasma Cannon": 50,
+        "Gatling Cannon": 55,
+        "Twin Heavy Machinegun": 55,
+        "Missile Battery": 60,
+        "Twin Heavy Fusion Rifle": 60,
+        "Twin Laser Cannon": 95,
+        "Twin Autocannon": 100
+      }
+    },
+    {
+      "unit": "Knight Veteran Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 25,
+        "Fusion Rifle": 25
+      }
+    },
+    {
+      "unit": "Knight Veteran Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 10,
+        "Assault Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Knight Artillery Gun",
+      "group": "Replace Gatling Cannon",
+      "costs": {
+        "Gatling Cannon": 0,
+        "Heavy AA-Cannon": 15,
+        "HE-Bombard": 30,
+        "AT-Bombard": 105
+      }
+    },
+    {
+      "unit": "Knight Nemesis Walker",
+      "group": "Replace Heavy Walker Slayer Hammer",
+      "costs": {
+        "Heavy Walker Slayer Hammer": 0,
+        "Heavy Walker Sword": 5,
+        "Heavy Walker Fist": 15,
+        "Slayer Blaze-Flamer Cannon": 50,
+        "Assault Slayer Blaze-Flamer Cannon + Walker Slayer Hammer": 55,
+        "Assault Slayer Volley-Gun + Walker Slayer Hammer": 70,
+        "Slayer Chain-Cannon": 75,
+        "Slayer Volley-Gun": 75,
+        "Assault Slayer Chain-Cannon + Walker Slayer Hammer": 80,
+        "Slayer Fusion-Beamer Cannon": 95,
+        "Assault Slayer Fusion-Beamer Cannon + Walker Slayer Hammer": 100
+      }
+    },
+    {
+      "unit": "Knight Nemesis Walker",
+      "group": "Replace Walker Slayer Hammer",
+      "costs": {
+        "Walker Slayer Hammer": 0,
+        "Walker Sword": 5,
+        "Walker Fist": 10
+      }
+    },
+    {
+      "unit": "Knight Nemesis Walker",
+      "group": "Teleport Engine",
+      "costs": {
+        "Teleport Engine": 30
+      }
+    },
+    {
+      "unit": "Knight Nemesis Walker",
+      "group": "Power Shield",
+      "costs": {
+        "Power Shield": 45
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Replace Hull Gatling Cannon",
+      "costs": {
+        "Hull Gatling Cannon": 0,
+        "Hull Heavy Machinegun": 5
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Replace Sponson Heavy Flamer Cannons",
+      "costs": {
+        "Sponson Heavy Flamer Cannons": 0,
+        "Sponson Linked Heavy Rifle-Arrays": 5,
+        "Sponson Heavy Laser Cannons": 85
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 35,
+        "Pintle Heavy Fusion Rifle": 60
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 10
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 35
+      }
+    },
+    {
+      "unit": "Knight Heavy Battle Tank",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 95
+      }
+    },
+    {
+      "unit": "Knight Light Gunship",
+      "group": "Replace Strafing Light Laser Cannon",
+      "costs": {
+        "Strafing Light Laser Cannon": 0,
+        "Strafing Laser Machinegun": 5,
+        "Strafing Interceptor AA-Cannon": 5
+      }
+    },
+    {
+      "unit": "Knight Light Gunship",
+      "group": "Replace Strafing Linked Missile-Arrays",
+      "costs": {
+        "Strafing Linked Missile-Arrays": 0,
+        "Strafing Heavy Machineguns": 5,
+        "Strafing AA-Missiles": 10,
+        "Strafing Laser Cannons": 20
+      }
+    },
+    {
+      "unit": "Knight Heavy Gunship",
+      "group": "Replace Strafing Gatling Cannons",
+      "costs": {
+        "Strafing Gatling Cannons": 0,
+        "Strafing Plasma Cannons": 5,
+        "Strafing Laser Cannons": 15,
+        "Cargo Space": 40
+      }
+    },
+    {
+      "unit": "Knight Heavy Gunship",
+      "group": "Replace Strafing Linked Missile-Arrays",
+      "costs": {
+        "Strafing Linked Missile-Arrays": 0,
+        "Strafing Heavy Machineguns": 5,
+        "Strafing Heavy Fusion Rifles": 5
+      }
+    }
+  ]
+}

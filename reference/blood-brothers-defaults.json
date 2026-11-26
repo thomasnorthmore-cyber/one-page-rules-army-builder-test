@@ -1,0 +1,840 @@
+{
+  "source": "Blood_Brothers_3.6.0.pdf pp.2–3 and 5–14; default weapon profiles, model counts and special rules independently compared to printed unit summaries.",
+  "units": {
+    "Blood Master Destroyer": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Hero",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Archivist Staff",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Spell Amplifier"
+          ]
+        }
+      ]
+    },
+    "Blood Veteran Master Brother": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Master Brother": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Elite Pathfinder": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Hero",
+        "Strider",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Pathfinders": {
+      "models": 5,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Strider"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Battle Brothers": {
+      "models": 5,
+      "rules": [
+        "Bloodborn",
+        "Fearless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Assault Brothers": {
+      "models": 5,
+      "rules": [
+        "Bloodborn",
+        "Fearless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Veteran Assault Brothers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Armor(2)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Veteran Battle Brothers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Pathfinder Snipers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Scout",
+        "Stealth",
+        "Strider"
+      ],
+      "weapons": [
+        {
+          "name": "Anti-Matter-Sniper Carbine",
+          "range": "24\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Reliable",
+            "Smash",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Support Brothers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Relentless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Pathfinder Bikers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Grenade Launcher",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Destroyers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Cyclic Rifle",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "Anti-Cover",
+            "Assault",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Brother Bikers": {
+      "models": 3,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bike-Rifle",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Drop Pod": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Ambush",
+        "Immobile",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        }
+      ]
+    },
+    "Blood Heavy Exo-Suit": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fear(1)",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Dual Fists",
+          "range": "",
+          "attacks": "A4",
+          "rules": []
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Blood Support Bike": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Bike-Rifle",
+          "range": "24\"",
+          "attacks": "A3",
+          "rules": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A2",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Attack Vehicle": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Blood APC": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Blood Attack Speeder": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Vanguard"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Blood Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Blood Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Siege Cannon",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Blood Veteran Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Blood Artillery Gun": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Artillery",
+        "Cumbersome",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Heavy Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Fast",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Hull Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Sponson Heavy Flamer Cannons",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Blood Light Gunship": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Light Laser Cannon",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        }
+      ]
+    },
+    "Blood Heavy Gunship": {
+      "models": 1,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(9)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Strafing Rocket Launcher",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Heavy Rifle-Arrays",
+          "range": "9\"",
+          "attacks": "A3",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Blood Death Brothers": {
+      "models": 5,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Regeneration"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Blood Guard Brothers": {
+      "models": 5,
+      "rules": [
+        "Bloodborn",
+        "Fearless",
+        "Flying"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Energy Lance",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    }
+  }
+}

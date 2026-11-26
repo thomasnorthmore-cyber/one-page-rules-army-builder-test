@@ -58,6 +58,46 @@ jobs:
         if: always()
         run: |
           if [ -f Dark_Brothers.cat ]; then python3 scripts/validate_dark_brothers_defaults.py; fi
+      - name: Verify Blood Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_defaults.py; fi
+      - name: Verify Blood Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_upgrades.py; fi
+      - name: Verify Blood Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_weapon_profiles.py; fi
+      - name: Verify Blood Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_allocation.py; fi
+      - name: Verify Blood Brothers conditional equipment and rule states
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_combinations.py; fi
+      - name: Verify Knight Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_defaults.py; fi
+      - name: Verify Knight Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_upgrades.py; fi
+      - name: Verify Knight Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_weapon_profiles.py; fi
+      - name: Verify Knight Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_allocation.py; fi
+      - name: Verify Knight Brothers conditional equipment and rule states
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_combinations.py; fi
       - name: Verify Watch Brothers source default loadouts
         if: always()
         run: |
@@ -70,6 +110,26 @@ jobs:
         if: always()
         run: |
           if [ -f Watch_Brothers.cat ]; then python3 scripts/validate_watch_brothers_weapon_profiles.py; fi
+      - name: Verify Wolf Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_defaults.py; fi
+      - name: Verify Wolf Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_upgrades.py; fi
+      - name: Verify Wolf Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_weapon_profiles.py; fi
+      - name: Verify Wolf Brothers static equipment allocation
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_allocation.py; fi
+      - name: Verify Wolf Brothers source combination gates and rule states
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_combinations.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
