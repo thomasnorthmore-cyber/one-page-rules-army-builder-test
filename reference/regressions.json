@@ -29,6 +29,23 @@
         "rule": "Furious",
         "name": "Great Sister Vigilant Oath grants Furious"
       }
+    ],
+    "Dark_Brothers.cat": [
+      {
+        "id": "db36-r4-0074",
+        "rule": "Fast",
+        "name": "High-Speed Tires grant Fast"
+      },
+      {
+        "id": "db36-001s6",
+        "rule": "Scout",
+        "name": "Off-Road Tires grant Scout"
+      },
+      {
+        "id": "db36-001s6",
+        "rule": "Strider",
+        "name": "Off-Road Tires grant Strider"
+      }
     ]
   }
 }

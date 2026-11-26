@@ -2627,8 +2627,10 @@
         "rules": [
           "Darkborn",
           "Fearless",
-          "Fast",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Fast"
         ]
       },
       "Dark Destroyers": {

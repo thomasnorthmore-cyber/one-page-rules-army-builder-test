@@ -1,5 +1,7 @@
 # Dark Brothers v3.6.0 — implementation staging
 
-Source: user-supplied PDF, pages 2–14. The actual source contains 29 units (15 on page 2, 14 on page 3), six spells. Base stats and points transcribed. Catalogue contains per-model loadouts, many equipment choices, and scoped Bane modifiers.
+Revision 4 covers 29 units and six spells from the supplied army PDF. The checked upgrades include independent infantry sergeant and special-weapon slots, per-model Assault and Veteran Assault replacements, and the bike squad-wide weapon swaps. High-Speed Tires grant Fast and Off-Road Tires replace them with Scout and Strider. Hero Bane modifiers reference the selected Captain or Preacher within each loadout.
 
-Not complete: secondary replacements inside bundled choices (including sergeant pistols/melee, Master Destroyer hand weapon, bike weapon swaps, veteran rifle attachments, walker flamer replacements, battle tank sponsons); independent single-model upgrade combinations and some all-model squad replacements still need full verification. Armor is represented on selected shield rather than permanently in unit profile. Live New Recruit and ForceOrg verification outstanding. Do not promote as Completed until full equipment parity is established.
+The Pathfinder Biker sergeant row on page 9 requires a Heavy Rifle and Hand Weapon on the same model. The rifle loadouts instead equip a Strike, and the squad-wide pistol swap removes the rifle when it adds a Hand Weapon. The sergeant remains pending source clarification.
+
+Full upgrade parity still needs review. Live New Recruit and ForceOrg export verification are outstanding.
