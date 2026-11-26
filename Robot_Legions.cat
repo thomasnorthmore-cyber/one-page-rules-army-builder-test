@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -155,7 +155,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
     <rule id="rl36-core-0026" name="Limited" hidden="false"><description>This weapon can only be used once per game.</description></rule>
     <rule id="rl36-core-0027" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
     <rule id="rl36-core-0028" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
-  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>This weapon ignores Regeneration. When defending against it, the target must re-roll unmodified Defense results of 6.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-core-slow-rule" name="Slow" hidden="false"><description>Moves -2&quot; when using Advance, and -4&quot; when using Rush/Charge.</description></rule></sharedRules>
+  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>This weapon ignores Regeneration. When defending against it, the target must re-roll unmodified Defense results of 6.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-core-slow-rule" name="Slow" hidden="false"><description>Moves -2&quot; when using Advance, and -4&quot; when using Rush/Charge.</description></rule><rule id="rl36-audit-caster" name="Caster(X)" hidden="false"><description>Gets X spell tokens at the start of each round, up to 6 held at a time. Before attacking, spend spell tokens equal to a spell cost and roll: on 4+ the spell succeeds. Other casters within 18&quot; and line of sight may spend tokens to modify the roll by +1 or -1 per token.</description></rule><rule id="rl36-audit-flying" name="Flying" hidden="false"><description>May move through units and terrain, ignoring terrain effects when moving.</description></rule></sharedRules>
   <selectionEntries>
     <selectionEntry id="rl36-55eedb2f4a16" name="Tri-Scorpion Lord" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
@@ -1465,7 +1465,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
 
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-0" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-a175b89832ab" name="Replace all Ion Rifles" hidden="false" defaultSelectionEntryId="rl36-base-015bc0e-89832ab" collective="false" import="true">
@@ -1719,7 +1720,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
       <infoLinks>
         <infoLink id="rl36-9a68bcdc4800" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-e46199b7f62a" name="Infiltrate" hidden="false" targetId="rl36-483ef483642e" type="rule" />
-      </infoLinks>
+      
+        <infoLink id="rl36-audit-v34-1" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-0c05a051fcff" name="Replace all Rusted Claws" hidden="false" defaultSelectionEntryId="rl36-base-47548df-051fcff" collective="false" import="true">
@@ -1856,7 +1858,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
       </profiles>
       <infoLinks>
         <infoLink id="rl36-983b6b7d52f5" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      
+        <infoLink id="rl36-audit-v34-2" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-b8fba4894e8b" name="Replace all Doom Scythes" hidden="false" defaultSelectionEntryId="rl36-base-af69721-4894e8b" collective="false" import="true">
@@ -2079,7 +2082,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
 
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-3" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-c467a502f1c9" name="Replace all Photon Rifles" hidden="false" defaultSelectionEntryId="rl36-base-0570b83-502f1c9" collective="false" import="true">
@@ -2335,7 +2339,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2cf28c9a9c68" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      </infoLinks>
+      
+        <infoLink id="rl36-audit-v34-4" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-253b7f5e1487" name="Replace all Reaper Sniper Rifles" hidden="false" defaultSelectionEntryId="rl36-base-5664c69-f5e1487" collective="false" import="true">
@@ -4355,7 +4360,9 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
 
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-5" name="Caster(3)" hidden="false" targetId="rl36-audit-caster" type="rule"/>
+        <infoLink id="rl36-audit-v34-6" name="Flying" hidden="false" targetId="rl36-audit-flying" type="rule"/></infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bcb40112b6d2" name="Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4687,7 +4694,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
 
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-7" name="Caster(3)" hidden="false" targetId="rl36-audit-caster" type="rule"/></infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-6cb7d5a21c3b" name="Great Monolith — Model 1" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -4994,7 +5002,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
 
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-8" name="Caster(4)" hidden="false" targetId="rl36-audit-caster" type="rule"/></infoLinks>
       <comment>Starting equipment ability: Wraith Seer (Enhanced Self-Repair Buff)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-1d8af111cd58" name="Great Wraith-Shard — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5467,7 +5476,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
         <infoLink id="rl36-0bd47564c2dc" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-d707049849ff" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
       <infoLink id="rl36-link-1e-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-9" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <comment>Starting equipment ability: Paradox Shielding Device (Stealth Buff)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-bc12c79cf44f" name="Echo-3G01 — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -5563,7 +5573,8 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
         <infoLink id="rl36-link-1f-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
 
 
-</infoLinks>
+
+        <infoLink id="rl36-audit-v34-10" name="Slow" hidden="false" targetId="rl36-core-slow-rule" type="rule"/></infoLinks>
       <comment>Starting equipment ability: Optimized Optics (Unstoppable when Shooting)</comment>
       <selectionEntries>
         <selectionEntry id="rl36m-5ed5f5ab59fa" name="Xyros-Z320 — Model 1" hidden="false" collective="false" import="true" type="model">
