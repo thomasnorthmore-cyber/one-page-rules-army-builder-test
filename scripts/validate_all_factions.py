@@ -88,8 +88,11 @@ def main():
             if not unit.findall(f".//{N}selectionEntry[@type='model']"):
                 add("error","MISSING_MODELS",uname,"No model entries")
             expected=manifest.get(path.name,{}).get("units",{}).get(uname)
-            if expected is None:add("review","SOURCE_NOT_VERIFIED",uname,"No independent source entry yet")
+            if expected is None:add("error","SOURCE_BASELINE_MISSING",uname,"New unit has no independent PDF-verified source entry")
             else:
+                for field in ("Quality","Defense","points"):
+                    if field not in expected:
+                        add("error","SOURCE_FIELD_MISSING",uname,f"Source baseline lacks {field}")
                 counts["source_verified"]+=1
                 for field in ("Quality","Defense"):
                     if field in expected and actual[field]!=expected[field]:
