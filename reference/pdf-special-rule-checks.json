@@ -235,6 +235,33 @@
       "Enhanced Darkborn Aura": [
         "Enhanced Darkborn"
       ]
+    },
+    "Knight_Brothers.cat": {
+      "Knightborn": [
+        "2+",
+        "6+",
+        "9 inches",
+        "6 inches"
+      ],
+      "Enhanced Knightborn": [
+        "6+"
+      ],
+      "Teleport": [
+        "3 inches",
+        "6 inches"
+      ],
+      "Ravage": [
+        "Fatigued",
+        "6+"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ],
+      "Versatile Expert": [
+        "AP(+1)",
+        "+1 to hit"
+      ]
     }
   },
   "Goblin_Reclaimers.cat": [
@@ -460,6 +487,33 @@
     "Bane when Shooting Aura",
     "Bravery Aura",
     "Enhanced Darkborn Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
+  ],
+  "Knight_Brothers.cat": [
+    "Knightborn",
+    "Cumbersome",
+    "Enhanced Knightborn",
+    "Enhanced Warding",
+    "Evasive",
+    "Melee Shrouding",
+    "Mend",
+    "Rapid Rush",
+    "Ravage",
+    "Re-Deployment",
+    "Smash",
+    "Teleport",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Versatile Expert",
+    "Versatile Reach",
+    "Warding",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Enhanced Knightborn Aura",
     "Melee Shrouding Aura",
     "Rapid Rush Aura",
     "Regeneration Aura",

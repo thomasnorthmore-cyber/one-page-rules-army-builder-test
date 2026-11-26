@@ -2651,5 +2651,90 @@
         "points": 405
       }
     }
+  },
+  "Knight_Brothers.cat": {
+    "source": "Knight_Brothers_3.6.0.pdf p.2 and unit headers pp.4–8",
+    "units": {
+      "Knight Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 155
+      },
+      "Knight Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 95
+      },
+      "Knight Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 85
+      },
+      "Knight Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Knight Veteran Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Knight Purgation Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Knight Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 210
+      },
+      "Knight Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 175
+      },
+      "Knight APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 195
+      },
+      "Knight Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 410
+      },
+      "Knight Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 440
+      },
+      "Knight Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Knight Nemesis Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 740
+      },
+      "Knight Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 745
+      },
+      "Knight Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 275
+      },
+      "Knight Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 395
+      }
+    }
   }
 }
