@@ -1,0 +1,586 @@
+{
+  "source": "Watch_Brothers_3.6.0.pdf pp.4–8. Source-transcribed option costs for each nontrivial group. Drop Pod duplicate Targeting Array treated as one option. Does not verify every legal allocation or alternative profile.",
+  "groups": [
+    {
+      "unit": "Watch Master Destroyer",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Archivist": 45,
+        "Death-Munitions Keeper": 45,
+        "Master Archivist": 70
+      }
+    },
+    {
+      "unit": "Watch Master Destroyer",
+      "group": "Weapon loadout",
+      "costs": {
+        "Archivist Staff": 0,
+        "Hand Weapon + Combat Shield": 15,
+        "Assault Burst Cyclic Rifle + Hand Weapon": 30,
+        "Burst Cyclic Rifle + Hand Weapon": 35,
+        "Dual Energy Claws": 40
+      }
+    },
+    {
+      "unit": "Watch Master Destroyer",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 30,
+        "Energy Sword": 40,
+        "Energy Fist": 55,
+        "Chain-Fist": 65
+      }
+    },
+    {
+      "unit": "Watch Master Destroyer",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 25
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Role",
+      "costs": {
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Death-Munitions Keeper": 45,
+        "Archivist": 45,
+        "Master Archivist": 70,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer + Hand Weapon": 0,
+        "Flamer Pistol + Hand Weapon": 5,
+        "Archivist Staff": 20,
+        "Great Energy Hammer": 20,
+        "Dual Energy Claws": 20,
+        "Watch Spear": 25
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Replace Flamer",
+      "costs": {
+        "Flamer": 0,
+        "Sniper Carbine": 5,
+        "Plasma Rifle": 15,
+        "Burst Shotgun": 15,
+        "Arc-Charger Rifle": 20,
+        "Burst Cyclic Rifle": 20,
+        "Burst Heavy Rifle": 20,
+        "Fusion Rifle": 20,
+        "Anti-Matter Rifle": 25
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 15,
+        "Energy Sword": 20,
+        "Energy Fist": 30,
+        "Chain-Fist": 35
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Combat Shield",
+      "costs": {
+        "Combat Shield": 15
+      }
+    },
+    {
+      "unit": "Watch Master Brother",
+      "group": "Mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20,
+        "Combat Bike + Heavy Bike-Rifle": 95,
+        "Assault Bike + Assault Heavy Bike-Rifle": 110
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer + Strike": 0,
+        "Flamer Pistol + Hand Weapon": 5,
+        "Great Energy Hammer": 20,
+        "Dual Energy Claws": 20
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Replace Flamer",
+      "costs": {
+        "Flamer": 0,
+        "Sniper Carbine": 5,
+        "Plasma Rifle": 15,
+        "Burst Shotgun": 15,
+        "Arc-Charger Rifle": 20,
+        "Burst Cyclic Rifle": 20,
+        "Burst Heavy Rifle": 20,
+        "Fusion Rifle": 20,
+        "Anti-Matter Rifle": 25,
+        "Heavy Flamer": 5,
+        "Rapid GL-Cannon": 10,
+        "Arc-Charger Cannon": 30,
+        "Heavy Machinegun": 30,
+        "Missile Launcher": 30,
+        "Anti-Matter Cannon": 45
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Heavy Machinegun attachment",
+      "costs": {
+        "Flamer-Mod": 5
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Watch Battle Brothers",
+      "group": "Combat Shield",
+      "costs": {
+        "Combat Shield": 10
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Dual Energy Claws": 15,
+        "Great Energy Hammer": 15
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Combat Shields",
+      "costs": {
+        "Combat Shields": 10
+      }
+    },
+    {
+      "unit": "Watch Vanguard",
+      "group": "Aerial Drop",
+      "costs": {
+        "Aerial Drop": 10
+      }
+    },
+    {
+      "unit": "Watch Destroyers",
+      "group": "Squad loadout",
+      "costs": {
+        "Assault Cyclic Rifles + Hand Weapons": 0,
+        "Hand Weapons + Combat Shields": 0,
+        "Burst Cyclic Rifles + Hand Weapons": 30,
+        "Dual Energy Claws": 40
+      }
+    },
+    {
+      "unit": "Watch Destroyers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Watch Destroyers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 45,
+        "Medical Training": 65
+      }
+    },
+    {
+      "unit": "Watch Destroyers",
+      "group": "Replace Burst Cyclic Rifle",
+      "costs": {
+        "Burst Cyclic Rifle": 0,
+        "Heavy Flamer": 15,
+        "Missile Rack + Burst Cyclic Rifle": 50,
+        "Gatling Cannon": 60
+      }
+    },
+    {
+      "unit": "Watch Destroyers",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 35
+      }
+    },
+    {
+      "unit": "Watch Brother Bikers",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes": 0,
+        "Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 10,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes": 20,
+        "Assault Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 30
+      }
+    },
+    {
+      "unit": "Watch Brother Bikers",
+      "group": "Replace Heavy Rifle",
+      "costs": {
+        "Heavy Rifle": 0,
+        "Flamer": 5,
+        "Arc-Charger Rifle": 25,
+        "Plasma Rifle": 25,
+        "Fusion Rifle": 25,
+        "Anti-Matter Rifle": 35
+      }
+    },
+    {
+      "unit": "Watch Brother Bikers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Watch Brother Bikers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Watch Brother Bikers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Watch Drop Pod",
+      "group": "Replace Burst Cyclic Rifle",
+      "costs": {
+        "Burst Cyclic Rifle": 0,
+        "Grenade Launcher": 10,
+        "Twin Burst Cyclic Rifle": 40
+      }
+    },
+    {
+      "unit": "Watch Drop Pod",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Watch Attack Vehicle",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Gatling Cannon": 45,
+        "Heavy Machinegun": 45,
+        "Laser Cannon + Plasma Carbine": 65,
+        "Laser Cannon": 85
+      }
+    },
+    {
+      "unit": "Watch Attack Vehicle",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Watch Attack Vehicle",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 20
+      }
+    },
+    {
+      "unit": "Watch Attack Vehicle",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Watch Attack Vehicle",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Watch APC",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Watch APC",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 45,
+        "Pintle Heavy Fusion Rifle": 70
+      }
+    },
+    {
+      "unit": "Watch APC",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 15
+      }
+    },
+    {
+      "unit": "Watch APC",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Watch APC",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Watch Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Heavy Flamer + Light Walker Fist": 20,
+        "Twin Flamer Cannon": 25,
+        "Assault Heavy Flamer + Walker Fist": 25,
+        "Linked Heavy Rifle-Array": 30,
+        "Plasma Cannon": 50,
+        "Twin Heavy Machinegun": 50,
+        "Gatling Cannon": 55,
+        "Missile Battery": 60,
+        "Twin Heavy Fusion Rifle": 60,
+        "Twin Laser Cannon": 90,
+        "Twin Autocannon": 95
+      }
+    },
+    {
+      "unit": "Watch Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 25,
+        "Fusion Rifle": 25
+      }
+    },
+    {
+      "unit": "Watch Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 10,
+        "Assault Fusion Rifle": 20
+      }
+    },
+    {
+      "unit": "Watch Artillery Gun",
+      "group": "Replace Gatling Cannon",
+      "costs": {
+        "Gatling Cannon": 0,
+        "Heavy AA-Cannon": 5,
+        "HE-Bombard": 30,
+        "AT-Bombard": 110
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Replace Hull Gatling Cannon",
+      "costs": {
+        "Hull Gatling Cannon": 0,
+        "Hull Heavy Machinegun": 0
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Replace Sponson Heavy Flamer Cannons",
+      "costs": {
+        "Sponson Heavy Flamer Cannons": 0,
+        "Sponson Linked Heavy Rifle-Arrays": 15,
+        "Sponson Heavy Laser Cannons": 100
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 45,
+        "Pintle Heavy Fusion Rifle": 70
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 15
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 35
+      }
+    },
+    {
+      "unit": "Watch Heavy Battle Tank",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 95
+      }
+    },
+    {
+      "unit": "Watch Deathstar Gunship",
+      "group": "Replace Strafing Gatling Cannons",
+      "costs": {
+        "Strafing Gatling Cannons": 0,
+        "Strafing Laser Cannons": 30
+      }
+    },
+    {
+      "unit": "Watch Deathstar Gunship",
+      "group": "Replace Strafing Rocket Volley-Pod",
+      "costs": {
+        "Strafing Rocket Volley-Pod": 0,
+        "Strafing AA-Missiles": 10
+      }
+    },
+    {
+      "unit": "Watch Deathstar Gunship",
+      "group": "Replace Strafing Linked Heavy Rifle-Arrays",
+      "costs": {
+        "Strafing Linked Heavy Rifle-Arrays": 0,
+        "Cluster Bombs": 35,
+        "Cargo Space": 45
+      }
+    }
+  ]
+}

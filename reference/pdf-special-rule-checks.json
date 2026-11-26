@@ -310,6 +310,31 @@
         "AP(+1)",
         "+1 to hit"
       ]
+    },
+    "Watch_Brothers.cat": {
+      "Watchborn": [
+        "AP(+1)",
+        "+1 to hit",
+        "9 inches",
+        "6 inches"
+      ],
+      "Enhanced Watchborn": [
+        "Versatile Attack",
+        "AP(+1)",
+        "+1 to hit"
+      ],
+      "Enhanced Versatile Warrior": [
+        "Versatile Attack",
+        "AP(+1)"
+      ],
+      "Versatile Warrior": [
+        "9 inches",
+        "6 inches"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ]
     }
   },
   "Goblin_Reclaimers.cat": [
@@ -615,6 +640,31 @@
     "Bane when Shooting Aura",
     "Bravery Aura",
     "Enhanced Knightborn Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
+  ],
+  "Watch_Brothers.cat": [
+    "Watchborn",
+    "Crossing Strike",
+    "Cumbersome",
+    "Enhanced Versatile Warrior",
+    "Enhanced Watchborn",
+    "Evasive",
+    "Melee Shrouding",
+    "Mend",
+    "Rapid Rush",
+    "Re-Deployment",
+    "Smash",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Versatile Reach",
+    "Versatile Warrior",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Enhanced Watchborn Aura",
     "Melee Shrouding Aura",
     "Rapid Rush Aura",
     "Regeneration Aura",

@@ -63,10 +63,14 @@ export function convertRosz(bytes){
           : baseName.replace(/\s*[—–-]\s*(fixed equipment|model \d+)$/i,'').trim();
       const descriptions=[];
       const activeGrants=new Set([...commonRules,...auraRules,...[model,...nonModelSelections(model)].flatMap(namesOn)].filter(n=>grants.has(n)));
-      const effectiveRules=p=>[...new Set([...splitRules(stat(p,'Special Rules')),...[...activeGrants].map(n=>grants.get(n)).filter(([kind])=>kind===p.typeName).map(([,rule])=>rule)])].join(', ');
+      // Crossing Strike is a movement-triggered attack resolved as shooting, not melee.
+      const isCrossing=p=>splitRules(stat(p,'Special Rules')).includes('Crossing Strike');
+      const weaponKind=p=>isCrossing(p)?'Ranged Weapon':p.typeName;
+      const effectiveRules=p=>[...new Set([...splitRules(stat(p,'Special Rules')),...[...activeGrants].map(n=>grants.get(n)).filter(([kind])=>kind===weaponKind(p)).map(([,rule])=>rule)])].join(', ');
       descriptions.push(green('Quality '+qua+'   Defense '+def));
-      const ranged=gear.filter(p=>p.typeName==='Ranged Weapon');
-      const melee=gear.filter(p=>p.typeName==='Melee Weapon');
+      const ranged=gear.filter(p=>p.typeName==='Ranged Weapon'&&!isCrossing(p));
+      const melee=gear.filter(p=>p.typeName==='Melee Weapon'&&!isCrossing(p));
+      const crossing=gear.filter(isCrossing);
       const writeWeapon=(p)=>{
         const info=[stat(p,'Range'),stat(p,'Attacks'),effectiveRules(p)].filter(Boolean).join('  ');
         descriptions.push(yellow(String(p.name)));
@@ -74,6 +78,7 @@ export function convertRosz(bytes){
       };
       if(ranged.length){descriptions.push('',red('Ranged weapons'));ranged.forEach(writeWeapon)}
       if(melee.length){descriptions.push('',red('Melee weapons'));melee.forEach(writeWeapon)}
+      if(crossing.length){descriptions.push('',red('Crossing Strike weapons'));crossing.forEach(writeWeapon)}
       // List abilities by name only. Do not repeat long rule definitions or
       // weapon rules in the Abilities section.
       const abilityNames=new Set();
@@ -85,7 +90,7 @@ export function convertRosz(bytes){
       // Rule links on weapon selection entries are not model-level abilities.
       const weaponNames=new Set(gear.flatMap(p=>splitRules(effectiveRules(p))));
       for(const w of weaponNames)abilityNames.delete(w);
-      for(const n of activeGrants)if(!n.endsWith(' Aura') && gear.some(p=>p.typeName===grants.get(n)[0]))abilityNames.delete(n);
+      for(const n of activeGrants)if(!n.endsWith(' Aura') && gear.some(p=>weaponKind(p)===grants.get(n)[0]))abilityNames.delete(n);
       if(abilityNames.size)descriptions.push('',purple('Abilities'),...Array.from(abilityNames,x=>pale(x)));
       const details=descriptions.join('\r\n');
       const quantity=Number(model.number??1);
