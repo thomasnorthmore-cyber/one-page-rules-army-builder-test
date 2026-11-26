@@ -19,6 +19,9 @@ for file,slug in entries.items():
     assert ref is not None and ref.get("type")=="upgrade",file+": missing reference"
     assert list(root.find(N+"selectionEntries"))[0] is ref,file+": spell reference not first"
     assert ref.find(f"./{N}categoryLinks/{N}categoryLink").get("targetId")=="opr-spell-catalogue-category"
+    constraints={x.get("type"):x for x in ref.findall(f"./{N}constraints/{N}constraint")}
+    assert set(constraints)=={"min","max"},file+": expected one required reference per force"
+    assert all(x.get("value")=="1" and x.get("scope")=="force" for x in constraints.values()),file+": spell reference must be required exactly once per force"
     assert not ref.findall(f".//{N}cost"),file+": spell reference must be free"
     assert not ref.findall(f".//{N}profile"),file+": spell reference must not add unit stats"
     assert not ref.findall(f".//{N}selectionEntry"),file+": spell reference must not add models"
