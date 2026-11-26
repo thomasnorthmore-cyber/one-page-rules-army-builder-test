@@ -1168,12 +1168,14 @@
         "Defense": "5+",
         "points": 70,
         "rules": [
-          "Armor(4)",
           "Furious",
           "Hero",
           "Rapid Blink",
           "Stealth",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Armor(4)"
         ]
       },
       "Fool Champion": {
@@ -1186,7 +1188,8 @@
           "Rapid Blink",
           "Stealth",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Fools": {
         "Quality": "5+",
@@ -1196,7 +1199,8 @@
           "Furious",
           "Rapid Blink",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Tricksters": {
         "Quality": "5+",
@@ -1206,7 +1210,8 @@
           "Furious",
           "Rapid Blink",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Pranksters": {
         "Quality": "3+",
@@ -1218,7 +1223,8 @@
           "Regeneration",
           "Scout",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Jesters": {
         "Quality": "3+",
@@ -1228,7 +1234,8 @@
           "Furious",
           "Rapid Blink",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Solitaires": {
         "Quality": "5+",
@@ -1237,7 +1244,8 @@
         "rules": [
           "Rapid Blink",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Jokers": {
         "Quality": "3+",
@@ -1248,20 +1256,23 @@
           "Furious",
           "Rapid Blink",
           "Stealth"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Raptor Riders": {
         "Quality": "3+",
         "Defense": "5+",
         "points": 200,
         "rules": [
-          "Armor(4)",
           "Fast",
           "Furious",
-          "Impact(3)",
           "Rapid Blink",
           "Stealth",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Armor(4)",
+          "Impact(3)"
         ]
       },
       "Jetbike Riders": {
@@ -1275,7 +1286,8 @@
           "Stealth",
           "Strider",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Heavy Jetbike": {
         "Quality": "3+",
@@ -1288,9 +1300,11 @@
           "Stealth",
           "Strider",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       }
-    }
+    },
+    "source": "Manually reconciled PDF pages 2 and 4–6. Conditional default equipment separately recorded."
   },
   "Dwarf_Guilds.cat": {
     "units": {

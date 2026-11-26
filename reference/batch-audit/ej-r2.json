@@ -1,0 +1,179 @@
+{
+  "revision": 2,
+  "source": "Elven_Jesters_3.6.0.pdf pages 2–6",
+  "units": [
+    {
+      "name": "Master Jester",
+      "size": 1,
+      "q": "3+",
+      "d": "5+",
+      "p": 70,
+      "sourceRules": [
+        "Armor(4)",
+        "Furious",
+        "Hero",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Armor(4)"
+      ]
+    },
+    {
+      "name": "Fool Champion",
+      "size": 1,
+      "q": "5+",
+      "d": "5+",
+      "p": 50,
+      "sourceRules": [
+        "Furious",
+        "Hero",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Fools",
+      "size": 5,
+      "q": "5+",
+      "d": "5+",
+      "p": 95,
+      "sourceRules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Tricksters",
+      "size": 5,
+      "q": "5+",
+      "d": "5+",
+      "p": 110,
+      "sourceRules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Pranksters",
+      "size": 5,
+      "q": "3+",
+      "d": "5+",
+      "p": 130,
+      "sourceRules": [
+        "Furious",
+        "Rapid Blink",
+        "Regeneration",
+        "Scout",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Jesters",
+      "size": 5,
+      "q": "3+",
+      "d": "5+",
+      "p": 145,
+      "sourceRules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Solitaires",
+      "size": 3,
+      "q": "5+",
+      "d": "5+",
+      "p": 95,
+      "sourceRules": [
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Jokers",
+      "size": 3,
+      "q": "3+",
+      "d": "5+",
+      "p": 140,
+      "sourceRules": [
+        "Flying",
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Raptor Riders",
+      "size": 3,
+      "q": "3+",
+      "d": "5+",
+      "p": 200,
+      "sourceRules": [
+        "Armor(4)",
+        "Fast",
+        "Furious",
+        "Impact(3)",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Armor(4)",
+        "Impact(3)"
+      ]
+    },
+    {
+      "name": "Jetbike Riders",
+      "size": 3,
+      "q": "3+",
+      "d": "4+",
+      "p": 315,
+      "sourceRules": [
+        "Fast",
+        "Furious",
+        "Rapid Blink",
+        "Stealth",
+        "Strider",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Heavy Jetbike",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 245,
+      "sourceRules": [
+        "Fast",
+        "Furious",
+        "Rapid Blink",
+        "Stealth",
+        "Strider",
+        "Tough(6)"
+      ],
+      "conditional": []
+    }
+  ],
+  "review": "All listed upgrade rows manually transcribed. Conditional Armor(4) and Impact(3) moved off innate profiles onto default equipment. Armor(4) and Anti-Cover wording follows existing catalogue convention, not a definition supplied on this faction PDF. Squad-wide vs one-model overlapping replacement choices restricted to source starting equipment; confirm interpretation in New Recruit. Model slot 1 represents one eligible model. Visual export testing remains outstanding.",
+  "previousSkippedRows": 19,
+  "notes": [
+    "No existing other faction modified.",
+    "Spells preserved verbatim from page 3.",
+    "Default and alternate weapon configurations are independently constructed.",
+    "Tough upgrades on hero mounts need ForceOrg testing."
+  ]
+}
