@@ -62,6 +62,10 @@ jobs:
         if: always()
         run: |
           if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_defaults.py; fi
+      - name: Verify Knight Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_upgrades.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
