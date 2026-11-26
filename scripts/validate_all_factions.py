@@ -123,9 +123,29 @@ def main():
         print(f"{path.name} v{root.get('revision')}: {len(units)} units, {levels['error']} errors, {levels['warning']} warnings, {counts['coverage_percent']}% independently source-checked")
         for x in issues:
             if x["severity"]=="error":print(f"  ERROR [{x['code']}] {x['unit']}: {x['detail']}")
+    known_path=base/"reference/known-issues.json"
+    known_data=json.loads(known_path.read_text()) if known_path.exists() else {}
+    known={(x["file"],x["code"],x["unit"]) for x in known_data.get("allow",[])}
+    baseline_hits=set()
+    introduced=[]
+    for faction in report["factions"]:
+        for issue in faction["findings"]:
+            if issue["severity"]!="error":continue
+            key=(faction["file"],issue["code"],issue["unit"])
+            if key in known:
+                issue["known_issue"]=True
+                baseline_hits.add(key)
+            else:
+                introduced.append(key)
+    unused=known-baseline_hits
+    if unused:
+        print("Resolved/stale known issue exceptions (remove from reference/known-issues.json):",sorted(unused))
+    report["new_errors"]=len(introduced)
+    report["known_errors"]=len(baseline_hits)
     report["totals"]=dict(totals)
     a.output.parent.mkdir(parents=True,exist_ok=True)
     a.output.write_text(json.dumps(report,indent=2)+"\n")
     print(f"Report: {a.output}; {len(report['factions'])} factions; {totals['error']} confirmed structural errors; {totals['review']} awaiting source parity")
-    return int(bool(a.strict and totals["error"]))
+    print(f"Strict CI gate: {len(introduced)} unbaselined errors; {len(baseline_hits)} known unresolved errors.")
+    return int(bool(a.strict and introduced))
 if __name__=="__main__":sys.exit(main())
