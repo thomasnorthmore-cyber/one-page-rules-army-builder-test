@@ -383,5 +383,37 @@
       3,
       "6 hits with AP(1) and Smash"
     ]
+  ],
+  "Watch_Brothers.cat": [
+    [
+      "Watch Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Psychic Terror",
+      1,
+      "3 hits with Bane"
+    ],
+    [
+      "Watch Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Lightning Fog",
+      2,
+      "4 hits each"
+    ],
+    [
+      "Blessed Ammo",
+      3,
+      "Enhanced Watchborn"
+    ],
+    [
+      "Watch Trauma",
+      3,
+      "6 hits with AP(1) and Smash"
+    ]
   ]
 }

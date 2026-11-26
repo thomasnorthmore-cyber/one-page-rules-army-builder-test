@@ -10194,5 +10194,1107 @@
         }
       ]
     }
+  ],
+  "Watch_Brothers.cat": [
+    {
+      "profile": "opr-watch-v1-000052",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Archivist Staff",
+      "field": "b174-c09d-3660-f032",
+      "base": "Spell Amplifier",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00005c",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00005f",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000061",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000063",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000066",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00006a",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Assault Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Assault, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-00002a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000073",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000076",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000078",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00007a",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00007d",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000080",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-00002a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000089",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00008c",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00008e",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000090",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000093",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000096",
+      "unit": "opr-watch-v1-000028",
+      "model": "opr-watch-v1-00002b",
+      "weapon": "Dual Energy Claws",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-000028",
+              "child": "opr-watch-v1-000029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000db",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Flamer",
+      "field": "b174-c09d-3660-f023",
+      "base": "Blast(3), Reliable",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000de",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Sniper Carbine",
+      "field": "b174-c09d-3660-f023",
+      "base": "Reliable, Takedown",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000e0",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Plasma Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000e2",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Burst Shotgun",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000e4",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Arc-Charger Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000e7",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000e9",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Burst Heavy Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000f5",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Flamer-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Blast(3), Limited, Reliable",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000f8",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Plasma-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000fb",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Arc-Charger-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Limited, Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-0000ff",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Fusion-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Deadly(3), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000103",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Anti-Matter-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Limited, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000106",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Fusion Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000109",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Anti-Matter Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000112",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000115",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000117",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000119",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00011c",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000129",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Flamer Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Reliable, Anti-Cover, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00012c",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Arc-Charger Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Rending, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00012f",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Heavy Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000133",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Anti-Matter Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000136",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Plasma Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000139",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Fusion Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000142",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000145",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000147",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000149",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00014c",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00014e",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Archivist Staff",
+      "field": "b174-c09d-3660-f032",
+      "base": "Spell Amplifier",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000150",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Great Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000153",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Dual Energy Claws",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000155",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Watch Spear",
+      "field": "b174-c09d-3660-f023",
+      "base": "Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-000167",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "opr-watch-v1-00016b",
+      "unit": "opr-watch-v1-0000a1",
+      "model": "opr-watch-v1-0000a4",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "opr-watch-v1-0000a1",
+              "child": "opr-watch-v1-0000a3"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

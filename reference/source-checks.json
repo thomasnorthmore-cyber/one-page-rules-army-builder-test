@@ -2651,5 +2651,75 @@
         "points": 405
       }
     }
+  },
+  "Watch_Brothers.cat": {
+    "source": "Watch_Brothers_3.6.0.pdf p.2 and pp.4–8",
+    "units": {
+      "Watch Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Watch Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 75
+      },
+      "Watch Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 110
+      },
+      "Watch Vanguard": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135
+      },
+      "Watch Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 225
+      },
+      "Watch Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 275
+      },
+      "Watch Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Watch Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170
+      },
+      "Watch APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 185
+      },
+      "Watch Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 395
+      },
+      "Watch Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Watch Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 735
+      },
+      "Watch Deathstar Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 400
+      }
+    }
   }
 }
