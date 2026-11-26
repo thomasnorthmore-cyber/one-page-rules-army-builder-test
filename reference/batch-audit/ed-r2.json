@@ -1,0 +1,383 @@
+{
+  "revision": 2,
+  "source": "Eternal_Dynasty_3.6.0.pdf pages 2–9",
+  "units": [
+    {
+      "name": "ONI Captain",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 125,
+      "sourceRules": [
+        "Clan Warrior",
+        "Hero",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dynasty Leader",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 65,
+      "sourceRules": [
+        "Clan Warrior",
+        "Hero",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Cyber Lizards",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 60,
+      "sourceRules": [
+        "Clan Warrior",
+        "Strider"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Attack Drones",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 100,
+      "sourceRules": [
+        "Clan Warrior",
+        "Strider"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 110,
+      "sourceRules": [
+        "Clan Warrior"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Scouts",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 120,
+      "sourceRules": [
+        "Clan Warrior",
+        "Scout"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Ninja",
+      "size": 5,
+      "q": "3+",
+      "d": "5+",
+      "p": 125,
+      "sourceRules": [
+        "Ambush",
+        "Clan Warrior",
+        "Stealth",
+        "Teleport"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Royal Guard",
+      "size": 5,
+      "q": "3+",
+      "d": "4+",
+      "p": 190,
+      "sourceRules": [
+        "Clan Warrior",
+        "Regeneration",
+        "Versatile Expert"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Cyber-Bird Swarms",
+      "size": 3,
+      "q": "5+",
+      "d": "6+",
+      "p": 120,
+      "sourceRules": [
+        "Clan Warrior",
+        "Flying",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "ONIs",
+      "size": 3,
+      "q": "3+",
+      "d": "3+",
+      "p": 170,
+      "sourceRules": [
+        "Clan Warrior",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Cyber Beast",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 115,
+      "sourceRules": [
+        "Clan Warrior",
+        "Furious",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dynasty APC",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 170,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dragon Speeder",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 200,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Ninja Walker",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 260,
+      "sourceRules": [
+        "Ambush",
+        "Clan Warrior",
+        "Fear(2)",
+        "Stealth",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "ONI Walker",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 365,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fear(2)",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dynasty Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 410,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Samurai Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 590,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fear(3)",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Artillery Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 630,
+      "sourceRules": [
+        "Clan Warrior",
+        "Fear(3)",
+        "Slow",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Macaque Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 700,
+      "sourceRules": [
+        "Bounding",
+        "Clan Warrior",
+        "Fear(3)",
+        "Furious",
+        "Strider",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dragon Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 735,
+      "sourceRules": [
+        "Caster(4)",
+        "Clan Warrior",
+        "Fear(3)",
+        "Flying",
+        "Regeneration",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Captain WuKaon",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 165,
+      "sourceRules": [
+        "Bounding",
+        "Clan Warrior",
+        "Furious",
+        "Tough(6)",
+        "Unique Hero"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Syen & Xaotyan",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 160,
+      "sourceRules": [
+        "Clan Warrior",
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Sergeant Wou",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 120,
+      "sourceRules": [
+        "Ambush",
+        "Clan Warrior",
+        "Stealth",
+        "Teleport",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Commander Xao",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 110,
+      "sourceRules": [
+        "Clan Warrior",
+        "Precision Fighter",
+        "Regeneration",
+        "Repel Ambushers",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": [
+        "Precision Fighter",
+        "Repel Ambushers"
+      ]
+    },
+    {
+      "name": "Sage Myan",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 110,
+      "sourceRules": [
+        "Caster(2)",
+        "Clan Warrior",
+        "Repel Ambushers",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": [
+        "Repel Ambushers"
+      ]
+    },
+    {
+      "name": "Captain Lyao",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 90,
+      "sourceRules": [
+        "Clan Warrior",
+        "Rapid Advance",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": [
+        "Rapid Advance"
+      ]
+    }
+  ],
+  "previousSkippedRows": 24,
+  "notes": [
+    "All 26 unit tables and upgrade rows manually transcribed; no other catalogue changed.",
+    "Ninja Sword attachments are available only in the sword branch; Stomp is independent.",
+    "All six named heroes use Epic Heroes category and max one per roster.",
+    "Syen & Xaotyan has two Tough(3) instances in PDF; extra Tough retained on fixed Xaotyan equipment. Actual ForceOrg wound aggregation needs testing.",
+    "Conditional banner and Seasoned Captain rules are replaced rather than duplicated.",
+    "One-model specialist and sergeant use separate representative slots; squad-wide replacement excludes options requiring the original weapon. New Recruit interaction and ForceOrg export not verified.",
+    "Armor(2), Anti-Cover and Anti-Regen use existing definitions; faction PDF does not separately define them."
+  ]
+}

@@ -884,7 +884,8 @@
           "Clan Warrior",
           "Hero",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dynasty Leader": {
         "Quality": "3+",
@@ -894,7 +895,8 @@
           "Clan Warrior",
           "Hero",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Cyber Lizards": {
         "Quality": "4+",
@@ -903,7 +905,8 @@
         "rules": [
           "Clan Warrior",
           "Strider"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Attack Drones": {
         "Quality": "4+",
@@ -912,7 +915,8 @@
         "rules": [
           "Clan Warrior",
           "Strider"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Warriors": {
         "Quality": "4+",
@@ -920,7 +924,8 @@
         "points": 110,
         "rules": [
           "Clan Warrior"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Scouts": {
         "Quality": "4+",
@@ -929,7 +934,8 @@
         "rules": [
           "Clan Warrior",
           "Scout"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Ninja": {
         "Quality": "3+",
@@ -940,7 +946,8 @@
           "Clan Warrior",
           "Stealth",
           "Teleport"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Royal Guard": {
         "Quality": "3+",
@@ -950,7 +957,8 @@
           "Clan Warrior",
           "Regeneration",
           "Versatile Expert"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Cyber-Bird Swarms": {
         "Quality": "5+",
@@ -960,7 +968,8 @@
           "Clan Warrior",
           "Flying",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "ONIs": {
         "Quality": "3+",
@@ -969,7 +978,8 @@
         "rules": [
           "Clan Warrior",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Cyber Beast": {
         "Quality": "3+",
@@ -979,7 +989,8 @@
           "Clan Warrior",
           "Furious",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dynasty APC": {
         "Quality": "4+",
@@ -991,7 +1002,8 @@
           "Strider",
           "Tough(6)",
           "Transport(11)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dragon Speeder": {
         "Quality": "4+",
@@ -1002,7 +1014,8 @@
           "Fast",
           "Strider",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Ninja Walker": {
         "Quality": "3+",
@@ -1014,7 +1027,8 @@
           "Fear(2)",
           "Stealth",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "ONI Walker": {
         "Quality": "3+",
@@ -1024,7 +1038,8 @@
           "Clan Warrior",
           "Fear(2)",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dynasty Tank": {
         "Quality": "4+",
@@ -1035,7 +1050,8 @@
           "Fast",
           "Strider",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Samurai Titan": {
         "Quality": "3+",
@@ -1045,7 +1061,8 @@
           "Clan Warrior",
           "Fear(3)",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Artillery Titan": {
         "Quality": "3+",
@@ -1056,7 +1073,8 @@
           "Fear(3)",
           "Slow",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Macaque Titan": {
         "Quality": "3+",
@@ -1069,7 +1087,8 @@
           "Furious",
           "Strider",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dragon Titan": {
         "Quality": "3+",
@@ -1082,7 +1101,8 @@
           "Flying",
           "Regeneration",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Captain WuKaon": {
         "Quality": "3+",
@@ -1094,7 +1114,8 @@
           "Furious",
           "Tough(6)",
           "Unique Hero"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Syen & Xaotyan": {
         "Quality": "4+",
@@ -1106,8 +1127,10 @@
           "Stealth",
           "Strider",
           "Tough(3)",
-          "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Tough(3)"
         ]
       },
       "Sergeant Wou": {
@@ -1121,7 +1144,8 @@
           "Teleport",
           "Tough(3)",
           "Unique Hero"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Commander Xao": {
         "Quality": "3+",
@@ -1129,11 +1153,13 @@
         "points": 110,
         "rules": [
           "Clan Warrior",
-          "Precision Fighter",
           "Regeneration",
-          "Repel Ambushers",
           "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Precision Fighter",
+          "Repel Ambushers"
         ]
       },
       "Sage Myan": {
@@ -1143,9 +1169,11 @@
         "rules": [
           "Caster(2)",
           "Clan Warrior",
-          "Repel Ambushers",
           "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Repel Ambushers"
         ]
       },
       "Captain Lyao": {
@@ -1154,12 +1182,15 @@
         "points": 90,
         "rules": [
           "Clan Warrior",
-          "Rapid Advance",
           "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Rapid Advance"
         ]
       }
-    }
+    },
+    "source": "Manually transcribed PDF pages 2 and 4–9; conditional default gear separately recorded."
   },
   "Elven_Jesters.cat": {
     "units": {
