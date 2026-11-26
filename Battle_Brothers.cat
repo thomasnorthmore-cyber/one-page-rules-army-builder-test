@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="40" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (BSData Model Structure v3.6.0)" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules><rule id="bb-flying-conditional-rule" name="Flying" hidden="false"><description>Flying: use the current Grimdark Future core rule for models with this special rule.</description></rule>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
@@ -281,7 +281,7 @@
     </selectionEntry>
     <selectionEntry id="b174-c09d-1000-0c1c" name="Pathfinder Bikers" hidden="false" collective="false" import="true" type="unit">
       <profiles><profile id="b174-c09d-1000-0c1d" name="Pathfinder Bikers" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
-        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Tough(3)</characteristic>
+        <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fast, Fearless, Tough(3)</characteristic>
       </characteristics></profile></profiles>
       <infoLinks>
       <infoLink id="b174-c09d-d00b-0001" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/>
