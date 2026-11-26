@@ -1,0 +1,397 @@
+{
+  "revision": 2,
+  "source": "Dwarf_Guilds_3.6.0.pdf pages 2–11",
+  "units": [
+    {
+      "name": "Powersuit Champion",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 125,
+      "sourceRules": [
+        "Hero",
+        "Slow",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dwarf Champion",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 65,
+      "sourceRules": [
+        "Fortified",
+        "Hero",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Fortified"
+      ]
+    },
+    {
+      "name": "Berserker Veteran",
+      "size": 1,
+      "q": "4+",
+      "d": "5+",
+      "p": 55,
+      "sourceRules": [
+        "Fearless",
+        "Furious",
+        "Hero",
+        "Melee Slayer",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Guardians",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 55,
+      "sourceRules": [
+        "Fortified",
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": [
+        "Fortified"
+      ]
+    },
+    {
+      "name": "Dwarf Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 75,
+      "sourceRules": [
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Berserkers",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 80,
+      "sourceRules": [
+        "Fearless",
+        "Furious",
+        "Melee Slayer",
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Elites",
+      "size": 5,
+      "q": "3+",
+      "d": "3+",
+      "p": 95,
+      "sourceRules": [
+        "Fearless",
+        "Fortified",
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Miners",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 100,
+      "sourceRules": [
+        "Infiltrate",
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Jetpack Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 105,
+      "sourceRules": [
+        "Flying",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Iron Veterans",
+      "size": 5,
+      "q": "3+",
+      "d": "3+",
+      "p": 115,
+      "sourceRules": [
+        "Slow",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Sniper Team",
+      "size": 3,
+      "q": "4+",
+      "d": "5+",
+      "p": 85,
+      "sourceRules": [
+        "Scout",
+        "Slow",
+        "Stealth",
+        "Sturdy"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Thunder Support",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 150,
+      "sourceRules": [
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dwarf Bikers",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 165,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Fast"
+      ]
+    },
+    {
+      "name": "Powersuit Guard",
+      "size": 3,
+      "q": "3+",
+      "d": "3+",
+      "p": 170,
+      "sourceRules": [
+        "Fortified",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Fortified"
+      ]
+    },
+    {
+      "name": "Mine-Bot Guard",
+      "size": 3,
+      "q": "3+",
+      "d": "3+",
+      "p": 215,
+      "sourceRules": [
+        "Fearless",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dwarf Trike",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 120,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "conditional": [
+        "Fast"
+      ]
+    },
+    {
+      "name": "APC",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 150,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Attack Vehicle",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 165,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Assault Drill",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 215,
+      "sourceRules": [
+        "Ambush",
+        "Sturdy",
+        "Tough(9)",
+        "Transport(11)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Land Train",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 345,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Dwarf Walker",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 350,
+      "sourceRules": [
+        "Fear(2)",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Battle Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 365,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Artillery Gun",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 105,
+      "sourceRules": [
+        "Artillery",
+        "Cumbersome",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Fortress Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 540,
+      "sourceRules": [
+        "Fast",
+        "Sturdy",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Mining Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 610,
+      "sourceRules": [
+        "Fear(3)",
+        "Sturdy",
+        "Tough(18)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Combat Excavator",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 710,
+      "sourceRules": [
+        "Sturdy",
+        "Tough(24)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Hadrund oth Irnwuld",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 105,
+      "sourceRules": [
+        "Fearless",
+        "Fortified",
+        "Infiltrate",
+        "Slow",
+        "Sturdy",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": [
+        "Infiltrate"
+      ]
+    }
+  ],
+  "previousSkippedRows": 83,
+  "notes": [
+    "All 27 unit tables and faction spell/rule descriptions manually transcribed.",
+    "Dwarf Champion free Great Heat Hammer; nested combat and pioneer bike rifle replacements.",
+    "Land Train two independent optional carriage choices, nested weapon replacements, Tough(6) and Transport values retained on equipment; ForceOrg wound/transport aggregation requires testing.",
+    "Powersuit Guard squad-wide disposable Exo-GL price charged once, with model-specific weapons.",
+    "Conditional Fortified on combat shields and Fast on Lead Foot, and Infiltrate on Depth Prospector.",
+    "One-model specialist and sergeant represented in separate slots; choices requiring original equipment restricted to its branch. New Recruit interactions require testing.",
+    "Anti-Cover, Anti-Regen and Armor(2) use existing definitions; Anti-Cover when Shooting phrased as equipment grant from source aura wording.",
+    "No other faction or exporter changed."
+  ]
+}

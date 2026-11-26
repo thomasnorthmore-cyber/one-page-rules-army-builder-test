@@ -1348,18 +1348,21 @@
           "Slow",
           "Sturdy",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dwarf Champion": {
         "Quality": "3+",
         "Defense": "3+",
         "points": 65,
         "rules": [
-          "Fortified",
           "Hero",
           "Slow",
           "Sturdy",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Fortified"
         ]
       },
       "Berserker Veteran": {
@@ -1374,16 +1377,19 @@
           "Slow",
           "Sturdy",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Guardians": {
         "Quality": "4+",
         "Defense": "4+",
         "points": 55,
         "rules": [
-          "Fortified",
           "Slow",
           "Sturdy"
+        ],
+        "default_equipment_rules": [
+          "Fortified"
         ]
       },
       "Dwarf Warriors": {
@@ -1393,7 +1399,8 @@
         "rules": [
           "Slow",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Berserkers": {
         "Quality": "4+",
@@ -1405,7 +1412,8 @@
           "Melee Slayer",
           "Slow",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Elites": {
         "Quality": "3+",
@@ -1416,7 +1424,8 @@
           "Fortified",
           "Slow",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Miners": {
         "Quality": "4+",
@@ -1426,7 +1435,8 @@
           "Infiltrate",
           "Slow",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Jetpack Warriors": {
         "Quality": "4+",
@@ -1435,7 +1445,8 @@
         "rules": [
           "Flying",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Iron Veterans": {
         "Quality": "3+",
@@ -1444,7 +1455,8 @@
         "rules": [
           "Slow",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Sniper Team": {
         "Quality": "4+",
@@ -1455,7 +1467,8 @@
           "Slow",
           "Stealth",
           "Sturdy"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Thunder Support": {
         "Quality": "4+",
@@ -1465,16 +1478,19 @@
           "Slow",
           "Sturdy",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dwarf Bikers": {
         "Quality": "4+",
         "Defense": "4+",
         "points": 165,
         "rules": [
-          "Fast",
           "Sturdy",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Fast"
         ]
       },
       "Powersuit Guard": {
@@ -1482,10 +1498,12 @@
         "Defense": "3+",
         "points": 170,
         "rules": [
-          "Fortified",
           "Slow",
           "Sturdy",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Fortified"
         ]
       },
       "Mine-Bot Guard": {
@@ -1497,16 +1515,19 @@
           "Slow",
           "Sturdy",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dwarf Trike": {
         "Quality": "4+",
         "Defense": "4+",
         "points": 120,
         "rules": [
-          "Fast",
           "Sturdy",
           "Tough(6)"
+        ],
+        "default_equipment_rules": [
+          "Fast"
         ]
       },
       "APC": {
@@ -1518,7 +1539,8 @@
           "Sturdy",
           "Tough(6)",
           "Transport(11)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Attack Vehicle": {
         "Quality": "4+",
@@ -1528,7 +1550,8 @@
           "Fast",
           "Sturdy",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Assault Drill": {
         "Quality": "4+",
@@ -1539,7 +1562,8 @@
           "Sturdy",
           "Tough(9)",
           "Transport(11)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Land Train": {
         "Quality": "4+",
@@ -1549,7 +1573,8 @@
           "Fast",
           "Sturdy",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Dwarf Walker": {
         "Quality": "3+",
@@ -1559,7 +1584,8 @@
           "Fear(2)",
           "Sturdy",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Battle Tank": {
         "Quality": "4+",
@@ -1569,7 +1595,8 @@
           "Fast",
           "Sturdy",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Artillery Gun": {
         "Quality": "4+",
@@ -1581,7 +1608,8 @@
           "Slow",
           "Sturdy",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Fortress Tank": {
         "Quality": "4+",
@@ -1591,7 +1619,8 @@
           "Fast",
           "Sturdy",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Mining Titan": {
         "Quality": "3+",
@@ -1601,7 +1630,8 @@
           "Fear(3)",
           "Sturdy",
           "Tough(18)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Combat Excavator": {
         "Quality": "4+",
@@ -1610,7 +1640,8 @@
         "rules": [
           "Sturdy",
           "Tough(24)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Hadrund oth Irnwuld": {
         "Quality": "3+",
@@ -1619,14 +1650,17 @@
         "rules": [
           "Fearless",
           "Fortified",
-          "Infiltrate",
           "Slow",
           "Sturdy",
           "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Infiltrate"
         ]
       }
-    }
+    },
+    "source": "Manually transcribed PDF pages 2–11."
   },
   "Dark_Elf_Raiders.cat": {
     "units": {
