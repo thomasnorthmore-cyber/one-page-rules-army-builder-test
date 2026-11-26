@@ -56,3 +56,14 @@ The independent PDF-grounded reference is `reference/source-checks.json`. Every 
 Manual test before claiming a faction complete: refresh New Recruit, test each unit's default models and both ranged and melee profiles, try each weapon and gear choice (including replacement of base weapons), verify selectable rule descriptions are conditional, verify squad vs model points, then export `.rosz` and check ForceOrg wounds, rules and model assignments. A passing CI result is not evidence of a successful visual or ForceOrg test.
 
 Legacy single-faction scripts are maintained only for historical diagnostics and may have stale fixtures. The unified check is authoritative. If a legacy script disagrees, repair its assumptions and report the difference rather than altering correct catalogue data to satisfy an outdated test.
+
+
+## Faction PDF special-rules coverage (mandatory)
+
+Every newly supplied Grimdark Future army PDF is the source of truth for its faction's **ARMY-WIDE SPECIAL RULE**, **SPECIAL RULES**, **AURA SPECIAL RULES** and **ARMY SPELLS** page. Inspect the actual supplied PDF before changing rules; do not substitute older Army Forge cached data or a different game mode.
+
+- Add every faction-specific special/aura rule printed on the PDF page to the faction catalogue's `sharedRules`, even if no current model selects it. Preserve exact parameters and key conditions (range, wounds, timing, Fatigued, limits, dice, unit/model ownership). Link all rules used by innate unit entries and selected weapon or gear entries to existing nonempty definitions.
+- Keep selectable gear rules on the option which grants them; never give a permanently visible parent rule merely because an optional choice can provide it. Maintain nonredundant ForceOrg outputs and per-model weapon ownership.
+- Add/update `reference/pdf-special-rule-checks.json` when a new faction PDF or edition arrives. The `scripts/validate_pdf_special_rules.py` check must pass, as well as unified validation and spell-catalogue validation. The PDF rule manifest establishes **presence and representative effects**; it is not a guarantee of verbatim description parity. Compare complete new/changed wording manually against the original PDF before claiming exact verification.
+- Core rules not defined on the faction PDF's special-rule page must be checked against the matching core rules, not inferred from an older catalogue. A missing or unclear core definition is a source-review issue, not permission to invent it.
+- When introducing a PDF rule, retain the original PDF rule name in the reference and allow numbered parameters in linked instances. Add regression fixtures for previously missed rules.
