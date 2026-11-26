@@ -1,0 +1,34 @@
+{
+  "notes": "Known user-reported bugs: assert exact conditional owner and linked rule; the list must be extended when bugs are found.",
+  "cases": {
+    "Robot_Legions.cat": [
+      {
+        "id": "rl36-ced1734a694d",
+        "rule": "Rending",
+        "name": "Plasmabot grants standard Rending"
+      },
+      {
+        "id": "rl36-4f71817c1b09",
+        "rule": "Rending",
+        "name": "Second Plasmabot grants standard Rending"
+      },
+      {
+        "id": "rl36-9f2254b551c8",
+        "rule": "Scout",
+        "name": "Hover Bikes displays Scout"
+      },
+      {
+        "id": "rl36p-e17fc28e3f14",
+        "rule": "Armor(2+)",
+        "name": "Guardian shield grants armour only when equipped"
+      }
+    ],
+    "Custodian_Brothers.cat": [
+      {
+        "id": "cust-sister-0000001",
+        "rule": "Furious",
+        "name": "Great Sister Vigilant Oath grants Furious"
+      }
+    ]
+  }
+}
