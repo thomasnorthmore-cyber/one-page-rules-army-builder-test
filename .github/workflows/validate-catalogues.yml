@@ -6,6 +6,7 @@ on:
       - '*.gst'
       - 'reference/**'
       - 'scripts/validate_all_factions.py'
+      - 'scripts/validate_spell_catalogues.py'
       - '.github/workflows/validate-catalogues.yml'
   pull_request:
     paths:
@@ -27,6 +28,8 @@ jobs:
           python-version: '3.12'
       - name: Check every faction and produce coverage report
         run: python3 scripts/validate_all_factions.py --strict --output validation-report.json
+      - name: Validate top-level spell catalogue references
+        run: python3 scripts/validate_spell_catalogues.py
       - name: Upload detailed report even when checks fail
         if: always()
         uses: actions/upload-artifact@v4
