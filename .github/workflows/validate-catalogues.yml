@@ -110,6 +110,10 @@ jobs:
         if: always()
         run: |
           if [ -f Watch_Brothers.cat ]; then python3 scripts/validate_watch_brothers_weapon_profiles.py; fi
+      - name: Verify Watch Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Watch_Brothers.cat ]; then python3 scripts/validate_watch_brothers_allocation.py; fi
       - name: Verify Wolf Brothers source default loadouts
         if: always()
         run: |
