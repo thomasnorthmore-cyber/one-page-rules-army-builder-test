@@ -1,0 +1,37 @@
+{
+  "_notes": "Shared OPR rule sanity reference. descriptions are readable reference wording; required_phrases enforce key effects even where faction phrasing differs. Source-specific exceptions require an explicit review.",
+  "Slow": {
+    "description": "Advance -2 inches; Rush/Charge -4 inches.",
+    "required_phrases": [
+      "-2",
+      "-4"
+    ]
+  },
+  "Regeneration": {
+    "description": "Ignore a wound on a roll of 5+.",
+    "required_phrases": [
+      "5+"
+    ]
+  },
+  "Furious": {
+    "description": "On a charge, unmodified melee hit rolls of 6 generate one additional hit.",
+    "required_phrases": [
+      "6",
+      "additional hit"
+    ]
+  },
+  "Bane": {
+    "description": "Ignores Regeneration and makes the target re-roll unmodified Defense rolls of 6.",
+    "required_phrases": [
+      "Regeneration",
+      "6"
+    ]
+  },
+  "Caster": {
+    "description": "Gain X spell tokens, to a maximum of 6 held at once. Spend tokens to attempt spells; cast succeeds on 4+.",
+    "required_phrases": [
+      "spell tokens",
+      "4+"
+    ]
+  }
+}
