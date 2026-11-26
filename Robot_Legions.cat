@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -2831,14 +2831,14 @@
           <characteristics>
             <characteristic name="Quality" typeId="b174-c09d-3660-f011">4+</characteristic>
             <characteristic name="Defense" typeId="b174-c09d-3660-f012">4+</characteristic>
-            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Scout, Self-Repair, Strider, Tough(3)</characteristic>
+            <characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Self-Repair, Strider, Tough(3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="rl36-f4bd1e2daf47" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-b-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
+
 </infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
       <selectionEntries/>
@@ -2926,13 +2926,13 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="rl36-c7f888395fd9" name="Replace all Rapid Skimmer Modules" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="rl36-c7f888395fd9" name="Replace all Rapid Skimmer Modules" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-rapid-skimmer-standard">
           <constraints>
-            <constraint id="rl36-cfeb2e44bbdb" type="min" value="0" field="selections" scope="parent" shared="false" />
+            <constraint id="rl36-cfeb2e44bbdb" type="min" value="1" field="selections" scope="parent" shared="false" />
             <constraint id="rl36-a88b59011fa9" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="rl36-c463bce13f8b" name="3x Advanced Jet Thrusters" hidden="false" type="upgrade" collective="false" import="true">
+          <selectionEntries><selectionEntry id="rl36-rapid-skimmer-standard" name="Keep 3x Rapid Skimmer Modules" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="rl36-rapid-skimmer-scout-rule" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/></infoLinks><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
+            <selectionEntry id="rl36-c463bce13f8b" name="3x Advanced Jet Thrusters" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-advanced-thrusters-fast-rule" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
@@ -5332,7 +5332,7 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-545603846b8e" name="Cargo Space" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-545603846b8e" name="Cargo Space" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-cargo-selected-1" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
               </costs>
