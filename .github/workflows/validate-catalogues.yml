@@ -32,19 +32,26 @@ jobs:
       - name: Check every faction and produce coverage report
         run: python3 scripts/validate_all_factions.py --strict --output validation-report.json
       - name: Validate top-level spell catalogue references
+        if: always()
         run: python3 scripts/validate_spell_catalogues.py
       - name: Verify PDF faction special rules and equipment rule links
+        if: always()
         run: python3 scripts/validate_pdf_special_rules.py
       - name: Audit all faction structure and equipment links
+        if: always()
         run: |
-          python3 scripts/validate_catalogues.py
-          python3 scripts/validate_all_equipped_weapon_rules.py
+          status=0
+          python3 scripts/validate_catalogues.py || status=1
+          python3 scripts/validate_all_equipped_weapon_rules.py || status=1
+          exit "$status"
       - name: Run legacy faction regression checks
+        if: always()
         run: |
-          python3 scripts/validate_alien_hives.py
-          python3 scripts/validate_robot_rules.py
-          python3 scripts/validate_custodian.py
-          python3 scripts/validate_equipped_rules.py
+          status=0
+          for script in validate_alien_hives validate_robot_rules validate_custodian validate_equipped_rules; do
+            python3 "scripts/$script.py" || status=1
+          done
+          exit "$status"
       - name: Upload detailed report even when checks fail
         if: always()
         uses: actions/upload-artifact@v4
