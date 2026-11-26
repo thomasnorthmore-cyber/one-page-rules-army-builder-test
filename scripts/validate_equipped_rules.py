@@ -8,6 +8,7 @@ ns = {"c": "http://www.battlescribe.net/schema/catalogueSchema"}
 cases = {
     "Battle_Brothers.cat": {
         "Armor(2+)": ["opr36-18ac7", "opr36-18ae5"],
+        "Unstoppable Mark": ["opr36-18a92", "opr36-18aa6"],
         "Flying": [
             "opr36c-494c4", "opr36c-494c5", "opr36c-4944a", "opr36c-4944b",
             "opr36d-61b90", "opr36d-61b91", "opr36f-92802", "opr36f-92803",
@@ -19,7 +20,10 @@ cases = {
         "Armor(2+)": [
             "rl36p-e17fc28e3f14", "rl36-3607fed05ccf",
             "rl36-b5c114cc5206", "rl36-5cf99b598f53"
-        ]
+        ],
+        "Fast": ["rl36-c463bce13f8b"],
+        "Scout": ["rl36-rapid-skimmer-standard"],
+        "Transport(X)": ["rl36-545603846b8e"]
     },
     "Custodian_Brothers.cat": {}
 }
