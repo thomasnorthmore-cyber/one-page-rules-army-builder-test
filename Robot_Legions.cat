@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -1332,7 +1332,7 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
+              <infoLinks><infoLink id="rl36-audit-bike-1" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/><infoLink id="rl36-audit-bike-2" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
                 <infoLink id="rl36-f3b1b52b8e34" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
               <infoLink id="wref-2-35-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
               <costs>
@@ -1396,7 +1396,7 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <infoLinks>
+              <infoLinks><infoLink id="rl36-audit-bike-3" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/><infoLink id="rl36-audit-bike-4" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
                 <infoLink id="rl36-949012df260b" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
               <infoLink id="wref-2-38-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
               <costs>
