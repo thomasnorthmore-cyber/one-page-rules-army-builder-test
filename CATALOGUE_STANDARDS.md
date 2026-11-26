@@ -40,3 +40,19 @@ If any newly imported PDF has an ambiguous or conditional option, document it ra
 - If a weapon can be replaced, **do not retain its profile or rule links on the parent loadout**. Use an exactly-one selection group with a zero-cost default that equips the original profile and alternative options carrying their own weapon profiles, rule links and incremental points.
 - Keep shared baseline abilities on their valid owners. When default gear is replaced (e.g. Rapid Skimmer Module/Scout → Advanced Jet Thrusters/Fast), move default-gear rules into the default entry rather than leaving them permanently on the unit.
 - Run `python3 scripts/validate_all_equipped_weapon_rules.py` and `python3 scripts/validate_equipped_rules.py` for **all three armies**. Structural passing still requires visual verification in New Recruit.
+
+
+## Continuous validation (all factions)
+
+The required cross-faction entry point is `python3 scripts/validate_all_factions.py --strict --output validation-report.json`.
+It automatically discovers every root-level `.cat` containing units; do not maintain a fixed list of factions in validation scripts. GitHub Actions runs this entry point on catalogue, game-system, reference-data, or validator changes and uploads the JSON report even on failure.
+
+The independent PDF-grounded reference is `reference/source-checks.json`. Every unit must have source-verified **Quality, Defense and base points** before CI can pass. As of 2026-11-26 this covers 122/122 currently listed units. **This is not a full source-parity certificate**: model equipment options, special-rule text, permitted upgrade limits, points for upgrades, and named-character exceptions still need additional independent source fixtures and targeted checks.
+
+`reference/shared-rules.json` records the central core-rule interpretation and required effects. Definitions that are placeholders, missing an expected effect, or missing an associated link are errors. When a regression is found, add its stable entry ID and expected rule to `reference/regressions.json` so it cannot be silently reintroduced.
+
+`reference/known-issues.json` must contain **only explicitly confirmed existing exceptions**. They remain errors in the report, but are temporarily exempt from strict CI failure; new errors are blocked. Remove an exception immediately after fixing it. Never automatically add new errors to this list.
+
+Manual test before claiming a faction complete: refresh New Recruit, test each unit's default models and both ranged and melee profiles, try each weapon and gear choice (including replacement of base weapons), verify selectable rule descriptions are conditional, verify squad vs model points, then export `.rosz` and check ForceOrg wounds, rules and model assignments. A passing CI result is not evidence of a successful visual or ForceOrg test.
+
+Legacy single-faction scripts are maintained only for historical diagnostics and may have stale fixtures. The unified check is authoritative. If a legacy script disagrees, repair its assumptions and report the difference rather than altering correct catalogue data to satisfy an outdated test.
