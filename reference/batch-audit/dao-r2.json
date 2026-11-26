@@ -1,0 +1,270 @@
+{
+  "revision": 2,
+  "source": "DAO_Union_3.6.0.pdf pages 2–9",
+  "units": [
+    {
+      "name": "Battle Suit Elite",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 110,
+      "sourceRules": [
+        "Hero",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Grunt Leader",
+      "size": 1,
+      "q": "5+",
+      "d": "4+",
+      "p": 40,
+      "sourceRules": [
+        "Good Shot",
+        "Hero",
+        "Targeting Visor",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Security Grunts",
+      "size": 5,
+      "q": "5+",
+      "d": "4+",
+      "p": 70,
+      "sourceRules": [
+        "Armor(3)",
+        "Good Shot",
+        "Targeting Visor"
+      ],
+      "conditional": [
+        "Armor(3)"
+      ]
+    },
+    {
+      "name": "Gun Drones",
+      "size": 5,
+      "q": "5+",
+      "d": "4+",
+      "p": 80,
+      "sourceRules": [
+        "Good Shot",
+        "Strider",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Tactical Grunts",
+      "size": 5,
+      "q": "5+",
+      "d": "4+",
+      "p": 100,
+      "sourceRules": [
+        "Good Shot",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Spotters",
+      "size": 5,
+      "q": "5+",
+      "d": "5+",
+      "p": 105,
+      "sourceRules": [
+        "Good Shot",
+        "Scout",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Sniper Drones",
+      "size": 3,
+      "q": "5+",
+      "d": "4+",
+      "p": 105,
+      "sourceRules": [
+        "Good Shot",
+        "Strider",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Spotter Gunners",
+      "size": 3,
+      "q": "5+",
+      "d": "5+",
+      "p": 115,
+      "sourceRules": [
+        "Good Shot",
+        "Scout",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Battle Suits",
+      "size": 3,
+      "q": "4+",
+      "d": "3+",
+      "p": 150,
+      "sourceRules": [
+        "Targeting Visor",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Stealth Suits",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 160,
+      "sourceRules": [
+        "Relentless",
+        "Stealth",
+        "Targeting Visor"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Hover Attack Bike",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 160,
+      "sourceRules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Hover Transport",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 165,
+      "sourceRules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Heavy Battle Suit",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 255,
+      "sourceRules": [
+        "Fear(2)",
+        "Targeting Visor",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Heavy Stealth Suit",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 290,
+      "sourceRules": [
+        "Fear(2)",
+        "Stealth",
+        "Targeting Visor",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Hover Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 405,
+      "sourceRules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Tide Titan",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 550,
+      "sourceRules": [
+        "Evasive",
+        "Fear(3)",
+        "Targeting Visor",
+        "Tough(18)"
+      ],
+      "conditional": [
+        "Evasive"
+      ]
+    },
+    {
+      "name": "Surge Titan",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 775,
+      "sourceRules": [
+        "Fear(4)",
+        "Targeting Visor",
+        "Tough(24)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Razor Fighter",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 200,
+      "sourceRules": [
+        "Aircraft",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Sun Bomber",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 225,
+      "sourceRules": [
+        "Aircraft",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "conditional": []
+    }
+  ],
+  "previousSkippedRows": 26,
+  "review": "Manually reconstructed all source upgrade tables. Model slot 1 represents one eligible model; Tactical Grunts use separate slots for special weapon and sergeant. All-rifle replacement and individual starting-rifle replacements are treated as mutually exclusive; verify source interpretation. Armor(3) and Armor(2) wording follows existing catalogue convention because separate armor rules not defined on PDF p3. Visual New Recruit and ForceOrg testing remains outstanding.",
+  "notes": [
+    "No other catalogue changed.",
+    "Security Grunts Particle Wall is conditional; Tide Titan Nova Shield retained as fixed default equipment.",
+    "All six spell definitions retained.",
+    "Support turret profiles assigned to owning model."
+  ]
+}
