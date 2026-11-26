@@ -18,7 +18,6 @@
     </characteristicTypes></profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="opr-army-rules-category" name="Army Rules" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f041" name="Heroes" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f048" name="Epic Heroes" hidden="false"/>
     <categoryEntry id="b174-c09d-3660-f042" name="Core Units" hidden="false"/>
@@ -30,7 +29,6 @@
   </categoryEntries>
   <forceEntries><forceEntry id="b174-c09d-3660-f050" name="Army" hidden="false">
     <categoryLinks>
-        <categoryLink id="opr-army-rules-force-link" name="Army Rules" hidden="false" targetId="opr-army-rules-category" primary="false"/>
         <categoryLink id="b174-c09d-3660-f060" name="Heroes" hidden="false" targetId="b174-c09d-3660-f041" primary="false"/>
         <categoryLink id="b174-c09d-3660-f068" name="Epic Heroes" hidden="false" targetId="b174-c09d-3660-f048" primary="false"/>
         <categoryLink id="b174-c09d-3660-f061" name="Core Units" hidden="false" targetId="b174-c09d-3660-f042" primary="false"/>
