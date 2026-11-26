@@ -161,7 +161,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
+      <infoLinks><infoLink id="rl36-repair-ravage-1" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule"/>
         <infoLink id="rl36-4cd4881291e6" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-link-0-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
 <infoLink id="rl36-link-0-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
@@ -3171,7 +3171,7 @@
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
+      <infoLinks><infoLink id="rl36-repair-ravage-2" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule"/>
         <infoLink id="rl36-ba4a5613a282" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 
