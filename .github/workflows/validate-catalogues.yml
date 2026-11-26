@@ -74,6 +74,10 @@ jobs:
         if: always()
         run: |
           if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_allocation.py; fi
+      - name: Verify Wolf Brothers source combination gates and rule states
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_combinations.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
