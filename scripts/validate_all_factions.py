@@ -17,7 +17,7 @@ def norm(s):
     m=PARAM.fullmatch(s)
     return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target"} else s
 def tokens(s):
-    return [x.strip() for x in re.split(r",\s*(?![^()]*\))",s or "") if x.strip() not in {"","-"}]
+    return [x.strip() for x in re.split(r",\s*(?![^()]*\))",s or "") if x.strip() not in {"","-","undefined"}]
 def rules(e):
     return [x for x in e.findall(f"./{N}infoLinks/{N}infoLink") if x.get("type")=="rule"]
 def stat(profile,key):
@@ -83,7 +83,7 @@ def main():
             actual={k:stat(profile,k) for k in ("Quality","Defense","Special Rules")}
             native=tokens(actual["Special Rules"]);linked={norm(x.get("name")) for x in rules(unit)}
             for special in native:
-                if not special.startswith("Tough(") and norm(special) not in linked:
+                if not special.startswith("Tough(") and norm(special) not in linked and special.split("(")[0] not in linked:
                     add("error","MISSING_INNATE_LINK",uname,special)
             if not unit.findall(f".//{N}selectionEntry[@type='model']"):
                 add("error","MISSING_MODELS",uname,"No model entries")
