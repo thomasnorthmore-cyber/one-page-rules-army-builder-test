@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -163,16 +163,8 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-4cd4881291e6" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-        <infoLink id="rl36-c99db988c967" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
-      <infoLink id="rl36-link-0-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+        <infoLink id="rl36-link-0-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
 <infoLink id="rl36-link-0-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-0-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
-<infoLink id="rl36-link-0-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-
 </infoLinks>
       <comment>Starting equipment ability: Deadly Stinger (Ravage(6))</comment>
       <selectionEntries>
@@ -359,17 +351,6 @@
         <infoLink id="rl36-c4788d9d7aaf" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-1-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
 <infoLink id="rl36-link-1-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-1-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
-<infoLink id="rl36-link-1-0008" name="Relentless" hidden="false" targetId="rl36-core-0008" type="rule"/>
-<infoLink id="rl36-link-1-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-
-
-
-
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-7c0b5339af18" name="Annihilator Lord — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -1746,9 +1727,7 @@
       <infoLinks>
         <infoLink id="rl36-9a68bcdc4800" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-e46199b7f62a" name="Infiltrate" hidden="false" targetId="rl36-483ef483642e" type="rule" />
-      <infoLink id="rl36-link-4-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
-
-</infoLinks>
+      </infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-0c05a051fcff" name="Replace all Rusted Claws" hidden="false" defaultSelectionEntryId="rl36-base-47548df-051fcff" collective="false" import="true">
@@ -1885,12 +1864,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-983b6b7d52f5" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-5-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
-<infoLink id="rl36-link-5-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-</infoLinks>
+      </infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-b8fba4894e8b" name="Replace all Doom Scythes" hidden="false" defaultSelectionEntryId="rl36-base-af69721-4894e8b" collective="false" import="true">
@@ -2369,12 +2343,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-2cf28c9a9c68" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-7-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-</infoLinks>
+      </infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="rl36-253b7f5e1487" name="Replace all Reaper Sniper Rifles" hidden="false" defaultSelectionEntryId="rl36-base-5664c69-f5e1487" collective="false" import="true">
@@ -2505,9 +2474,6 @@
       <infoLinks>
         <infoLink id="rl36-255aed7a3f71" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-9-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-9-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
 </infoLinks>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -2604,11 +2570,6 @@
       <infoLinks>
         <infoLink id="rl36-7c981834a6ae" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-a-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-a-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
-
-
-
-
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-53615e132a53" name="Destroyer Snakes — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -2878,12 +2839,6 @@
         <infoLink id="rl36-f4bd1e2daf47" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-b-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-b-0006" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/>
-<infoLink id="rl36-link-b-0009" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/>
-
-
-
-
-
 </infoLinks>
       <comment>Starting equipment ability: Rapid Skimmer Module (Scout)</comment>
       <selectionEntries/>
@@ -3005,12 +2960,6 @@
       <infoLinks>
         <infoLink id="rl36-f888c881167e" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-c-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-c-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-
 </infoLinks>
       <selectionEntries/>
       <selectionEntryGroups><selectionEntryGroup id="rl36-anv12-group" name="Annihilators squad loadout" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-std-opt"><constraints><constraint id="rl36-anv12-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-std-opt" name="Standard — Dual Uranium Daggers" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="rl36-anv12-std-1" name="Annihilators — Model 1" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-std-1-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-1-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-std-1-group" name="Melee weapon — Model 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-std-1-w0"><constraints><constraint id="rl36-anv12-std-1-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-1-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-std-1-w0" name="Dual Uranium Daggers" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-2-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-2-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-1-w0-profile" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-1-w1" name="Dual Atomizer Swords" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-3-0" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-1-w1-profile" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-1-w2" name="Legion Glaive" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-4-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-1-w2-profile" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-1-w3" name="Great Doom Scythe" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-5-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-5-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-1-w3-profile" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-2" name="Annihilators — Model 2" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-std-2-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-2-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-std-2-group" name="Melee weapon — Model 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-std-2-w0"><constraints><constraint id="rl36-anv12-std-2-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-2-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-std-2-w0" name="Dual Uranium Daggers" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-7-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-7-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-2-w0-profile" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-2-w1" name="Dual Atomizer Swords" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-8-0" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-2-w1-profile" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-2-w2" name="Legion Glaive" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-9-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-2-w2-profile" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-2-w3" name="Great Doom Scythe" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-10-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-10-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-2-w3-profile" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-3" name="Annihilators — Model 3" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-std-3-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-3-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-std-3-group" name="Melee weapon — Model 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-std-3-w0"><constraints><constraint id="rl36-anv12-std-3-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-std-3-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-std-3-w0" name="Dual Uranium Daggers" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-12-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-12-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-3-w0-profile" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-3-w1" name="Dual Atomizer Swords" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-13-0" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-3-w1-profile" name="Dual Atomizer Swords" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Rending</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-3-w2" name="Legion Glaive" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-14-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-3-w2-profile" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry><selectionEntry id="rl36-anv12-std-3-w3" name="Great Doom Scythe" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-15-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-15-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-std-3-w3-profile" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="15"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-opt" name="Replace all — Fusion Ray and Strike" hidden="false" collective="false" import="true" type="upgrade"><selectionEntries><selectionEntry id="rl36-anv12-fusion-1" name="Annihilators — Model 1" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-fusion-1-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-1-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-anv12-fusion-1-strike" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-fusion-1-group" name="Fusion Ray replacement — Model 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-fusion-1-w0"><constraints><constraint id="rl36-anv12-fusion-1-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-1-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-fusion-1-w0" name="Fusion Ray" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-18-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-18-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-1-w0-profile" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-1-w1" name="Photon Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-19-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-19-1" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-1-w1-profile" name="Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-1-w2" name="Radium Ray" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-20-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-20-1" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-1-w2-profile" name="Radium Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(3), Unstoppable</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="20"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-1-w3" name="Heavy Fusion Ray" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-21-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-21-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-1-w3-profile" name="Heavy Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(6), Anti-Regen</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="25"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-1-w4" name="Heavy Photon Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-22-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-22-1" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/><infoLink id="wref-12-22-2" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-1-w4-profile" name="Heavy Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">36&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A6</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Anti-Cover, Shatter</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="75"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-2" name="Annihilators — Model 2" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-fusion-2-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-2-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-anv12-fusion-2-strike" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-fusion-2-group" name="Fusion Ray replacement — Model 2" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-fusion-2-w0"><constraints><constraint id="rl36-anv12-fusion-2-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-2-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-fusion-2-w0" name="Fusion Ray" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-24-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-24-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-2-w0-profile" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-2-w1" name="Photon Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-25-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-25-1" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-2-w1-profile" name="Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-3" name="Annihilators — Model 3" hidden="false" collective="false" import="true" type="model"><constraints><constraint id="rl36-anv12-fusion-3-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-3-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36-anv12-fusion-3-strike" name="Strike" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon"><characteristics><characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f032"></characteristic></characteristics></profile></profiles><selectionEntryGroups><selectionEntryGroup id="rl36-anv12-fusion-3-group" name="Fusion Ray replacement — Model 3" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-anv12-fusion-3-w0"><constraints><constraint id="rl36-anv12-fusion-3-group-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36-anv12-fusion-3-group-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><selectionEntries><selectionEntry id="rl36-anv12-fusion-3-w0" name="Fusion Ray" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-27-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-27-1" name="Deadly(X)" hidden="false" targetId="rl36-core-0024" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-3-w0-profile" name="Fusion Ray" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">18&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(4), Deadly(3)</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry><selectionEntry id="rl36-anv12-fusion-3-w1" name="Photon Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-12-28-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-12-28-1" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule"/></infoLinks><profiles><profile id="rl36-anv12-fusion-3-w1-profile" name="Photon Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon"><characteristics><characteristic name="Range" typeId="b174-c09d-3660-f021">30&quot;</characteristic><characteristic name="Attacks" typeId="b174-c09d-3660-f022">A3</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic></characteristics></profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="5"/></costs></selectionEntry></selectionEntries></selectionEntryGroup></selectionEntryGroups><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry></selectionEntries><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="100"/></costs></selectionEntry></selectionEntries></selectionEntryGroup><selectionEntryGroup id="rl36-8db07796b1b4" name="Upgrade all models with" hidden="false" collective="false" import="true">
@@ -3224,8 +3173,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-ba4a5613a282" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-        <infoLink id="rl36-0ea0f82ceac1" name="Ravage" hidden="false" targetId="rl36-f19224e322ed" type="rule" />
-      <infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+        <infoLink id="rl36-link-e-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 
 
 
@@ -3477,9 +3425,6 @@
       <infoLinks>
         <infoLink id="rl36-fdc6802d1075" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-f-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-f-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bb4734ad9581" name="Forge Spider — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -3611,7 +3556,6 @@
       <infoLinks>
         <infoLink id="rl36-cd4fa37fc985" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-10-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-10-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
 <infoLink id="rl36-link-10-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 
 
@@ -3798,7 +3742,6 @@
       <infoLinks>
         <infoLink id="rl36-2e82ab0001f0" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-11-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-11-0005" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/>
 <infoLink id="rl36-link-11-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
 
 
@@ -3925,12 +3868,6 @@
       <infoLinks>
         <infoLink id="rl36-3ebfbc17b29b" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-12-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-12-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-c04ae36b53b4" name="Heavy Annihilator — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -4073,14 +4010,6 @@
         <infoLink id="rl36-f64e44300715" name="Ambushing Piercing Shot" hidden="false" targetId="rl36-f5c4bf05b0d9" type="rule" />
         <infoLink id="rl36-4af3900a6209" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-13-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-13-0010" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/>
-
-
-
-
-
-
-
 </infoLinks>
       <selectionEntries>
         <selectionEntry id="rl36m-bf3b243e39dc" name="Tri-Scorpion Pistoleer — Model 1" hidden="false" collective="false" import="true" type="model">
@@ -4425,13 +4354,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-5c5bb889c2fd" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-        <infoLink id="rl36-d02c6ec27f7d" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-        <infoLink id="rl36-6351a8cb85dc" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-        <infoLink id="rl36-8c4e8af87ad4" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-        <infoLink id="rl36-d81866a79748" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-        <infoLink id="rl36-86eaefa119be" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-        <infoLink id="rl36-474a60922780" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      <infoLink id="rl36-link-16-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+        <infoLink id="rl36-link-16-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
 <infoLink id="rl36-link-16-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 
 
@@ -4768,13 +4691,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-ed9253a8b498" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-        <infoLink id="rl36-65f95e504fc0" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-        <infoLink id="rl36-f9354efa300a" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-        <infoLink id="rl36-bd5bef3c8ee5" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-        <infoLink id="rl36-ab5fd0abee04" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-        <infoLink id="rl36-8298e5729d7a" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-        <infoLink id="rl36-b8b0d9348ec4" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      <infoLink id="rl36-link-18-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+        <infoLink id="rl36-link-18-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
 <infoLink id="rl36-link-18-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
 <infoLink id="rl36-link-18-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 
@@ -4923,7 +4840,6 @@
         <infoLink id="rl36-8c2fe6c1cff8" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
       <infoLink id="rl36-link-19-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
 <infoLink id="rl36-link-19-0004" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-<infoLink id="rl36-link-19-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
 <infoLink id="rl36-link-19-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 
 
@@ -5081,15 +4997,8 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-87a029526b9a" name="Enhanced Self-Repair Buff" hidden="false" targetId="rl36-d529c8bb39f8" type="rule" />
-        <infoLink id="rl36-9eeed107a29c" name="Enhanced Self-Repair" hidden="false" targetId="rl36-e92f5769c7a5" type="rule" />
         <infoLink id="rl36-0f1177d2d588" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-        <infoLink id="rl36-a0dc7443940e" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-        <infoLink id="rl36-ef36bfd15c1c" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-        <infoLink id="rl36-d927ebb4ed13" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-        <infoLink id="rl36-0a29886a65c5" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-        <infoLink id="rl36-458c4d66deeb" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-        <infoLink id="rl36-55fdde895ce6" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
-      <infoLink id="rl36-link-1a-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
+        <infoLink id="rl36-link-1a-0001" name="Fearless" hidden="false" targetId="rl36-core-0001" type="rule"/>
 <infoLink id="rl36-link-1a-0012" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/>
 
 
@@ -5372,8 +5281,7 @@
       </profiles>
       <infoLinks>
         <infoLink id="rl36-296706ddd21d" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
-      <infoLink id="rl36-link-1c-0011" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/>
-<infoLink id="rl36-link-1c-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
+      <infoLink id="rl36-link-1c-0014" name="Aircraft" hidden="false" targetId="rl36-core-0014" type="rule"/>
 
 
 
@@ -5571,9 +5479,6 @@
         <infoLink id="rl36-0bd47564c2dc" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-d707049849ff" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
       <infoLink id="rl36-link-1e-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
-<infoLink id="rl36-link-1e-0007" name="Stealth" hidden="false" targetId="rl36-core-0007" type="rule"/>
-
-
 </infoLinks>
       <comment>Starting equipment ability: Paradox Shielding Device (Stealth Buff)</comment>
       <selectionEntries>
@@ -5667,8 +5572,7 @@
       <infoLinks>
         <infoLink id="rl36-72c556cda567" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule" />
         <infoLink id="rl36-55528b6cf270" name="Unique Hero" hidden="false" targetId="rl36-4da0eb86b73d" type="rule" />
-        <infoLink id="rl36-fa55adb80f74" name="Unstoppable" hidden="false" targetId="rl36-22b0efbf5399" type="rule" />
-      <infoLink id="rl36-link-1f-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
+        <infoLink id="rl36-link-1f-0002" name="Hero" hidden="false" targetId="rl36-core-0002" type="rule"/>
 
 
 </infoLinks>
