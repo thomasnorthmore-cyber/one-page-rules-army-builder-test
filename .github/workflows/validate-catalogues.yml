@@ -4,6 +4,7 @@ on:
     paths:
       - '*.cat'
       - '*.gst'
+      - 'tools/opr-code-service/**'
       - 'reference/**'
       - 'scripts/validate*.py'
       - 'scripts/validation_common.py'
@@ -14,6 +15,7 @@ on:
     paths:
       - '*.cat'
       - '*.gst'
+      - 'tools/opr-code-service/**'
       - 'reference/**'
       - 'scripts/validate*.py'
       - 'scripts/validation_common.py'
@@ -52,6 +54,12 @@ jobs:
             python3 "scripts/$script.py" || status=1
           done
           exit "$status"
+      - name: Test ForceOrg roster conversion
+        if: always()
+        working-directory: tools/opr-code-service
+        run: |
+          npm install --no-audit --no-fund
+          npm test
       - name: Upload detailed report even when checks fail
         if: always()
         uses: actions/upload-artifact@v4
