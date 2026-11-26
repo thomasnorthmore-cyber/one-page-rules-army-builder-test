@@ -4,6 +4,8 @@ on:
     paths:
       - 'Battle_Brothers.cat'
       - 'Custodian_Brothers.cat'
+      - 'Robot_Legions.cat'
+      - 'scripts/validate_robot_rules.py'
       - 'scripts/validate_custodian.py'
       - 'Grimdark_Future.gst'
       - 'scripts/validate_catalogues.py'
@@ -21,3 +23,5 @@ jobs:
 
       - name: Validate Custodian Brothers roster and links
         run: python3 scripts/validate_custodian.py
+      - name: Validate Robot Legions permanent rule links
+        run: python3 scripts/validate_robot_rules.py
