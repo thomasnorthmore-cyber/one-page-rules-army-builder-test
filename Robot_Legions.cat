@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -146,7 +146,7 @@
     <rule id="rl36-core-0026" name="Limited" hidden="false"><description>This weapon can only be used once per game.</description></rule>
     <rule id="rl36-core-0027" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
     <rule id="rl36-core-0028" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
-  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>Refer to the Grimdark Future v3.6.0 core rules for Bane.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule></sharedRules>
+  <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>Refer to the Grimdark Future v3.6.0 core rules for Bane.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-equipped-rending-melee" name="Rending in Melee" hidden="false"><description>Weapons used by this model in melee gain Rending.</description></rule></sharedRules>
   <selectionEntries>
     <selectionEntry id="rl36-55eedb2f4a16" name="Tri-Scorpion Lord" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
@@ -769,7 +769,7 @@
             <constraint id="rl36-8fd27da263f5" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-c39895bc7269" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-c39895bc7269" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-1" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
               </costs>
@@ -1837,7 +1837,7 @@
             <constraint id="rl36-42a6019cab25" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-f992c773ee2a" name="Machine-Horror" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-f992c773ee2a" name="Machine-Horror" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-2" name="Fear(X)" hidden="false" targetId="rl36-core-0012" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
               </costs>
@@ -2542,7 +2542,7 @@
             <constraint id="rl36-b0bb1a9171cc" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-60457b72a6ac" name="Widowmaker" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-60457b72a6ac" name="Widowmaker" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-3" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
               </costs>
@@ -2797,7 +2797,7 @@
             <constraint id="rl36-c20602a5e6d6" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-ced1734a694d" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-ced1734a694d" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-4" name="Rending in Melee" hidden="false" targetId="rl36-equipped-rending-melee" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-056871bc4fbf" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-8c3a6df38a65" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2806,7 +2806,7 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="20" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-94709f164b0e" name="Elite Vanguard" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-94709f164b0e" name="Elite Vanguard" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-5" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-582268088f03" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-30fa25244452" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -2968,7 +2968,7 @@
             <constraint id="rl36-9ac8e56b49b1" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-37489482468f" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-37489482468f" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-6" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="35" />
               </costs>
@@ -3397,7 +3397,7 @@
             <constraint id="rl36-b31a89c502c8" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-4f71817c1b09" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-4f71817c1b09" name="Plasmabot" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-7" name="Rending in Melee" hidden="false" targetId="rl36-equipped-rending-melee" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
@@ -3484,7 +3484,7 @@
             <constraint id="rl36-837a720cfcbc" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-1e89450e48e7" name="Widowmaker" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-1e89450e48e7" name="Widowmaker" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-8" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-92c2166d12ab" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-a0abb28cddd8" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3971,7 +3971,7 @@
             <constraint id="rl36-f219d44e015f" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-eedea5b8ced2" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-eedea5b8ced2" name="Phase Core" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-9" name="Ambush" hidden="false" targetId="rl36-core-0010" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="25" />
               </costs>
@@ -4955,7 +4955,7 @@
             <constraint id="rl36-8f2378739772" type="max" value="1" field="selections" scope="parent" shared="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry id="rl36-0847519da596" name="Warp Gate" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-0847519da596" name="Warp Gate" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36-equipment-rule-10" name="Transport(X)" hidden="false" targetId="rl36-core-0011" type="rule"/></infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="50" />
               </costs>
