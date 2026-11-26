@@ -71,3 +71,7 @@ Every newly supplied Grimdark Future army PDF is the source of truth for its fac
 ## Universal core rules ownership (v3.6.0)
 
 The 37 universal special rules from Grimdark Future Core Rules v3.6.0 page 2 live exclusively in `Grimdark_Future.gst` sharedRules. All factions link to those stable `opr-core-*` IDs, including parameterized instances; keep their displayed numeric values and existing equipment ownership. Never copy these definitions into a faction. Faction-specific rules, auras and spells remain in the relevant faction catalogue. Core descriptions preserve the supplied PDF's effects in readable paraphrase. The unified validator and PDF validator must resolve both game-system and local rules. Do not add redundant Tough links or alter ForceOrg export behavior.
+
+## Faction rule hygiene
+
+Use one definition per exact local rule name. Automatic spell catalogue and caster entries must reference the same spell IDs. Remove inherited foreign definitions only when not used and not present in the faction source manifest. Preserve source-defined rules even with zero direct links, and preserve referenced legacy equipment rules pending source verification. Do not merge parameterized rules with different named payloads without source review.

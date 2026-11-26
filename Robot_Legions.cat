@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="5">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="43" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="5">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -107,24 +107,12 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
     <rule id="rl36-38c64799d510" name="Unstoppable when Shooting Aura" hidden="false">
       <description>This model and its unit get Unstoppable on its weapons when shooting.</description>
     </rule>
-    <rule id="rl36-4e37395d9f1c" name="Triangulation Bots (1)" hidden="false">
-      <description>Pick one enemy unit within 18" in line of sight, which friendly units gets Indirect on their weapons against once (next time the effect would apply).</description>
-    </rule>
-    <rule id="rl36-d3598b1071f6" name="Gauss Bots (1)" hidden="false">
-      <description>Pick one enemy unit within 6", which takes 3 hits with AP(1) and Shatter. Roll as many dice as hits to see if "on rolls of 6" effects trigger.</description>
-    </rule>
-    <rule id="rl36-52fb19e75031" name="Inspiring Bots (2)" hidden="false">
-      <description>Pick up to two friendly units within 12", which get Rapid Advance once (next time the effect would apply).</description>
-    </rule>
-    <rule id="rl36-68418f69a195" name="Flame Bots (2)" hidden="false">
-      <description>Pick up to two enemy units within 9", which take 4 hits each.</description>
-    </rule>
-    <rule id="rl36-5c2dd80e9b81" name="Mending Bots (3)" hidden="false">
-      <description>Pick up to three friendly units within 18", which get Enhanced Self-Repair once (next time the effect would apply).</description>
-    </rule>
-    <rule id="rl36-103277c9cb1a" name="Piercing Bots (3)" hidden="false">
-      <description>Pick one enemy unit within 18" in line of sight, which takes 6 hits with AP(2).</description>
-    </rule>
+    
+    
+    
+    
+    
+    
       
     
     
@@ -417,12 +405,12 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
             </selectionEntry>
             <selectionEntry id="rl36-f0c16a70e73c" name="Technomancer" hidden="false" type="upgrade" collective="false" import="true">
               <infoLinks>
-                <infoLink id="rl36-550628a54155" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-                <infoLink id="rl36-1d7205317664" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-                <infoLink id="rl36-c154cd443588" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-                <infoLink id="rl36-5f670c2773a7" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-                <infoLink id="rl36-e7813041dbe2" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-                <infoLink id="rl36-7359009ef8eb" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
+                <infoLink id="rl36-550628a54155" name="Triangulation Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-1" type="rule" />
+                <infoLink id="rl36-1d7205317664" name="Gauss Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-2" type="rule" />
+                <infoLink id="rl36-c154cd443588" name="Inspiring Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-3" type="rule" />
+                <infoLink id="rl36-5f670c2773a7" name="Flame Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-4" type="rule" />
+                <infoLink id="rl36-e7813041dbe2" name="Mending Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-5" type="rule" />
+                <infoLink id="rl36-7359009ef8eb" name="Piercing Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-6" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="40" />
@@ -865,12 +853,12 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
             </selectionEntry>
             <selectionEntry id="rl36-ebc6ac58d427" name="Technomancer" hidden="false" type="upgrade" collective="false" import="true">
               <infoLinks>
-                <infoLink id="rl36-bc7f0fdd87cb" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-                <infoLink id="rl36-39bf9fb3dcd6" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-                <infoLink id="rl36-c9a745ca5cef" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-                <infoLink id="rl36-fdc5e05eefab" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-                <infoLink id="rl36-fdabd08d5d5c" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-                <infoLink id="rl36-3cbfee9583ea" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
+                <infoLink id="rl36-bc7f0fdd87cb" name="Triangulation Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-1" type="rule" />
+                <infoLink id="rl36-39bf9fb3dcd6" name="Gauss Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-2" type="rule" />
+                <infoLink id="rl36-c9a745ca5cef" name="Inspiring Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-3" type="rule" />
+                <infoLink id="rl36-fdc5e05eefab" name="Flame Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-4" type="rule" />
+                <infoLink id="rl36-fdabd08d5d5c" name="Mending Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-5" type="rule" />
+                <infoLink id="rl36-3cbfee9583ea" name="Piercing Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-6" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="40" />
@@ -4955,12 +4943,12 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
             </selectionEntry>
             <selectionEntry id="rl36-62f7f5b07957" name="Wraith-Shard Vault" hidden="false" type="upgrade" collective="false" import="true">
               <infoLinks>
-                <infoLink id="rl36-53a2ba6bba6d" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-                <infoLink id="rl36-6fff7d173bbb" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-                <infoLink id="rl36-1fde30addea2" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-                <infoLink id="rl36-fe8ead77d6be" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-                <infoLink id="rl36-97868ded5c4a" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-                <infoLink id="rl36-df8090e6e29e" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
+                <infoLink id="rl36-53a2ba6bba6d" name="Triangulation Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-1" type="rule" />
+                <infoLink id="rl36-6fff7d173bbb" name="Gauss Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-2" type="rule" />
+                <infoLink id="rl36-1fde30addea2" name="Inspiring Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-3" type="rule" />
+                <infoLink id="rl36-fe8ead77d6be" name="Flame Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-4" type="rule" />
+                <infoLink id="rl36-97868ded5c4a" name="Mending Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-5" type="rule" />
+                <infoLink id="rl36-df8090e6e29e" name="Piercing Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-6" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="305" />
@@ -5528,12 +5516,12 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
           <selectionEntries>
             <selectionEntry id="rl36-828286d38db9" name="Technomancer" hidden="false" type="upgrade" collective="false" import="true">
               <infoLinks>
-                <infoLink id="rl36-3826dc58f8f3" name="Triangulation Bots (1)" hidden="false" targetId="rl36-4e37395d9f1c" type="rule" />
-                <infoLink id="rl36-61fe409dd614" name="Gauss Bots (1)" hidden="false" targetId="rl36-d3598b1071f6" type="rule" />
-                <infoLink id="rl36-27f483fa5f01" name="Inspiring Bots (2)" hidden="false" targetId="rl36-52fb19e75031" type="rule" />
-                <infoLink id="rl36-55c5de99ee61" name="Flame Bots (2)" hidden="false" targetId="rl36-68418f69a195" type="rule" />
-                <infoLink id="rl36-ee197265e3f9" name="Mending Bots (3)" hidden="false" targetId="rl36-5c2dd80e9b81" type="rule" />
-                <infoLink id="rl36-6294bfd7603f" name="Piercing Bots (3)" hidden="false" targetId="rl36-103277c9cb1a" type="rule" />
+                <infoLink id="rl36-3826dc58f8f3" name="Triangulation Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-1" type="rule" />
+                <infoLink id="rl36-61fe409dd614" name="Gauss Bots (1)" hidden="false" targetId="opr-spellcat-rl-rule-2" type="rule" />
+                <infoLink id="rl36-27f483fa5f01" name="Inspiring Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-3" type="rule" />
+                <infoLink id="rl36-55c5de99ee61" name="Flame Bots (2)" hidden="false" targetId="opr-spellcat-rl-rule-4" type="rule" />
+                <infoLink id="rl36-ee197265e3f9" name="Mending Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-5" type="rule" />
+                <infoLink id="rl36-6294bfd7603f" name="Piercing Bots (3)" hidden="false" targetId="opr-spellcat-rl-rule-6" type="rule" />
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
