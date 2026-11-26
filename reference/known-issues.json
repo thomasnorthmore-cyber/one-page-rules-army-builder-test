@@ -1,10 +1,4 @@
 {
-  "notes": "One remaining source-confirmation item. This continues to appear as an ERROR in validation reports but is temporarily exempt from the strict CI gate. Remove after verifying the exact rule wording and updating the catalogue.",
-  "allow": [
-    {
-      "file": "Robot_Legions.cat",
-      "code": "PLACEHOLDER_RULE",
-      "unit": "Anti-Regen"
-    }
-  ]
+  "notes": "No known unresolved validation errors. Any new errors fail the strict CI gate.",
+  "allow": []
 }
