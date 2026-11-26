@@ -79,3 +79,16 @@ Use one definition per exact local rule name. Automatic spell catalogue and cast
 ## Validator ownership
 
 All general validators discover faction catalogues automatically and resolve rule IDs against the shared game system plus the current faction. Nested model sets and required default paths are supported. New factions must supply base-unit, PDF-rule and spell manifests; legacy faction-specific regression fixtures remain active. CI runs both the general and legacy checks. Structural validation does not certify full PDF upgrade parity or visual export.
+
+## Mandatory source-first workflow — no shortcuts
+
+User requirement: accuracy takes priority over speed or batch size. Goblin Reclaimers is the reference implementation, not a guarantee of source completeness.
+
+1. Read every supplied PDF page relevant to gameplay, including unit summaries, individual unit tables, special rules, auras, spells, and epic heroes. Inspect visual page layout whenever extracted text wraps, merges columns or is ambiguous. Preserve the supplied version and wording.
+2. Independently reconcile the unit summary against each detailed entry: model count, Quality, Defense, Tough, base points, weapon multiplicities, attacks, range, AP, and innate rules. Record discrepancies rather than guessing.
+3. Transcribe and verify every upgrade row including Free/+0 options, scope, costs, prerequisites, mutually exclusive bundles, all/any/one/up-to-N model limits and follow-on replacements. Explicitly construct complex dependencies; do not substitute generic independent toggles or arbitrary combination caps for valid choices.
+4. Match each rule to the existing central definition where semantically equivalent; use faction-local definitions for faction-specific effects. Verify names, parameters and descriptions against the PDF. Never silently drop unresolved rules or treat weapon fragments as rule names.
+5. Keep weapons on their owning models, conditional equipment rules on the selected equipment, and innate rules intact. Check that replacing gear removes the old weapon and any dependent rule, that whole-squad costs are charged once, and that Tough and spell references export consistently with established ForceOrg behavior.
+6. Automation may generate XML and execute tests from verified data, but must not replace source review. A manifest produced by the same extraction as the catalogue is not independent evidence. Independently check base data and upgrade coverage against the PDF; include explicit source-row coverage and regression checks for default and alternate loadouts.
+7. Validate each faction and all existing factions before publishing to main. Use a temporary branch for incomplete builds; do not publish known incomplete catalogues to main as complete. Never bypass errors by weakening assertions or adding arbitrary exemptions. Disclose any unresolved source gaps and distinguish structural checks from real New Recruit/ForceOrg tests.
+8. Apply this process to every faction even in a multi-PDF batch. Preserve existing working catalogues and exporter behavior. The six-faction revision-1 batch needs remediation under this standard before it can be considered complete.
