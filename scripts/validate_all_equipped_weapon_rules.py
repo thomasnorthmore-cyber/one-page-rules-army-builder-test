@@ -16,14 +16,6 @@ from pathlib import Path
 N = "{http://www.battlescribe.net/schema/catalogueSchema}"
 FILES = ("Battle_Brothers.cat", "Robot_Legions.cat", "Custodian_Brothers.cat")
 CORE_RULES = {"AP", "Blast", "Deadly"}
-EXCEPTIONS = {
-    # These special-rule cells contain combined vehicle/pilot wargear text,
-    # NOT a list of weapon keywords. They require source-led remodeling.
-    ("Robot_Legions.cat", "Thruster Bike", "Thruster Bike"),
-    ("Robot_Legions.cat", "Skimmer Bike", "Skimmer Bike"),
-    ("Robot_Legions.cat", "Overseer Pilot", "Overseer Pilot"),
-}
-
 def normalize(name: str) -> str:
     if re.fullmatch(r"(AP|Blast|Deadly)\(\d+\)", name):
         return re.sub(r"\(\d+\)", "(X)", name)
@@ -60,9 +52,6 @@ for filename in FILES:
                     if characteristic.get("name") == "Special Rules":
                         raw = (characteristic.text or "").strip()
                         break
-            if (filename, label, name) in EXCEPTIONS:
-                warnings.append(f"{filename}: malformed combined wargear profile {label} / {name} must be remodeled")
-                continue
             traits = [t.strip() for t in raw.split(",") if t.strip() not in ("", "-", "undefined")]
             for trait in traits:
                 norm = normalize(trait)
@@ -70,6 +59,19 @@ for filename in FILES:
                     errors.append(f"{filename}: {label} / {name}: missing equipped-only rule link '{norm}'")
                 if norm not in rule_names:
                     errors.append(f"{filename}: {label} / {name}: missing rule definition '{norm}'")
+    for entry in root.iter(f"{N}selectionEntry"):
+        if entry.get("type") != "upgrade":
+            continue
+        # A leaf wargear upgrade must grant a weapon profile, a rule link,
+        # or contain another selected entry. Never silently accept an inert option.
+        has_profile = entry.find(f"./{N}profiles/{N}profile") is not None
+        has_rule = entry.find(f"./{N}infoLinks/{N}infoLink") is not None
+        has_children = (
+            entry.find(f"./{N}selectionEntries/{N}selectionEntry") is not None
+            or entry.find(f"./{N}selectionEntryGroups/{N}selectionEntryGroup") is not None
+        )
+        if not (has_profile or has_rule or has_children):
+            errors.append(f"{filename}: inert upgrade without profile or rule: {entry.get('name')}")
     print(f"{filename}: {len(root.findall(f'./{N}selectionEntries/{N}selectionEntry'))} units checked")
 for msg in warnings:
     print("SOURCE REVIEW:", msg)
