@@ -33,6 +33,8 @@ def main():
     systemids={x.get("id") for x in system.iter() if x.get("id")}
     manifest_path=base/"reference/source-checks.json"
     manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    regression_path=base/"reference/regressions.json"
+    regressions=json.loads(regression_path.read_text()).get("cases",{}) if regression_path.exists() else {}
     report={"factions":[],"totals":{},"note":"Structural validation is not a New Recruit/ForceOrg visual test. Unverified source coverage is not a pass."}
     totals=Counter()
     for path in sorted(base.glob("*.cat")):
@@ -68,6 +70,12 @@ def main():
                 desc=node.findtext(N+"description") or ""
                 if not desc.strip() or PLACEHOLDER.search(desc):
                     add("error","PLACEHOLDER_RULE",node.get("name","?"),desc[:130])
+        for fixture in regressions.get(path.name, []):
+            entry=next((x for x in items if x.tag==N+"selectionEntry" and x.get("id")==fixture["id"]),None)
+            if entry is None:
+                add("error","REGRESSION_MISSING_ENTRY",fixture["name"],fixture["id"])
+            elif not any(x.get("name")==fixture["rule"] for x in rules(entry)):
+                add("error","REGRESSION_RULE_MISSING",fixture["name"],fixture["rule"])
         for unit in units:
             uname=unit.get("name","?")
             profile=next((x for x in unit.findall(f"./{N}profiles/{N}profile") if x.get("typeName")=="Unit"),None)
