@@ -1,0 +1,482 @@
+{
+  "source": "Knight_Brothers_3.6.0.pdf p.2, checked against unit headers and default weapon rows pp.4–8.",
+  "units": {
+    "Knight Master Destroyer": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Hero",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Archivist Staff",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Spell Amplifier"
+          ]
+        }
+      ]
+    },
+    "Knight Veteran Master Brother": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Knight Master Brother": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Hero",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Knight Attack Vehicle": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Knight APC": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Fast",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Knight Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Knight Veteran Combat Walker": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Fear(2)",
+        "Tough(12)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Combat Fist",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Knight Artillery Gun": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Artillery",
+        "Cumbersome",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Knight Heavy Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Fast",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Hull Gatling Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Sponson Heavy Flamer Cannons",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Knight Light Gunship": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Light Laser Cannon",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        }
+      ]
+    },
+    "Knight Heavy Gunship": {
+      "models": 1,
+      "rules": [
+        "Knightborn",
+        "Fearless",
+        "Aircraft",
+        "Tough(9)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Gatling Cannons",
+          "range": "15\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strafing Linked Missile-Arrays",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Strafing Rocket Launcher",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Strafing Linked Heavy Rifle-Arrays",
+          "range": "9\"",
+          "attacks": "A3",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Knight Battle Brothers": {
+      "models": 5,
+      "rules": [
+        "Fearless",
+        "Knightborn"
+      ],
+      "weapons": [
+        {
+          "name": "Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Knight Veteran Brothers": {
+      "models": 3,
+      "rules": [
+        "Fearless",
+        "Knightborn",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Dual Energy Sabres",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Unstoppable"
+          ]
+        }
+      ]
+    },
+    "Knight Purgation Brothers": {
+      "models": 3,
+      "rules": [
+        "Fearless",
+        "Knightborn",
+        "Relentless"
+      ],
+      "weapons": [
+        {
+          "name": "Slayer Blaze-Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Knight Destroyers": {
+      "models": 3,
+      "rules": [
+        "Fearless",
+        "Knightborn",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Dual Energy Sabres",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Unstoppable"
+          ]
+        }
+      ]
+    },
+    "Knight Nemesis Walker": {
+      "models": 1,
+      "rules": [
+        "Fearless",
+        "Knightborn",
+        "Ambush",
+        "Caster(2)",
+        "Fear(3)",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Walker Slayer Hammer",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Heavy Walker Slayer Hammer",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    }
+  }
+}

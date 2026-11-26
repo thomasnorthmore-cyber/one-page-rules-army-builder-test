@@ -78,6 +78,26 @@ jobs:
         if: always()
         run: |
           if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_combinations.py; fi
+      - name: Verify Knight Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_defaults.py; fi
+      - name: Verify Knight Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_upgrades.py; fi
+      - name: Verify Knight Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_weapon_profiles.py; fi
+      - name: Verify Knight Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_allocation.py; fi
+      - name: Verify Knight Brothers conditional equipment and rule states
+        if: always()
+        run: |
+          if [ -f Knight_Brothers.cat ]; then python3 scripts/validate_knight_brothers_combinations.py; fi
       - name: Verify Wolf Brothers source default loadouts
         if: always()
         run: |

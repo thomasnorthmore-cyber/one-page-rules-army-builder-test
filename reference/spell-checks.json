@@ -447,5 +447,37 @@
       3,
       "6 hits with AP(1) and Smash"
     ]
+  ],
+  "Knight_Brothers.cat": [
+    [
+      "Knight Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Doom Strike",
+      1,
+      "1 hit with AP(2) and Deadly(3)"
+    ],
+    [
+      "Knight Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Purge the Impure",
+      2,
+      "4 hits with AP(2) each"
+    ],
+    [
+      "Banishing Sigil",
+      3,
+      "Enhanced Knightborn"
+    ],
+    [
+      "Knight Trauma",
+      3,
+      "6 hits with AP(1) and Smash"
+    ]
   ]
 }
