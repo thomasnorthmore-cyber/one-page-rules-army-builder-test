@@ -351,5 +351,37 @@
       3,
       "Pick one enemy model within 24\" in line of sight, which take"
     ]
+  ],
+  "Dark_Brothers.cat": [
+    [
+      "Dark Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Psychic Terror",
+      1,
+      "3 hits with Bane"
+    ],
+    [
+      "Dark Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Lightning Fog",
+      2,
+      "4 hits each"
+    ],
+    [
+      "Blessed Shroud",
+      3,
+      "Enhanced Darkborn"
+    ],
+    [
+      "Dark Trauma",
+      3,
+      "6 hits with AP(1) and Smash"
+    ]
   ]
 }

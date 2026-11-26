@@ -8292,5 +8292,2511 @@
   "Alien_Hives.cat": [],
   "Dark_Elf_Raiders.cat": [],
   "Elven_Jesters.cat": [],
-  "Goblin_Reclaimers.cat": []
+  "Goblin_Reclaimers.cat": [],
+  "Dark_Brothers.cat": [
+    {
+      "profile": "db36-0001y",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Archivist Staff",
+      "field": "b174-c09d-3660-f032",
+      "base": "Spell Amplifier",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00020",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00024",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Assault Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Assault, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00025",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00028",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00029",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0002c",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Dual Energy Claws",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-2",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-6",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-9",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-12",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-20",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-24",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-27",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-30",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-38",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-42",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-45",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-48",
+      "unit": "db36-0000y",
+      "model": "db36-0000z",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0000y",
+              "child": "db36-00011"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000r8",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-57",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rc",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-66",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rj",
+      "weapon": "Flamer Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Reliable, Anti-Cover, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rm",
+      "weapon": "Heavy Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rq",
+      "weapon": "Anti-Matter Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rt",
+      "weapon": "Plasma Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000rw",
+      "weapon": "Fusion Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000s0",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000s3",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000s5",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000s7",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000sa",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ot",
+              "child": "db36-000q4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000se",
+      "weapon": "Burst Heavy Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000si",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000t3",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-75",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000t7",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-84",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000te",
+      "weapon": "Flamer-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Blast(3), Limited, Reliable",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000th",
+      "weapon": "Plasma-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000tl",
+      "weapon": "Fusion-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Deadly(3), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000tp",
+      "weapon": "Anti-Matter-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Limited, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ou",
+              "child": "db36-unique-133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000tv",
+      "weapon": "Sniper Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Reliable, Takedown",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000tz",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-141"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000uk",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-93",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000uo",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-102",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ov",
+              "child": "db36-unique-142"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000us",
+      "weapon": "Burst Shotgun",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000uw",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000vh",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-111",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000vl",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-nested-120",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ow",
+              "child": "db36-unique-151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000hh",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000hl",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000hq",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000hx",
+      "weapon": "Flamer Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Reliable, Anti-Cover, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000i0",
+      "weapon": "Arc-Charger Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Rending, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000i3",
+      "weapon": "Heavy Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000i7",
+      "weapon": "Anti-Matter Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ia",
+      "weapon": "Plasma Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000id",
+      "weapon": "Fusion Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ih",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ik",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000im",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000io",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ir",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dp",
+              "child": "db36-000g4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000iv",
+      "weapon": "Great Chain-Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Shred",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dq",
+              "child": "db36-unique-66"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000jj",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dq",
+              "child": "db36-unique-68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000jn",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dq",
+              "child": "db36-unique-68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000js",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dq",
+              "child": "db36-unique-68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000jx",
+      "weapon": "Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dr",
+              "child": "db36-unique-81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000k1",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dr",
+              "child": "db36-unique-79"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000kp",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dr",
+              "child": "db36-unique-81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000kt",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dr",
+              "child": "db36-unique-81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ky",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dr",
+              "child": "db36-unique-81"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000l2",
+      "weapon": "Burst Heavy Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000l6",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-92"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000lu",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ly",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000m3",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ma",
+      "weapon": "Flamer-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Blast(3), Limited, Reliable",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000md",
+      "weapon": "Plasma-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000mg",
+      "weapon": "Arc-Charger-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Limited, Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000mk",
+      "weapon": "Fusion-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Deadly(3), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000mo",
+      "weapon": "Anti-Matter-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Limited, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000ds",
+              "child": "db36-unique-94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ms",
+      "weapon": "Archivist Staff",
+      "field": "b174-c09d-3660-f032",
+      "base": "Spell Amplifier",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dt",
+              "child": "db36-unique-105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ng",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dt",
+              "child": "db36-unique-107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000nk",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dt",
+              "child": "db36-unique-107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000np",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000dt",
+              "child": "db36-unique-107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000nu",
+      "weapon": "Dual Energy Claws",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000du",
+              "child": "db36-unique-118"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000oi",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000du",
+              "child": "db36-unique-120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000om",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000du",
+              "child": "db36-unique-120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000or",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-000du",
+              "child": "db36-unique-120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006c",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006g",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006l",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006s",
+      "weapon": "Flamer Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Reliable, Anti-Cover, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006v",
+      "weapon": "Arc-Charger Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "Rending, Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0006y",
+      "weapon": "Heavy Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00072",
+      "weapon": "Anti-Matter Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00075",
+      "weapon": "Plasma Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-00078",
+      "weapon": "Fusion Pistol",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007d",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007g",
+      "weapon": "Energy Hammer",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Blast(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007i",
+      "weapon": "Energy Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007k",
+      "weapon": "Energy Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(2)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007n",
+      "weapon": "Chain-Fist",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(4), Deadly(3)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002i",
+              "child": "db36-0004t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0007r",
+      "weapon": "Great Chain-Sword",
+      "field": "b174-c09d-3660-f032",
+      "base": "Shred",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002j",
+              "child": "db36-unique-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0008f",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002j",
+              "child": "db36-unique-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0008j",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002j",
+              "child": "db36-unique-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0008o",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002j",
+              "child": "db36-unique-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0008s",
+      "weapon": "Archivist Staff",
+      "field": "b174-c09d-3660-f032",
+      "base": "Spell Amplifier",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002k",
+              "child": "db36-unique-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0009g",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002k",
+              "child": "db36-unique-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0009k",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002k",
+              "child": "db36-unique-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0009p",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002k",
+              "child": "db36-unique-16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0009u",
+      "weapon": "Burst Cyclic Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "Anti-Cover, Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002l",
+              "child": "db36-unique-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-0009y",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002l",
+              "child": "db36-unique-27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000am",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002l",
+              "child": "db36-unique-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000aq",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002l",
+              "child": "db36-unique-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000av",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002l",
+              "child": "db36-unique-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000b0",
+      "weapon": "Dual Energy Claws",
+      "field": "b174-c09d-3660-f032",
+      "base": "AP(1), Surge",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002m",
+              "child": "db36-unique-40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000bo",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002m",
+              "child": "db36-unique-42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000bs",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002m",
+              "child": "db36-unique-42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000bx",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002m",
+              "child": "db36-unique-42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000c1",
+      "weapon": "Burst Heavy Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000c5",
+      "weapon": "Hand Weapon",
+      "field": "b174-c09d-3660-f032",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000ct",
+      "weapon": "Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1)",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000cx",
+      "weapon": "Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "-",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000d2",
+      "weapon": "Assault Heavy Bike-Rifle",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Assault",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000d9",
+      "weapon": "Flamer-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Blast(3), Limited, Reliable",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000dc",
+      "weapon": "Plasma-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(2), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000df",
+      "weapon": "Arc-Charger-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "Limited, Rending",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000dj",
+      "weapon": "Fusion-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(4), Deadly(3), Limited",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "db36-000dn",
+      "weapon": "Anti-Matter-Mod",
+      "field": "b174-c09d-3660-f023",
+      "base": "AP(1), Limited, Smash",
+      "fixed": [],
+      "conditional": [
+        {
+          "keyword": "Bane",
+          "conditions": [
+            {
+              "scope": "db36-0002n",
+              "child": "db36-unique-55"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
