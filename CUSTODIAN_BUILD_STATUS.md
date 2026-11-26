@@ -14,7 +14,7 @@ Source: user-supplied `Custodian_Brothers_3.6.0.pdf` (10 content pages, OPR v3.6
 
 ## Remaining before claiming full source parity
 - Fully conditional Master Custodian/Veteran Master Custodian jetbike upgrades and follow-on weapon substitutions.
-- Great Sister's alternative role loadouts and conditional pistol/hand-weapon replacement trees.
+- Great Sister's alternative role loadouts are now implemented (Vigilant Oath, Prosecution, Sorceress Staff, Hunter), but conditional follow-on weapon replacements still need coverage.
 - Conditional and paired weapon swaps on Custodian Combat Walker and Assault Walker, and all other special-case walker alternatives.
 - Full per-model vs whole-squad upgrade verification of every PDF option, including banners and equipment interactions.
 - Additional verification of all source weapon/rule descriptions against the PDF and the current rules system; some shared core rules use cross-faction definitions or generic descriptions.
