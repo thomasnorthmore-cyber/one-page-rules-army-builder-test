@@ -32,3 +32,11 @@ For every unit, compare direct parent-level `infoLinks` with the permanent rules
 - `Grimdark_Future.gst`: shared profiles, force categories, and point type.
 
 If any newly imported PDF has an ambiguous or conditional option, document it rather than silently invent a loadout. These are data and structure standards; passing an XML audit alone is not proof of the exact New Recruit UI output.
+
+## Exhaustive equipped-rule and replacement validation
+
+- For **every** Ranged/Melee Weapon profile on a selectable entry (including individual models), normalize parameterized keywords (e.g. AP(4) → AP(X)) and ensure each keyword has a corresponding **direct** rule `infoLink` on that selected entry. Do not substitute a permanent parent-unit link.
+- For every selectable, leaf-type nonweapon equipment upgrade, require a direct rule link or profile; never leave an inert selection with points but no effect. Confirm each ability from the relevant source PDF rather than inferring it from the equipment name.
+- If a weapon can be replaced, **do not retain its profile or rule links on the parent loadout**. Use an exactly-one selection group with a zero-cost default that equips the original profile and alternative options carrying their own weapon profiles, rule links and incremental points.
+- Keep shared baseline abilities on their valid owners. When default gear is replaced (e.g. Rapid Skimmer Module/Scout → Advanced Jet Thrusters/Fast), move default-gear rules into the default entry rather than leaving them permanently on the unit.
+- Run `python3 scripts/validate_all_equipped_weapon_rules.py` and `python3 scripts/validate_equipped_rules.py` for **all three armies**. Structural passing still requires visual verification in New Recruit.
