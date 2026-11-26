@@ -33,6 +33,8 @@ def main():
     systemids={x.get("id") for x in system.iter() if x.get("id")}
     manifest_path=base/"reference/source-checks.json"
     manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    glossary_path=base/"reference/shared-rules.json"
+    glossary=json.loads(glossary_path.read_text()) if glossary_path.exists() else {}
     regression_path=base/"reference/regressions.json"
     regressions=json.loads(regression_path.read_text()).get("cases",{}) if regression_path.exists() else {}
     report={"factions":[],"totals":{},"note":"Structural validation is not a New Recruit/ForceOrg visual test. Unverified source coverage is not a pass."}
@@ -70,6 +72,11 @@ def main():
                 desc=node.findtext(N+"description") or ""
                 if not desc.strip() or PLACEHOLDER.search(desc):
                     add("error","PLACEHOLDER_RULE",node.get("name","?"),desc[:130])
+                key=(node.get("name") or "").split("(")[0]
+                if key in glossary:
+                    for phrase in glossary[key]["required_phrases"]:
+                        if phrase.lower() not in desc.lower():
+                            add("error","SHARED_RULE_SEMANTIC_DRIFT",node.get("name","?"),"Missing expected effect: "+phrase)
         for fixture in regressions.get(path.name, []):
             entry=next((x for x in items if x.tag==N+"selectionEntry" and x.get("id")==fixture["id"]),None)
             if entry is None:
