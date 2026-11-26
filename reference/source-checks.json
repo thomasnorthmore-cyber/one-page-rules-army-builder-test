@@ -669,5 +669,209 @@
         "points": 430
       }
     }
+  },
+  "Goblin_Reclaimers.cat": {
+    "units": {
+      "Killer Tank Champ": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 145,
+        "rules": [
+          "Fast",
+          "Hero",
+          "Mischievous",
+          "Tough(6)"
+        ]
+      },
+      "Death Walker Champ": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 135,
+        "rules": [
+          "Hero",
+          "Mischievous",
+          "Tough(6)"
+        ]
+      },
+      "Boss Champ": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 50,
+        "rules": [
+          "Hero",
+          "Mischievous",
+          "Tough(3)"
+        ]
+      },
+      "Champ": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 35,
+        "rules": [
+          "Hero",
+          "Mischievous",
+          "Tough(3)"
+        ]
+      },
+      "Freaks": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 95,
+        "rules": [
+          "Mischievous",
+          "Unpredictable Fighter"
+        ]
+      },
+      "Shooter Mob": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 110,
+        "rules": [
+          "Mischievous"
+        ]
+      },
+      "Storm Mob": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 125,
+        "rules": [
+          "Mischievous"
+        ]
+      },
+      "Commandos": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 70,
+        "rules": [
+          "Mischievous",
+          "Scout",
+          "Strider"
+        ]
+      },
+      "Scout Bikers": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 75,
+        "rules": [
+          "Mischievous"
+        ]
+      },
+      "Boss Mob": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 90,
+        "rules": [
+          "Mischievous"
+        ]
+      },
+      "Looters": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 80,
+        "rules": [
+          "Mischievous",
+          "Relentless"
+        ]
+      },
+      "Commando Snipers": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 110,
+        "rules": [
+          "Mischievous",
+          "Scout",
+          "Stealth",
+          "Strider"
+        ]
+      },
+      "Death Walkers": {
+        "Quality": "5+",
+        "Defense": "3+",
+        "points": 155,
+        "rules": [
+          "Mischievous",
+          "Tough(3)"
+        ]
+      },
+      "Bug Riders": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 160,
+        "rules": [
+          "Bounding",
+          "Mischievous",
+          "Regeneration",
+          "Strider",
+          "Tough(3)"
+        ]
+      },
+      "Killer Tanks": {
+        "Quality": "5+",
+        "Defense": "3+",
+        "points": 165,
+        "rules": [
+          "Fast",
+          "Mischievous",
+          "Tough(3)"
+        ]
+      },
+      "Big Bug": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 135,
+        "rules": [
+          "Bounding",
+          "Fear(1)",
+          "Mischievous",
+          "Regeneration",
+          "Strider",
+          "Tough(6)"
+        ]
+      },
+      "Super Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 380,
+        "rules": [
+          "Fast",
+          "Fearless",
+          "Mischievous",
+          "Tough(12)"
+        ]
+      },
+      "Mega Walker": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 410,
+        "rules": [
+          "Fear(2)",
+          "Fearless",
+          "Mischievous",
+          "Tough(12)"
+        ]
+      },
+      "Artillery Gun": {
+        "Quality": "5+",
+        "Defense": "3+",
+        "points": 80,
+        "rules": [
+          "Artillery",
+          "Cumbersome",
+          "Mischievous",
+          "Tough(3)"
+        ]
+      },
+      "Waskatsin": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 160,
+        "rules": [
+          "Mischievous",
+          "Retaliate(1)",
+          "Tough(6)",
+          "Unique Hero"
+        ]
+      }
+    }
   }
 }

@@ -1,0 +1,3 @@
+# Goblin Reclaimers test revision 1
+
+All PDF-listed units, base equipment, local special rules and six spells included. This is a partial upgrade implementation for New Recruit testing, not a completed faction. Squad-wide weapon replacements for Storm Mob, Commandos, Boss Mob, Commando Snipers, Death Walkers and Bug Riders remain to be implemented. Hero combined independent replacements and conditional attachment chains, Scout Bikers follow-on replacements, Boss Mob mod replacements, and mount Tough/Armor output still need work. Core rules shared. Anti-Cover and Armor wording provisional. No visual/ForceOrg testing performed.

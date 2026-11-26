@@ -13,7 +13,7 @@ force=SYSTEM.find(f"./{G}forceEntries/{G}forceEntry/{G}categoryLinks")
 assert force is not None and force[0].get("targetId")=="opr-spell-catalogue-category", "Spell Catalogue must be first"
 import json
 SPELL_SOURCE=json.loads((ROOT/"reference/spell-checks.json").read_text())
-entries={"Alien_Hives.cat":"ah","Battle_Brothers.cat":"bb","Custodian_Brothers.cat":"cust","Robot_Legions.cat":"rl"}
+entries={"Alien_Hives.cat":"ah","Battle_Brothers.cat":"bb","Custodian_Brothers.cat":"cust","Robot_Legions.cat":"rl","Goblin_Reclaimers.cat":"gr"}
 for file,slug in entries.items():
     root=ET.parse(ROOT/file).getroot()
     units=[x for x in root.findall(f"./{N}selectionEntries/{N}selectionEntry") if x.get("type")=="unit"]
@@ -41,5 +41,5 @@ for file,slug in entries.items():
 
         assert defs[link.get("targetId")].get("name")==link.get("name"),file+": spell name mismatch"
         assert defs[link.get("targetId")].findtext(N+"description"),file+": empty description"
-    assert len(units)=={"ah":41,"bb":27,"cust":22,"rl":32}[slug]
+    assert len(units)=={"ah":41,"bb":27,"cust":22,"rl":32,"gr":20}[slug]
     print(f"PASS {file}: first-category spell reference, 6 links, no points or models")

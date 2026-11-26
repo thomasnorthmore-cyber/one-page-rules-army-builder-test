@@ -196,5 +196,38 @@
         "5+"
       ]
     }
-  }
+  },
+  "Goblin_Reclaimers.cat": [
+    "Mischievous",
+    "Agile",
+    "Bounding",
+    "Dangerous Terrain Debuff",
+    "Deathstrike",
+    "Enhanced Mischievous",
+    "Enhanced Vicious",
+    "Good Shot",
+    "Hazardous",
+    "Imprecise",
+    "Instinctive",
+    "Melee Evasion",
+    "Quick",
+    "Quick Shot",
+    "Re-Deployment",
+    "Retaliate",
+    "Unique Hero",
+    "Unpredictable",
+    "Unpredictable Fighter",
+    "Unpredictable Shooter",
+    "Unpredictable Shooter Mark",
+    "Vanguard",
+    "Vicious",
+    "Bravery Aura",
+    "Enhanced Mischievous Aura",
+    "Melee Evasion Aura",
+    "Precision Fighter Aura",
+    "Quick Shot Aura",
+    "Regeneration Aura",
+    "Cumbersome",
+    "Unstoppable"
+  ]
 }

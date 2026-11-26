@@ -127,5 +127,37 @@
       3,
       "6 hits with AP(2)"
     ]
+  ],
+  "Goblin_Reclaimers.cat": [
+    [
+      "Shroud Field",
+      1,
+      "+1 to Defense"
+    ],
+    [
+      "Boom!",
+      1,
+      "1 hit with Blast(3)"
+    ],
+    [
+      "Mob Frenzy",
+      2,
+      "Unpredictable Shooter"
+    ],
+    [
+      "Zap!",
+      2,
+      "4 hits with Surge"
+    ],
+    [
+      "Ammo Boost",
+      3,
+      "Enhanced Mischievous"
+    ],
+    [
+      "Pow!",
+      3,
+      "6 hits with Hazardous"
+    ]
   ]
 }
