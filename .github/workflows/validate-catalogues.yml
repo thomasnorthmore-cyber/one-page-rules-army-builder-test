@@ -118,6 +118,10 @@ jobs:
         if: always()
         run: |
           if [ -f Watch_Brothers.cat ]; then python3 scripts/validate_watch_brothers_combinations.py; fi
+      - name: Verify Havoc Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Havoc_Brothers.cat ]; then python3 scripts/validate_havoc_brothers_defaults.py; fi
       - name: Verify Wolf Brothers source default loadouts
         if: always()
         run: |

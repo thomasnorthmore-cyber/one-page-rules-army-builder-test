@@ -3111,5 +3111,140 @@
         "points": 400
       }
     }
+  },
+  "Havoc_Brothers.cat": {
+    "source": "Havoc_Brothers_3.6.0.pdf p.2",
+    "units": {
+      "Harbinger of Havoc": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Havoc Destroyer Champion": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Chosen Havoc Champion": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 85
+      },
+      "Havoc Champion": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 80
+      },
+      "Cultist Champion": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 40
+      },
+      "Cultists": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 130
+      },
+      "Mutated Cultists": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 135
+      },
+      "Mutated Brothers": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 120
+      },
+      "Havoc Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Talon Harpies": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Chosen Havoc Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Havoc Support": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Havoc Soul Spawn": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 175
+      },
+      "Havoc Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 210
+      },
+      "Greater Mutated": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 235
+      },
+      "Havoc Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 255
+      },
+      "Mutated Destroyer": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 165
+      },
+      "Havoc APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 175
+      },
+      "Infernal Stalker": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 220
+      },
+      "Spider Crawler": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 285
+      },
+      "Infernal Brute": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 345
+      },
+      "Havoc Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 390
+      },
+      "Havoc Mech-Fiend": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 415
+      },
+      "Havoc Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 670
+      },
+      "Despoiler Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 700
+      },
+      "Havoc Dragon": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 260
+      }
+    }
   }
 }

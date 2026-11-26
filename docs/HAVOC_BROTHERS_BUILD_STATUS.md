@@ -1,0 +1,3 @@
+# Havoc Brothers v3.6.0 — initial draft
+
+Initial baseline: 26 source units, 68 individual default models, 117 default weapon profiles, six spells. Page 2 baseline and page 3 faction rule definitions transcribed; model-owned weapons, costs and source fixtures added. The detailed upgrade trees from pages 4–10 are NOT implemented yet. No claim of optional equipment completeness. Category placement is provisional; no live New Recruit/ForceOrg testing. Conditional Havocbound and Unpredictable effects remain abilities, not fixed weapon bonuses. CI pending. Do not merge or mark Completed before full implementation and validation.

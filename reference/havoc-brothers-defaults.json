@@ -1,0 +1,690 @@
+{
+  "source": "Havoc_Brothers_3.6.0.pdf p.2; detailed weapon rows pp.4–10 to be checked during upgrade audit.",
+  "units": {
+    "Harbinger of Havoc": {
+      "models": 1,
+      "rules": [
+        "Fear(1)",
+        "Havocbound",
+        "Hero",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Daemon Hammer",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Daemon Hammer",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Havoc Destroyer Champion": {
+      "models": 1,
+      "rules": [
+        "Havocbound",
+        "Hero",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Warlock Staff",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Spell Amplifier"
+          ]
+        }
+      ]
+    },
+    "Chosen Havoc Champion": {
+      "models": 1,
+      "rules": [
+        "Havocbound",
+        "Hero",
+        "Tough(3)",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Warlock Staff",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Spell Amplifier"
+          ]
+        }
+      ]
+    },
+    "Havoc Champion": {
+      "models": 1,
+      "rules": [
+        "Havocbound",
+        "Hero",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": "6\"",
+          "attacks": "A1",
+          "rules": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Cultist Champion": {
+      "models": 1,
+      "rules": [
+        "Havocbound",
+        "Hero",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Cursed Great Sword",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Bane"
+          ]
+        }
+      ]
+    },
+    "Cultists": {
+      "models": 10,
+      "rules": [
+        "Havocbound"
+      ],
+      "weapons": [
+        {
+          "name": "Battle Rifle",
+          "range": "24\"",
+          "attacks": "A1",
+          "rules": []
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Mutated Cultists": {
+      "models": 10,
+      "rules": [
+        "Havocbound",
+        "Unpredictable Fighter"
+      ],
+      "weapons": [
+        {
+          "name": "Mutated Claws",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ]
+    },
+    "Mutated Brothers": {
+      "models": 5,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Unpredictable Fighter"
+      ],
+      "weapons": [
+        {
+          "name": "Mutated Claws",
+          "range": "",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ]
+    },
+    "Havoc Brothers": {
+      "models": 5,
+      "rules": [
+        "Havocbound"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Talon Harpies": {
+      "models": 5,
+      "rules": [
+        "Flying",
+        "Furious",
+        "Havocbound"
+      ],
+      "weapons": [
+        {
+          "name": "Dual Combat Claws",
+          "range": "",
+          "attacks": "A2",
+          "rules": []
+        }
+      ]
+    },
+    "Chosen Havoc Brothers": {
+      "models": 3,
+      "rules": [
+        "Havocbound",
+        "Versatile Expert"
+      ],
+      "weapons": [
+        {
+          "name": "Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Havoc Support": {
+      "models": 3,
+      "rules": [
+        "Havocbound",
+        "Relentless"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": "12\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Havoc Soul Spawn": {
+      "models": 3,
+      "rules": [
+        "Havocbound",
+        "Scout",
+        "Strider",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Daemon Sword",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "Rending"
+          ]
+        }
+      ]
+    },
+    "Havoc Destroyers": {
+      "models": 3,
+      "rules": [
+        "Havocbound",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Cyclic Rifle",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "Anti-Cover",
+            "Assault",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": "",
+          "attacks": "A3",
+          "rules": []
+        }
+      ]
+    },
+    "Greater Mutated": {
+      "models": 3,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Tough(3)",
+        "Unpredictable Fighter"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Mutated Claws",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ]
+    },
+    "Havoc Bikers": {
+      "models": 3,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Tough(3)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Bike-Rifle",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Rifle",
+          "range": "18\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Strike",
+          "range": "",
+          "attacks": "A1",
+          "rules": []
+        }
+      ]
+    },
+    "Mutated Destroyer": {
+      "models": 1,
+      "rules": [
+        "Havocbound",
+        "Tough(6)",
+        "Unpredictable"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Mutated Claws",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "AP(1)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Havoc APC": {
+      "models": 1,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "weapons": [
+        {
+          "name": "Burst Cyclic Rifle",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A2",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Infernal Stalker": {
+      "models": 1,
+      "rules": [
+        "Fear(2)",
+        "Havocbound",
+        "Strider",
+        "Tough(9)"
+      ],
+      "weapons": [
+        {
+          "name": "Toxin Stinger",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "Rending"
+          ]
+        }
+      ]
+    },
+    "Spider Crawler": {
+      "models": 1,
+      "rules": [
+        "Fear(2)",
+        "Havocbound",
+        "Regeneration",
+        "Strider",
+        "Tough(9)"
+      ],
+      "weapons": [
+        {
+          "name": "Acid Cannons",
+          "range": "18\"",
+          "attacks": "A3",
+          "rules": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Infernal Brute": {
+      "models": 1,
+      "rules": [
+        "Fear(2)",
+        "Havocbound",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Brute Flail",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Brute Flail",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        }
+      ]
+    },
+    "Havoc Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Siege Cannon",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Havoc Mech-Fiend": {
+      "models": 1,
+      "rules": [
+        "Fear(2)",
+        "Havocbound",
+        "Regeneration",
+        "Tough(12)"
+      ],
+      "weapons": [
+        {
+          "name": "Steel Tails",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Fiend Claws",
+          "range": "",
+          "attacks": "A3",
+          "rules": [
+            "Rending"
+          ]
+        }
+      ]
+    },
+    "Havoc Heavy Battle Tank": {
+      "models": 1,
+      "rules": [
+        "Fast",
+        "Havocbound",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Heavy Chain-Cannon",
+          "range": "30\"",
+          "attacks": "A6",
+          "rules": [
+            "Scourge"
+          ]
+        },
+        {
+          "name": "Sponson Heavy Flamer Cannons",
+          "range": "18\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(2)",
+            "Blast(6)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Overrun",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "Thrust"
+          ]
+        }
+      ]
+    },
+    "Despoiler Walker": {
+      "models": 1,
+      "rules": [
+        "Fear(3)",
+        "Havocbound",
+        "Regeneration",
+        "Tough(18)"
+      ],
+      "weapons": [
+        {
+          "name": "Assault Plasma Cannon",
+          "range": "15\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(2)",
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": "",
+          "attacks": "A6",
+          "rules": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Brute Flail",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Brute Flail",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Despoiler Claws",
+          "range": "",
+          "attacks": "A4",
+          "rules": [
+            "AP(2)"
+          ]
+        }
+      ]
+    },
+    "Havoc Dragon": {
+      "models": 1,
+      "rules": [
+        "Aircraft",
+        "Havocbound",
+        "Regeneration",
+        "Tough(6)"
+      ],
+      "weapons": [
+        {
+          "name": "Strafing Forge-Flamers",
+          "range": "9\"",
+          "attacks": "A2",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Strafing Dragon's Breath",
+          "range": "9\"",
+          "attacks": "A1",
+          "rules": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ]
+    }
+  }
+}

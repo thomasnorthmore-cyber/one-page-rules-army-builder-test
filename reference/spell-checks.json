@@ -511,5 +511,37 @@
       3,
       "6 hits with AP(1) and Smash"
     ]
+  ],
+  "Havoc_Brothers.cat": [
+    [
+      "Cursed Stride",
+      1,
+      "Dangerous Terrain"
+    ],
+    [
+      "Havoc Fog",
+      1,
+      "3 hits with Scourge"
+    ],
+    [
+      "Dark Assault",
+      2,
+      "Shred"
+    ],
+    [
+      "Havoc Terror",
+      2,
+      "4 hits each"
+    ],
+    [
+      "Havoc Boon",
+      3,
+      "Enhanced Havocbound"
+    ],
+    [
+      "Havoc Trauma",
+      3,
+      "6 hits with AP(2)"
+    ]
   ]
 }
