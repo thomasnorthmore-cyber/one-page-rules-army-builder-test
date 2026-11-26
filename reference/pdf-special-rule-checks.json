@@ -236,6 +236,54 @@
         "Enhanced Darkborn"
       ]
     },
+    "Wolf_Brothers.cat": {
+      "Wolfborn": [
+        "D3 inches"
+      ],
+      "Enhanced Wolfborn": [
+        "2D3 inches",
+        "Wolfborn"
+      ],
+      "Nimble": [
+        "D3 inches"
+      ],
+      "Enhanced Nimble": [
+        "2D3 inches"
+      ],
+      "Fortified": [
+        "AP(-1)",
+        "AP(0)"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ]
+    },
+    "Blood_Brothers.cat": {
+      "Bloodborn": [
+        "unmodified",
+        "6",
+        "extra attack"
+      ],
+      "Enhanced Bloodborn": [
+        "5–6"
+      ],
+      "Predator": [
+        "unmodified",
+        "6"
+      ],
+      "Enhanced Predator": [
+        "5–6"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ],
+      "Versatile Expert": [
+        "AP(+1)",
+        "+1 to hit"
+      ]
+    },
     "Knight_Brothers.cat": {
       "Knightborn": [
         "2+",
@@ -487,6 +535,59 @@
     "Bane when Shooting Aura",
     "Bravery Aura",
     "Enhanced Darkborn Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
+  ],
+  "Wolf_Brothers.cat": [
+    "Wolfborn",
+    "Cumbersome",
+    "Enhanced Nimble",
+    "Enhanced Wolfborn",
+    "Evasive",
+    "Fortified",
+    "Melee Shrouding",
+    "Mend",
+    "Nimble",
+    "Rapid Rush",
+    "Re-Deployment",
+    "Smash",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Vanguard",
+    "Versatile Expert",
+    "Versatile Reach",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Enhanced Wolfborn Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
+  ],
+  "Blood_Brothers.cat": [
+    "Bloodborn",
+    "Cumbersome",
+    "Enhanced Bloodborn",
+    "Enhanced Predator",
+    "Evasive",
+    "Melee Shrouding",
+    "Mend",
+    "Predator",
+    "Rapid Rush",
+    "Re-Deployment",
+    "Smash",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Vanguard",
+    "Versatile Expert",
+    "Versatile Reach",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Enhanced Bloodborn Aura",
     "Melee Shrouding Aura",
     "Rapid Rush Aura",
     "Regeneration Aura",

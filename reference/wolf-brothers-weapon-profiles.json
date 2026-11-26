@@ -1,0 +1,3228 @@
+{
+  "source": "Wolf_Brothers_3.6.0.pdf pp.5–13. Visible default and alternative weapon signatures, with shared signatures cross-checked against the Wolf source rows. Clipped Battle Tank missile is excluded, not certified.",
+  "units": {
+    "Wolf Master Destroyer": [
+      {
+        "name": "Archivist Staff",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Spell Amplifier"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A6",
+        "rules": []
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A2",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A6",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A6",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Chain-Fist",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Assault Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A8",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      }
+    ],
+    "Wolf Veteran Master Brother": [
+      {
+        "name": "Flamer Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Reliable",
+          "Anti-Cover",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Fusion Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Chain-Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Great Chain-Sword",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Shred"
+        ]
+      },
+      {
+        "name": "Archivist Staff",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "Spell Amplifier"
+        ]
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Burst Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Flamer-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Limited",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Plasma-Mod",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Arc-Charger-Mod",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Limited",
+          "Rending"
+        ]
+      },
+      {
+        "name": "Fusion-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Anti-Matter-Mod",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Limited",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Heavy Bike-Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Bike-Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Bites",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Master Brother": [
+      {
+        "name": "Flamer Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Reliable",
+          "Anti-Cover",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Fusion Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Chain-Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Great Chain-Sword",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Shred"
+        ]
+      },
+      {
+        "name": "Archivist Staff",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "Spell Amplifier"
+        ]
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Burst Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Flamer-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Limited",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Plasma-Mod",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Arc-Charger-Mod",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Limited",
+          "Rending"
+        ]
+      },
+      {
+        "name": "Fusion-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Anti-Matter-Mod",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Limited",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Heavy Bike-Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Bike-Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Bites",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Elite Pathfinder": [
+      {
+        "name": "Flamer Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Reliable",
+          "Anti-Cover",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Fusion Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Chain-Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Burst Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Flamer-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Limited",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Plasma-Mod",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Fusion-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Anti-Matter-Mod",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Limited",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Sniper Rifle",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Reliable",
+          "Takedown"
+        ]
+      },
+      {
+        "name": "Burst Shotgun",
+        "range": "12\"",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Heavy Bike-Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Bike-Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      }
+    ],
+    "Hunting Wolves": [
+      {
+        "name": "Heavy Bites",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Pathfinders": [
+      {
+        "name": "Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Anti-Matter-Sniper Carbine",
+        "range": "24\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Reliable",
+          "Smash",
+          "Takedown"
+        ]
+      },
+      {
+        "name": "Sniper Rifle",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Reliable",
+          "Takedown"
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Arc-Charger Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Anti-Matter Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Missile Launcher",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Sgt. Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)"
+        ]
+      }
+    ],
+    "Wolf Rookies": [
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Great Chain-Sword",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Shred"
+        ]
+      },
+      {
+        "name": "Assault Flamer",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Assault Plasma Rifle",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Assault Arc-Charger Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Assault Anti-Matter Rifle",
+        "range": "12\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Assault Fusion Rifle",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Battle Brothers": [
+      {
+        "name": "Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Arc-Charger Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Fusion Rifle",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Arc-Charger Cannon",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Anti-Matter Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Plasma Cannon",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Missile Launcher",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Anti-Matter Cannon",
+        "range": "36\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Laser Cannon",
+        "range": "36\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Sgt. Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Veteran Assault Brothers": [
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Flamer Pistol",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Reliable",
+          "Anti-Cover",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Great Chain-Sword",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Shred"
+        ]
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      }
+    ],
+    "Wolf Veteran Battle Brothers": [
+      {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Burst Battle Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Flamer-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Limited",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Plasma-Mod",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Arc-Charger-Mod",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Limited",
+          "Rending"
+        ]
+      },
+      {
+        "name": "Fusion-Mod",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Limited"
+        ]
+      },
+      {
+        "name": "Anti-Matter-Mod",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Limited",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Arc-Charger Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Fusion Rifle",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Anti-Matter Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      }
+    ],
+    "Wolf Pathfinder Snipers": [
+      {
+        "name": "Anti-Matter-Sniper Carbine",
+        "range": "24\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Reliable",
+          "Smash",
+          "Takedown"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Sniper Rifle",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Reliable",
+          "Takedown"
+        ]
+      }
+    ],
+    "Wolf Support Brothers": [
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Plasma Cannon",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Arc-Charger Cannon",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Missile Launcher",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Anti-Matter Cannon",
+        "range": "36\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Laser Cannon",
+        "range": "36\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      }
+    ],
+    "Wolf Pathfinder Bikers": [
+      {
+        "name": "Assault Grenade Launcher",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Grenade Launcher",
+        "range": "24\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Sgt. Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Bike-Rifle",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Bike-Rifle",
+        "range": "9\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      }
+    ],
+    "Werewolf Brothers": [
+      {
+        "name": "Energy Were-Claws",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Heavy Were-Claws",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Wolf Axe",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Backpack-GL",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      }
+    ],
+    "Wolf Destroyers": [
+      {
+        "name": "Assault Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Chain-Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Missile Rack",
+        "range": "30\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      }
+    ],
+    "Wolf Brother Bikers": [
+      {
+        "name": "Heavy Bike-Rifle",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Heavy Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Bike-Rifle",
+        "range": "9\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Arc-Charger Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Plasma Rifle",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Fusion Rifle",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Anti-Matter Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Sgt. Arc-Charger Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "Rending",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Anti-Matter Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sgt. Hand Weapon",
+        "range": "",
+        "attacks": "A1",
+        "rules": []
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      }
+    ],
+    "Wolf Riders": [
+      {
+        "name": "Heavy Pistol",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Plasma Pistol",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Hand Weapon",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Energy Hammer",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Energy Sword",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Energy Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Wolf Axe",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Dual Energy Claws",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      }
+    ],
+    "Wolf Drop Pod": [
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Grenade Launcher",
+        "range": "24\"",
+        "attacks": "A2",
+        "rules": [
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Twin Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      }
+    ],
+    "Wolf Heavy Exo-Suit": [
+      {
+        "name": "Stomp",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Dual Fists",
+        "range": "",
+        "attacks": "A4",
+        "rules": []
+      },
+      {
+        "name": "Dual Flamers",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Dual Fusion Rifles",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Dual Arc-Charger Cannons",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Dual Heavy Machineguns",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Dual Anti-Matter Cannons",
+        "range": "36\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Dual Laser Cannons",
+        "range": "36\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Dual Assault Flamers",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "Blast(3)",
+          "Reliable",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Dual Heavy Fists",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Dual Combat Drills",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Dual Assault Fusion Rifles",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Chest-Array",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Chest-Missiles",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Assault",
+          "Unstoppable"
+        ]
+      }
+    ],
+    "Wolf Support Bike": [
+      {
+        "name": "Bike-Rifle",
+        "range": "24\"",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Arc-Charger Cannon",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "Rending"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Anti-Matter Cannon",
+        "range": "36\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Smash"
+        ]
+      },
+      {
+        "name": "Strike",
+        "range": "",
+        "attacks": "A2",
+        "rules": []
+      }
+    ],
+    "Wolf Attack Vehicle": [
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Overrun",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "Thrust"
+        ]
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Laser Cannon",
+        "range": "36\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Plasma Carbine",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Laser Cannon",
+        "range": "36\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      }
+    ],
+    "Wolf APC": [
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Overrun",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "Thrust"
+        ]
+      },
+      {
+        "name": "Pintle Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Pintle Heavy Fusion Rifle",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Disposable Guided Missile",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Limited",
+          "Unstoppable"
+        ]
+      }
+    ],
+    "Wolf Attack Speeder": [
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Dual Missile Battery",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Overrun",
+        "range": "",
+        "attacks": "A2",
+        "rules": [
+          "Thrust"
+        ]
+      }
+    ],
+    "Wolf Combat Walker": [
+      {
+        "name": "Stomp",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Walker Combat Fist",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Light Walker Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Fusion Rifle",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Flamer Cannon",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Walker Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Flamer",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Assault Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Assault Fusion Rifle",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Linked Heavy Rifle-Array",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Plasma Cannon",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Twin Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Missile Battery",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Twin Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Laser Cannon",
+        "range": "36\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Autocannon",
+        "range": "36\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Walker Combat Claw",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Light Walker Claw",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Walker Claw",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Walker Axe",
+        "range": "",
+        "attacks": "A6",
+        "rules": [
+          "Shred"
+        ]
+      }
+    ],
+    "Wolf Veteran Combat Walker": [
+      {
+        "name": "Stomp",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Walker Combat Fist",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Light Walker Fist",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Heavy Flamer",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Burst Cyclic Rifle",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Fusion Rifle",
+        "range": "12\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Flamer Cannon",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Walker Fist",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Assault Heavy Flamer",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Reliable",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Assault Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Assault Fusion Rifle",
+        "range": "6\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Linked Heavy Rifle-Array",
+        "range": "18\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Plasma Cannon",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Twin Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Missile Battery",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Twin Heavy Fusion Rifle",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Laser Cannon",
+        "range": "36\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Twin Autocannon",
+        "range": "36\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Walker Combat Claw",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Light Walker Claw",
+        "range": "",
+        "attacks": "A1",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Walker Claw",
+        "range": "",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Walker Axe",
+        "range": "",
+        "attacks": "A6",
+        "rules": [
+          "Shred"
+        ]
+      }
+    ],
+    "Wolf Battle Tank": [
+      {
+        "name": "Heavy Siege Cannon",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Blast(6)"
+        ]
+      },
+      {
+        "name": "Battle Cannon",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Sponson Heavy Machineguns",
+        "range": "30\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Sponson Laser Cannons",
+        "range": "36\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Heavy Missile Battery",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(6)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Interceptor AA-Cannon",
+        "range": "30\"",
+        "attacks": "A8",
+        "rules": [
+          "AP(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Heavy Rocket Battery",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Blast(6)",
+          "Indirect"
+        ]
+      },
+      {
+        "name": "Autocannon",
+        "range": "36\"",
+        "attacks": "A9",
+        "rules": [
+          "AP(2)"
+        ]
+      },
+      {
+        "name": "Twin Laser Cannon",
+        "range": "36\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Overrun",
+        "range": "",
+        "attacks": "A4",
+        "rules": [
+          "Thrust"
+        ]
+      },
+      {
+        "name": "Pintle Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Pintle Heavy Fusion Rifle",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      }
+    ],
+    "Wolf Artillery Gun": [
+      {
+        "name": "Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Crew",
+        "range": "",
+        "attacks": "A3",
+        "rules": []
+      },
+      {
+        "name": "Heavy AA-Cannon",
+        "range": "30\"",
+        "attacks": "A4",
+        "rules": [
+          "AP(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "HE-Bombard",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(1)",
+          "Blast(3)",
+          "Indirect"
+        ]
+      },
+      {
+        "name": "AT-Bombard",
+        "range": "30\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)",
+          "Indirect"
+        ]
+      }
+    ],
+    "Wolf Heavy Battle Tank": [
+      {
+        "name": "Hull Gatling Cannon",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Sponson Heavy Flamer Cannons",
+        "range": "18\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(2)",
+          "Blast(6)",
+          "Reliable"
+        ]
+      },
+      {
+        "name": "Overrun",
+        "range": "",
+        "attacks": "A6",
+        "rules": [
+          "Thrust"
+        ]
+      },
+      {
+        "name": "Sponson Linked Heavy Rifle-Arrays",
+        "range": "18\"",
+        "attacks": "A12",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Sponson Heavy Laser Cannons",
+        "range": "36\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(4)",
+          "Deadly(6)"
+        ]
+      },
+      {
+        "name": "Hull Heavy Machinegun",
+        "range": "30\"",
+        "attacks": "A6",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Pintle Burst Cyclic Rifle",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Assault",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Pintle Heavy Fusion Rifle",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Disposable Guided Missile",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Limited",
+          "Unstoppable"
+        ]
+      }
+    ],
+    "Wolf Light Gunship": [
+      {
+        "name": "Strafing Gatling Cannons",
+        "range": "15\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Strafing Linked Missile-Arrays",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Strafing Heavy Machineguns",
+        "range": "15\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Strafing Laser Cannons",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strafing Light Laser Cannon",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strafing Laser Machinegun",
+        "range": "15\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)"
+        ]
+      },
+      {
+        "name": "Strafing Interceptor AA-Cannon",
+        "range": "15\"",
+        "attacks": "A2",
+        "rules": [
+          "AP(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Strafing AA-Missiles",
+        "range": "15\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      }
+    ],
+    "Wolf Heavy Gunship": [
+      {
+        "name": "Strafing Gatling Cannons",
+        "range": "15\"",
+        "attacks": "A3",
+        "rules": [
+          "Anti-Cover",
+          "Surge"
+        ]
+      },
+      {
+        "name": "Strafing Linked Missile-Arrays",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)",
+          "Unstoppable"
+        ]
+      },
+      {
+        "name": "Strafing Heavy Machineguns",
+        "range": "15\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Strafing Laser Cannons",
+        "range": "18\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(3)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strafing Rocket Launcher",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Deadly(3)"
+        ]
+      },
+      {
+        "name": "Strafing Linked Heavy Rifle-Arrays",
+        "range": "9\"",
+        "attacks": "A3",
+        "rules": [
+          "AP(1)"
+        ]
+      },
+      {
+        "name": "Strafing Plasma Cannons",
+        "range": "15\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(2)",
+          "Blast(3)"
+        ]
+      },
+      {
+        "name": "Strafing Heavy Fusion Rifles",
+        "range": "9\"",
+        "attacks": "A1",
+        "rules": [
+          "AP(4)",
+          "Deadly(3)"
+        ]
+      }
+    ]
+  },
+  "unverified": [
+    {
+      "unit": "Wolf Battle Tank",
+      "weapon": "Disposable Guided Missile",
+      "reason": "page 12 clipped"
+    }
+  ]
+}
