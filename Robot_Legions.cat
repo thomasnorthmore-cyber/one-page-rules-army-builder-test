@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -3696,7 +3696,7 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="30" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-b5c114cc5206" name="Extra Armor" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-b5c114cc5206" name="Extra Armor" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36armor-selected-1" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-90ca93a936d8" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-aadd37adf5d4" type="max" value="1" field="selections" scope="parent" shared="false" />
@@ -3834,7 +3834,7 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="30" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-5cf99b598f53" name="Extra Armor" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-5cf99b598f53" name="Extra Armor" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36armor-selected-2" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/></infoLinks>
               <constraints>
                 <constraint id="rl36-d1c224e11edd" type="min" value="0" field="selections" scope="parent" shared="false" />
                 <constraint id="rl36-91e693446373" type="max" value="1" field="selections" scope="parent" shared="false" />
