@@ -2,7 +2,8 @@
   "_notes": [
     "Independently transcribed from user-supplied OPR Grimdark Future v3.6.0 PDFs.",
     "This is a deliberately partial baseline; SOURCE_NOT_VERIFIED means the remaining entries are NOT certified.",
-    "Extend unit-by-unit against the supplied source PDFs. Conditional equipment rules must not be listed as permanent unit rules."
+    "Extend unit-by-unit against the supplied source PDFs. Conditional equipment rules must not be listed as permanent unit rules.",
+    "Quality, Defense and base points were transcribed by strict name-matched parsing of supplied v3.6.0 PDF unit tables; units not reliably parsed remain unverified."
   ],
   "Alien_Hives.cat": {
     "units": {
@@ -26,6 +27,146 @@
           "Hive Bond",
           "Tough(6)"
         ]
+      },
+      "Snatcher Lord": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 80
+      },
+      "Grunt Veteran": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 40
+      },
+      "Assault Grunts": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 90
+      },
+      "Psycho-Grunts": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 115
+      },
+      "Spores": {
+        "Quality": "6+",
+        "Defense": "6+",
+        "points": 60
+      },
+      "Shooter Grunts": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 75
+      },
+      "Soul-Snatchers": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 120
+      },
+      "Hive Swarms": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 85
+      },
+      "Support Grunts": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 90
+      },
+      "Hive Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110
+      },
+      "Massive Spores": {
+        "Quality": "6+",
+        "Defense": "6+",
+        "points": 120
+      },
+      "Ravenous Beasts": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 150
+      },
+      "Venom Beasts": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 150
+      },
+      "Hive Guardians": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Synapse Beasts": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 200
+      },
+      "Shadow Leapers": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 215
+      },
+      "Mortar Beast": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 130
+      },
+      "Flamer Beast": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Synapse Tyrant": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 165
+      },
+      "Shadow Hunter": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 170
+      },
+      "Toxico-Rex": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 275
+      },
+      "Carnivo-Rex": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 290
+      },
+      "Psycho-Rex": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 315
+      },
+      "Tyrant Great Beast": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 425
+      },
+      "Hive Burrower": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 440
+      },
+      "Artillery Great Beast": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 470
+      },
+      "Hive Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 580
+      },
+      "Rapacious Beast": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 185
       }
     }
   },
@@ -52,6 +193,136 @@
           "Strider",
           "Tough(3)"
         ]
+      },
+      "Tri-Scorpion Lord": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 185
+      },
+      "Annihilator Lord": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 160
+      },
+      "Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 85
+      },
+      "Flesh-Eaters": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 90
+      },
+      "Guardians": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 95
+      },
+      "Eternals": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 135
+      },
+      "Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 90
+      },
+      "Bot Swarms": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 125
+      },
+      "Forge Spiderlings": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 180
+      },
+      "Destroyer Snakes": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 185
+      },
+      "Hover Bikes": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 185
+      },
+      "Annihilators": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 195
+      },
+      "Robot Snakes": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 205
+      },
+      "Forge Spider": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 125
+      },
+      "Tripod Walker": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170
+      },
+      "Transport Tank": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 185
+      },
+      "Heavy Annihilator": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 190
+      },
+      "Doom Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 355
+      },
+      "Spider Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 470
+      },
+      "Wraith-Shard": {
+        "Quality": "2+",
+        "Defense": "2+",
+        "points": 540
+      },
+      "Support Platform": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 300
+      },
+      "Great Monolith": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 755
+      },
+      "Death Fortress": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 760
+      },
+      "Great Wraith-Shard": {
+        "Quality": "2+",
+        "Defense": "2+",
+        "points": 845
+      },
+      "Doom Fighter": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 250
+      },
+      "Night Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 265
       }
     }
   },
@@ -66,6 +337,106 @@
           "Hero",
           "Tough(3)"
         ]
+      },
+      "Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 245
+      },
+      "Veteran Master Custodian": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170
+      },
+      "Master Custodian": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 155
+      },
+      "Vigilant Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 80
+      },
+      "Prosecution Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 90
+      },
+      "Hunter Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 90
+      },
+      "Custodian Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 225
+      },
+      "Veteran Custodian Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 250
+      },
+      "Jetpack Custodian Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 265
+      },
+      "Support Custodian Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 335
+      },
+      "Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 160
+      },
+      "Custodian APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 195
+      },
+      "Anti-Grav Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 210
+      },
+      "Veteran Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Custodian Jetbiker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 245
+      },
+      "Custodian Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 385
+      },
+      "Custodian Assault Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 415
+      },
+      "Anti-Grav Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 505
+      },
+      "Heavy Anti-Grav Carrier": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 790
+      },
+      "Custodian Heavy Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 815
       }
     }
   },
@@ -90,6 +461,111 @@
           "Hero",
           "Tough(6)"
         ]
+      },
+      "Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 80
+      },
+      "Elite Pathfinder": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 65
+      },
+      "Pathfinders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110
+      },
+      "Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Pathfinder Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 120
+      },
+      "Support Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135
+      },
+      "Pathfinder Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 185
+      },
+      "Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 265
+      },
+      "Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135
+      },
+      "Heavy Exo-Suit": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Support Bike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170
+      },
+      "APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 190
+      },
+      "Attack Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 400
+      },
+      "Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 425
+      },
+      "Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 725
+      },
+      "Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 270
+      },
+      "Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 390
       }
     }
   }
