@@ -1,0 +1,342 @@
+{
+  "revision": 2,
+  "source": "Dark_Elf_Raiders_3.6.0.pdf pages 2–10",
+  "units": [
+    {
+      "name": "Dark Lord",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 65,
+      "sourceRules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Elite True Raider",
+      "size": 1,
+      "q": "3+",
+      "d": "5+",
+      "p": 60,
+      "sourceRules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Gene-Tech Master",
+      "size": 1,
+      "q": "4+",
+      "d": "5+",
+      "p": 55,
+      "sourceRules": [
+        "Harassing",
+        "Hero",
+        "Regeneration",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Elite Raider",
+      "size": 1,
+      "q": "4+",
+      "d": "5+",
+      "p": 45,
+      "sourceRules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Blood Hounds",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 65,
+      "sourceRules": [
+        "Fast",
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Gene-Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 80,
+      "sourceRules": [
+        "Harassing",
+        "Regeneration"
+      ]
+    },
+    {
+      "name": "Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 80,
+      "sourceRules": [
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Nightmares",
+      "size": 5,
+      "q": "3+",
+      "d": "4+",
+      "p": 85,
+      "sourceRules": [
+        "Harassing",
+        "Melee Slayer"
+      ]
+    },
+    {
+      "name": "Witches",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 100,
+      "sourceRules": [
+        "Dodge",
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Winged Warriors",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 125,
+      "sourceRules": [
+        "Flying",
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Hoverboard Riders",
+      "size": 5,
+      "q": "4+",
+      "d": "5+",
+      "p": 135,
+      "sourceRules": [
+        "Agile",
+        "Harassing",
+        "Scout",
+        "Strider"
+      ]
+    },
+    {
+      "name": "Shadow Warriors",
+      "size": 5,
+      "q": "3+",
+      "d": "5+",
+      "p": 165,
+      "sourceRules": [
+        "Harassing",
+        "Infiltrate",
+        "Stealth",
+        "Strider"
+      ]
+    },
+    {
+      "name": "True Warriors",
+      "size": 3,
+      "q": "3+",
+      "d": "5+",
+      "p": 85,
+      "sourceRules": [
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Dark Snipers",
+      "size": 3,
+      "q": "4+",
+      "d": "5+",
+      "p": 85,
+      "sourceRules": [
+        "Harassing",
+        "Scout",
+        "Stealth"
+      ]
+    },
+    {
+      "name": "True Witches",
+      "size": 3,
+      "q": "3+",
+      "d": "5+",
+      "p": 105,
+      "sourceRules": [
+        "Dodge",
+        "Harassing"
+      ]
+    },
+    {
+      "name": "Crow Swarms",
+      "size": 3,
+      "q": "5+",
+      "d": "6+",
+      "p": 105,
+      "sourceRules": [
+        "Flying",
+        "Harassing",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Court Henchmen",
+      "size": 3,
+      "q": "3+",
+      "d": "4+",
+      "p": 145,
+      "sourceRules": [
+        "Harassing",
+        "Martial Prowess"
+      ]
+    },
+    {
+      "name": "Gene-Brutes",
+      "size": 3,
+      "q": "3+",
+      "d": "5+",
+      "p": 200,
+      "sourceRules": [
+        "Harassing",
+        "Regeneration",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Jetbike Riders",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 200,
+      "sourceRules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(3)"
+      ]
+    },
+    {
+      "name": "Clawed Beast",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 120,
+      "sourceRules": [
+        "Furious",
+        "Harassing",
+        "Tough(6)"
+      ]
+    },
+    {
+      "name": "Leech Engine",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 145,
+      "sourceRules": [
+        "Fear(1)",
+        "Fearless",
+        "Harassing",
+        "Relentless",
+        "Tough(6)"
+      ]
+    },
+    {
+      "name": "Engine of Suffering",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 155,
+      "sourceRules": [
+        "Fear(1)",
+        "Fearless",
+        "Harassing",
+        "Regeneration",
+        "Tough(6)"
+      ]
+    },
+    {
+      "name": "Heavy Jetbike",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 160,
+      "sourceRules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(6)"
+      ]
+    },
+    {
+      "name": "Light Skimmer",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 200,
+      "sourceRules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(6)",
+        "Transport(11)"
+      ]
+    },
+    {
+      "name": "Heavy Skimmer",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 355,
+      "sourceRules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(9)"
+      ]
+    },
+    {
+      "name": "Razor Fighter",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 260,
+      "sourceRules": [
+        "Aircraft",
+        "Harassing",
+        "Tough(6)"
+      ]
+    },
+    {
+      "name": "Raven Bomber",
+      "size": 1,
+      "q": "3+",
+      "d": "3+",
+      "p": 290,
+      "sourceRules": [
+        "Aircraft",
+        "Harassing",
+        "Tough(6)"
+      ]
+    }
+  ],
+  "previousSkippedRows": 63,
+  "notes": [
+    "All 27 unit tables, six spells and faction rule definitions manually transcribed.",
+    "Free sergeant upgrades for Witches and Winged Warriors; free paired Acid Stingers for Engine of Suffering.",
+    "Both Acid Stingers and both Heavy Skimmer Barb Cannons independently replaceable.",
+    "One-model special weapon and sergeant represented in separate slots; overlaps with squad-wide replacement restricted to original equipment. Verify actual UI behavior.",
+    "Armor(2), Armor(4) and Anti-Cover descriptions use existing catalogue conventions (not separately defined on PDF p3).",
+    "Heavy Impact(3) links to parameterized Heavy Impact description.",
+    "Hero mount extra Tough(3) needs ForceOrg testing; no other faction or exporter changed.",
+    "New Recruit and ForceOrg visual tests outstanding."
+  ]
+}
