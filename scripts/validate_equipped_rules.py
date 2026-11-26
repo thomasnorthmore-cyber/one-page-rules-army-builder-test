@@ -23,7 +23,11 @@ cases = {
         ],
         "Fast": ["rl36-c463bce13f8b"],
         "Scout": ["rl36-rapid-skimmer-standard"],
-        "Transport(X)": ["rl36-545603846b8e"]
+        "Transport(X)": ["rl36-545603846b8e", "rl36-0847519da596"],
+        "Ambush": ["rl36-c39895bc7269", "rl36-37489482468f", "rl36-eedea5b8ced2", "rl36-60457b72a6ac", "rl36-1e89450e48e7"],
+        "Fear(X)": ["rl36-f992c773ee2a"],
+        "Rending in Melee": ["rl36-ced1734a694d", "rl36-4f71817c1b09"],
+        "Scout": ["rl36-rapid-skimmer-standard", "rl36-94709f164b0e"]
     },
     "Custodian_Brothers.cat": {}
 }
