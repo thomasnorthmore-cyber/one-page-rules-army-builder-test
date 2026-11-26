@@ -23,6 +23,7 @@ const grants = new Map([
   ['Bane when Shooting Aura',['Ranged Weapon','Bane']],
   ['Anti-Cover when Shooting Aura',['Ranged Weapon','Anti-Cover']],
   ['Anti-Cover Aura',['Ranged Weapon','Anti-Cover']],
+  ['Unstoppable when Shooting',['Ranged Weapon','Unstoppable']],
   ['Unstoppable when Shooting Aura',['Ranged Weapon','Unstoppable']],
 ]);
 const splitRules = text => String(text||'').split(/,\s*(?![^()]*\))/).map(s=>s.trim()).filter(s=>s && s!=='-');
