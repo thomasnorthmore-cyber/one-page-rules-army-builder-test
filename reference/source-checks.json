@@ -2806,5 +2806,155 @@
         "points": 390
       }
     }
+  },
+  "Blood_Brothers.cat": {
+    "source": "Blood_Brothers_3.6.0.pdf pp.2–3",
+    "units": {
+      "Blood Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Blood Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 90
+      },
+      "Blood Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 80
+      },
+      "Blood Elite Pathfinder": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 65
+      },
+      "Blood Pathfinders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 115
+      },
+      "Blood Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 140
+      },
+      "Blood Death Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 155
+      },
+      "Blood Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 160
+      },
+      "Blood Guard Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 185
+      },
+      "Blood Veteran Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 115
+      },
+      "Blood Veteran Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125
+      },
+      "Blood Pathfinder Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 125
+      },
+      "Blood Support Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Blood Pathfinder Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 185
+      },
+      "Blood Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Blood Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 270
+      },
+      "Blood Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125
+      },
+      "Blood Heavy Exo-Suit": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 135
+      },
+      "Blood Support Bike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Blood Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Blood APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 180
+      },
+      "Blood Attack Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215
+      },
+      "Blood Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 395
+      },
+      "Blood Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 420
+      },
+      "Blood Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 420
+      },
+      "Blood Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Blood Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 720
+      },
+      "Blood Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 265
+      },
+      "Blood Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 385
+      }
+    }
   }
 }

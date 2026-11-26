@@ -58,6 +58,26 @@ jobs:
         if: always()
         run: |
           if [ -f Dark_Brothers.cat ]; then python3 scripts/validate_dark_brothers_defaults.py; fi
+      - name: Verify Blood Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_defaults.py; fi
+      - name: Verify Blood Brothers source upgrade costs
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_upgrades.py; fi
+      - name: Verify Blood Brothers source weapon profiles
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_weapon_profiles.py; fi
+      - name: Verify Blood Brothers model allocation and replacement gates
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_allocation.py; fi
+      - name: Verify Blood Brothers conditional equipment and rule states
+        if: always()
+        run: |
+          if [ -f Blood_Brothers.cat ]; then python3 scripts/validate_blood_brothers_combinations.py; fi
       - name: Verify Wolf Brothers source default loadouts
         if: always()
         run: |

@@ -415,5 +415,37 @@
       3,
       "6 hits with AP(1) and Smash"
     ]
+  ],
+  "Blood_Brothers.cat": [
+    [
+      "Blood Dome",
+      1,
+      "Evasive"
+    ],
+    [
+      "Heavenly Lance",
+      1,
+      "2 hits with AP(1)"
+    ],
+    [
+      "Blood Sight",
+      2,
+      "Unstoppable"
+    ],
+    [
+      "Shield Breaker",
+      2,
+      "4 hits with Shred"
+    ],
+    [
+      "Burst of Rage",
+      3,
+      "Enhanced Bloodborn"
+    ],
+    [
+      "Blood Trauma",
+      3,
+      "6 hits with AP(1) and Smash"
+    ]
   ]
 }
