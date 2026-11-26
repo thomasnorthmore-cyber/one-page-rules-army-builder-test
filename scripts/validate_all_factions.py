@@ -15,7 +15,7 @@ PARAM=re.compile(r"^([^()]+)\((\d+)\)$")
 def norm(s):
     s=(s or "").strip()
     m=PARAM.fullmatch(s)
-    return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target","Retaliate"} else s
+    return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Impact","Tough","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target","Retaliate"} else s
 def tokens(s):
     return [x.strip() for x in re.split(r",\s*(?![^()]*\))",s or "") if x.strip() not in {"","-","undefined"}]
 def rules(e):
@@ -31,6 +31,8 @@ def main():
     a=ap.parse_args();base=a.root
     system=ET.parse(base/"Grimdark_Future.gst").getroot()
     systemids={x.get("id") for x in system.iter() if x.get("id")}
+    core_rules={x.get("id"):x for x in system.findall(f"./{G}sharedRules/{G}rule")}
+    core_names={x.get("name") for x in core_rules.values()}
     manifest_path=base/"reference/source-checks.json"
     manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     glossary_path=base/"reference/shared-rules.json"
@@ -68,7 +70,10 @@ def main():
                 limits={x.get("type"):int(float(x.get("value","0"))) for x in node.findall(f"./{N}constraints/{N}constraint")}
                 if limits.get("min",0)>limits.get("max",999):add("error","GROUP_LIMITS",node.get("name","?"),str(limits))
                 if limits.get("min",0)>=1 and not default:add("warning","NO_DEFAULT",node.get("name","?"),"Required choice without default")
+            if node.tag==N+"infoLink" and node.get("type")=="rule" and node.get("targetId") not in core_rules and not any(x.tag==N+"rule" and x.get("id")==node.get("targetId") for x in items):
+                add("error","INVALID_RULE_TARGET",node.get("name","?"),str(node.get("targetId")))
             if node.tag==N+"rule":
+                if norm(node.get("name")) in core_names:add("error","DUPLICATE_CORE_RULE",node.get("name","?"),"Use game-system rule")
                 desc=node.findtext(N+"description") or ""
                 if not desc.strip() or PLACEHOLDER.search(desc):
                     add("error","PLACEHOLDER_RULE",node.get("name","?"),desc[:130])

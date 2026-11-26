@@ -13,6 +13,10 @@ import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 N="{http://www.battlescribe.net/schema/catalogueSchema}"
+G="{http://www.battlescribe.net/schema/gameSystemSchema}"
+CORE={r.get("id"):r for r in ET.parse(ROOT/"Grimdark_Future.gst").getroot().findall(f"./{G}sharedRules/{G}rule")}
+def description(r):
+    return r.findtext(N+"description") or r.findtext(G+"description") or ""
 DATA=json.loads((ROOT/"reference/pdf-special-rule-checks.json").read_text())
 ERRORS=[]
 def normalize(s):
@@ -23,6 +27,7 @@ for file, expected in DATA.items():
     if not file.endswith(".cat"):continue
     root=ET.parse(ROOT/file).getroot()
     defs={r.get("id"):r for r in root.findall(f"./{N}sharedRules/{N}rule")}
+    defs.update(CORE)
     byname={}
     for definition in defs.values():
         byname.setdefault(normalize(definition.get("name")),[]).append(definition)
@@ -31,12 +36,12 @@ for file, expected in DATA.items():
         if not candidates:
             ERRORS.append(f"{file}: missing PDF special-rule definition: {name}")
             continue
-        if not any((r.findtext(N+"description") or "").strip() for r in candidates):
+        if not any(description(r).strip() for r in candidates):
             ERRORS.append(f"{file}: empty definition: {name}")
     for name,markers in DATA.get("_effect_markers",{}).get(file,{}).items():
         definitions=byname.get(name,[])
         if not definitions:continue
-        descriptions=" ".join((r.findtext(N+"description") or "") for r in definitions)
+        descriptions=" ".join(description(r) for r in definitions)
         for marker in markers:
             if marker.lower() not in descriptions.lower():
                 ERRORS.append(f"{file}: rule {name} missing PDF effect {marker!r}")
@@ -46,7 +51,7 @@ for file, expected in DATA.items():
         target=link.get("targetId")
         if target not in defs:
             ERRORS.append(f"{file}: {link.get('name')} links to nonexistent rule {target}")
-        elif not (defs[target].findtext(N+"description") or "").strip():
+        elif not description(defs[target]).strip():
             ERRORS.append(f"{file}: {link.get('name')} links to blank definition")
     print(f"{file}: {len(expected)} PDF special/aura rules; {len(defs)} catalogue definitions; all source rules present: {all(x in byname for x in expected)}")
 for message in ERRORS[:150]:print("FAIL:",message)
