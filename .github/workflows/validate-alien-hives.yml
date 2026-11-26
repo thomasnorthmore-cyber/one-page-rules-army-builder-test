@@ -1,0 +1,16 @@
+name: Alien Hives catalogue checks
+on:
+  push:
+    paths: ['Alien_Hives.cat', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
+  pull_request:
+    paths: ['Alien_Hives.cat', 'scripts/validate_alien_hives.py', '.github/workflows/validate-alien-hives.yml']
+  workflow_dispatch:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_alien_hives.py
