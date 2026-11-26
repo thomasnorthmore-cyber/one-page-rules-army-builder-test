@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="44" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="5">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="45" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="5">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -2575,6 +2575,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-d949d9ab2c16" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -2592,6 +2593,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-56ec5c2ce535" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(2), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
@@ -2609,6 +2611,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-4ef78a409523" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(4), Deadly(3), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
@@ -2622,6 +2625,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                 <selectionEntry id="rl36p-ceb9b313b866" name="Heavy Ion Blade" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-10-4-0" name="Shred" hidden="false" targetId="opr-core-shred" type="rule"/></infoLinks>
                   <profiles>
                     <profile id="rl36p-510655aee863" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -2656,6 +2660,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-e91c0c539ea6" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -2673,6 +2678,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-f75950a43983" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(2), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
@@ -2690,6 +2696,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-69527620080b" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(4), Deadly(3), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
@@ -2724,6 +2731,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-55a5e0192c0a" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -2741,6 +2749,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-93c6671aa834" name="Legion Glaive" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(2), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(2)</characteristic>
@@ -2758,6 +2767,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-3263aa773867" name="Great Doom Scythe" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(4), Deadly(3), Rending"><conditions><condition field="selections" scope="rl36-e653c9c0c9a1" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-ced1734a694d" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(4), Deadly(3)</characteristic>
@@ -3184,6 +3194,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-39bf469fc3fd" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(1), Blast(3), Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
@@ -3216,6 +3227,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-67e29194931c" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -3229,6 +3241,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                 <selectionEntry id="rl36p-78a45c51ded8" name="Heavy Ion Blade" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-14-4-0" name="Shred" hidden="false" targetId="opr-core-shred" type="rule"/></infoLinks>
                   <profiles>
                     <profile id="rl36p-a25ab4f1dd55" name="Heavy Ion Blade" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -3262,6 +3275,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-94d6d808d09f" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(1), Blast(3), Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
@@ -3294,6 +3308,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-88f5e940d916" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -3327,6 +3342,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-2bc8391727b2" name="Dual Uranium Daggers" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="AP(1), Blast(3), Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">AP(1), Blast(3)</characteristic>
@@ -3359,6 +3375,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
                   </constraints>
                   <profiles>
                     <profile id="rl36m-7c398190431a" name="Dual Ion Blades" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f032" value="Shred, Rending"><conditions><condition field="selections" scope="rl36-6fe0e986296f" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="rl36-4f71817c1b09" type="greaterThan"/></conditions></modifier></modifiers>
                       <characteristics>
                         <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
                         <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">Shred</characteristic>
@@ -5578,6 +5595,7 @@ Units placed via Spawn cannot seize or contest objectives on the round they are 
               </constraints>
               <profiles>
                 <profile id="rl36m-fca54ec79074" name="Experimental Arms" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                    <modifiers><modifier type="set" field="b174-c09d-3660-f023" value="AP(1), Assault, Shatter, Unstoppable"></modifier></modifiers>
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">9"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A4</characteristic>
