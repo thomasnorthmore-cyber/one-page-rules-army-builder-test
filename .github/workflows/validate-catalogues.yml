@@ -58,6 +58,10 @@ jobs:
         if: always()
         run: |
           if [ -f Dark_Brothers.cat ]; then python3 scripts/validate_dark_brothers_defaults.py; fi
+      - name: Verify Wolf Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Wolf_Brothers.cat ]; then python3 scripts/validate_wolf_brothers_defaults.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
