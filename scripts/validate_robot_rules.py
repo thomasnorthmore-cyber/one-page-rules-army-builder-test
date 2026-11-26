@@ -36,5 +36,21 @@ for unit in units:
         if default:
             children = {x.attrib["id"] for x in group.findall("./c:selectionEntries/c:selectionEntry", N)}
             assert default in children, f"Bad default in {unit.attrib['name']}: {group.attrib.get('name')}"
+
+# Conditional armour must be visible only when its actual upgrade is selected.
+armour_upgrades = {
+    "rl36p-e17fc28e3f14": "Guardians individual Combat Shield",
+    "rl36-3607fed05ccf": "Guardians squad Combat Shield configuration",
+    "rl36-b5c114cc5206": "Tripod Walker Extra Armor",
+    "rl36-5cf99b598f53": "Transport Tank Extra Armor",
+}
+for entry_id, description in armour_upgrades.items():
+    upgrade = root.find(f".//c:selectionEntry[@id='{entry_id}']", N)
+    assert upgrade is not None, f"Missing {description}"
+    links = upgrade.findall("./c:infoLinks/c:infoLink", N)
+    assert any(l.attrib.get("name") == "Armor(2+)" for l in links), (
+        f"Missing equipped-only Armor(2+) rule on {description}"
+    )
+
 print("PASS: 32 Robot Legions units; no stray parent-rule links, duplicate IDs, dangling rule targets or invalid group defaults.")
 print("NOTE: Visual New Recruit verification and source-to-PDF ability comparison remain separate.")
