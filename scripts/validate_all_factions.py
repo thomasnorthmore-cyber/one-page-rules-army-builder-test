@@ -15,7 +15,7 @@ PARAM=re.compile(r"^([^()]+)\((\d+)\)$")
 def norm(s):
     s=(s or "").strip()
     m=PARAM.fullmatch(s)
-    return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target"} else s
+    return m.group(1)+"(X)" if m and m.group(1) in {"AP","Blast","Deadly","Fear","Caster","Ravage","Transport","Self-Destruct","Takedown Strike","Piercing Target","Retaliate"} else s
 def tokens(s):
     return [x.strip() for x in re.split(r",\s*(?![^()]*\))",s or "") if x.strip() not in {"","-","undefined"}]
 def rules(e):
