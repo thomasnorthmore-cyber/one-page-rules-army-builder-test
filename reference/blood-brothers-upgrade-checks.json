@@ -1,5 +1,5 @@
 {
-  "source": "Blood_Brothers_3.6.0.pdf pp. 5–14; exact listed option costs for the checked groups; not all upgrade rows or legal allocations.",
+  "source": "Blood_Brothers_3.6.0.pdf pp. 5–14. Source-transcribed cost mappings for all nontrivial equipment groups, including combined squad choices and free replacements. Does not certify every legal model allocation or exact alternative weapon profile.",
   "groups": [
     {
       "unit": "Blood Master Destroyer",
@@ -221,6 +221,993 @@
         "Strafing Linked Missile-Arrays": 0,
         "Strafing Heavy Machineguns": 10,
         "Strafing Heavy Fusion Rifles": 10
+      }
+    },
+    {
+      "unit": "Blood Master Destroyer",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Blood-Chalice Keeper": 35,
+        "Archivist": 45,
+        "Master Archivist": 70
+      }
+    },
+    {
+      "unit": "Blood Master Destroyer",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 25
+      }
+    },
+    {
+      "unit": "Blood Veteran Master Brother",
+      "group": "Role",
+      "costs": {
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Blood-Chalice Keeper": 35,
+        "Archivist": 45,
+        "Master Archivist": 70,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Blood Veteran Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 25,
+        "Burst Cyclic Rifle + Hand Weapon": 15,
+        "Dual Energy Claws": 20,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Combat Shield": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 15,
+        "Fusion Pistol": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 20,
+        "Chain-Fist": 25
+      }
+    },
+    {
+      "unit": "Blood Veteran Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 10,
+        "Plasma-Mod": 15,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 20
+      }
+    },
+    {
+      "unit": "Blood Master Brother",
+      "group": "Role",
+      "costs": {
+        "Preacher": 15,
+        "Lieutenant": 20,
+        "Captain": 25,
+        "Engineer": 35,
+        "Blood-Chalice Keeper": 35,
+        "Archivist": 45,
+        "Master Archivist": 70,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Blood Master Brother",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 5,
+        "Archivist Staff": 30,
+        "Burst Cyclic Rifle + Hand Weapon": 10,
+        "Dual Energy Claws": 15,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 15
+      }
+    },
+    {
+      "unit": "Blood Master Brother",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 15
+      }
+    },
+    {
+      "unit": "Blood Master Brother",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Blood Master Brother",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Arc-Charger-Mod": 15,
+        "Fusion-Mod": 15,
+        "Anti-Matter-Mod": 15
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Role",
+      "costs": {
+        "Guardian": 5,
+        "Preacher": 15,
+        "Captain": 25,
+        "Commander": 70
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Weapon loadout",
+      "costs": {
+        "Flamer Pistol + Hand Weapon": 0,
+        "Burst Heavy Rifle + Hand Weapon + Burst Heavy Rifle attachment": 10,
+        "Sniper Rifle + Hand Weapon": 5,
+        "Burst Shotgun + Hand Weapon": 5
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 15
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Burst Heavy Rifle attachment",
+      "costs": {
+        "Flamer-Mod": 5,
+        "Plasma-Mod": 10,
+        "Fusion-Mod": 10,
+        "Anti-Matter-Mod": 10
+      }
+    },
+    {
+      "unit": "Blood Elite Pathfinder",
+      "group": "Replace Heavy Bike-Rifle",
+      "costs": {
+        "Heavy Bike-Rifle": 0,
+        "Assault Heavy Bike-Rifle": 10
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Rifles": 0,
+        "Heavy Pistols": 15,
+        "Shotguns": 25
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Camo Cloaks",
+      "costs": {
+        "Camo Cloaks": 15
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Forward Sentries",
+      "costs": {
+        "Forward Sentries": 15
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Hand Weapon": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Replace Sgt. Heavy Pistol",
+      "costs": {
+        "Sgt. Heavy Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Blood Pathfinders",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Blood Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 10,
+        "Detachment Banner": 15,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Blood Battle Brothers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Blood Battle Brothers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 0,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Blood Battle Brothers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Rifles + Strikes": 0,
+        "Heavy Pistols + Hand Weapons": 20
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Special weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Heavy Pistol + Energy Hammer": 20
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Replace Heavy Pistol",
+      "costs": {
+        "Heavy Pistol": 0,
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 10,
+        "Fusion Pistol": 10
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Replace Energy Hammer",
+      "costs": {
+        "Energy Hammer": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 15
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Squad mobility",
+      "costs": {
+        "Jetpack": 15,
+        "Airdrop Jetpack": 35
+      }
+    },
+    {
+      "unit": "Blood Death Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 10,
+        "Detachment Banner": 15
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Replace Heavy Pistol",
+      "costs": {
+        "Heavy Pistol": 0,
+        "Plasma Pistol": 10
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Special weapon loadout",
+      "costs": {
+        "Heavy Pistol + Hand Weapon": 0,
+        "Great Chain-Sword": 10,
+        "Assault Flamer + Strike": 10,
+        "Heavy Pistol + Energy Hammer": 15,
+        "Heavy Pistol + Energy Sword": 20,
+        "Dual Energy Claws": 25,
+        "Heavy Pistol + Energy Fist": 30,
+        "Assault Plasma Rifle + Strike": 30,
+        "Assault Fusion Rifle + Strike": 45
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Pistol + Hand Weapon": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 0,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 15,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Blood Assault Brothers",
+      "group": "Squad mobility",
+      "costs": {
+        "Jetpack": 15,
+        "Airdrop Jetpack": 35
+      }
+    },
+    {
+      "unit": "Blood Guard Brothers",
+      "group": "Replace Heavy Pistol",
+      "costs": {
+        "Heavy Pistol": 0,
+        "Plasma Pistol": 10
+      },
+      "variants": [
+        {
+          "Heavy Pistol": 0,
+          "Plasma Pistol": 10,
+          "Burst Fusion Pistol": 45
+        }
+      ]
+    },
+    {
+      "unit": "Blood Guard Brothers",
+      "group": "Replace Energy Lance",
+      "costs": {
+        "Energy Lance": 0,
+        "Energy Sword": 5
+      }
+    },
+    {
+      "unit": "Blood Guard Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 15,
+        "Medical Training": 25
+      }
+    },
+    {
+      "unit": "Blood Guard Brothers",
+      "group": "Aerial Drop",
+      "costs": {
+        "Aerial Drop": 20
+      }
+    },
+    {
+      "unit": "Blood Veteran Assault Brothers",
+      "group": "Squad loadout",
+      "costs": {
+        "Hand Weapons + Combat Shields": 0,
+        "Flamer Pistols + Hand Weapons": 30,
+        "Great Chain-Swords": 45,
+        "Dual Energy Claws": 85
+      }
+    },
+    {
+      "unit": "Blood Veteran Assault Brothers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 20
+      }
+    },
+    {
+      "unit": "Blood Veteran Assault Brothers",
+      "group": "Replace Flamer Pistol",
+      "costs": {
+        "Flamer Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Heavy Pistol": 5,
+        "Anti-Matter Pistol": 10,
+        "Plasma Pistol": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Assault Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 5,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Assault Brothers",
+      "group": "Squad mobility",
+      "costs": {
+        "Jetpack": 10,
+        "Airdrop Jetpack": 20
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 10,
+        "Medical Training": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Flamer-Mod",
+      "costs": {
+        "Flamer-Mod": 10
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Plasma-Mod",
+      "costs": {
+        "Plasma-Mod": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Arc-Charger-Mod",
+      "costs": {
+        "Arc-Charger-Mod": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Fusion-Mod",
+      "costs": {
+        "Fusion-Mod": 15
+      }
+    },
+    {
+      "unit": "Blood Veteran Battle Brothers",
+      "group": "Anti-Matter-Mod",
+      "costs": {
+        "Anti-Matter-Mod": 20
+      }
+    },
+    {
+      "unit": "Blood Pathfinder Snipers",
+      "group": "Squad loadout",
+      "costs": {
+        "Anti-Matter-Sniper Carbines": 0,
+        "Sniper Rifles": 5
+      }
+    },
+    {
+      "unit": "Blood Pathfinder Bikers",
+      "group": "Squad loadout",
+      "costs": {
+        "Assault Grenade Launchers + Hand Weapons / High-Speed Tires": 0,
+        "Assault Grenade Launchers + Hand Weapons / Off-Road Tires": 20,
+        "Grenade Launchers + Heavy Rifles + Strikes / High-Speed Tires": 15,
+        "Grenade Launchers + Heavy Rifles + Strikes / Off-Road Tires": 35,
+        "Grenade Launcher + Heavy Pistols + Hand Weapons / High-Speed Tires": 25,
+        "Grenade Launcher + Heavy Pistols + Hand Weapons / Off-Road Tires": 45,
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes / High-Speed Tires": 20,
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes / Off-Road Tires": 40,
+        "Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / High-Speed Tires": 30,
+        "Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / Off-Road Tires": 50,
+        "Assault Grenade Launchers + Heavy Pistols / High-Speed Tires": 25,
+        "Assault Grenade Launchers + Heavy Pistols / Off-Road Tires": 45,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes / High-Speed Tires": 35,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes / Off-Road Tires": 55,
+        "Assault Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / High-Speed Tires": 45,
+        "Assault Heavy Bike-Rifle + Heavy Pistols + Hand Weapons / Off-Road Tires": 65
+      }
+    },
+    {
+      "unit": "Blood Pathfinder Bikers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Blood Pathfinder Bikers",
+      "group": "Replace Sgt. Heavy Pistol",
+      "costs": {
+        "Sgt. Heavy Pistol": 0,
+        "Arc-Charger Pistol": 5,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Blood Pathfinder Bikers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Blood Destroyers",
+      "group": "Squad loadout",
+      "costs": {
+        "Assault Cyclic Rifles + Hand Weapons": 0,
+        "Hand Weapons + Combat Shields": 5,
+        "Burst Cyclic Rifles + Hand Weapons": 25,
+        "Dual Energy Claws": 40
+      }
+    },
+    {
+      "unit": "Blood Destroyers",
+      "group": "Replace Hand Weapon",
+      "costs": {
+        "Hand Weapon": 0,
+        "Energy Hammer": 5,
+        "Energy Sword": 10,
+        "Energy Fist": 15,
+        "Chain-Fist": 20
+      }
+    },
+    {
+      "unit": "Blood Destroyers",
+      "group": "Squad specialist",
+      "costs": {
+        "The Founder's Banner": 15,
+        "Detachment Banner": 45,
+        "Medical Training": 65
+      }
+    },
+    {
+      "unit": "Blood Destroyers",
+      "group": "Orbital Drop",
+      "costs": {
+        "Orbital Drop": 35
+      }
+    },
+    {
+      "unit": "Blood Brother Bikers",
+      "group": "Squad loadout",
+      "costs": {
+        "Heavy Bike-Rifles + Heavy Rifles + Strikes": 0,
+        "Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 10,
+        "Assault Heavy Bike-Rifles + Heavy Rifles + Strikes": 20,
+        "Assault Heavy Bike-Rifles + Heavy Pistols + Hand Weapons": 30
+      }
+    },
+    {
+      "unit": "Blood Brother Bikers",
+      "group": "Replace Heavy Rifle",
+      "costs": {
+        "Heavy Rifle": 0,
+        "Flamer": 5,
+        "Arc-Charger Rifle": 25,
+        "Plasma Rifle": 25,
+        "Fusion Rifle": 30,
+        "Anti-Matter Rifle": 30
+      }
+    },
+    {
+      "unit": "Blood Brother Bikers",
+      "group": "Sergeant weapon loadout",
+      "costs": {
+        "Heavy Rifle + Strike": 0,
+        "Sergeant loadout": 5
+      }
+    },
+    {
+      "unit": "Blood Brother Bikers",
+      "group": "Replace Sgt. Arc-Charger Pistol",
+      "costs": {
+        "Sgt. Arc-Charger Pistol": 0,
+        "Heavy Pistol": 0,
+        "Anti-Matter Pistol": 5,
+        "Plasma Pistol": 5
+      }
+    },
+    {
+      "unit": "Blood Brother Bikers",
+      "group": "Replace Sgt. Hand Weapon",
+      "costs": {
+        "Sgt. Hand Weapon": 0,
+        "Energy Sword": 5,
+        "Energy Fist": 5
+      }
+    },
+    {
+      "unit": "Blood Drop Pod",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Blood Support Bike",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Blood Heavy Exo-Suit",
+      "group": "Arm loadout",
+      "costs": {
+        "Dual Fists + Stomp": 0,
+        "Dual Assault Flamers + Dual Heavy Fists": 20,
+        "Dual Assault Flamers + Dual Combat Drills": 25,
+        "Dual Assault Fusion Rifles + Dual Heavy Fists": 55,
+        "Dual Assault Fusion Rifles + Dual Combat Drills": 60
+      }
+    },
+    {
+      "unit": "Blood Heavy Exo-Suit",
+      "group": "Chest weapon",
+      "costs": {
+        "Chest-Array": 45,
+        "Chest-Missiles": 50
+      }
+    },
+    {
+      "unit": "Blood Heavy Exo-Suit",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Blood Attack Vehicle",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 20
+      }
+    },
+    {
+      "unit": "Blood Attack Vehicle",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Blood Attack Vehicle",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Blood APC",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 40,
+        "Pintle Heavy Fusion Rifle": 70
+      }
+    },
+    {
+      "unit": "Blood APC",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 15
+      }
+    },
+    {
+      "unit": "Blood APC",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 30
+      }
+    },
+    {
+      "unit": "Blood APC",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Blood Attack Speeder",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Gatling Cannon": 20,
+        "Heavy Machinegun": 20,
+        "Heavy Fusion Rifle": 30
+      },
+      "variants": [
+        {
+          "Heavy Flamer": 0,
+          "Gatling Cannon": 20,
+          "Heavy Machinegun": 20,
+          "Heavy Fusion Rifle": 30,
+          "Dual Missile Battery": 15
+        }
+      ]
+    },
+    {
+      "unit": "Blood Attack Speeder",
+      "group": "Targeting Array",
+      "costs": {
+        "Targeting Array": 20
+      }
+    },
+    {
+      "unit": "Blood Attack Speeder",
+      "group": "Open Sides",
+      "costs": {
+        "Open Sides": 20
+      }
+    },
+    {
+      "unit": "Blood Attack Speeder",
+      "group": "Extra Armor",
+      "costs": {
+        "Extra Armor": 30
+      }
+    },
+    {
+      "unit": "Blood Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 15,
+        "Twin Flamer Cannon": 25,
+        "Walker Fist + Replace Assault Heavy Flamer": 25,
+        "Linked Heavy Rifle-Array": 25,
+        "Plasma Cannon": 50,
+        "Gatling Cannon": 45,
+        "Twin Heavy Machinegun": 45,
+        "Missile Battery": 55,
+        "Twin Heavy Fusion Rifle": 60,
+        "Twin Laser Cannon": 95,
+        "Twin Autocannon": 90,
+        "Walker Claw": 20
+      }
+    },
+    {
+      "unit": "Blood Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 15,
+        "Fusion Rifle": 30
+      }
+    },
+    {
+      "unit": "Blood Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 5,
+        "Assault Fusion Rifle": 25
+      }
+    },
+    {
+      "unit": "Blood Veteran Combat Walker",
+      "group": "Replace Walker Combat Fist",
+      "costs": {
+        "Walker Combat Fist": 0,
+        "Light Walker Fist + Replace Heavy Flamer": 20,
+        "Twin Flamer Cannon": 30,
+        "Walker Fist + Replace Assault Heavy Flamer": 30,
+        "Linked Heavy Rifle-Array": 35,
+        "Plasma Cannon": 60,
+        "Gatling Cannon": 60,
+        "Twin Heavy Machinegun": 60,
+        "Missile Battery": 70,
+        "Twin Heavy Fusion Rifle": 70,
+        "Twin Laser Cannon": 110,
+        "Twin Autocannon": 110,
+        "Walker Claw": 30
+      }
+    },
+    {
+      "unit": "Blood Veteran Combat Walker",
+      "group": "Replace Heavy Flamer",
+      "costs": {
+        "Heavy Flamer": 0,
+        "Burst Cyclic Rifle": 30,
+        "Fusion Rifle": 30
+      }
+    },
+    {
+      "unit": "Blood Veteran Combat Walker",
+      "group": "Replace Assault Heavy Flamer",
+      "costs": {
+        "Assault Heavy Flamer": 0,
+        "Assault Burst Cyclic Rifle": 10,
+        "Assault Fusion Rifle": 25
+      }
+    },
+    {
+      "unit": "Blood Battle Tank",
+      "group": "Replace Heavy Siege Cannon",
+      "costs": {
+        "Heavy Siege Cannon": 0,
+        "Twin Flamer Cannon": 0,
+        "Battle Cannon + Replace Sponson Heavy Machineguns": 50,
+        "Gatling Cannon": 70,
+        "Heavy Missile Battery": 75,
+        "Interceptor AA-Cannon": 95,
+        "Heavy Rocket Battery": 115,
+        "Autocannon + Replace Sponson Heavy Machineguns": 145,
+        "Twin Laser Cannon + Replace Sponson Heavy Machineguns": 145
+      }
+    },
+    {
+      "unit": "Blood Battle Tank",
+      "group": "Replace Sponson Heavy Machineguns",
+      "costs": {
+        "Sponson Heavy Machineguns": 0,
+        "Sponson Heavy Flamers": 0,
+        "Sponson Laser Cannons": 25
+      }
+    },
+    {
+      "unit": "Blood Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 40,
+        "Pintle Heavy Fusion Rifle": 70
+      }
+    },
+    {
+      "unit": "Blood Battle Tank",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 15
+      }
+    },
+    {
+      "unit": "Blood Battle Tank",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 65
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Replace Hull Gatling Cannon",
+      "costs": {
+        "Hull Gatling Cannon": 0,
+        "Hull Heavy Machinegun": 5
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Replace Sponson Heavy Flamer Cannons",
+      "costs": {
+        "Sponson Heavy Flamer Cannons": 0,
+        "Sponson Linked Heavy Rifle-Arrays": 10,
+        "Sponson Heavy Laser Cannons": 105
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Pintle weapon",
+      "costs": {
+        "Pintle Burst Cyclic Rifle": 40,
+        "Pintle Heavy Fusion Rifle": 70
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Disposable Guided Missile",
+      "costs": {
+        "Disposable Guided Missile": 15
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Cargo Space",
+      "costs": {
+        "Cargo Space": 35
+      }
+    },
+    {
+      "unit": "Blood Heavy Battle Tank",
+      "group": "Dozer Blade",
+      "costs": {
+        "Dozer Blade": 95
+      }
+    },
+    {
+      "unit": "Blood Heavy Gunship",
+      "group": "Replace Strafing Gatling Cannons",
+      "costs": {
+        "Strafing Gatling Cannons": 0,
+        "Strafing Plasma Cannons": 5,
+        "Strafing Laser Cannons": 20,
+        "Cargo Space": 35
       }
     }
   ]
