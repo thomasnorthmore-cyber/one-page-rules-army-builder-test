@@ -2501,5 +2501,332 @@
       }
     },
     "source": "Manually transcribed PDF pages 2–14."
+  },
+  "Dark_Brothers.cat": {
+    "units": {
+      "Dark Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Hero",
+          "Tough(6)"
+        ]
+      },
+      "Dark Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 95,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Hero",
+          "Tough(3)",
+          "Versatile Expert"
+        ]
+      },
+      "Dark Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 85,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Dark Elite Pathfinder": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 75,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Hero",
+          "Strider",
+          "Tough(3)"
+        ]
+      },
+      "Dark Pathfinders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 120,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Strider"
+        ]
+      },
+      "Dark Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145,
+        "rules": [
+          "Darkborn",
+          "Fearless"
+        ]
+      },
+      "Dark Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 160,
+        "rules": [
+          "Darkborn",
+          "Fearless"
+        ]
+      },
+      "Dark Veteran Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 120,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Versatile Expert"
+        ]
+      },
+      "Dark Veteran Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Versatile Expert"
+        ]
+      },
+      "Dark Pathfinder Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 125,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Scout",
+          "Stealth",
+          "Strider"
+        ]
+      },
+      "Dark Support Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Relentless"
+        ]
+      },
+      "Dark Pathfinder Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 205,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(3)"
+        ]
+      },
+      "Dark Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 235,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Tough(3)"
+        ]
+      },
+      "Dark Destroyer Knights": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 280,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Tough(3)",
+          "Versatile Expert"
+        ]
+      },
+      "Dark Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 285,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(3)"
+        ]
+      },
+      "Dark Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Ambush",
+          "Immobile",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Dark Heavy Exo-Suit": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fear(1)",
+          "Tough(6)"
+        ]
+      },
+      "Dark Support Bike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 175,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(6)"
+        ]
+      },
+      "Dark Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 180,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(6)"
+        ]
+      },
+      "Dark APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 200,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Dark Attack Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 225,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Strider",
+          "Tough(6)",
+          "Vanguard"
+        ]
+      },
+      "Dark Shroud Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 275,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Strider",
+          "Tough(6)",
+          "Vanguard",
+          "Stealth Buff"
+        ]
+      },
+      "Dark Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 420,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fear(2)",
+          "Tough(12)"
+        ]
+      },
+      "Dark Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 445,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(12)"
+        ]
+      },
+      "Dark Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 450,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fear(2)",
+          "Tough(12)",
+          "Versatile Expert"
+        ]
+      },
+      "Dark Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Artillery",
+          "Cumbersome",
+          "Tough(3)"
+        ]
+      },
+      "Dark Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 755,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Fast",
+          "Tough(18)"
+        ]
+      },
+      "Dark Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 280,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Aircraft",
+          "Tough(6)"
+        ]
+      },
+      "Dark Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 405,
+        "rules": [
+          "Darkborn",
+          "Fearless",
+          "Aircraft",
+          "Tough(9)"
+        ]
+      }
+    }
   }
 }
