@@ -2501,5 +2501,155 @@
       }
     },
     "source": "Manually transcribed PDF pages 2–14."
+  },
+  "Dark_Brothers.cat": {
+    "source": "Dark_Brothers_3.6.0.pdf pp. 2–3, reconciled with detailed unit headers pp. 5–14; base Quality, Defense, points only.",
+    "units": {
+      "Dark Master Destroyer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165
+      },
+      "Dark Veteran Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 95
+      },
+      "Dark Master Brother": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 85
+      },
+      "Dark Elite Pathfinder": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 75
+      },
+      "Dark Pathfinders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 120
+      },
+      "Dark Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Dark Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 160
+      },
+      "Dark Veteran Assault Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 120
+      },
+      "Dark Veteran Battle Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125
+      },
+      "Dark Pathfinder Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 125
+      },
+      "Dark Support Brothers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Dark Pathfinder Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 205
+      },
+      "Dark Destroyers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 235
+      },
+      "Dark Destroyer Knights": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 280
+      },
+      "Dark Brother Bikers": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 285
+      },
+      "Dark Drop Pod": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 145
+      },
+      "Dark Heavy Exo-Suit": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Dark Support Bike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 175
+      },
+      "Dark Attack Vehicle": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 180
+      },
+      "Dark APC": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 200
+      },
+      "Dark Attack Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 225
+      },
+      "Dark Shroud Speeder": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 275
+      },
+      "Dark Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 420
+      },
+      "Dark Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 445
+      },
+      "Dark Veteran Combat Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 450
+      },
+      "Dark Artillery Gun": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 150
+      },
+      "Dark Heavy Battle Tank": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 755
+      },
+      "Dark Light Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 280
+      },
+      "Dark Heavy Gunship": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 405
+      }
+    }
   }
 }

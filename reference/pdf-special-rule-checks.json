@@ -195,6 +195,46 @@
       "Protection Feat": [
         "5+"
       ]
+    },
+    "Dark_Brothers.cat": {
+      "Darkborn": [
+        "4 inches",
+        "2 inches",
+        "minimum of 6 inches"
+      ],
+      "Enhanced Darkborn": [
+        "8 inches",
+        "4 inches",
+        "minimum 6 inches"
+      ],
+      "Enhanced Shrouded": [
+        "8 inches",
+        "4 inches",
+        "minimum 6 inches"
+      ],
+      "Crossing Strike": [
+        "Once per activation",
+        "shooting"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ],
+      "Stealth Buff": [
+        "12 inches",
+        "Stealth"
+      ],
+      "Versatile Expert": [
+        "AP(+1)",
+        "+1 to hit"
+      ],
+      "Versatile Reach": [
+        "+4 inches",
+        "+2 inches"
+      ],
+      "Enhanced Darkborn Aura": [
+        "Enhanced Darkborn"
+      ]
     }
   },
   "Goblin_Reclaimers.cat": [
@@ -395,5 +435,34 @@
     "Piercing Marksman Aura",
     "Regeneration Aura",
     "Shred in Melee Aura"
+  ],
+  "Dark_Brothers.cat": [
+    "Darkborn",
+    "Crossing Strike",
+    "Cumbersome",
+    "Enhanced Darkborn",
+    "Enhanced Shrouded",
+    "Evasive",
+    "Melee Shrouding",
+    "Mend",
+    "Rapid Ambush",
+    "Rapid Rush",
+    "Re-Deployment",
+    "Shrouded",
+    "Smash",
+    "Stealth Buff",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Vanguard",
+    "Versatile Expert",
+    "Versatile Reach",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Enhanced Darkborn Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
   ]
 }
