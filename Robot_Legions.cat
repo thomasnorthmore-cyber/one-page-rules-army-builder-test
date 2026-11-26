@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -443,15 +443,9 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-f00197c26637" name="Burst Wrist-Spark + Hand Weapon" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-1-8-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/><infoLink id="wref-1-8-1" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/><infoLink id="wref-1-8-2" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/></infoLinks>
+            <selectionEntry id="rl36-f00197c26637" name="Burst Wrist-Spark + Hand Weapon" hidden="false" type="upgrade" collective="false" import="true"><infoLinks></infoLinks>
               <profiles>
-                <profile id="rl36-84c47aa94a9c" name="Burst Wrist-Spark" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
-                  <characteristics>
-                    <characteristic name="Range" typeId="b174-c09d-3660-f021">6"</characteristic>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Reliable, Assault</characteristic>
-                  </characteristics>
-                </profile>
+                
                 <profile id="rl36-adc538d4b17b" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A6</characteristic>
@@ -463,12 +457,18 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36-7bfd6a92e62c" name="Replace Burst Wrist-Spark" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36-7bfd6a92e62c" name="Replace Burst Wrist-Spark" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-1">
                   <constraints>
-                    <constraint id="rl36-78ebab930191" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36-78ebab930191" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36-b0d85815a8b0" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-1" name="Keep Burst Wrist-Spark" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-1-8-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/><infoLink id="wref-1-8-1" name="Reliable" hidden="false" targetId="rl36-core-0017" type="rule"/><infoLink id="wref-1-8-2" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/></infoLinks><profiles><profile id="rl36-84c47aa94a9c" name="Burst Wrist-Spark" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="b174-c09d-3660-f021">6"</characteristic>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3), Reliable, Assault</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36-12985d73c05a" name="Burst Wrist-Plasma" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-1-9-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-1-9-1" name="Assault" hidden="false" targetId="rl36-core-0019" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36-045effb4e6da" name="Burst Wrist-Plasma" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -600,12 +600,7 @@
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-09a8d4dd60fb" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
+                
               </profiles>
               <infoLinks>
                 <infoLink id="rl36-38138703e325" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
@@ -614,12 +609,17 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="60" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-5f15fa649c73" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-5f15fa649c73" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-2">
                   <constraints>
-                    <constraint id="rl36p-80460bd5d292" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-80460bd5d292" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-f3d5b6aeb374" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-2" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-09a8d4dd60fb" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-22224b566099" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-1-18-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-1-18-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-5bd19d4bd960" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -685,12 +685,7 @@
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Anti-Cover, Shatter</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-b11f1842c853" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
+                
               </profiles>
               <infoLinks>
                 <infoLink id="rl36-029fcc1dd462" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
@@ -699,12 +694,17 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="80" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-0f1c0bcd7534" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-0f1c0bcd7534" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-3">
                   <constraints>
-                    <constraint id="rl36p-ffa28ac35437" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-ffa28ac35437" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-eaa3141f64e2" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-3" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-b11f1842c853" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A2</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-6bb4d60402a1" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-1-23-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-1-23-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-58e0ad19c510" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -887,24 +887,22 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <profiles>
-                <profile id="rl36-8117e7033a2e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
+              
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-0f37931fae03" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-0f37931fae03" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-4">
                   <constraints>
-                    <constraint id="rl36p-8fb0903229d9" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-8fb0903229d9" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-929aa32df2bb" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-4" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-8117e7033a2e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A3</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-02f12fd6d511" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-8-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-2-8-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-1978e01aad6a" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1014,23 +1012,23 @@
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shred</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-65a236416fc8" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
+                
               </profiles>
               <costs>
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-bbd24745bc11" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-bbd24745bc11" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-5">
                   <constraints>
-                    <constraint id="rl36p-36a88c5bf59e" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-36a88c5bf59e" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-3edd0575ec98" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-5" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-65a236416fc8" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-c6bbcf1318f6" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-16-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-2-16-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-913d084c5294" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1096,12 +1094,7 @@
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Shatter</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-812a2ec95739" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
+                
               </profiles>
               <infoLinks>
                 <infoLink id="rl36-7857ca7cb072" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
@@ -1110,12 +1103,17 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="10" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-a937f7ddc7e5" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-a937f7ddc7e5" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-6">
                   <constraints>
-                    <constraint id="rl36p-19e1c02bd900" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-19e1c02bd900" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-9e03d7ad9278" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-6" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-812a2ec95739" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-bbd397c6863b" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-21-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-2-21-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-517e22b7dcfb" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1194,12 +1192,7 @@
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">AP(1), Shatter</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="rl36-f0260f27712e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
-                  <characteristics>
-                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
-                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
-                  </characteristics>
-                </profile>
+                
               </profiles>
               <infoLinks>
                 <infoLink id="rl36-73cd670083b5" name="Shatter" hidden="false" targetId="rl36-441da07c76f7" type="rule" />
@@ -1208,12 +1201,17 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="15" />
               </costs>
               <selectionEntryGroups>
-                <selectionEntryGroup id="rl36p-2d4f1764e25b" name="Replace Hand Weapon" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="rl36p-2d4f1764e25b" name="Replace Hand Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-7">
                   <constraints>
-                    <constraint id="rl36p-7bd98365c9a8" type="min" value="0" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36p-7bd98365c9a8" type="min" value="1" field="selections" scope="parent" shared="false" />
                     <constraint id="rl36p-1fd0a63ff3b3" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
-                  <selectionEntries>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-7" name="Keep Hand Weapon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks></infoLinks><profiles><profile id="rl36-f0260f27712e" name="Hand Weapon" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
+                  <characteristics>
+                    <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
+                    <characteristic name="Special Rules" typeId="b174-c09d-3660-f032">-</characteristic>
+                  </characteristics>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36p-553b7688372b" name="Uranium Dagger" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-27-0" name="AP(X)" hidden="false" targetId="rl36-core-0015" type="rule"/><infoLink id="wref-2-27-1" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36p-ddc321edf81b" name="Uranium Dagger" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
@@ -1317,29 +1315,26 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="rl36-7a20140900b5" name="Thruster Bike" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                
-                <profile id="rl36-2d5641519df8" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+              
+              <infoLinks><infoLink id="rl36-audit-bike-1" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/><infoLink id="rl36-audit-bike-2" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+                <infoLink id="rl36-f3b1b52b8e34" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36bike-25e42f0e010" name="Replace Radium Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-8">
+                  <constraints>
+                    <constraint id="rl36bike-a9788151add" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36bike-d3f52b53198" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-8" name="Keep Radium Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-2-35-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks><profiles><profile id="rl36-2d5641519df8" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
                   </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks><infoLink id="rl36-audit-bike-1" name="Fast" hidden="false" targetId="rl36-core-0009" type="rule"/><infoLink id="rl36-audit-bike-2" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-                <infoLink id="rl36-f3b1b52b8e34" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
-              <infoLink id="wref-2-35-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
-              </costs>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="rl36bike-25e42f0e010" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint id="rl36bike-a9788151add" type="min" value="0" field="selections" scope="parent" shared="false" />
-                    <constraint id="rl36bike-d3f52b53198" type="max" value="1" field="selections" scope="parent" shared="false" />
-                  </constraints>
-                  <selectionEntries>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36bike-891f229d7f4" name="Burst Transonic Carbine" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-36-0" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/><infoLink id="wref-2-36-1" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36bike-c09becc1461" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
@@ -1376,29 +1371,26 @@
               </selectionEntryGroups>
             </selectionEntry>
             <selectionEntry id="rl36-7d2c1d45ad13" name="Skimmer Bike" hidden="false" type="upgrade" collective="false" import="true">
-              <profiles>
-                
-                <profile id="rl36-3f746eae218a" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
+              
+              <infoLinks><infoLink id="rl36-audit-bike-3" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/><infoLink id="rl36-audit-bike-4" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
+                <infoLink id="rl36-949012df260b" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
+              </costs>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="rl36bike-5e33e5d281b" name="Replace Radium Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="rl36-replacement-default-9">
+                  <constraints>
+                    <constraint id="rl36bike-ed88af61466" type="min" value="1" field="selections" scope="parent" shared="false" />
+                    <constraint id="rl36bike-91763fca6a8" type="max" value="1" field="selections" scope="parent" shared="false" />
+                  </constraints>
+                  <selectionEntries><selectionEntry id="rl36-replacement-default-9" name="Keep Radium Cannon" hidden="false" collective="false" import="true" type="upgrade"><infoLinks><infoLink id="wref-2-38-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks><profiles><profile id="rl36-3f746eae218a" name="Radium Cannon" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="b174-c09d-3660-f021">24"</characteristic>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f022">A1</characteristic>
                     <characteristic name="Special Rules" typeId="b174-c09d-3660-f023">Blast(3)</characteristic>
                   </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks><infoLink id="rl36-audit-bike-3" name="Scout" hidden="false" targetId="rl36-core-0006" type="rule"/><infoLink id="rl36-audit-bike-4" name="Strider" hidden="false" targetId="rl36-core-0004" type="rule"/>
-                <infoLink id="rl36-949012df260b" name="Swift" hidden="false" targetId="rl36-a8e21da73bba" type="rule" />
-              <infoLink id="wref-2-38-0" name="Blast(X)" hidden="false" targetId="rl36-core-0016" type="rule"/></infoLinks>
-              <costs>
-                <cost name="pts" typeId="b174-c09d-3660-f002" value="100" />
-              </costs>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="rl36bike-5e33e5d281b" name="Replace Radium Cannon" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint id="rl36bike-ed88af61466" type="min" value="0" field="selections" scope="parent" shared="false" />
-                    <constraint id="rl36bike-91763fca6a8" type="max" value="1" field="selections" scope="parent" shared="false" />
-                  </constraints>
-                  <selectionEntries>
+                </profile></profiles><costs><cost name="pts" typeId="b174-c09d-3660-f002" value="0"/></costs></selectionEntry>
                     <selectionEntry id="rl36bike-742f20b0b6f" name="Burst Transonic Carbine" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="wref-2-39-0" name="Anti-Cover" hidden="false" targetId="rl36-core-0018" type="rule"/><infoLink id="wref-2-39-1" name="Surge" hidden="false" targetId="rl36-core-0020" type="rule"/></infoLinks>
                       <profiles>
                         <profile id="rl36bike-27f6a9833fd" name="Burst Transonic Carbine" hidden="false" typeId="b174-c09d-3660-f020" typeName="Ranged Weapon">
