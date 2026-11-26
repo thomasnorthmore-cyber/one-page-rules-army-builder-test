@@ -1,0 +1,420 @@
+{
+  "revision": 2,
+  "source": "Blessed_Sisters_3.6.0.pdf pages 2–14",
+  "units": [
+    {
+      "name": "Exo-Suit High Sister",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 180,
+      "sourceRules": [
+        "Devout",
+        "Fear(2)",
+        "Hero",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Destroyer High Sister",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 100,
+      "sourceRules": [
+        "Armor(3)",
+        "Devout",
+        "Hero",
+        "Tough(6)"
+      ],
+      "conditional": [
+        "Armor(3)"
+      ]
+    },
+    {
+      "name": "Celestial High Sister",
+      "size": 1,
+      "q": "3+",
+      "d": "4+",
+      "p": 65,
+      "sourceRules": [
+        "Armor(3)",
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Armor(3)"
+      ]
+    },
+    {
+      "name": "High Sister",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 55,
+      "sourceRules": [
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Fanatic Superior",
+      "size": 1,
+      "q": "5+",
+      "d": "5+",
+      "p": 50,
+      "sourceRules": [
+        "Devout",
+        "Fearless",
+        "Hero",
+        "Piercing Charge",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Novice Leader",
+      "size": 1,
+      "q": "5+",
+      "d": "6+",
+      "p": 35,
+      "sourceRules": [
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Novice Sisters",
+      "size": 10,
+      "q": "5+",
+      "d": "6+",
+      "p": 110,
+      "sourceRules": [
+        "Devout"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Fanatic Sisters",
+      "size": 5,
+      "q": "5+",
+      "d": "5+",
+      "p": 60,
+      "sourceRules": [
+        "Devout",
+        "Fearless",
+        "Piercing Charge"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Warrior Sisters",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 90,
+      "sourceRules": [
+        "Devout"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Protector Sisters",
+      "size": 5,
+      "q": "3+",
+      "d": "4+",
+      "p": 110,
+      "sourceRules": [
+        "Armor(3)",
+        "Devout"
+      ],
+      "conditional": [
+        "Armor(3)"
+      ]
+    },
+    {
+      "name": "Vanguard Sisters",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 115,
+      "sourceRules": [
+        "Devout",
+        "Scout",
+        "Strider"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Pistoleer Sisters",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 155,
+      "sourceRules": [
+        "Devout",
+        "Flying",
+        "Relentless"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Assault Sisters",
+      "size": 5,
+      "q": "4+",
+      "d": "4+",
+      "p": 160,
+      "sourceRules": [
+        "Devout",
+        "Flying",
+        "Furious"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Celestial Warrior Sisters",
+      "size": 3,
+      "q": "3+",
+      "d": "4+",
+      "p": 95,
+      "sourceRules": [
+        "Devout"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Vanguard Snipers",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 125,
+      "sourceRules": [
+        "Devout",
+        "Scout",
+        "Stealth",
+        "Strider"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Support Sisters",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 130,
+      "sourceRules": [
+        "Devout",
+        "Relentless"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Destroyer Sisters",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 130,
+      "sourceRules": [
+        "Armor(3)",
+        "Devout",
+        "Tough(3)"
+      ],
+      "conditional": [
+        "Armor(3)"
+      ]
+    },
+    {
+      "name": "Biker Sisters",
+      "size": 3,
+      "q": "4+",
+      "d": "4+",
+      "p": 150,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Biker Fanatics",
+      "size": 3,
+      "q": "5+",
+      "d": "5+",
+      "p": 150,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Fearless",
+        "Piercing Charge",
+        "Tough(3)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Exo-Suit",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 100,
+      "sourceRules": [
+        "Devout",
+        "Fear(1)",
+        "Tough(6)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "APC",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 150,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Procession Altar",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 205,
+      "sourceRules": [
+        "Bravery Buff",
+        "Devout",
+        "Guarded Buff",
+        "Precision Fighter Buff",
+        "Tough(6)",
+        "Transport(6)"
+      ],
+      "conditional": [
+        "Bravery Buff",
+        "Guarded Buff",
+        "Precision Fighter Buff"
+      ]
+    },
+    {
+      "name": "Infernal Attack Vehicle",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 215,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Assault Walker",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 255,
+      "sourceRules": [
+        "Devout",
+        "Fear(2)",
+        "Fearless",
+        "Regeneration",
+        "Scout",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Support Walker",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 300,
+      "sourceRules": [
+        "Devout",
+        "Fear(2)",
+        "Fearless",
+        "Fortified",
+        "Regeneration",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Organ Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "3+",
+      "p": 315,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Tough(9)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Battle Tank",
+      "size": 1,
+      "q": "4+",
+      "d": "2+",
+      "p": 370,
+      "sourceRules": [
+        "Devout",
+        "Fast",
+        "Tough(12)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Blessed Titan",
+      "size": 1,
+      "q": "3+",
+      "d": "2+",
+      "p": 765,
+      "sourceRules": [
+        "Devout",
+        "Fear(4)",
+        "Tough(24)"
+      ],
+      "conditional": []
+    },
+    {
+      "name": "Constance",
+      "size": 1,
+      "q": "4+",
+      "d": "4+",
+      "p": 110,
+      "sourceRules": [
+        "Devout",
+        "Increased Shooting Range",
+        "Scout",
+        "Strider",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "conditional": [
+        "Increased Shooting Range"
+      ]
+    }
+  ],
+  "previousSkippedRows": 74,
+  "notes": [
+    "All 29 unit cards and six spells manually transcribed. Conditional Armor(3) granted by default shield equipment and removed on replacement only when the PDF names the shield in the replacement.",
+    "Two novice specialist slots, free Pistoleer sergeant, independent Blessed Titan arms, conditional Battle Rifle attachments.",
+    "Procession Altar statue replaces the original weapon and buff together. Constance backpack replaces individual range with aura.",
+    "Protector Sisters retain shields on sword-only replacements as stated in source. One-model upgrade representative slots and original-weapon branch restrictions need New Recruit verification.",
+    "Armor(2), Armor(3) and Anti-Cover use established definitions. Shred in Melee inferred directly from corresponding aura wording.",
+    "Mount Tough and Altar Tough/Transport aggregation require ForceOrg tests.",
+    "No other faction or exporter changed."
+  ]
+}

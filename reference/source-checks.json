@@ -2170,17 +2170,20 @@
           "Fear(2)",
           "Hero",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Destroyer High Sister": {
         "Quality": "4+",
         "Defense": "4+",
         "points": 100,
         "rules": [
-          "Armor(3)",
           "Devout",
           "Hero",
           "Tough(6)"
+        ],
+        "default_equipment_rules": [
+          "Armor(3)"
         ]
       },
       "Celestial High Sister": {
@@ -2188,10 +2191,12 @@
         "Defense": "4+",
         "points": 65,
         "rules": [
-          "Armor(3)",
           "Devout",
           "Hero",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Armor(3)"
         ]
       },
       "High Sister": {
@@ -2202,7 +2207,8 @@
           "Devout",
           "Hero",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Fanatic Superior": {
         "Quality": "5+",
@@ -2214,7 +2220,8 @@
           "Hero",
           "Piercing Charge",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Novice Leader": {
         "Quality": "5+",
@@ -2224,7 +2231,8 @@
           "Devout",
           "Hero",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Novice Sisters": {
         "Quality": "5+",
@@ -2232,7 +2240,8 @@
         "points": 110,
         "rules": [
           "Devout"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Fanatic Sisters": {
         "Quality": "5+",
@@ -2242,7 +2251,8 @@
           "Devout",
           "Fearless",
           "Piercing Charge"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Warrior Sisters": {
         "Quality": "4+",
@@ -2250,15 +2260,18 @@
         "points": 90,
         "rules": [
           "Devout"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Protector Sisters": {
         "Quality": "3+",
         "Defense": "4+",
         "points": 110,
         "rules": [
-          "Armor(3)",
           "Devout"
+        ],
+        "default_equipment_rules": [
+          "Armor(3)"
         ]
       },
       "Vanguard Sisters": {
@@ -2269,7 +2282,8 @@
           "Devout",
           "Scout",
           "Strider"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Pistoleer Sisters": {
         "Quality": "4+",
@@ -2279,7 +2293,8 @@
           "Devout",
           "Flying",
           "Relentless"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Assault Sisters": {
         "Quality": "4+",
@@ -2289,7 +2304,8 @@
           "Devout",
           "Flying",
           "Furious"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Celestial Warrior Sisters": {
         "Quality": "3+",
@@ -2297,7 +2313,8 @@
         "points": 95,
         "rules": [
           "Devout"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Vanguard Snipers": {
         "Quality": "4+",
@@ -2308,7 +2325,8 @@
           "Scout",
           "Stealth",
           "Strider"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Support Sisters": {
         "Quality": "4+",
@@ -2317,16 +2335,19 @@
         "rules": [
           "Devout",
           "Relentless"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Destroyer Sisters": {
         "Quality": "4+",
         "Defense": "4+",
         "points": 130,
         "rules": [
-          "Armor(3)",
           "Devout",
           "Tough(3)"
+        ],
+        "default_equipment_rules": [
+          "Armor(3)"
         ]
       },
       "Biker Sisters": {
@@ -2337,7 +2358,8 @@
           "Devout",
           "Fast",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Biker Fanatics": {
         "Quality": "5+",
@@ -2349,7 +2371,8 @@
           "Fearless",
           "Piercing Charge",
           "Tough(3)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Exo-Suit": {
         "Quality": "4+",
@@ -2359,7 +2382,8 @@
           "Devout",
           "Fear(1)",
           "Tough(6)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "APC": {
         "Quality": "4+",
@@ -2370,19 +2394,22 @@
           "Fast",
           "Tough(6)",
           "Transport(11)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Procession Altar": {
         "Quality": "4+",
         "Defense": "3+",
         "points": 205,
         "rules": [
-          "Bravery Buff",
           "Devout",
-          "Guarded Buff",
-          "Precision Fighter Buff",
           "Tough(6)",
           "Transport(6)"
+        ],
+        "default_equipment_rules": [
+          "Bravery Buff",
+          "Guarded Buff",
+          "Precision Fighter Buff"
         ]
       },
       "Infernal Attack Vehicle": {
@@ -2393,7 +2420,8 @@
           "Devout",
           "Fast",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Assault Walker": {
         "Quality": "4+",
@@ -2406,7 +2434,8 @@
           "Regeneration",
           "Scout",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Support Walker": {
         "Quality": "4+",
@@ -2419,7 +2448,8 @@
           "Fortified",
           "Regeneration",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Organ Tank": {
         "Quality": "4+",
@@ -2429,7 +2459,8 @@
           "Devout",
           "Fast",
           "Tough(9)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Battle Tank": {
         "Quality": "4+",
@@ -2439,7 +2470,8 @@
           "Devout",
           "Fast",
           "Tough(12)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Blessed Titan": {
         "Quality": "3+",
@@ -2449,7 +2481,8 @@
           "Devout",
           "Fear(4)",
           "Tough(24)"
-        ]
+        ],
+        "default_equipment_rules": []
       },
       "Constance": {
         "Quality": "4+",
@@ -2457,13 +2490,16 @@
         "points": 110,
         "rules": [
           "Devout",
-          "Increased Shooting Range",
           "Scout",
           "Strider",
           "Tough(3)",
           "Unique Hero"
+        ],
+        "default_equipment_rules": [
+          "Increased Shooting Range"
         ]
       }
-    }
+    },
+    "source": "Manually transcribed PDF pages 2–14."
   }
 }
