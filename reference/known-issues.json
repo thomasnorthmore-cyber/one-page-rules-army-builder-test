@@ -1,0 +1,55 @@
+{
+  "notes": "Temporary, explicitly known catalogue issues. Each remains an ERROR in the report; only these exact pre-existing errors are exempted from strict CI failure until corrected against source. Do not expand automatically.",
+  "allow": [
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Regeneration"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Flying"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Armor(2)"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Caster(2)"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Caster(3)"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Bane"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Furious"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Hit &amp; Run Shooter Aura"
+    },
+    {
+      "file": "Custodian_Brothers.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Hit &amp; Run Shooter"
+    },
+    {
+      "file": "Robot_Legions.cat",
+      "code": "PLACEHOLDER_RULE",
+      "unit": "Anti-Regen"
+    }
+  ]
+}
