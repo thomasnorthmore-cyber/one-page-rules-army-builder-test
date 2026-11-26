@@ -1,0 +1,3 @@
+# Watch Brothers v3.6.0 — draft
+
+13 source units, 21 default models, six spells, 55 conditional weapon profiles and 12 conditional unit-rule cases. Source: supplied PDF pp.2–8. Catalogue and source manifests committed, default loadout tests added. The PDF lists Targeting Array twice on the Drop Pod; one selection is implemented pending clarification, since identical effects are redundant. Enhanced Watchborn and Enhanced Versatile Warrior reference Versatile Attack in the source; wording is preserved rather than silently corrected. Optional equipment costs, alternative weapon profiles, legal model allocation and runtime behavior require further independent validation. Blood and Knight Brothers remain on their own branches. Do not mark Completed or claim runtime testing.
