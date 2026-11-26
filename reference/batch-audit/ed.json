@@ -1,0 +1,3819 @@
+{
+  "report": {
+    "file": "Eternal_Dynasty.cat",
+    "units": 26,
+    "spells": 6,
+    "localRules": 38,
+    "upgradeRows": 158,
+    "encodedGroups": 52,
+    "skipped": 24,
+    "missing": [
+      "Hand",
+      "A3) Burst Carbine (18\"",
+      "A4",
+      "Royal",
+      "Surge) Sage Staff (A2",
+      "- Take one Ninja Sword attachment +10pts Starjade Laser Mount (12\", A3, AP(2), Limited, Assault, +15pts Destructive)"
+    ],
+    "warnings": 3,
+    "bytes": 410024
+  },
+  "sourceUnits": [
+    {
+      "name": "ONI Captain",
+      "size": 1,
+      "points": 125,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Clan Warrior",
+        "Hero",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Flame-Fists",
+          "count": 1,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strike",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Rapid Charge Aura"
+              ],
+              "label": "Spirit-Core Bearer",
+              "p": 10,
+              "raw": "Spirit-Core Bearer (Rapid Charge Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fearless Aura"
+              ],
+              "label": "Sentinel",
+              "p": 25,
+              "raw": "Sentinel (Fearless Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Sergeant",
+              "p": 35,
+              "raw": "Sergeant (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Clan Warrior Aura"
+              ],
+              "label": "Captain",
+              "p": 35,
+              "raw": "Captain (Enhanced Clan Warrior Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Flame-Fists and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great ONI Glaive",
+                  "range": 0,
+                  "a": 8,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great ONI Glaive",
+              "p": 20,
+              "raw": "Great ONI Glaive (A8, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Great ONI Sword",
+                  "range": 0,
+                  "a": 8,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great ONI Sword",
+              "p": 25,
+              "raw": "Great ONI Sword (A8, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Protector Drone",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Great ONI Mace",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Protector Drone + Great ONI Mace",
+              "p": 25,
+              "raw": "Protector Drone (12\", A3, Assault), Great ONI Mace (A2, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "ONI Sword",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "ONI Shield",
+              "p": 35,
+              "raw": "ONI Sword (A6, Rending), ONI Shield (Armor(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Protector Drone",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Dual Heavy ONI Fists",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Protector Drone + Dual Heavy ONI Fists",
+              "p": 55,
+              "raw": "Protector Drone (12\", A3, Assault), Dual Heavy ONI Fists (A6, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Flame-Fists",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Rocket-Fists",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Rocket-Fists",
+              "p": 10,
+              "raw": "Dual Rocket-Fists (24\", A2, Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Gun-Fists",
+                  "range": 24,
+                  "a": 6,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Dual Gun-Fists",
+              "p": 15,
+              "raw": "Dual Gun-Fists (24\", A6)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Shredder-Fists",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Shredder-Fists",
+              "p": 35,
+              "raw": "Dual Shredder-Fists (18\", A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Fusion-Fists",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Fusion-Fists",
+              "p": 45,
+              "raw": "Dual Fusion-Fists (12\", A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Missile-Fists",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Missile-Fists",
+              "p": 45,
+              "raw": "Dual Missile-Fists (18\", A2, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Plasma-Fists",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Plasma-Fists",
+              "p": 55,
+              "raw": "Dual Plasma-Fists (18\", A6, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 15,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 40,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynasty Leader",
+      "size": 1,
+      "points": 65,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Ninja Sickles",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fearless Aura"
+              ],
+              "label": "Sentinel",
+              "p": 25,
+              "raw": "Sentinel (Fearless Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Sergeant",
+              "p": 35,
+              "raw": "Sergeant (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Clan Warrior Aura"
+              ],
+              "label": "Captain",
+              "p": 35,
+              "raw": "Captain (Enhanced Clan Warrior Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Counter in Melee Aura"
+              ],
+              "label": "Warlord",
+              "p": 35,
+              "raw": "Warlord (Counter in Melee Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Sage",
+              "p": 40,
+              "raw": "Sage (Caster(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Ninja Sickles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "A3) Burst Carbine (18\"",
+                "A4"
+              ],
+              "label": "Weapon",
+              "p": 10,
+              "raw": "Weapon (A3) Burst Carbine (18\", A4), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Shotgun",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Shotgun + Hand Weapon",
+              "p": 10,
+              "raw": "Burst Shotgun (12\", A4, AP(1)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Flame",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Royal"
+              ],
+              "label": "Spear-Flame",
+              "p": 15,
+              "raw": "Spear-Flame (6\", A1, Reliable, Anti-Cover, Assault), Royal"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Surge) Sage Staff (A2",
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear",
+              "p": 20,
+              "raw": "Spear (A3, AP(1), Surge) Sage Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Long Rifle",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Long Rifle + Hand Weapon",
+              "p": 25,
+              "raw": "Burst Long Rifle (30\", A3, AP(1)), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Flamer Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Auto-Shredder",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Auto-Shredder",
+              "p": 5,
+              "raw": "Auto-Shredder (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol",
+              "p": 5,
+              "raw": "Pistol (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 15,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ninja Sickle",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ninja Sickle",
+              "p": 15,
+              "raw": "Ninja Sickle (A3, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dynasty Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dynasty Sword",
+              "p": 20,
+              "raw": "Dynasty Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Ninja Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ninja Sword",
+              "p": 20,
+              "raw": "Ninja Sword (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hook Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hook Sword",
+              "p": 30,
+              "raw": "Hook Sword (A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Ninja Sickles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Dynasty Swords",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Dynasty Swords",
+              "p": 5,
+              "raw": "Dual Dynasty Swords (A4, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Ninja Swords",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Ninja Swords",
+              "p": 5,
+              "raw": "Dual Ninja Swords (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Hook Swords",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Hook Swords",
+              "p": 15,
+              "raw": "Dual Hook Swords (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Burst Pistols",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Burst Pistols",
+              "p": 20,
+              "raw": "Dual Burst Pistols (12\", A4, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Spear-Flame",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Spear-Shredder",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Shredder",
+              "p": 5,
+              "raw": "Spear-Shredder (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Shot",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Shot",
+              "p": 5,
+              "raw": "Spear-Shot (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Plasma",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Plasma",
+              "p": 10,
+              "raw": "Spear-Plasma (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Fuse",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Fuse",
+              "p": 15,
+              "raw": "Spear-Fuse (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Repel Ambushers"
+              ],
+              "label": "Hover Alert-Drone",
+              "p": 10,
+              "raw": "Hover Alert-Drone (Repel Ambushers)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Stealth",
+                "Teleport"
+              ],
+              "label": "Ninja Master",
+              "p": 25,
+              "raw": "Ninja Master (Ambush, Stealth, Teleport)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyber Lizards",
+      "size": 5,
+      "points": 60,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Clan Warrior",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Toxin Claws",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Hunt Master",
+              "p": 10,
+              "raw": "Combat Hunt Master (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Vanguard Hunt Master",
+              "p": 15,
+              "raw": "Vanguard Hunt Master (Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Attack Drones",
+      "size": 5,
+      "points": 100,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Drone Toxin Guns",
+          "count": 5,
+          "range": 18,
+          "a": 1,
+          "rs": [
+            "Bane"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Drone Toxin Guns",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drone Laser Gun",
+              "p": 35,
+              "raw": "Drone Laser Gun (18\", A1, AP(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drone Starjade Laser",
+              "p": 50,
+              "raw": "Drone Starjade Laser (24\", A1, AP(2), Destructive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warriors",
+      "size": 5,
+      "points": 110,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Long Rifles",
+          "count": 5,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Long Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Carbine",
+                  "range": 18,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Carbine",
+              "p": 5,
+              "raw": "Carbine (18\", A2)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shotgun",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shotgun",
+              "p": 10,
+              "raw": "Shotgun (12\", A2, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Long Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 5,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Rocket Pod",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shishi Turret",
+              "p": 15,
+              "raw": "Shishi Turret (Rocket Pod (24\", A1, Blast(3), Indirect))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 15,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 20,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 20,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Salvo",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shishi Turret",
+              "p": 20,
+              "raw": "Shishi Turret (Missile Salvo (18\", A1, AP(2), Deadly(3), Unstoppable))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Long Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Dynasty Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Dynasty Sword",
+              "p": 5,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Dynasty Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Pistols",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Pistols",
+              "p": 5,
+              "raw": "Dual Pistols (12\", A2, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Dynasty Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hook Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hook Sword",
+              "p": 5,
+              "raw": "Hook Sword (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Vengeance"
+              ],
+              "label": "Honor-Bound",
+              "p": 15,
+              "raw": "Honor-Bound (Vengeance)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover Aura"
+              ],
+              "label": "Energy Drone",
+              "p": 5,
+              "raw": "Energy Drone (Anti-Cover Aura)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scouts",
+      "size": 5,
+      "points": 120,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Clan Warrior",
+        "Scout"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Long Rifles",
+          "count": 5,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Long Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Carbine",
+                  "range": 18,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Carbine",
+              "p": 5,
+              "raw": "Carbine (18\", A2)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Long Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle",
+              "p": 10,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Anti-Cover"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Rifle",
+              "p": 10,
+              "raw": "Energy Rifle (30\", A1, AP(4), Anti-Cover)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Beacon"
+              ],
+              "label": "Dynastic Triangulator",
+              "p": 15,
+              "raw": "Dynastic Triangulator (Ambush Beacon)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover Aura"
+              ],
+              "label": "Energy Drone",
+              "p": 5,
+              "raw": "Energy Drone (Anti-Cover Aura)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ninja",
+      "size": 5,
+      "points": 125,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Ambush",
+        "Clan Warrior",
+        "Stealth",
+        "Teleport"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Ninja Sickles",
+          "count": 5,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Bane",
+            "Imprecise"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dual Ninja Sickles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Ninja Swords",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Imprecise",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Ninja Swords",
+              "p": 10,
+              "raw": "Dual Ninja Swords (A2, Imprecise, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Auto-Gun",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Ninja Sickle",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Auto-Gun + Ninja Sickle",
+              "p": 40,
+              "raw": "Auto-Gun (12\", A1, Assault), Ninja Sickle (A1, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Auto-Gun",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Ninja Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Auto-Gun + Ninja Sword",
+              "p": 45,
+              "raw": "Auto-Gun (12\", A1, Assault), Ninja Sword (A1, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Auto-Guns",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Auto-Guns",
+              "p": 60,
+              "raw": "Dual Auto-Guns (12\", A2, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Royal Guard",
+      "size": 5,
+      "points": 190,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Regeneration",
+        "Versatile Expert"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Spear-Flames",
+          "count": 5,
+          "range": 6,
+          "a": 1,
+          "rs": [
+            "Reliable",
+            "Anti-Cover",
+            "Assault"
+          ]
+        },
+        {
+          "n": "Royal Spears",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Vengeance"
+              ],
+              "label": "Honor-Bound",
+              "p": 15,
+              "raw": "Honor-Bound (Vengeance)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Spear-Flames",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Spear-Shot",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Shot",
+              "p": 5,
+              "raw": "Spear-Shot (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Shredder",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Shredder",
+              "p": 25,
+              "raw": "Spear-Shredder (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Plasma",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Plasma",
+              "p": 65,
+              "raw": "Spear-Plasma (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear-Fuse",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spear-Fuse",
+              "p": 65,
+              "raw": "Spear-Fuse (6\", A1, AP(4), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyber-Bird Swarms",
+      "size": 3,
+      "points": 120,
+      "quality": "5+",
+      "defense": "6+",
+      "rules": [
+        "Clan Warrior",
+        "Flying",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Sharp Beaks",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Rending"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Hunt Master",
+              "p": 15,
+              "raw": "Combat Hunt Master (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Vanguard Hunt Master",
+              "p": 15,
+              "raw": "Vanguard Hunt Master (Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ONIs",
+      "size": 3,
+      "points": 170,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Clan Warrior",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Flame-Fists",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Vengeance"
+              ],
+              "label": "Honor-Bound",
+              "p": 15,
+              "raw": "Honor-Bound (Vengeance)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 45,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Dual Flame-Fists and Strikes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "ONI Glaive",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "ONI Glaive",
+              "p": 5,
+              "raw": "ONI Glaive (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual ONI Fists",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual ONI Fists",
+              "p": 30,
+              "raw": "Dual ONI Fists (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "ONI Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "ONI Shield",
+              "p": 55,
+              "raw": "ONI Sword (A3, Rending), ONI Shield (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Dual Flame-Fists",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Rocket-Fists",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Rocket-Fists",
+              "p": 5,
+              "raw": "Dual Rocket-Fists (24\", A1, Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Gun-Fists",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Dual Gun-Fists",
+              "p": 10,
+              "raw": "Dual Gun-Fists (24\", A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Shredder-Fists",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Shredder-Fists",
+              "p": 20,
+              "raw": "Dual Shredder-Fists (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Fusion-Fists",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Fusion-Fists",
+              "p": 20,
+              "raw": "Dual Fusion-Fists (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Missile-Fists",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Missile-Fists",
+              "p": 20,
+              "raw": "Dual Missile-Fists (18\", A1, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Plasma-Fists",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Plasma-Fists",
+              "p": 30,
+              "raw": "Dual Plasma-Fists (18\", A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 25,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 60,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cyber Beast",
+      "size": 1,
+      "points": 115,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Furious",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Claws",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Hunt Master",
+              "p": 15,
+              "raw": "Combat Hunt Master (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Vanguard Hunt Master",
+              "p": 25,
+              "raw": "Vanguard Hunt Master (Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynasty APC",
+      "size": 1,
+      "points": 170,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Light Hull Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Light Hull Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Heavy Flamer",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Heavy Flamer",
+              "p": 25,
+              "raw": "Hull Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Laser Gun",
+                  "range": 18,
+                  "a": 4,
+                  "rs": [
+                    "AP(3)",
+                    "Anti-Cover"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Laser Gun",
+              "p": 35,
+              "raw": "Hull Laser Gun (18\", A4, AP(3), Anti-Cover)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Auto-Shredder",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Auto-Shredder",
+              "p": 40,
+              "raw": "Hull Auto-Shredder (18\", A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Starjade Laser",
+                  "range": 24,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Starjade Laser",
+              "p": 80,
+              "raw": "Hull Starjade Laser (24\", A6, AP(2), Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Speeder",
+      "size": 1,
+      "points": 200,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Linked Laser Gun Array",
+          "count": 1,
+          "range": 18,
+          "a": 4,
+          "rs": [
+            "AP(3)",
+            "Anti-Cover"
+          ]
+        },
+        {
+          "n": "Hull Laser Gun",
+          "count": 1,
+          "range": 18,
+          "a": 2,
+          "rs": [
+            "AP(3)",
+            "Anti-Cover"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Linked Laser Gun Array",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Linked Heavy Laser Gun",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked Heavy Laser Gun",
+              "p": 15,
+              "raw": "Linked Heavy Laser Gun (18\", A2, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked Heavy Starjade Laser",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked Heavy Starjade Laser",
+              "p": 25,
+              "raw": "Linked Heavy Starjade Laser (24\", A2, AP(2), Deadly(3), Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked Starjade Laser Array",
+                  "range": 24,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked Starjade Laser Array",
+              "p": 45,
+              "raw": "Linked Starjade Laser Array (24\", A6, AP(2), Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Laser Gun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Assault Heavy Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Assault Heavy Flamer",
+              "p": 5,
+              "raw": "Hull Assault Heavy Flamer (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Assault Auto-Shredder",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Assault Auto-Shredder",
+              "p": 10,
+              "raw": "Hull Assault Auto-Shredder (9\", A3, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Assault Laser Gun",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Assault Laser Gun",
+              "p": 10,
+              "raw": "Hull Assault Laser Gun (9\", A2, AP(3), Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Assault Starjade Laser",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Assault Starjade Laser",
+              "p": 40,
+              "raw": "Hull Assault Starjade Laser (12\", A3, AP(2), Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Mark"
+              ],
+              "label": "Targeting Beam",
+              "p": 10,
+              "raw": "Targeting Beam (Increased Shooting Range Mark)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ninja Walker",
+      "size": 1,
+      "points": 260,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Ambush",
+        "Clan Warrior",
+        "Fear(2)",
+        "Stealth",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Ninja Sword",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "Shred"
+          ]
+        },
+        {
+          "n": "Stomp Laser Gun Mount (9\", A2, AP(3), Limited, Anti-Cover, Assault)",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "- Take one Ninja Sword attachment +10pts Starjade Laser Mount (12\", A3, AP(2), Limited, Assault, +15pts Destructive)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Ninja Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Auto-Shredder",
+                  "range": 9,
+                  "a": 6,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Auto-Shredder",
+              "p": 45,
+              "raw": "Burst Auto-Shredder (9\", A6, Rending, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Teleport"
+              ],
+              "label": "Displacement Pack",
+              "p": 15,
+              "raw": "Displacement Pack (Teleport)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Rope-Blade",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Rope-Blade",
+              "p": 35,
+              "raw": "Rope-Blade (12\", A3, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Rope-Sickle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Rope-Sickle",
+              "p": 40,
+              "raw": "Rope-Sickle (9\", A3, Assault, Bane)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Mark"
+              ],
+              "label": "Targeting Beam",
+              "p": 10,
+              "raw": "Targeting Beam (Increased Shooting Range Mark)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ONI Walker",
+      "size": 1,
+      "points": 365,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Clan Warrior",
+        "Fear(2)",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Super-Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "AP(2)",
+            "Blast(6)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Super-Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Rocket-Swarm Launcher",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(6)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Rocket-Swarm Launcher",
+              "p": 40,
+              "raw": "Heavy Rocket-Swarm Launcher (24\", A2, AP(1), Blast(6), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Blast Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Blast Cannon",
+              "p": 45,
+              "raw": "Heavy Blast Cannon (30\", A2, AP(2), Blast(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Missile-Swarm Launcher",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(6)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Missile-Swarm Launcher",
+              "p": 45,
+              "raw": "Heavy Missile-Swarm Launcher (18\", A2, AP(3), Deadly(6), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Strike Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Strike Cannon",
+              "p": 110,
+              "raw": "Heavy Strike Cannon (30\", A2, AP(4), Deadly(6))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Laser Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Laser Gun (18\", A1, AP(3), Limited))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Starjade Laser",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Limited",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Attack Drone",
+              "p": 5,
+              "raw": "Attack Drone (Drone Starjade Laser (24\", A1, AP(2), Limited, Destructive))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Shield Drone",
+              "p": 30,
+              "raw": "Shield Drone (Stealth)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynasty Tank",
+      "size": 1,
+      "points": 410,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Clan Warrior",
+        "Fast",
+        "Strider",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hull Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Artillery Gun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Artillery Gun",
+              "p": 50,
+              "raw": "Artillery Gun (30\", A3, AP(1), Blast(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Anti-Tank Cannon",
+              "p": 55,
+              "raw": "Anti-Tank Cannon (30\", A3, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Autocannon",
+                  "range": 36,
+                  "a": 9,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Autocannon",
+              "p": 75,
+              "raw": "Autocannon (36\", A9, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Laser Gun",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Anti-Cover"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Laser Gun",
+              "p": 5,
+              "raw": "Hull Laser Gun (18\", A2, AP(3), Anti-Cover)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Auto-Shredder",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Auto-Shredder",
+              "p": 5,
+              "raw": "Hull Auto-Shredder (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Starjade Laser",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Starjade Laser",
+              "p": 25,
+              "raw": "Hull Starjade Laser (24\", A3, AP(2), Destructive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Samurai Titan",
+      "size": 1,
+      "points": 590,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Clan Warrior",
+        "Fear(3)",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Titan Sword",
+          "count": 1,
+          "range": 0,
+          "a": 16,
+          "rs": [
+            "Rending"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Titan Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Titan Plasma Arm-Gun",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Plasma Arm-Gun",
+              "p": 20,
+              "raw": "Titan Plasma Arm-Gun (18\", A3, AP(2), Blast(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Shredder Arm-Gun",
+                  "range": 18,
+                  "a": 18,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Shredder Arm-Gun",
+              "p": 75,
+              "raw": "Titan Shredder Arm-Gun (18\", A18, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Laser Arm-Gun",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Laser Arm-Gun",
+              "p": 95,
+              "raw": "Titan Laser Arm-Gun (18\", A3, AP(4), Deadly(6))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Force Field",
+              "p": 45,
+              "raw": "Force Field (Stealth)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artillery Titan",
+      "size": 1,
+      "points": 630,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Clan Warrior",
+        "Fear(3)",
+        "Slow",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Titan Blast Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 2,
+          "rs": [
+            "AP(3)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "n": "Rocket Pod",
+          "count": 1,
+          "range": 24,
+          "a": 2,
+          "rs": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Titan Blast Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Titan Strike Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Strike Cannon",
+              "p": 40,
+              "raw": "Titan Strike Cannon (30\", A2, AP(4), Deadly(6))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Rocket Pod",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Missile Salvo",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Missile Salvo",
+              "p": 15,
+              "raw": "Missile Salvo (18\", A2, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Rockets",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Rockets",
+              "p": 20,
+              "raw": "Disposable Guided Rockets (24\", A2, Blast(3), Indirect, Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Missiles",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Missiles",
+              "p": 40,
+              "raw": "Disposable Guided Missiles (24\", A2, AP(2), Deadly(3), Indirect, Limited)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Macaque Titan",
+      "size": 1,
+      "points": 700,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Bounding",
+        "Clan Warrior",
+        "Fear(3)",
+        "Furious",
+        "Strider",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Titan Heavy Fists",
+          "count": 1,
+          "range": 0,
+          "a": 8,
+          "rs": [
+            "AP(4)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Titan Heavy Fists",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Titan Fists",
+                  "range": 0,
+                  "a": 12,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Fists",
+              "p": 15,
+              "raw": "Titan Fists (A12, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Eye Laser Gun",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Eye Laser Gun",
+              "p": 55,
+              "raw": "Eye Laser Gun (9\", A2, AP(3), Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Starjade Eye Laser",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Starjade Eye Laser",
+              "p": 95,
+              "raw": "Starjade Eye Laser (12\", A3, AP(2), Assault, Destructive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dragon Titan",
+      "size": 1,
+      "points": 735,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Caster(4)",
+        "Clan Warrior",
+        "Fear(3)",
+        "Flying",
+        "Regeneration",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dynasty Strike",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dynasty Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dragon Bite",
+                  "range": 0,
+                  "a": 12,
+                  "rs": [
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dragon Bite",
+              "p": 5,
+              "raw": "Dragon Bite (A12, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Jade Claws",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)",
+                    "Anti-Regen"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Jade Claws",
+              "p": 45,
+              "raw": "Jade Claws (A2, AP(4), Deadly(6), Anti-Regen)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flame Breath",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flame Breath",
+              "p": 25,
+              "raw": "Flame Breath (6\", A1, Blast(3), Reliable, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Captain WuKaon",
+      "size": 1,
+      "points": 165,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Bounding",
+        "Clan Warrior",
+        "Furious",
+        "Tough(6)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Relic Dual-Mace",
+          "count": 1,
+          "range": 0,
+          "a": 8,
+          "rs": [
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fortified"
+              ],
+              "label": "Saryu Armour",
+              "p": 20,
+              "raw": "Saryu Armour (Fortified)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Syen & Xaotyan",
+      "size": 1,
+      "points": 160,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Tough(3)",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Stun Staff",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "AP(1)",
+            "Surge"
+          ]
+        },
+        {
+          "n": "Tiger Claws",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Xaotyan",
+          "rs": [
+            "Tough(3)"
+          ]
+        }
+      ],
+      "upgrades": []
+    },
+    {
+      "name": "Sergeant Wou",
+      "size": 1,
+      "points": 120,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Ambush",
+        "Clan Warrior",
+        "Stealth",
+        "Teleport",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Vine-Hook",
+          "count": 1,
+          "range": 6,
+          "a": 1,
+          "rs": [
+            "AP(4)",
+            "Assault"
+          ]
+        },
+        {
+          "n": "Hwan Spear",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Destructive"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": []
+    },
+    {
+      "name": "Commander Xao",
+      "size": 1,
+      "points": 110,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Precision Fighter",
+        "Regeneration",
+        "Repel Ambushers",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Royal Swords",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Myushu992",
+          "rs": [
+            "Repel Ambushers"
+          ]
+        },
+        {
+          "n": "Dynastic Banner",
+          "rs": [
+            "Precision Fighter"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Dynastic Banner",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Fighter Aura"
+              ],
+              "label": "Dynastic Banner - Leader",
+              "p": 15,
+              "raw": "Dynastic Banner - Leader (Precision Fighter Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sage Myan",
+      "size": 1,
+      "points": 110,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Caster(2)",
+        "Clan Warrior",
+        "Repel Ambushers",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Spirit Blast",
+          "count": 1,
+          "range": 9,
+          "a": 3,
+          "rs": [
+            "Assault",
+            "Unstoppable"
+          ]
+        },
+        {
+          "n": "Spirit Pulse",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Unstoppable"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Hover Alert-Drone",
+          "rs": [
+            "Repel Ambushers"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Casting Buff"
+              ],
+              "label": "Golden Avatar",
+              "p": 10,
+              "raw": "Golden Avatar (Casting Buff)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Captain Lyao",
+      "size": 1,
+      "points": 90,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Clan Warrior",
+        "Rapid Advance",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Twin Shotgun",
+          "count": 1,
+          "range": 12,
+          "a": 4,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Ironbane Swords",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Seasoned Captain",
+          "rs": [
+            "Rapid Advance"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Seasoned Captain",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Rapid Advance Aura"
+              ],
+              "label": "Seasoned Captain - Leader",
+              "p": 15,
+              "raw": "Seasoned Captain - Leader (Rapid Advance Aura)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Dynasty Leader",
+      "Replace Dual Ninja Sickles",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Dual Ninja Sickles",
+      "Weapon (A3) Burst Carbine (18\", A4), Hand Weapon (A1)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Dual Ninja Sickles",
+      "Spear-Flame (6\", A1, Reliable, Anti-Cover, Assault), Royal",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Dual Ninja Sickles",
+      "Spear (A3, AP(1), Surge) Sage Staff (A2, Spell Amplifier)",
+      "unknown or malformed rule"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Rocket-Fists (24\", A2, Blast(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Gun-Fists (24\", A6)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Shredder-Fists (18\", A6, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Fusion-Fists (12\", A2, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Missile-Fists (18\", A2, AP(2), Deadly(3), Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "ONI Captain",
+      "Replace Dual Flame-Fists",
+      "Dual Plasma-Fists (18\", A6, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Flamer Pistol",
+      "Auto-Shredder (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Flamer Pistol",
+      "Pistol (12\", A1, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Flamer Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Flamer Pistol",
+      "Fusion Pistol (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Spear-Flame",
+      "Spear-Shredder (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Spear-Flame",
+      "Spear-Shot (12\", A1, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Spear-Flame",
+      "Spear-Plasma (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dynasty Leader",
+      "Replace Spear-Flame",
+      "Spear-Fuse (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Shishi Turret (Rocket Pod (24\", A1, Blast(3), Indirect))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Plasma Rifle (24\", A2, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Shredder Rifle (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Long Rifle",
+      "Shishi Turret (Missile Salvo (18\", A1, AP(2), Deadly(3), Unstoppable))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Warriors: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation",
+    "Scouts: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation",
+    "ONIs: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation"
+  ]
+}

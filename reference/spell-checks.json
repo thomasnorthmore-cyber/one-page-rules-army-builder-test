@@ -159,5 +159,197 @@
       3,
       "6 hits with Hazardous"
     ]
+  ],
+  "Eternal_Dynasty.cat": [
+    [
+      "Spirit Power",
+      1,
+      "Pick one friendly unit within 12\", which gets Flying once (n"
+    ],
+    [
+      "Dragon Breath",
+      1,
+      "Pick one enemy unit within 12\" in line of sight, which takes"
+    ],
+    [
+      "Eternal Guidance",
+      2,
+      "Pick up to two enemy units within 18\" in line of sight, whic"
+    ],
+    [
+      "Mind Vortex",
+      2,
+      "Pick up to two enemy units within 6\", which take 4 hits with"
+    ],
+    [
+      "Spirit Resolve",
+      3,
+      "Pick up to three friendly units within 18\", which get Enhanc"
+    ],
+    [
+      "Soul Spear",
+      3,
+      "Pick one enemy model within 30\" in line of sight, which take"
+    ]
+  ],
+  "Elven_Jesters.cat": [
+    [
+      "Asphyxiating Fog",
+      1,
+      "Pick one friendly unit within 12\", which gets Counter in Mel"
+    ],
+    [
+      "Blades of Discord",
+      1,
+      "Pick one enemy unit within 6\", which takes 1 hit with AP(2) "
+    ],
+    [
+      "Veil of Madness",
+      2,
+      "Pick up to two enemy units within 18\" in line of sight, whic"
+    ],
+    [
+      "Light Fragments",
+      2,
+      "Pick one enemy unit within 12\" in line of sight, which takes"
+    ],
+    [
+      "Shadow Dance",
+      3,
+      "Pick up to three friendly units within 18\", which get Enhanc"
+    ],
+    [
+      "Fatal Sorrow",
+      3,
+      "Pick one enemy unit within 24\" in line of sight, which takes"
+    ]
+  ],
+  "Dwarf_Guilds.cat": [
+    [
+      "Deceleration Rune",
+      1,
+      "Pick one enemy unit within 18\" in line of sight, which moves"
+    ],
+    [
+      "Cleaving Rune",
+      1,
+      "Pick one enemy unit within 18\" in line of sight, which takes"
+    ],
+    [
+      "Battle Rune",
+      2,
+      "Pick up to two friendly units within 12\", which get +6\" rang"
+    ],
+    [
+      "Smiting Rune",
+      2,
+      "Pick one enemy unit within 12\" in line of sight, which takes"
+    ],
+    [
+      "Armor Rune",
+      3,
+      "Pick up to three friendly units within 18\", which get Enhanc"
+    ],
+    [
+      "Breaking Rune",
+      3,
+      "Pick one enemy model within 24\" in line of sight, which take"
+    ]
+  ],
+  "Dark_Elf_Raiders.cat": [
+    [
+      "Psy-Adrenaline",
+      1,
+      "Pick one friendly unit within 12\", which gets Enhanced Haras"
+    ],
+    [
+      "Art of Pain",
+      1,
+      "Pick one enemy unit within 6\", which takes 1 hit with AP(2) "
+    ],
+    [
+      "Raiding Drugs",
+      2,
+      "Pick up to two enemy units within 18\" in line of sight, whic"
+    ],
+    [
+      "Snake Bite",
+      2,
+      "Pick one enemy unit within 18\" in line of sight, which takes"
+    ],
+    [
+      "Fade in the Dark",
+      3,
+      "Pick up to three friendly units within 18\", which get Stealt"
+    ],
+    [
+      "Holistic Suffering",
+      3,
+      "Pick one enemy unit within 18\" in line of sight, which takes"
+    ]
+  ],
+  "DAO_Union.cat": [
+    [
+      "Aura of Peace",
+      1,
+      "Pick one friendly unit within 12\", which gets Fearless once "
+    ],
+    [
+      "Killing Blow",
+      1,
+      "Pick one enemy model within 18\" in line of sight, which take"
+    ],
+    [
+      "Coordinated Aggression",
+      2,
+      "Pick up to two enemy units within 18\" in line of sight, whic"
+    ],
+    [
+      "Devastating Strike",
+      2,
+      "Pick one enemy unit within 12\" in line of sight, which takes"
+    ],
+    [
+      "Psychic Stabilization",
+      3,
+      "Pick up to three friendly units within 18\", which get Enhanc"
+    ],
+    [
+      "Deadly Surge",
+      3,
+      "Pick one enemy unit within 12\", which takes 9 hits with Bane"
+    ]
+  ],
+  "Blessed_Sisters.cat": [
+    [
+      "Burn the Heretic",
+      1,
+      "Pick one enemy unit within 18\" in line of sight, which loses"
+    ],
+    [
+      "Eternal Flame",
+      1,
+      "Pick one enemy unit within 12\" in line of sight, which takes"
+    ],
+    [
+      "Holy Rage",
+      2,
+      "Pick up to two friendly units within 12\", which get Piercing"
+    ],
+    [
+      "Searing Admonition",
+      2,
+      "Pick one enemy unit within 18\" in line of sight, which takes"
+    ],
+    [
+      "Litanies of War",
+      3,
+      "Pick up to three friendly units within 18\", which get Enhanc"
+    ],
+    [
+      "Righteous Wrath",
+      3,
+      "Pick one enemy model within 24\" in line of sight, which take"
+    ]
   ]
 }

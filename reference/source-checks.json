@@ -873,5 +873,1495 @@
         ]
       }
     }
+  },
+  "Eternal_Dynasty.cat": {
+    "units": {
+      "ONI Captain": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125,
+        "rules": [
+          "Clan Warrior",
+          "Hero",
+          "Tough(6)"
+        ]
+      },
+      "Dynasty Leader": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 65,
+        "rules": [
+          "Clan Warrior",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Cyber Lizards": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 60,
+        "rules": [
+          "Clan Warrior",
+          "Strider"
+        ]
+      },
+      "Attack Drones": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 100,
+        "rules": [
+          "Clan Warrior",
+          "Strider"
+        ]
+      },
+      "Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110,
+        "rules": [
+          "Clan Warrior"
+        ]
+      },
+      "Scouts": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 120,
+        "rules": [
+          "Clan Warrior",
+          "Scout"
+        ]
+      },
+      "Ninja": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 125,
+        "rules": [
+          "Ambush",
+          "Clan Warrior",
+          "Stealth",
+          "Teleport"
+        ]
+      },
+      "Royal Guard": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 190,
+        "rules": [
+          "Clan Warrior",
+          "Regeneration",
+          "Versatile Expert"
+        ]
+      },
+      "Cyber-Bird Swarms": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 120,
+        "rules": [
+          "Clan Warrior",
+          "Flying",
+          "Tough(3)"
+        ]
+      },
+      "ONIs": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170,
+        "rules": [
+          "Clan Warrior",
+          "Tough(3)"
+        ]
+      },
+      "Cyber Beast": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 115,
+        "rules": [
+          "Clan Warrior",
+          "Furious",
+          "Tough(6)"
+        ]
+      },
+      "Dynasty APC": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 170,
+        "rules": [
+          "Clan Warrior",
+          "Fast",
+          "Strider",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Dragon Speeder": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 200,
+        "rules": [
+          "Clan Warrior",
+          "Fast",
+          "Strider",
+          "Tough(6)"
+        ]
+      },
+      "Ninja Walker": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 260,
+        "rules": [
+          "Ambush",
+          "Clan Warrior",
+          "Fear(2)",
+          "Stealth",
+          "Tough(9)"
+        ]
+      },
+      "ONI Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 365,
+        "rules": [
+          "Clan Warrior",
+          "Fear(2)",
+          "Tough(12)"
+        ]
+      },
+      "Dynasty Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 410,
+        "rules": [
+          "Clan Warrior",
+          "Fast",
+          "Strider",
+          "Tough(12)"
+        ]
+      },
+      "Samurai Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 590,
+        "rules": [
+          "Clan Warrior",
+          "Fear(3)",
+          "Tough(18)"
+        ]
+      },
+      "Artillery Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 630,
+        "rules": [
+          "Clan Warrior",
+          "Fear(3)",
+          "Slow",
+          "Tough(18)"
+        ]
+      },
+      "Macaque Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 700,
+        "rules": [
+          "Bounding",
+          "Clan Warrior",
+          "Fear(3)",
+          "Furious",
+          "Strider",
+          "Tough(18)"
+        ]
+      },
+      "Dragon Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 735,
+        "rules": [
+          "Caster(4)",
+          "Clan Warrior",
+          "Fear(3)",
+          "Flying",
+          "Regeneration",
+          "Tough(18)"
+        ]
+      },
+      "Captain WuKaon": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 165,
+        "rules": [
+          "Bounding",
+          "Clan Warrior",
+          "Furious",
+          "Tough(6)",
+          "Unique Hero"
+        ]
+      },
+      "Syen & Xaotyan": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 160,
+        "rules": [
+          "Clan Warrior",
+          "Scout",
+          "Stealth",
+          "Strider",
+          "Tough(3)",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      },
+      "Sergeant Wou": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 120,
+        "rules": [
+          "Ambush",
+          "Clan Warrior",
+          "Stealth",
+          "Teleport",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      },
+      "Commander Xao": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 110,
+        "rules": [
+          "Clan Warrior",
+          "Precision Fighter",
+          "Regeneration",
+          "Repel Ambushers",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      },
+      "Sage Myan": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110,
+        "rules": [
+          "Caster(2)",
+          "Clan Warrior",
+          "Repel Ambushers",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      },
+      "Captain Lyao": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 90,
+        "rules": [
+          "Clan Warrior",
+          "Rapid Advance",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      }
+    }
+  },
+  "Elven_Jesters.cat": {
+    "units": {
+      "Master Jester": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 70,
+        "rules": [
+          "Armor(4)",
+          "Furious",
+          "Hero",
+          "Rapid Blink",
+          "Stealth",
+          "Tough(3)"
+        ]
+      },
+      "Fool Champion": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 50,
+        "rules": [
+          "Furious",
+          "Hero",
+          "Rapid Blink",
+          "Stealth",
+          "Tough(3)"
+        ]
+      },
+      "Fools": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 95,
+        "rules": [
+          "Furious",
+          "Rapid Blink",
+          "Stealth"
+        ]
+      },
+      "Tricksters": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 110,
+        "rules": [
+          "Furious",
+          "Rapid Blink",
+          "Stealth"
+        ]
+      },
+      "Pranksters": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 130,
+        "rules": [
+          "Furious",
+          "Rapid Blink",
+          "Regeneration",
+          "Scout",
+          "Stealth"
+        ]
+      },
+      "Jesters": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 145,
+        "rules": [
+          "Furious",
+          "Rapid Blink",
+          "Stealth"
+        ]
+      },
+      "Solitaires": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 95,
+        "rules": [
+          "Rapid Blink",
+          "Stealth"
+        ]
+      },
+      "Jokers": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 140,
+        "rules": [
+          "Flying",
+          "Furious",
+          "Rapid Blink",
+          "Stealth"
+        ]
+      },
+      "Raptor Riders": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 200,
+        "rules": [
+          "Armor(4)",
+          "Fast",
+          "Furious",
+          "Impact(3)",
+          "Rapid Blink",
+          "Stealth",
+          "Tough(3)"
+        ]
+      },
+      "Jetbike Riders": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 315,
+        "rules": [
+          "Fast",
+          "Furious",
+          "Rapid Blink",
+          "Stealth",
+          "Strider",
+          "Tough(3)"
+        ]
+      },
+      "Heavy Jetbike": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 245,
+        "rules": [
+          "Fast",
+          "Furious",
+          "Rapid Blink",
+          "Stealth",
+          "Strider",
+          "Tough(6)"
+        ]
+      }
+    }
+  },
+  "Dwarf_Guilds.cat": {
+    "units": {
+      "Powersuit Champion": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 125,
+        "rules": [
+          "Hero",
+          "Slow",
+          "Sturdy",
+          "Tough(6)"
+        ]
+      },
+      "Dwarf Champion": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 65,
+        "rules": [
+          "Fortified",
+          "Hero",
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Berserker Veteran": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 55,
+        "rules": [
+          "Fearless",
+          "Furious",
+          "Hero",
+          "Melee Slayer",
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Guardians": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 55,
+        "rules": [
+          "Fortified",
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Dwarf Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 75,
+        "rules": [
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Berserkers": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 80,
+        "rules": [
+          "Fearless",
+          "Furious",
+          "Melee Slayer",
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Elites": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 95,
+        "rules": [
+          "Fearless",
+          "Fortified",
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Miners": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 100,
+        "rules": [
+          "Infiltrate",
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Jetpack Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 105,
+        "rules": [
+          "Flying",
+          "Sturdy"
+        ]
+      },
+      "Iron Veterans": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 115,
+        "rules": [
+          "Slow",
+          "Sturdy"
+        ]
+      },
+      "Sniper Team": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 85,
+        "rules": [
+          "Scout",
+          "Slow",
+          "Stealth",
+          "Sturdy"
+        ]
+      },
+      "Thunder Support": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 150,
+        "rules": [
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Dwarf Bikers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 165,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Powersuit Guard": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 170,
+        "rules": [
+          "Fortified",
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Mine-Bot Guard": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 215,
+        "rules": [
+          "Fearless",
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Dwarf Trike": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 120,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(6)"
+        ]
+      },
+      "APC": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 150,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Attack Vehicle": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 165,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(6)"
+        ]
+      },
+      "Assault Drill": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 215,
+        "rules": [
+          "Ambush",
+          "Sturdy",
+          "Tough(9)",
+          "Transport(11)"
+        ]
+      },
+      "Land Train": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 345,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(12)"
+        ]
+      },
+      "Dwarf Walker": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 350,
+        "rules": [
+          "Fear(2)",
+          "Sturdy",
+          "Tough(12)"
+        ]
+      },
+      "Battle Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 365,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(12)"
+        ]
+      },
+      "Artillery Gun": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 105,
+        "rules": [
+          "Artillery",
+          "Cumbersome",
+          "Slow",
+          "Sturdy",
+          "Tough(3)"
+        ]
+      },
+      "Fortress Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 540,
+        "rules": [
+          "Fast",
+          "Sturdy",
+          "Tough(18)"
+        ]
+      },
+      "Mining Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 610,
+        "rules": [
+          "Fear(3)",
+          "Sturdy",
+          "Tough(18)"
+        ]
+      },
+      "Combat Excavator": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 710,
+        "rules": [
+          "Sturdy",
+          "Tough(24)"
+        ]
+      },
+      "Hadrund oth Irnwuld": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 105,
+        "rules": [
+          "Fearless",
+          "Fortified",
+          "Infiltrate",
+          "Slow",
+          "Sturdy",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      }
+    }
+  },
+  "Dark_Elf_Raiders.cat": {
+    "units": {
+      "Dark Lord": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 65,
+        "rules": [
+          "Harassing",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Elite True Raider": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 60,
+        "rules": [
+          "Harassing",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Gene-Tech Master": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 55,
+        "rules": [
+          "Harassing",
+          "Hero",
+          "Regeneration",
+          "Tough(3)"
+        ]
+      },
+      "Elite Raider": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 45,
+        "rules": [
+          "Harassing",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Blood Hounds": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 65,
+        "rules": [
+          "Fast",
+          "Harassing"
+        ]
+      },
+      "Gene-Warriors": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 80,
+        "rules": [
+          "Harassing",
+          "Regeneration"
+        ]
+      },
+      "Warriors": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 80,
+        "rules": [
+          "Harassing"
+        ]
+      },
+      "Nightmares": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 85,
+        "rules": [
+          "Harassing",
+          "Melee Slayer"
+        ]
+      },
+      "Witches": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 100,
+        "rules": [
+          "Dodge",
+          "Harassing"
+        ]
+      },
+      "Winged Warriors": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 125,
+        "rules": [
+          "Flying",
+          "Harassing"
+        ]
+      },
+      "Hoverboard Riders": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 135,
+        "rules": [
+          "Agile",
+          "Harassing",
+          "Scout",
+          "Strider"
+        ]
+      },
+      "Shadow Warriors": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 165,
+        "rules": [
+          "Harassing",
+          "Infiltrate",
+          "Stealth",
+          "Strider"
+        ]
+      },
+      "True Warriors": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 85,
+        "rules": [
+          "Harassing"
+        ]
+      },
+      "Dark Snipers": {
+        "Quality": "4+",
+        "Defense": "5+",
+        "points": 85,
+        "rules": [
+          "Harassing",
+          "Scout",
+          "Stealth"
+        ]
+      },
+      "True Witches": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 105,
+        "rules": [
+          "Dodge",
+          "Harassing"
+        ]
+      },
+      "Crow Swarms": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 105,
+        "rules": [
+          "Flying",
+          "Harassing",
+          "Tough(3)"
+        ]
+      },
+      "Court Henchmen": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 145,
+        "rules": [
+          "Harassing",
+          "Martial Prowess"
+        ]
+      },
+      "Gene-Brutes": {
+        "Quality": "3+",
+        "Defense": "5+",
+        "points": 200,
+        "rules": [
+          "Harassing",
+          "Regeneration",
+          "Tough(3)"
+        ]
+      },
+      "Jetbike Riders": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 200,
+        "rules": [
+          "Fast",
+          "Harassing",
+          "Strider",
+          "Tough(3)"
+        ]
+      },
+      "Clawed Beast": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 120,
+        "rules": [
+          "Furious",
+          "Harassing",
+          "Tough(6)"
+        ]
+      },
+      "Leech Engine": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 145,
+        "rules": [
+          "Fear(1)",
+          "Fearless",
+          "Harassing",
+          "Relentless",
+          "Tough(6)"
+        ]
+      },
+      "Engine of Suffering": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 155,
+        "rules": [
+          "Fear(1)",
+          "Fearless",
+          "Harassing",
+          "Regeneration",
+          "Tough(6)"
+        ]
+      },
+      "Heavy Jetbike": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 160,
+        "rules": [
+          "Fast",
+          "Harassing",
+          "Strider",
+          "Tough(6)"
+        ]
+      },
+      "Light Skimmer": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 200,
+        "rules": [
+          "Fast",
+          "Harassing",
+          "Strider",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Heavy Skimmer": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 355,
+        "rules": [
+          "Fast",
+          "Harassing",
+          "Strider",
+          "Tough(9)"
+        ]
+      },
+      "Razor Fighter": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 260,
+        "rules": [
+          "Aircraft",
+          "Harassing",
+          "Tough(6)"
+        ]
+      },
+      "Raven Bomber": {
+        "Quality": "3+",
+        "Defense": "3+",
+        "points": 290,
+        "rules": [
+          "Aircraft",
+          "Harassing",
+          "Tough(6)"
+        ]
+      }
+    }
+  },
+  "DAO_Union.cat": {
+    "units": {
+      "Battle Suit Elite": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 110,
+        "rules": [
+          "Hero",
+          "Targeting Visor",
+          "Tough(6)"
+        ]
+      },
+      "Grunt Leader": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 40,
+        "rules": [
+          "Good Shot",
+          "Hero",
+          "Targeting Visor",
+          "Tough(3)"
+        ]
+      },
+      "Security Grunts": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 70,
+        "rules": [
+          "Armor(3)",
+          "Good Shot",
+          "Targeting Visor"
+        ]
+      },
+      "Gun Drones": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 80,
+        "rules": [
+          "Good Shot",
+          "Strider",
+          "Targeting Visor"
+        ]
+      },
+      "Tactical Grunts": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 100,
+        "rules": [
+          "Good Shot",
+          "Targeting Visor"
+        ]
+      },
+      "Spotters": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 105,
+        "rules": [
+          "Good Shot",
+          "Scout",
+          "Targeting Visor"
+        ]
+      },
+      "Sniper Drones": {
+        "Quality": "5+",
+        "Defense": "4+",
+        "points": 105,
+        "rules": [
+          "Good Shot",
+          "Strider",
+          "Targeting Visor"
+        ]
+      },
+      "Spotter Gunners": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 115,
+        "rules": [
+          "Good Shot",
+          "Scout",
+          "Targeting Visor"
+        ]
+      },
+      "Battle Suits": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 150,
+        "rules": [
+          "Targeting Visor",
+          "Tough(3)"
+        ]
+      },
+      "Stealth Suits": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 160,
+        "rules": [
+          "Relentless",
+          "Stealth",
+          "Targeting Visor"
+        ]
+      },
+      "Hover Attack Bike": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 160,
+        "rules": [
+          "Fast",
+          "Strider",
+          "Targeting Visor",
+          "Tough(6)"
+        ]
+      },
+      "Hover Transport": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 165,
+        "rules": [
+          "Fast",
+          "Strider",
+          "Targeting Visor",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Heavy Battle Suit": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 255,
+        "rules": [
+          "Fear(2)",
+          "Targeting Visor",
+          "Tough(9)"
+        ]
+      },
+      "Heavy Stealth Suit": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 290,
+        "rules": [
+          "Fear(2)",
+          "Stealth",
+          "Targeting Visor",
+          "Tough(12)"
+        ]
+      },
+      "Hover Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 405,
+        "rules": [
+          "Fast",
+          "Strider",
+          "Targeting Visor",
+          "Tough(12)"
+        ]
+      },
+      "Tide Titan": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 550,
+        "rules": [
+          "Evasive",
+          "Fear(3)",
+          "Targeting Visor",
+          "Tough(18)"
+        ]
+      },
+      "Surge Titan": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 775,
+        "rules": [
+          "Fear(4)",
+          "Targeting Visor",
+          "Tough(24)"
+        ]
+      },
+      "Razor Fighter": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 200,
+        "rules": [
+          "Aircraft",
+          "Targeting Visor",
+          "Tough(6)"
+        ]
+      },
+      "Sun Bomber": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 225,
+        "rules": [
+          "Aircraft",
+          "Targeting Visor",
+          "Tough(6)"
+        ]
+      }
+    }
+  },
+  "Blessed_Sisters.cat": {
+    "units": {
+      "Exo-Suit High Sister": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 180,
+        "rules": [
+          "Devout",
+          "Fear(2)",
+          "Hero",
+          "Tough(9)"
+        ]
+      },
+      "Destroyer High Sister": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 100,
+        "rules": [
+          "Armor(3)",
+          "Devout",
+          "Hero",
+          "Tough(6)"
+        ]
+      },
+      "Celestial High Sister": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 65,
+        "rules": [
+          "Armor(3)",
+          "Devout",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "High Sister": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 55,
+        "rules": [
+          "Devout",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Fanatic Superior": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 50,
+        "rules": [
+          "Devout",
+          "Fearless",
+          "Hero",
+          "Piercing Charge",
+          "Tough(3)"
+        ]
+      },
+      "Novice Leader": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 35,
+        "rules": [
+          "Devout",
+          "Hero",
+          "Tough(3)"
+        ]
+      },
+      "Novice Sisters": {
+        "Quality": "5+",
+        "Defense": "6+",
+        "points": 110,
+        "rules": [
+          "Devout"
+        ]
+      },
+      "Fanatic Sisters": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 60,
+        "rules": [
+          "Devout",
+          "Fearless",
+          "Piercing Charge"
+        ]
+      },
+      "Warrior Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 90,
+        "rules": [
+          "Devout"
+        ]
+      },
+      "Protector Sisters": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 110,
+        "rules": [
+          "Armor(3)",
+          "Devout"
+        ]
+      },
+      "Vanguard Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 115,
+        "rules": [
+          "Devout",
+          "Scout",
+          "Strider"
+        ]
+      },
+      "Pistoleer Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 155,
+        "rules": [
+          "Devout",
+          "Flying",
+          "Relentless"
+        ]
+      },
+      "Assault Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 160,
+        "rules": [
+          "Devout",
+          "Flying",
+          "Furious"
+        ]
+      },
+      "Celestial Warrior Sisters": {
+        "Quality": "3+",
+        "Defense": "4+",
+        "points": 95,
+        "rules": [
+          "Devout"
+        ]
+      },
+      "Vanguard Snipers": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 125,
+        "rules": [
+          "Devout",
+          "Scout",
+          "Stealth",
+          "Strider"
+        ]
+      },
+      "Support Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 130,
+        "rules": [
+          "Devout",
+          "Relentless"
+        ]
+      },
+      "Destroyer Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 130,
+        "rules": [
+          "Armor(3)",
+          "Devout",
+          "Tough(3)"
+        ]
+      },
+      "Biker Sisters": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 150,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Tough(3)"
+        ]
+      },
+      "Biker Fanatics": {
+        "Quality": "5+",
+        "Defense": "5+",
+        "points": 150,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Fearless",
+          "Piercing Charge",
+          "Tough(3)"
+        ]
+      },
+      "Exo-Suit": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 100,
+        "rules": [
+          "Devout",
+          "Fear(1)",
+          "Tough(6)"
+        ]
+      },
+      "APC": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 150,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Tough(6)",
+          "Transport(11)"
+        ]
+      },
+      "Procession Altar": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 205,
+        "rules": [
+          "Bravery Buff",
+          "Devout",
+          "Guarded Buff",
+          "Precision Fighter Buff",
+          "Tough(6)",
+          "Transport(6)"
+        ]
+      },
+      "Infernal Attack Vehicle": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 215,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Tough(9)"
+        ]
+      },
+      "Assault Walker": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 255,
+        "rules": [
+          "Devout",
+          "Fear(2)",
+          "Fearless",
+          "Regeneration",
+          "Scout",
+          "Tough(9)"
+        ]
+      },
+      "Support Walker": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 300,
+        "rules": [
+          "Devout",
+          "Fear(2)",
+          "Fearless",
+          "Fortified",
+          "Regeneration",
+          "Tough(9)"
+        ]
+      },
+      "Organ Tank": {
+        "Quality": "4+",
+        "Defense": "3+",
+        "points": 315,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Tough(9)"
+        ]
+      },
+      "Battle Tank": {
+        "Quality": "4+",
+        "Defense": "2+",
+        "points": 370,
+        "rules": [
+          "Devout",
+          "Fast",
+          "Tough(12)"
+        ]
+      },
+      "Blessed Titan": {
+        "Quality": "3+",
+        "Defense": "2+",
+        "points": 765,
+        "rules": [
+          "Devout",
+          "Fear(4)",
+          "Tough(24)"
+        ]
+      },
+      "Constance": {
+        "Quality": "4+",
+        "Defense": "4+",
+        "points": 110,
+        "rules": [
+          "Devout",
+          "Increased Shooting Range",
+          "Scout",
+          "Strider",
+          "Tough(3)",
+          "Unique Hero"
+        ]
+      }
+    }
   }
 }

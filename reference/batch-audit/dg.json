@@ -1,0 +1,5847 @@
+{
+  "report": {
+    "file": "Dwarf_Guilds.cat",
+    "units": 27,
+    "spells": 6,
+    "localRules": 32,
+    "upgradeRows": 242,
+    "encodedGroups": 64,
+    "skipped": 83,
+    "missing": [
+      "Hand Weapon",
+      "Unwieldy) Free Shock Hammer (A1",
+      "Strike",
+      "Sgt. Hand Weapon",
+      "Hand",
+      "A1) Pistol (12\"",
+      "A1",
+      "Sgt. Hand",
+      "Anti-Cover when Shooting",
+      "A3) Burst Cyclic Rifle (18\"",
+      "A3",
+      "Linked AA-",
+      "Unstoppable) Heavy Battle Cannon (30\""
+    ],
+    "warnings": 8,
+    "bytes": 618996
+  },
+  "sourceUnits": [
+    {
+      "name": "Powersuit Champion",
+      "size": 1,
+      "points": 125,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Hero",
+        "Slow",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Rune Staff",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Spell Amplifier"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Sturdy Aura"
+              ],
+              "label": "Guild Lord",
+              "p": 5,
+              "raw": "Guild Lord (Enhanced Sturdy Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Forge Master",
+              "p": 10,
+              "raw": "Forge Master (Increased Shooting Range Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Swift Aura"
+              ],
+              "label": "Foreman",
+              "p": 25,
+              "raw": "Foreman (Swift Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Rune Master",
+              "p": 25,
+              "raw": "Rune Master (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Runesmith",
+              "p": 30,
+              "raw": "Runesmith (Stealth Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Rune Staff",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 6,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "Fortified"
+              ],
+              "label": "Combat Shield",
+              "p": 5,
+              "raw": "Hand Weapon (A6), Combat Shield (Fortified)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "Burst Cyclic Rifle",
+              "p": 35,
+              "raw": "Burst Cyclic Rifle (18\", A6, Anti-Cover, Surge), Hand Weapon"
+            }
+          ]
+        },
+        {
+          "h": "Replace Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Burst Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Burst Cyclic Rifle",
+              "p": 25,
+              "raw": "Assault Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Ore-Shredder Pistol",
+              "p": 30,
+              "raw": "Burst Ore-Shredder Pistol (9\", A3, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Plasma Pistol",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Plasma Pistol",
+              "p": 30,
+              "raw": "Burst Plasma Pistol (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Iron-Slug Pistol",
+              "p": 30,
+              "raw": "Burst Iron-Slug Pistol (9\", A3, Assault, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shock Hammer",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Hammer",
+              "p": 25,
+              "raw": "Shock Hammer (A2, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 35,
+              "raw": "Magma Sword (A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 50,
+              "raw": "Shock Fist (A6, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Axe",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Axe",
+              "p": 60,
+              "raw": "Magma Axe (A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Exo-GL",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Limited",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Exo-GL",
+              "p": 5,
+              "raw": "Disposable Exo-GL (12\", A3, Limited, Assault)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrate"
+              ],
+              "label": "Orbital Drop",
+              "p": 35,
+              "raw": "Orbital Drop (Infiltrate)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Champion",
+      "size": 1,
+      "points": 65,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fortified",
+        "Hero",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Fortified"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Sturdy Aura"
+              ],
+              "label": "Guild Lord",
+              "p": 5,
+              "raw": "Guild Lord (Enhanced Sturdy Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Forge Master",
+              "p": 10,
+              "raw": "Forge Master (Increased Shooting Range Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Swift Aura"
+              ],
+              "label": "Foreman",
+              "p": 25,
+              "raw": "Foreman (Swift Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Rune Master",
+              "p": 25,
+              "raw": "Rune Master (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter Aura"
+              ],
+              "label": "Rage Lord",
+              "p": 30,
+              "raw": "Rage Lord (Unpredictable Fighter Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Mend"
+              ],
+              "label": "Engineer",
+              "p": 35,
+              "raw": "Engineer (Mend)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon and Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Battle Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Battle Rifle + Hand Weapon",
+              "p": 5,
+              "raw": "Burst Battle Rifle (24\", A3), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Rune Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Rune Staff",
+              "p": 5,
+              "raw": "Rune Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Iron-Slug Shotgun",
+                  "range": 9,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Iron-Slug Shotgun + Hand Weapon",
+              "p": 10,
+              "raw": "Burst Iron-Slug Shotgun (9\", A4, Shred), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Iron-Slug Carbine",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Iron-Slug Carbine + Hand Weapon",
+              "p": 10,
+              "raw": "Burst Iron-Slug Carbine (18\", A3, Shred), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Shotgun",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Shotgun + Hand Weapon",
+              "p": 15,
+              "raw": "Burst Shotgun (12\", A4, AP(1)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Glove-Pistols",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Glove-Pistols",
+              "p": 20,
+              "raw": "Dual Glove-Pistols (12\", A4, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol",
+              "p": 5,
+              "raw": "Pistol (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Pistol",
+              "p": 5,
+              "raw": "Ore-Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 10,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 15,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 15,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Heat Hammer",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Scourge",
+                    "Unwieldy) Free Shock Hammer (A1",
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Heat Hammer",
+              "p": 5,
+              "raw": "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy) Free Shock Hammer (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 5,
+              "raw": "Magma Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Spear",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Spear",
+              "p": 10,
+              "raw": "Energy Spear (A3, Counter)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat Spear",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Counter",
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat Spear",
+              "p": 10,
+              "raw": "Heat Spear (A3, Counter, Scourge, Unwieldy)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 15,
+              "raw": "Shock Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Axe",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Axe",
+              "p": 20,
+              "raw": "Magma Axe (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 5,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fearless",
+                "Fortified"
+              ],
+              "label": "Elite",
+              "p": 5,
+              "raw": "Elite (Fearless, Fortified)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Flying",
+                "Swift"
+              ],
+              "label": "Jetpack",
+              "p": 10,
+              "raw": "Jetpack (Flying, Swift)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrate"
+              ],
+              "label": "Mining Gear",
+              "p": 15,
+              "raw": "Mining Gear (Infiltrate)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying",
+                "Swift"
+              ],
+              "label": "Airdrop Jetpack",
+              "p": 25,
+              "raw": "Airdrop Jetpack (Ambush, Flying, Swift)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Swift",
+                "Tough(3)"
+              ],
+              "label": "Combat Bike",
+              "p": 100,
+              "raw": "Combat Bike (Bike-Rifle (24\", A3), Fast, Swift, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "Scout",
+                "Swift",
+                "Tough(3)"
+              ],
+              "label": "Pioneer Bike",
+              "p": 105,
+              "raw": "Pioneer Bike (Bike-Rifle (24\", A3), Scout, Swift, Tough(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Bike-Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Bike-Rifle",
+              "p": 10,
+              "raw": "Assault Bike-Rifle (12\", A3, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berserker Veteran",
+      "size": 1,
+      "points": 55,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Hero",
+        "Melee Slayer",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hand Weapons",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Sturdy Aura"
+              ],
+              "label": "Guild Lord",
+              "p": 5,
+              "raw": "Guild Lord (Enhanced Sturdy Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Swift Aura"
+              ],
+              "label": "Foreman",
+              "p": 25,
+              "raw": "Foreman (Swift Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter Aura"
+              ],
+              "label": "Rage Lord",
+              "p": 30,
+              "raw": "Rage Lord (Unpredictable Fighter Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Runesmith",
+              "p": 30,
+              "raw": "Runesmith (Stealth Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Throwing Axes",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Great Heat Hammer",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Throwing Axes + Great Heat Hammer",
+              "p": 5,
+              "raw": "Throwing Axes (12\", A1, Assault), Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Throwing Axes",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Dual Heat Axes",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Throwing Axes + Dual Heat Axes",
+              "p": 10,
+              "raw": "Throwing Axes (12\", A1, Assault), Dual Heat Axes (A3, Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Throwing Axes",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Great Heat Axe",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Throwing Axes + Great Heat Axe",
+              "p": 15,
+              "raw": "Throwing Axes (12\", A1, Assault), Great Heat Axe (A3, AP(2), Scourge, Unwieldy)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 5,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Cyber-Augments",
+              "p": 10,
+              "raw": "Cyber-Augments (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guardians",
+      "size": 5,
+      "points": 55,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Fortified",
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Fortified"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace all Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Spear",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Spear",
+              "p": 10,
+              "raw": "Energy Spear (A1, Counter)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat Spear",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Counter",
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat Spear",
+              "p": 10,
+              "raw": "Heat Spear (A1, Counter, Scourge, Unwieldy)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol",
+              "p": 20,
+              "raw": "Pistol (12\", A1, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Warriors",
+      "size": 5,
+      "points": 75,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Rifles",
+          "count": 5,
+          "range": 24,
+          "a": 1,
+          "rs": []
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Battle Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Carbine",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Carbine",
+              "p": 5,
+              "raw": "Iron-Slug Carbine (18\", A1, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shotgun",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shotgun",
+              "p": 30,
+              "raw": "Shotgun (12\", A2, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 10,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 15,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Rifle",
+              "p": 20,
+              "raw": "Ore-Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 20,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat-Railcannon",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat-Railcannon",
+              "p": 20,
+              "raw": "Heat-Railcannon (18\", A1, AP(2), Deadly(3), Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 25,
+              "raw": "Heavy Machinegun (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Missile Launcher",
+              "p": 30,
+              "raw": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover when Shooting Aura"
+              ],
+              "label": "Ore-Scanner",
+              "p": 5,
+              "raw": "Ore-Scanner (Anti-Cover when Shooting Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 25,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Hand Weapon",
+              "p": 5,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Pistol",
+              "p": 5,
+              "raw": "Ore-Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 5,
+              "raw": "Magma Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 5,
+              "raw": "Shock Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berserkers",
+      "size": 5,
+      "points": 80,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Melee Slayer",
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Great Heat Axes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(2)",
+            "Scourge",
+            "Unwieldy"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 5,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Great Heat Axes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Axe",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Axe",
+              "p": 5,
+              "raw": "Great Axe (A1, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Hand Weapons",
+                  "range": 0,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Dual Hand Weapons",
+              "p": 15,
+              "raw": "Dual Hand Weapons (A2)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Great Heat Axe",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Grenade Launcher",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Strike"
+              ],
+              "label": "Assault Grenade Launcher",
+              "p": 20,
+              "raw": "Assault Grenade Launcher (12\", A1, Blast(3), Assault), Strike"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Cyber-Augments",
+              "p": 15,
+              "raw": "Cyber-Augments (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elites",
+      "size": 5,
+      "points": 95,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fearless",
+        "Fortified",
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heat Axes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Scourge"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Heat Axes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Weapon",
+              "p": 15,
+              "raw": "Great Weapon (A1, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat Hammer",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat Hammer",
+              "p": 25,
+              "raw": "Heat Hammer (A2, Scourge, Unwieldy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Heat Axe",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Heat Hammer",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Scourge",
+                    "Unwieldy"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Heat Hammer",
+              "p": 10,
+              "raw": "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Elite Great Weapon",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Elite Great Weapon",
+              "p": 20,
+              "raw": "Elite Great Weapon (A3, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Miners",
+      "size": 5,
+      "points": 100,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Infiltrate",
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Iron-Slug Shotguns",
+          "count": 5,
+          "range": 9,
+          "a": 2,
+          "rs": [
+            "Shred"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 10,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Iron-Slug Shotguns",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Iron-Slug Shotgun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 5,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat-Drill Platform",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat-Drill Platform",
+              "p": 10,
+              "raw": "Heat-Drill Platform (A1, AP(2), Deadly(3), Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Flamer",
+              "p": 15,
+              "raw": "Assault Flamer (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 15,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heat-Rifle Platform",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat-Rifle Platform",
+              "p": 20,
+              "raw": "Heat-Rifle Platform (18\", A1, AP(2), Deadly(3), Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Fusion Rifle",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Fusion Rifle",
+              "p": 30,
+              "raw": "Assault Fusion Rifle (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Iron-Slug Shotgun and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [
+                "Sgt. Hand Weapon"
+              ],
+              "label": "Sgt. Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Sgt. Iron-Slug Pistol (9\", A1, Assault, Shred), Sgt. Hand Weapon"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Iron-Slug Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Pistol",
+              "p": 5,
+              "raw": "Ore-Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 5,
+              "raw": "Magma Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 5,
+              "raw": "Shock Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jetpack Warriors",
+      "size": 5,
+      "points": 105,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Flying",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Pistols",
+          "count": 5,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 10,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Pistols and Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol + Hand Weapon",
+              "p": 10,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Glove-Pistols",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Glove-Pistols",
+              "p": 20,
+              "raw": "Dual Glove-Pistols (12\", A2, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol + Hand Weapon",
+              "p": 35,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 10,
+              "raw": "Magma Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 20,
+              "raw": "Shock Fist (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Shock Hammer",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Shock Hammer",
+              "p": 10,
+              "raw": "Pistol (12\", A1, Assault), Shock Hammer (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Burst Flamer Pistol",
+              "p": 15,
+              "raw": "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Axe",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [
+                "A1) Pistol (12\"",
+                "A1",
+                "Assault"
+              ],
+              "label": "Weapon",
+              "p": 20,
+              "raw": "Weapon (A1) Pistol (12\", A1, Assault), Magma Axe (A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Iron-Slug Shotgun",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Assault Iron-Slug Shotgun",
+              "p": 20,
+              "raw": "Assault Iron-Slug Shotgun (9\", A3, Assault, Shred), Hand"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Aerial Drop",
+              "p": 15,
+              "raw": "Aerial Drop (Ambush)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Veterans",
+      "size": 5,
+      "points": 115,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Slow",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Iron-Slug Carbines",
+          "count": 5,
+          "range": 18,
+          "a": 1,
+          "rs": [
+            "Shred"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Iron-Slug Carbines",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Shotgun",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Shotgun",
+              "p": 15,
+              "raw": "Iron-Slug Shotgun (9\", A2, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Iron-Slug Carbine",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Flamer",
+              "p": 15,
+              "raw": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mining Beam-Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mining Beam-Cannon",
+              "p": 20,
+              "raw": "Mining Beam-Cannon (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Cannon",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Cannon",
+              "p": 30,
+              "raw": "Plasma Cannon (30\", A1, AP(2), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 35,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover when Shooting Aura"
+              ],
+              "label": "Ore-Scanner",
+              "p": 10,
+              "raw": "Ore-Scanner (Anti-Cover when Shooting Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 25,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Iron-Slug Carbine and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Sgt. Hand"
+              ],
+              "label": "Sgt. Ore-Shredder Pistol",
+              "p": 5,
+              "raw": "Sgt. Ore-Shredder Pistol (9\", A1, Rending, Assault), Sgt. Hand"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Ore-Shredder Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 5,
+              "raw": "Magma Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 5,
+              "raw": "Shock Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sniper Team",
+      "size": 3,
+      "points": 85,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Scout",
+        "Slow",
+        "Stealth",
+        "Sturdy"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Mining Beam-Sniper Carbines",
+          "count": 3,
+          "range": 18,
+          "a": 1,
+          "rs": [
+            "Reliable",
+            "Anti-Cover",
+            "Surge",
+            "Takedown"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Mining Beam-Sniper Carbines",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle",
+              "p": 15,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Sniper Heat-Carbine",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Sniper Heat-Carbine",
+              "p": 20,
+              "raw": "Heavy Sniper Heat-Carbine (18\", A2, Reliable, Scourge)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thunder Support",
+      "size": 3,
+      "points": 150,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Mining Beam-Cannons",
+          "count": 3,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Mining Beam-Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 5,
+              "raw": "Heavy Machinegun (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Cannon",
+              "p": 10,
+              "raw": "Ore-Shredder Cannon (30\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Missile Launcher",
+              "p": 10,
+              "raw": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mortar",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mortar",
+              "p": 15,
+              "raw": "Mortar (30\", A1, AP(1), Blast(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Autocannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Autocannon",
+              "p": 20,
+              "raw": "Autocannon (36\", A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Mining Beam-Cannons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [
+                "Anti-Cover when Shooting"
+              ],
+              "label": "Ore-Scanner",
+              "p": 20,
+              "raw": "Heavy Machinegun (30\", A3, AP(1)), Ore-Scanner (Anti-Cover when Shooting)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Heavy Machinegun and Ore-Scanner",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [
+                "Anti- Cover when Shooting"
+              ],
+              "label": "Ore-Scanner",
+              "p": 5,
+              "raw": "Ore-Shredder Cannon (30\", A3, Rending), Ore-Scanner (Anti- Cover when Shooting)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [
+                "Ore-"
+              ],
+              "label": "Missile Launcher",
+              "p": 5,
+              "raw": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable), Ore-"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover when Shooting) Autocannon (36\"",
+                "A3",
+                "AP(2)",
+                "Anti-Cover when Shooting"
+              ],
+              "label": "Scanner",
+              "p": 15,
+              "raw": "Scanner (Anti-Cover when Shooting) Autocannon (36\", A3, AP(2)), Ore-Scanner (Anti-Cover when Shooting)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Bikers",
+      "size": 3,
+      "points": 165,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Bike-Rifles",
+          "count": 3,
+          "range": 24,
+          "a": 2,
+          "rs": []
+        },
+        {
+          "n": "Pistols",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Lead Foot",
+          "rs": [
+            "Fast"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Frenzy"
+              ],
+              "label": "Guild Bounty",
+              "p": 10,
+              "raw": "Guild Bounty (Precision Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Bike-Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Bike-Rifle",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Bike-Rifle",
+              "p": 10,
+              "raw": "Assault Bike-Rifle (12\", A2, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Pistols and Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Shotgun",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Shred"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Shotgun + Strike",
+              "p": 5,
+              "raw": "Iron-Slug Shotgun (9\", A2, Shred), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol + Hand Weapon",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shotgun",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Shotgun + Strike",
+              "p": 10,
+              "raw": "Shotgun (12\", A2, AP(1)), Strike (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Lead Foots",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Pioneer",
+              "p": 10,
+              "raw": "Pioneer (Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Powersuit Guard",
+      "size": 3,
+      "points": 170,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fortified",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapons",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Fortified"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace all Hand Weapons and Combat Shields",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Cyclic Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Assault Cyclic Rifle",
+              "p": 20,
+              "raw": "Assault Cyclic Rifle (9\", A1, Anti-Cover, Assault, Surge), Hand"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A3) Burst Cyclic Rifle (18\"",
+                "A3",
+                "Anti-Cover",
+                "Surge",
+                "Hand Weapon"
+              ],
+              "label": "Weapon",
+              "p": 45,
+              "raw": "Weapon (A3) Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Assault Cyclic Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ore-Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ore-Shredder Pistol",
+              "p": 5,
+              "raw": "Ore-Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shock Hammer",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Hammer",
+              "p": 5,
+              "raw": "Shock Hammer (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Sword",
+              "p": 5,
+              "raw": "Magma Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Fist",
+              "p": 15,
+              "raw": "Shock Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Axe",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Axe",
+              "p": 20,
+              "raw": "Magma Axe (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Burst Cyclic Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heat-Railcannon",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heat-Railcannon",
+              "p": 40,
+              "raw": "Heat-Railcannon (18\", A2, AP(2), Deadly(3), Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Cannon",
+              "p": 50,
+              "raw": "Plasma Cannon (30\", A2, AP(2), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 50,
+              "raw": "Heavy Machinegun (30\", A6, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Exo-GL",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Limited",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Exo-GL",
+              "p": 10,
+              "raw": "Disposable Exo-GL (15\", A1, AP(1), Limited, Assault)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrate"
+              ],
+              "label": "Orbital Drop",
+              "p": 50,
+              "raw": "Orbital Drop (Infiltrate)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mine-Bot Guard",
+      "size": 3,
+      "points": 215,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fearless",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Light Iron-Slug Cannons",
+          "count": 3,
+          "range": 18,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Light Iron-Slug Cannons and Strikes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Pistol",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Magma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Pistol + Magma Sword",
+              "p": 25,
+              "raw": "Burst Pistol (12\", A3, Assault), Magma Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Pistol",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Shock Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Pistol + Shock Fist",
+              "p": 35,
+              "raw": "Burst Pistol (12\", A3, Assault), Shock Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Trike",
+      "size": 1,
+      "points": 120,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Bike-Rifle",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": []
+        },
+        {
+          "n": "Attack Minigun",
+          "count": 1,
+          "range": 18,
+          "a": 4,
+          "rs": []
+        },
+        {
+          "n": "Pistol",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Strike",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Lead Foot",
+          "rs": [
+            "Fast"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Speed Debuff"
+              ],
+              "label": "Deceleration Rune",
+              "p": 5,
+              "raw": "Deceleration Rune (Speed Debuff)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Attack Minigun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Mining Beam-Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mining Beam-Cannon",
+              "p": 5,
+              "raw": "Mining Beam-Cannon (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Flamer",
+              "p": 5,
+              "raw": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 10,
+              "raw": "Heavy Machinegun (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Missile Launcher",
+              "p": 15,
+              "raw": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 15,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Iron-Slug Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Iron-Slug Pistol",
+              "p": 5,
+              "raw": "Iron-Slug Pistol (9\", A1, Assault, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Lead Foot",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Pioneer",
+              "p": 5,
+              "raw": "Pioneer (Scout)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Anti-Cover when Shooting"
+              ],
+              "label": "Ore-Scanner",
+              "p": 5,
+              "raw": "Ore-Scanner (Anti-Cover when Shooting)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "APC",
+      "size": 1,
+      "points": 150,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hull Battle Rifles",
+          "count": 1,
+          "range": 24,
+          "a": 2,
+          "rs": []
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "All-Terrain Tracks",
+              "p": 25,
+              "raw": "All-Terrain Tracks (Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 20,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Attack Minigun",
+                  "range": 9,
+                  "a": 4,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Attack Minigun",
+              "p": 25,
+              "raw": "Pintle Attack Minigun (9\", A4, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Machinegun",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Machinegun",
+              "p": 35,
+              "raw": "Pintle Heavy Machinegun (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Energy Cannon",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Rending",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Energy Cannon",
+              "p": 40,
+              "raw": "Pintle Energy Cannon (9\", A2, Rending, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Missile Launcher",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Missile Launcher",
+              "p": 40,
+              "raw": "Pintle Missile Launcher (15\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Splitter-Missile Launcher",
+                  "range": 15,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Splitter-Missile Launcher",
+              "p": 40,
+              "raw": "Pintle Splitter-Missile Launcher (15\", A2, AP(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Fusion Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Fusion Rifle",
+              "p": 45,
+              "raw": "Pintle Heavy Fusion Rifle (9\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Attack Vehicle",
+      "size": 1,
+      "points": 165,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Machinegun Array",
+          "count": 1,
+          "range": 30,
+          "a": 6,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Speed Debuff"
+              ],
+              "label": "Deceleration Rune",
+              "p": 5,
+              "raw": "Deceleration Rune (Speed Debuff)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "All-Terrain Tracks",
+              "p": 25,
+              "raw": "All-Terrain Tracks (Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 20,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Heavy Machinegun Array",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy Heat-Railcannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy Heat-Railcannon",
+              "p": 10,
+              "raw": "Dual Heavy Heat-Railcannon (30\", A2, AP(2), Deadly(3), Scourge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Linked Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Linked Heavy Fusion Rifles",
+              "p": 10,
+              "raw": "Dual Linked Heavy Fusion Rifles (18\", A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Autocannons",
+                  "range": 36,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Autocannons",
+              "p": 30,
+              "raw": "Dual Autocannons (36\", A6, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assault Drill",
+      "size": 1,
+      "points": 215,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Ambush",
+        "Sturdy",
+        "Tough(9)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Tunneling Drill",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "All-Terrain Tracks",
+              "p": 15,
+              "raw": "All-Terrain Tracks (Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Tunneling Drill",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Tunneling Drill",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Tunneling Drill",
+              "p": 50,
+              "raw": "Heavy Tunneling Drill (A3, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sponson Assault Heavy Flamers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Assault Heavy Flamers",
+              "p": 35,
+              "raw": "Sponson Assault Heavy Flamers (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Sponson Assault Heavy Machineguns",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Assault Heavy Machineguns",
+              "p": 35,
+              "raw": "Sponson Assault Heavy Machineguns (15\", A3, AP(1), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Land Train",
+      "size": 1,
+      "points": 345,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hull Battle Rifles",
+          "count": 1,
+          "range": 24,
+          "a": 2,
+          "rs": []
+        },
+        {
+          "n": "Linked AA-Machineguns",
+          "count": 2,
+          "range": 18,
+          "a": 6,
+          "rs": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with up to two",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Tough(6)",
+                "Transport(11)"
+              ],
+              "label": "Transport Carriage",
+              "p": 160,
+              "raw": "Transport Carriage (Tough(6), Transport(11))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Battle Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [
+                "Tough(6)"
+              ],
+              "label": "Weapon Carriage",
+              "p": 175,
+              "raw": "Weapon Carriage (Battle Cannon (30\", A2, AP(1), Blast(3)), Tough(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked AA-Fusion Rifle",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [
+                "Tough(6)"
+              ],
+              "label": "Weapon Carriage",
+              "p": 175,
+              "raw": "Weapon Carriage (Linked AA-Fusion Rifle (18\", A2, AP(2), Deadly(3), Unstoppable), Tough(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked AA-Machinegun",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [
+                "Tough(6)"
+              ],
+              "label": "Weapon Carriage",
+              "p": 175,
+              "raw": "Weapon Carriage (Linked AA-Machinegun (18\", A6, AP(1), Unstoppable), Tough(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Attack Minigun",
+                  "range": 9,
+                  "a": 8,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Tough(6)",
+                "Transport(6)"
+              ],
+              "label": "Transport Carriage",
+              "p": 195,
+              "raw": "Transport Carriage (Pintle Attack Minigun (9\", A8, Assault), Tough(6), Transport(6))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun Array",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun Array",
+              "p": 10,
+              "raw": "Heavy Machinegun Array (30\", A6, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Cannon",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Cannon",
+              "p": 15,
+              "raw": "Flamer Cannon (18\", A2, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy AA-Cannons",
+                  "range": 30,
+                  "a": 4,
+                  "rs": [
+                    "AP(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy AA-Cannons",
+              "p": 20,
+              "raw": "Dual Heavy AA-Cannons (30\", A4, AP(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Linked Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Linked Heavy Fusion Rifles",
+              "p": 20,
+              "raw": "Dual Linked Heavy Fusion Rifles (18\", A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Anti-Tank Cannon",
+              "p": 30,
+              "raw": "Anti-Tank Cannon (30\", A2, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Pintle Attack Minigun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Machinegun",
+                  "range": 15,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Machinegun",
+              "p": 20,
+              "raw": "Pintle Heavy Machinegun (15\", A6, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Energy Cannon",
+                  "range": 9,
+                  "a": 4,
+                  "rs": [
+                    "Rending",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Energy Cannon",
+              "p": 25,
+              "raw": "Pintle Energy Cannon (9\", A4, Rending, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Missile Launcher",
+                  "range": 15,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Missile Launcher",
+              "p": 30,
+              "raw": "Pintle Missile Launcher (15\", A2, AP(2), Deadly(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Splitter-Missile Launcher",
+                  "range": 15,
+                  "a": 4,
+                  "rs": [
+                    "AP(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Splitter-Missile Launcher",
+              "p": 30,
+              "raw": "Pintle Splitter-Missile Launcher (15\", A4, AP(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Fusion Rifle",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Fusion Rifle",
+              "p": 35,
+              "raw": "Pintle Heavy Fusion Rifle (9\", A2, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Walker",
+      "size": 1,
+      "points": 350,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Fear(2)",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Walker Magma Swords",
+          "count": 2,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Rending"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Walker Magma Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shock Hammer",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shock Hammer",
+              "p": 5,
+              "raw": "Shock Hammer (A2, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Walker Shock Fist",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Walker Shock Fist",
+              "p": 10,
+              "raw": "Walker Shock Fist (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                },
+                {
+                  "n": "Walker Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer + Walker Fist",
+              "p": 15,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable), Walker Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Magma Axe",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Magma Axe",
+              "p": 40,
+              "raw": "Magma Axe (A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 50,
+              "raw": "Heavy Machinegun (30\", A6, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 60,
+              "raw": "Heavy Fusion Rifle (18\", A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked Autocannon",
+                  "range": 36,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked Autocannon",
+              "p": 90,
+              "raw": "Linked Autocannon (36\", A6, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Cyclic Rifle",
+              "p": 15,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 20,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Battle Tank",
+      "size": 1,
+      "points": 365,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Sponson Heavy Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun Array",
+                  "range": 30,
+                  "a": 9,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun Array",
+              "p": 15,
+              "raw": "Heavy Machinegun Array (30\", A9, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Cannon",
+              "p": 20,
+              "raw": "Flamer Cannon (18\", A3, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy AA-Cannons",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "AP(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy AA-Cannons",
+              "p": 30,
+              "raw": "Dual Heavy AA-Cannons (30\", A6, AP(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Linked Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Linked Heavy Fusion Rifles",
+              "p": 30,
+              "raw": "Dual Linked Heavy Fusion Rifles (18\", A3, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Anti-Tank Cannon",
+              "p": 45,
+              "raw": "Anti-Tank Cannon (30\", A3, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sponson Heavy Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sponson Heavy Machineguns",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Heavy Machineguns",
+              "p": 5,
+              "raw": "Sponson Heavy Machineguns (30\", A3, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 50,
+              "raw": "Dozer Blade (Strider)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Artillery Gun",
+      "size": 1,
+      "points": 105,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Artillery",
+        "Cumbersome",
+        "Slow",
+        "Sturdy",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Linked Heavy Hail-Gun",
+          "count": 1,
+          "range": 24,
+          "a": 6,
+          "rs": [
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Crew",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Linked Heavy Hail-Gun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Linked AA-Machinegun",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked AA-Machinegun",
+              "p": 5,
+              "raw": "Linked AA-Machinegun (18\", A6, AP(1), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked AA-Fusion Rifle",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked AA-Fusion Rifle",
+              "p": 5,
+              "raw": "Linked AA-Fusion Rifle (18\", A2, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drill-Bomb Launcher",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drill-Bomb Launcher",
+              "p": 40,
+              "raw": "Drill-Bomb Launcher (24\", A2, AP(2), Deadly(3), Indirect)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fortress Tank",
+      "size": 1,
+      "points": 540,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Fast",
+        "Sturdy",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Iron-Slug Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 2,
+          "rs": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "n": "Rocket Mortar",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Sponson Battle Rifles",
+          "count": 2,
+          "range": 24,
+          "a": 4,
+          "rs": []
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Iron-Slug Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Mining Beam-Cannon",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Mining Beam-Cannon",
+              "p": 20,
+              "raw": "Heavy Mining Beam-Cannon (30\", A6, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Heat-Railcannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Scourge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Heat-Railcannon",
+              "p": 25,
+              "raw": "Heavy Heat-Railcannon (30\", A2, AP(2), Deadly(3), Scourge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Sponson Battle Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sponson Light Mining Beam-Cannons",
+                  "range": 18,
+                  "a": 4,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Light Mining Beam-Cannons",
+              "p": 10,
+              "raw": "Sponson Light Mining Beam-Cannons (18\", A4, Anti-Cover, Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Rocket Mortar",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Swarm Mortar",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Swarm Mortar",
+              "p": 10,
+              "raw": "Swarm Mortar (18\", A3, AP(1), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drill Mortar",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drill Mortar",
+              "p": 20,
+              "raw": "Drill Mortar (24\", A1, AP(2), Deadly(3), Indirect)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Turret Attack Minigun",
+                  "range": 9,
+                  "a": 4,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Turret Attack Minigun",
+              "p": 25,
+              "raw": "Turret Attack Minigun (9\", A4, Assault)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Transport(11)"
+              ],
+              "label": "Cargo Space",
+              "p": 35,
+              "raw": "Cargo Space (Transport(11))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 70,
+              "raw": "Dozer Blade (Strider)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mining Titan",
+      "size": 1,
+      "points": 610,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Fear(3)",
+        "Sturdy",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Titan Smashing Claws",
+          "count": 1,
+          "range": 15,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        },
+        {
+          "n": "Tunneling Drill",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "n": "Piercing Heat-Drill",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(2)",
+            "Scourge",
+            "Unwieldy"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Titan Smashing Claws",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Titan Grabbing Claws",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Grabbing Claws",
+              "p": 15,
+              "raw": "Titan Grabbing Claws (15\", A1, AP(2), Deadly(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Catching Claws",
+                  "range": 15,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Catching Claws",
+              "p": 15,
+              "raw": "Titan Catching Claws (15\", A2, AP(3), Assault, Unstoppable)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combat Excavator",
+      "size": 1,
+      "points": 710,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Sturdy",
+        "Tough(24)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Assault Battle Cannon",
+          "count": 1,
+          "range": 15,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 8,
+          "rs": [
+            "Thrust"
+          ]
+        },
+        {
+          "n": "Heavy Excavator",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        },
+        {
+          "n": "Tunneling Drill",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Battle Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [
+                "Linked AA-"
+              ],
+              "label": "Heavy Battle Cannon",
+              "p": 40,
+              "raw": "Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Machinegun",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)",
+                    "Unstoppable) Heavy Battle Cannon (30\"",
+                    "A3",
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [
+                "Linked AA-"
+              ],
+              "label": "Machinegun",
+              "p": 40,
+              "raw": "Machinegun (18\", A6, AP(1), Unstoppable) Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-"
+            }
+          ]
+        },
+        {
+          "h": "Replace Heavy Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Super-Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)",
+                    "Anti- Regen"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Super-Heavy Fusion Rifles",
+              "p": 20,
+              "raw": "Dual Super-Heavy Fusion Rifles (18\", A3, AP(4), Deadly(6), Anti- Regen)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Flamer Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Flamer Cannon",
+              "p": 40,
+              "raw": "Heavy Flamer Cannon (18\", A3, AP(2), Blast(6), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun Array",
+                  "range": 30,
+                  "a": 18,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun Array",
+              "p": 40,
+              "raw": "Heavy Machinegun Array (30\", A18, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Anti-Tank Cannon",
+              "p": 65,
+              "raw": "Heavy Anti-Tank Cannon (30\", A3, AP(4), Deadly(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy AA-Cannons",
+                  "range": 30,
+                  "a": 12,
+                  "rs": [
+                    "AP(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy AA-Cannons",
+              "p": 65,
+              "raw": "Dual Heavy AA-Cannons (30\", A12, AP(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Attack Minigun",
+                  "range": 9,
+                  "a": 4,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Attack Minigun",
+              "p": 25,
+              "raw": "Pintle Attack Minigun (9\", A4, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Machinegun",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Machinegun",
+              "p": 35,
+              "raw": "Pintle Heavy Machinegun (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Energy Cannon",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Rending",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Energy Cannon",
+              "p": 40,
+              "raw": "Pintle Energy Cannon (9\", A2, Rending, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Missile Launcher",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Missile Launcher",
+              "p": 40,
+              "raw": "Pintle Missile Launcher (15\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Splitter-Missile Launcher",
+                  "range": 15,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Splitter-Missile Launcher",
+              "p": 40,
+              "raw": "Pintle Splitter-Missile Launcher (15\", A2, AP(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Heavy Fusion Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Heavy Fusion Rifle",
+              "p": 45,
+              "raw": "Pintle Heavy Fusion Rifle (9\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hadrund oth Irnwuld",
+      "size": 1,
+      "points": 105,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fearless",
+        "Fortified",
+        "Infiltrate",
+        "Slow",
+        "Sturdy",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Boulderbreaker",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Scourge"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Depth Prospector",
+          "rs": [
+            "Infiltrate"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Depth Prospector",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrate Aura"
+              ],
+              "label": "Depth Prospector - Leader",
+              "p": 35,
+              "raw": "Depth Prospector - Leader (Infiltrate Aura)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Powersuit Champion",
+      "Replace Rune Staff",
+      "(A2)",
+      "no parsed price"
+    ],
+    [
+      "Berserkers",
+      "Replace one Great Heat Axe",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Miners",
+      "Replace one Iron-Slug Shotgun and Hand Weapon",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Jetpack Warriors",
+      "Replace one Pistol and Hand Weapon",
+      "Weapon (A1)",
+      "no parsed price"
+    ],
+    [
+      "Iron Veterans",
+      "Replace one Iron-Slug Carbine and Strike",
+      "Weapon (A1)",
+      "no parsed price"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace all Hand Weapons and Combat Shields",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+      "Fusion Rifle (18\", A2, AP(2), Deadly(3), Unstoppable)",
+      "no parsed price"
+    ],
+    [
+      "Powersuit Champion",
+      "Replace Rune Staff",
+      "Burst Cyclic Rifle (18\", A6, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Hand Weapon",
+      "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy) Free Shock Hammer (A1, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Hand Weapon",
+      "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy) Free Shock Hammer (A1, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Hand Weapon",
+      "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy) Free Shock Hammer (A1, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Hand Weapon",
+      "Great Heat Hammer (A1, AP(1), Blast(3), Scourge, Unwieldy) Free Shock Hammer (A1, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Berserkers",
+      "Replace one Great Heat Axe",
+      "Assault Grenade Launcher (12\", A1, Blast(3), Assault), Strike",
+      "unknown or malformed rule"
+    ],
+    [
+      "Miners",
+      "Replace one Iron-Slug Shotgun and Hand Weapon",
+      "Sgt. Iron-Slug Pistol (9\", A1, Assault, Shred), Sgt. Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jetpack Warriors",
+      "Replace one Pistol and Hand Weapon",
+      "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jetpack Warriors",
+      "Replace one Pistol and Hand Weapon",
+      "Weapon (A1) Pistol (12\", A1, Assault), Magma Axe (A1, AP(4), Deadly(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jetpack Warriors",
+      "Replace one Pistol and Hand Weapon",
+      "Assault Iron-Slug Shotgun (9\", A3, Assault, Shred), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Iron Veterans",
+      "Replace one Iron-Slug Carbine and Strike",
+      "Sgt. Ore-Shredder Pistol (9\", A1, Rending, Assault), Sgt. Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Thunder Support",
+      "Replace all Mining Beam-Cannons",
+      "Heavy Machinegun (30\", A3, AP(1)), Ore-Scanner (Anti-Cover when Shooting)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace all Hand Weapons and Combat Shields",
+      "Assault Cyclic Rifle (9\", A1, Anti-Cover, Assault, Surge), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace all Hand Weapons and Combat Shields",
+      "Weapon (A3) Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dwarf Trike",
+      "Upgrade with",
+      "Ore-Scanner (Anti-Cover when Shooting)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+      "Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-",
+      "unknown or malformed rule"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+      "Machinegun (18\", A6, AP(1), Unstoppable) Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-",
+      "unknown or malformed rule"
+    ],
+    [
+      "Powersuit Champion",
+      "Replace Combat Shield",
+      "Assault Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Champion",
+      "Replace Combat Shield",
+      "Burst Ore-Shredder Pistol (9\", A3, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Champion",
+      "Replace Combat Shield",
+      "Burst Plasma Pistol (12\", A2, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Champion",
+      "Replace Combat Shield",
+      "Burst Iron-Slug Pistol (9\", A3, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Pistol (12\", A1, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Ore-Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Iron-Slug Pistol (9\", A1, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Combat Shield",
+      "Fusion Pistol (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Champion",
+      "Replace Bike-Rifle",
+      "Assault Bike-Rifle (12\", A3, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Plasma Rifle (24\", A2, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Ore-Shredder Rifle (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Heat-Railcannon (18\", A1, AP(2), Deadly(3), Scourge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Heavy Machinegun (30\", A3, AP(1))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Warriors",
+      "Replace one Battle Rifle",
+      "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Berserkers",
+      "Replace one Great Heat Axe",
+      "Assault Grenade Launcher (12\", A1, Blast(3), Assault), Strike",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Miners",
+      "Replace one Iron-Slug Shotgun and Hand Weapon",
+      "Sgt. Iron-Slug Pistol (9\", A1, Assault, Shred), Sgt. Hand Weapon",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Miners",
+      "Replace Sgt. Iron-Slug Pistol",
+      "Ore-Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Miners",
+      "Replace Sgt. Iron-Slug Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Miners",
+      "Replace Sgt. Hand Weapon",
+      "Magma Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Miners",
+      "Replace Sgt. Hand Weapon",
+      "Shock Fist (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Iron Veterans",
+      "Replace one Iron-Slug Carbine and Strike",
+      "Sgt. Ore-Shredder Pistol (9\", A1, Rending, Assault), Sgt. Hand",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Iron Veterans",
+      "Replace Sgt. Ore-Shredder Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Iron Veterans",
+      "Replace Sgt. Ore-Shredder Pistol",
+      "Iron-Slug Pistol (9\", A1, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Iron Veterans",
+      "Replace Sgt. Hand Weapon",
+      "Magma Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Iron Veterans",
+      "Replace Sgt. Hand Weapon",
+      "Shock Fist (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Thunder Support",
+      "Replace all Mining Beam-Cannons",
+      "Heavy Machinegun (30\", A3, AP(1)), Ore-Scanner (Anti-Cover when Shooting)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Thunder Support",
+      "Replace any Heavy Machinegun and Ore-Scanner",
+      "Ore-Shredder Cannon (30\", A3, Rending), Ore-Scanner (Anti- Cover when Shooting)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Thunder Support",
+      "Replace any Heavy Machinegun and Ore-Scanner",
+      "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable), Ore-",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Thunder Support",
+      "Replace any Heavy Machinegun and Ore-Scanner",
+      "Scanner (Anti-Cover when Shooting) Autocannon (36\", A3, AP(2)), Ore-Scanner (Anti-Cover when Shooting)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dwarf Bikers",
+      "Replace all Lead Foots",
+      "Pioneer (Scout)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace all Hand Weapons and Combat Shields",
+      "Assault Cyclic Rifle (9\", A1, Anti-Cover, Assault, Surge), Hand",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace all Hand Weapons and Combat Shields",
+      "Weapon (A3) Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace any Assault Cyclic Rifle",
+      "Ore-Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace any Assault Cyclic Rifle",
+      "Iron-Slug Pistol (9\", A1, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace any Assault Cyclic Rifle",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace one Burst Cyclic Rifle",
+      "Heat-Railcannon (18\", A2, AP(2), Deadly(3), Scourge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace one Burst Cyclic Rifle",
+      "Plasma Cannon (30\", A2, AP(2), Blast(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Powersuit Guard",
+      "Replace one Burst Cyclic Rifle",
+      "Heavy Machinegun (30\", A6, AP(1))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Battle Cannon",
+      "Heavy Machinegun Array (30\", A6, AP(1))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Battle Cannon",
+      "Flamer Cannon (18\", A2, AP(1), Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Battle Cannon",
+      "Dual Heavy AA-Cannons (30\", A4, AP(3), Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Battle Cannon",
+      "Dual Linked Heavy Fusion Rifles (18\", A2, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Battle Cannon",
+      "Anti-Tank Cannon (30\", A2, AP(3), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Pintle Attack Minigun",
+      "Pintle Heavy Machinegun (15\", A6, AP(1), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Pintle Attack Minigun",
+      "Pintle Energy Cannon (9\", A4, Rending, Assault, Surge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Pintle Attack Minigun",
+      "Pintle Missile Launcher (15\", A2, AP(2), Deadly(3), Assault, Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Pintle Attack Minigun",
+      "Pintle Splitter-Missile Launcher (15\", A4, AP(3), Assault, Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Land Train",
+      "Replace any Pintle Attack Minigun",
+      "Pintle Heavy Fusion Rifle (9\", A2, AP(4), Deadly(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+      "Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Tunneling Drill and Heavy Excavator and Assault Battle Cannon",
+      "Machinegun (18\", A6, AP(1), Unstoppable) Heavy Battle Cannon (30\", A3, AP(2), Blast(6)), Linked AA-",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Heavy Battle Cannon",
+      "Dual Super-Heavy Fusion Rifles (18\", A3, AP(4), Deadly(6), Anti- Regen)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Heavy Battle Cannon",
+      "Heavy Flamer Cannon (18\", A3, AP(2), Blast(6), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Heavy Battle Cannon",
+      "Heavy Machinegun Array (30\", A18, AP(1))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Heavy Battle Cannon",
+      "Heavy Anti-Tank Cannon (30\", A3, AP(4), Deadly(6))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Combat Excavator",
+      "Replace Heavy Battle Cannon",
+      "Dual Heavy AA-Cannons (30\", A12, AP(3), Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Powersuit Champion: unpriced (A2)",
+    "Berserkers: unpriced (A1)",
+    "Miners: unpriced (A1)",
+    "Jetpack Warriors: unpriced Weapon (A1)",
+    "Iron Veterans: unpriced Weapon (A1)",
+    "Powersuit Guard: unpriced (A1)",
+    "Combat Excavator: unpriced Fusion Rifle (18\", A2, AP(2), Deadly(3), Unstoppable)",
+    "Powersuit Guard: Upgrade all models with any: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation"
+  ]
+}

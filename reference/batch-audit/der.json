@@ -1,0 +1,4837 @@
+{
+  "report": {
+    "file": "Dark_Elf_Raiders.cat",
+    "units": 27,
+    "spells": 6,
+    "localRules": 33,
+    "upgradeRows": 208,
+    "encodedGroups": 53,
+    "skipped": 63,
+    "missing": [
+      "Hand",
+      "A3) Burst Barb Rifle (24\"",
+      "A3",
+      "Armor(4)",
+      "A3) Spiked Catchpole (A4",
+      "A1) Acid Spewer (6\"",
+      "A1",
+      "Strike",
+      "Slashing Arm-Claws",
+      "A1) Barb Pistol (12\"",
+      "Poisoned Arm-Blade",
+      "Hand Weapon",
+      "Sgt. Hand Weapon",
+      "Heavy",
+      "Bane) Free Twin EMP Rifle (18\"",
+      "A6",
+      "Heavy Impact(3)"
+    ],
+    "warnings": 6,
+    "bytes": 390159
+  },
+  "sourceUnits": [
+    {
+      "name": "Dark Lord",
+      "size": 1,
+      "points": 65,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Haze-Launcher",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Alchemist",
+              "p": 5,
+              "raw": "Alchemist (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Harassing Aura"
+              ],
+              "label": "Raid Leader",
+              "p": 15,
+              "raw": "Raid Leader (Enhanced Harassing Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Furious Aura"
+              ],
+              "label": "Agoniser",
+              "p": 25,
+              "raw": "Agoniser (Furious Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Tormentor",
+              "p": 35,
+              "raw": "Tormentor (Piercing Marksman Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Haze-Launcher and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Torrent Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Torrent Pistol",
+              "p": 5,
+              "raw": "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "A3) Burst Barb Rifle (24\"",
+                "A3",
+                "Lacerate"
+              ],
+              "label": "Weapon",
+              "p": 5,
+              "raw": "Weapon (A3) Burst Barb Rifle (24\", A3, Lacerate), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Torrent Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol",
+              "p": 5,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 10,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Pistol",
+              "p": 10,
+              "raw": "Dark-Energy Pistol (9\", A1, AP(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Charged Flail",
+              "p": 10,
+              "raw": "Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Jagged Cleavers",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Jagged Cleavers",
+              "p": 15,
+              "raw": "Dual Jagged Cleavers (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Saw-Glaive",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Saw-Glaive",
+              "p": 30,
+              "raw": "Heavy Saw-Glaive (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Slayer"
+              ],
+              "label": "Nightmare Master",
+              "p": 5,
+              "raw": "Nightmare Master (Melee Slayer)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Dodge"
+              ],
+              "label": "Witch Master",
+              "p": 5,
+              "raw": "Witch Master (Dodge)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Wings",
+              "p": 10,
+              "raw": "Wings (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Raider Wings",
+              "p": 20,
+              "raw": "Raider Wings (Ambush, Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Agile",
+                "Scout",
+                "Strider"
+              ],
+              "label": "Hoverboard",
+              "p": 20,
+              "raw": "Hoverboard (Agile, Scout, Strider)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Combat Jetbike",
+              "p": 105,
+              "raw": "Combat Jetbike (Barb Bike-Rifle (24\", A3, Lacerate), Fast, Strider, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Barb Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Assault Jetbike",
+              "p": 115,
+              "raw": "Assault Jetbike (Assault Barb Bike-Rifle (12\", A3, Assault, Lacerate), Fast, Strider, Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elite True Raider",
+      "size": 1,
+      "points": 60,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Haze-Launcher",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Alchemist",
+              "p": 5,
+              "raw": "Alchemist (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Dread Ruler",
+              "p": 5,
+              "raw": "Dread Ruler (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Furious Aura"
+              ],
+              "label": "Agoniser",
+              "p": 25,
+              "raw": "Agoniser (Furious Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Tormentor",
+              "p": 35,
+              "raw": "Tormentor (Piercing Marksman Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 5,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Dodge"
+              ],
+              "label": "Witch Master",
+              "p": 5,
+              "raw": "Witch Master (Dodge)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Wings",
+              "p": 10,
+              "raw": "Wings (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Raider Wings",
+              "p": 20,
+              "raw": "Raider Wings (Ambush, Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Agile",
+                "Scout",
+                "Strider"
+              ],
+              "label": "Hoverboard",
+              "p": 20,
+              "raw": "Hoverboard (Agile, Scout, Strider)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(4)",
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Combat Jetbike",
+              "p": 110,
+              "raw": "Combat Jetbike (Barb Bike-Rifle (24\", A3, Lacerate), Armor(4), Fast, Strider, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Barb Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(4)",
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Assault Jetbike",
+              "p": 120,
+              "raw": "Assault Jetbike (Assault Barb Bike-Rifle (12\", A3, Assault, Lacerate), Armor(4), Fast, Strider, Tough(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Haze-Launcher and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Torrent Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Torrent Pistol",
+              "p": 5,
+              "raw": "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A3) Spiked Catchpole (A4",
+                "Thrust"
+              ],
+              "label": "Weapon",
+              "p": 5,
+              "raw": "Weapon (A3) Spiked Catchpole (A4, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Blade-Whips",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blade-Whips",
+              "p": 5,
+              "raw": "Dual Blade-Whips (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Barb Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Barb Rifle + Hand Weapon",
+              "p": 5,
+              "raw": "Burst Barb Rifle (24\", A3, Lacerate), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 15,
+              "raw": "Dark Trident (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Witch Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Witch Claws",
+              "p": 15,
+              "raw": "Dual Witch Claws (A4, AP(1), Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Torrent Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol",
+              "p": 5,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 10,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Pistol",
+              "p": 10,
+              "raw": "Dark-Energy Pistol (9\", A1, AP(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Charged Flail",
+              "p": 10,
+              "raw": "Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Jagged Cleavers",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Jagged Cleavers",
+              "p": 15,
+              "raw": "Dual Jagged Cleavers (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Saw-Glaive",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Saw-Glaive",
+              "p": 30,
+              "raw": "Heavy Saw-Glaive (A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gene-Tech Master",
+      "size": 1,
+      "points": 55,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Hero",
+        "Regeneration",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hand Weapons",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Alchemist",
+              "p": 5,
+              "raw": "Alchemist (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Dread Ruler",
+              "p": 5,
+              "raw": "Dread Ruler (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Harassing Aura"
+              ],
+              "label": "Raid Leader",
+              "p": 15,
+              "raw": "Raid Leader (Enhanced Harassing Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Furious Aura"
+              ],
+              "label": "Agoniser",
+              "p": 25,
+              "raw": "Agoniser (Furious Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Soul Carrier",
+              "p": 35,
+              "raw": "Soul Carrier (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Soul Carrier",
+              "p": 50,
+              "raw": "Master Soul Carrier (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Hand Weapon",
+              "p": 5,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Hand Weapon (A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Soul Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Soul Staff",
+              "p": 15,
+              "raw": "Soul Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Executioner Gun",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Assault",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Executioner Gun",
+              "p": 15,
+              "raw": "Executioner Gun (15\", A1, AP(1), Reliable, Assault, Takedown),"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A1) Acid Spewer (6\"",
+                "A1",
+                "Blast(3)",
+                "Reliable",
+                "Assault",
+                "Bane",
+                "Strike"
+              ],
+              "label": "Strike",
+              "p": 15,
+              "raw": "Strike (A1) Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Strike"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Syringe Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "(A1) Syringe Pistol + Strike",
+              "p": 25,
+              "raw": "(A1) Syringe Pistol (6\", A1, AP(4), Deadly(3), Assault), Strike (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Charged Flail",
+              "p": 5,
+              "raw": "Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Acid Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Acid Sword",
+              "p": 5,
+              "raw": "Acid Sword (A3, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Jagged Scourge",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Jagged Scourge",
+              "p": 5,
+              "raw": "Jagged Scourge (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Slashing Arm-Claws",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Slashing Arm-Claws",
+              "p": 5,
+              "raw": "Slashing Arm-Claws (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Arm-Spike",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Arm-Spike",
+              "p": 10,
+              "raw": "Heavy Arm-Spike (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Poisoned Arm-Blade",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Poisoned Arm-Blade",
+              "p": 15,
+              "raw": "Poisoned Arm-Blade (A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elite Raider",
+      "size": 1,
+      "points": 45,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Haze-Launcher",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Alchemist",
+              "p": 5,
+              "raw": "Alchemist (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Dread Ruler",
+              "p": 5,
+              "raw": "Dread Ruler (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Furious Aura"
+              ],
+              "label": "Agoniser",
+              "p": 25,
+              "raw": "Agoniser (Furious Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Tormentor",
+              "p": 35,
+              "raw": "Tormentor (Piercing Marksman Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Haze-Launcher and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Hand Weapon",
+              "p": 5,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Hand Weapon (A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spiked Catchpole",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spiked Catchpole",
+              "p": 5,
+              "raw": "Spiked Catchpole (A4, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Blade-Whips",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blade-Whips",
+              "p": 5,
+              "raw": "Dual Blade-Whips (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Barb Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Barb Rifle + Hand Weapon",
+              "p": 5,
+              "raw": "Burst Barb Rifle (24\", A3, Lacerate), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 10,
+              "raw": "Dark Trident (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Witch Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Witch Claws",
+              "p": 15,
+              "raw": "Dual Witch Claws (A4, AP(1), Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Barb Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Torrent Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Torrent Pistol",
+              "p": 5,
+              "raw": "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 5,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Pistol",
+              "p": 5,
+              "raw": "Dark-Energy Pistol (9\", A1, AP(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Charged Flail",
+              "p": 10,
+              "raw": "Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Jagged Cleavers",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Jagged Cleavers",
+              "p": 10,
+              "raw": "Dual Jagged Cleavers (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Saw-Glaive",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Saw-Glaive",
+              "p": 20,
+              "raw": "Heavy Saw-Glaive (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 5,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Dodge"
+              ],
+              "label": "Witch Master",
+              "p": 5,
+              "raw": "Witch Master (Dodge)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Wings",
+              "p": 5,
+              "raw": "Wings (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Raider Wings",
+              "p": 15,
+              "raw": "Raider Wings (Ambush, Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Agile",
+                "Scout",
+                "Strider"
+              ],
+              "label": "Hoverboard",
+              "p": 15,
+              "raw": "Hoverboard (Agile, Scout, Strider)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(4)",
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Combat Jetbike",
+              "p": 85,
+              "raw": "Combat Jetbike (Barb Bike-Rifle (24\", A3, Lacerate), Armor(4), Fast, Strider, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Barb Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(4)",
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Assault Jetbike",
+              "p": 95,
+              "raw": "Assault Jetbike (Assault Barb Bike-Rifle (12\", A3, Assault, Lacerate), Armor(4), Fast, Strider, Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blood Hounds",
+      "size": 5,
+      "points": 65,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Fast",
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Toxin Claws",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Beast Handler",
+              "p": 10,
+              "raw": "Combat Beast Handler (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Vanguard"
+              ],
+              "label": "Pathfinder Beast Handler",
+              "p": 10,
+              "raw": "Pathfinder Beast Handler (Vanguard)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gene-Warriors",
+      "size": 5,
+      "points": 80,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Regeneration"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 2,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dual Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Hand Weapon",
+              "p": 25,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Dual Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Charged Flail",
+              "p": 15,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Acid Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Acid Sword",
+              "p": 15,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Acid Sword (A3, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Jagged Scourge",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Jagged Scourge",
+              "p": 15,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Jagged Scourge (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Slashing Arm-Claws"
+              ],
+              "label": "Barb Pistol",
+              "p": 20,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Slashing Arm-Claws"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A3, Rending) Executioner Gun",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Assault",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "(A3, Rending) Executioner Gun",
+              "p": 20,
+              "raw": "(A3, Rending) Executioner Gun (15\", A1, AP(1), Reliable, Assault, Takedown),"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A1) Acid Spewer (6\"",
+                "A1",
+                "Blast(3)",
+                "Reliable",
+                "Assault",
+                "Bane",
+                "Hand"
+              ],
+              "label": "Hand Weapon",
+              "p": 25,
+              "raw": "Hand Weapon (A1) Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Arm-Spike",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [
+                "A1) Barb Pistol (12\"",
+                "A1",
+                "Assault",
+                "Lacerate"
+              ],
+              "label": "Weapon",
+              "p": 25,
+              "raw": "Weapon (A1) Barb Pistol (12\", A1, Assault, Lacerate), Heavy Arm-Spike (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Poisoned Arm-Blade"
+              ],
+              "label": "Barb Pistol",
+              "p": 25,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Poisoned Arm-Blade"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1, AP(4), Deadly(3)) Skull-Shredder Gun",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "(A1, AP(4), Deadly(3)) Skull-Shredder Gun",
+              "p": 30,
+              "raw": "(A1, AP(4), Deadly(3)) Skull-Shredder Gun (9\", A3, Rending, Assault), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Syringe Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "(A1) Syringe Pistol",
+              "p": 35,
+              "raw": "(A1) Syringe Pistol (6\", A1, AP(4), Deadly(3), Assault), Hand Weapon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warriors",
+      "size": 5,
+      "points": 80,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Rifles",
+          "count": 5,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 15,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Torrent Gun",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Torrent Gun",
+              "p": 10,
+              "raw": "Torrent Gun (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Rifle",
+              "p": 15,
+              "raw": "Plas-Burster Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Rifle",
+              "p": 20,
+              "raw": "EMP Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Cannon",
+              "p": 20,
+              "raw": "Barb Cannon (36\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hook-Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hook-Missile Launcher",
+              "p": 25,
+              "raw": "Hook-Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Cannon",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Cannon",
+              "p": 40,
+              "raw": "Dark-Energy Cannon (36\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Sgt. Hand Weapon"
+              ],
+              "label": "Sgt. Barb Pistol",
+              "p": 5,
+              "raw": "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Barb Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 5,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 5,
+              "raw": "Dark Trident (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nightmares",
+      "size": 5,
+      "points": 85,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Harassing",
+        "Melee Slayer"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Jagged Cleavers",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Shred"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace one Heavy Jagged Cleaver",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Jagged Cleavers",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Jagged Cleavers",
+              "p": 20,
+              "raw": "Dual Jagged Cleavers (A3, Shred)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Witches",
+      "size": 5,
+      "points": 100,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Dodge",
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Pistols",
+          "count": 5,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 15,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Blade-Whips",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blade-Whips",
+              "p": 10,
+              "raw": "Dual Blade-Whips (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spiked Catchpole",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spiked Catchpole",
+              "p": 10,
+              "raw": "Spiked Catchpole (A4, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 15,
+              "raw": "Dark Trident (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Witch Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Witch Claws",
+              "p": 20,
+              "raw": "Dual Witch Claws (A4, AP(1), Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Barb Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 5,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 5,
+              "raw": "Dark Trident (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Winged Warriors",
+      "size": 5,
+      "points": 125,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Flying",
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Carbines",
+          "count": 5,
+          "range": 18,
+          "a": 2,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 20,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Carbine",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Torrent Gun",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Torrent Gun",
+              "p": 5,
+              "raw": "Torrent Gun (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Rifle",
+              "p": 10,
+              "raw": "Plas-Burster Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Rifle",
+              "p": 15,
+              "raw": "EMP Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Barb Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Cannon",
+              "p": 15,
+              "raw": "Barb Cannon (36\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 25,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Cannon",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Cannon",
+              "p": 35,
+              "raw": "Dark-Energy Cannon (36\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Sky Raider",
+              "p": 15,
+              "raw": "Sky Raider (Ambush)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Barb Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 5,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Energy Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 5,
+              "raw": "Dark Trident (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hoverboard Riders",
+      "size": 5,
+      "points": 135,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Agile",
+        "Harassing",
+        "Scout",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb-Pods",
+          "count": 5,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Dark Tridents",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 15,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Dark Trident",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Charged Flail",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Charged Flail",
+              "p": 5,
+              "raw": "Charged Flail (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 10,
+              "raw": "Energy Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Haze-Launcher",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Haze-Launcher",
+              "p": 10,
+              "raw": "Assault Haze-Launcher (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Grapple Hook",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Grapple Hook",
+              "p": 20,
+              "raw": "Grapple Hook (A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shadow Warriors",
+      "size": 5,
+      "points": 165,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Infiltrate",
+        "Stealth",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dark Blasts",
+          "count": 5,
+          "range": 9,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Unstoppable"
+          ]
+        },
+        {
+          "n": "Dark Swords",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Unstoppable"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dark Swords",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barbed Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barbed Sword",
+              "p": 15,
+              "raw": "Barbed Sword (A1, AP(1), Lacerate)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "True Warriors",
+      "size": 3,
+      "points": 85,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Torrent Guns",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 15,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Torrent Gun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Barb Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Barb Rifle",
+              "p": 10,
+              "raw": "Burst Barb Rifle (24\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Rifle",
+              "p": 15,
+              "raw": "EMP Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Rifle",
+              "p": 15,
+              "raw": "Plas-Burster Rifle (24\", A2, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Snipers",
+      "size": 3,
+      "points": 85,
+      "quality": "4+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Scout",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb-Sniper Carbines",
+          "count": 3,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Reliable",
+            "Lacerate",
+            "Takedown"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Barb-Sniper Carbines",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle",
+              "p": 20,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "True Witches",
+      "size": 3,
+      "points": 105,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Dodge",
+        "Harassing"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Pistols",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Frenzy"
+              ],
+              "label": "Expert Raider",
+              "p": 20,
+              "raw": "Expert Raider (Piercing Frenzy)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Barb Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Spiked Catchpole",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Spiked Catchpole",
+              "p": 5,
+              "raw": "Spiked Catchpole (A4, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Blade-Whips",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blade-Whips",
+              "p": 5,
+              "raw": "Dual Blade-Whips (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 10,
+              "raw": "Dark Trident (A4, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Witch Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Witch Claws",
+              "p": 15,
+              "raw": "Dual Witch Claws (A4, AP(1), Surge)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crow Swarms",
+      "size": 3,
+      "points": 105,
+      "quality": "5+",
+      "defense": "6+",
+      "rules": [
+        "Flying",
+        "Harassing",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Sharp Beaks",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Rending"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Beast Handler",
+              "p": 15,
+              "raw": "Combat Beast Handler (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Vanguard"
+              ],
+              "label": "Pathfinder Beast Handler",
+              "p": 10,
+              "raw": "Pathfinder Beast Handler (Vanguard)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Court Henchmen",
+      "size": 3,
+      "points": 145,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Harassing",
+        "Martial Prowess"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Courtesan's Swords",
+          "count": 3,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Courtesan's Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Ghoulish Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Ghoulish Claws",
+              "p": 5,
+              "raw": "Ghoulish Claws (A4, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Naga Guns",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "Naga Guns",
+              "p": 25,
+              "raw": "Naga Guns (9\", A3, Anti-Cover, Assault, Surge), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Medusa's Gaze",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "(A1) Medusa's Gaze + Strike",
+              "p": 45,
+              "raw": "(A1) Medusa's Gaze (6\", A1, AP(4), Deadly(3), Assault), Strike (A1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gene-Brutes",
+      "size": 3,
+      "points": 200,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Harassing",
+        "Regeneration",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Heavy Arm-Spikes",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dual Heavy Arm-Spikes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Acid Spewer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [
+                "Heavy"
+              ],
+              "label": "Acid Spewer",
+              "p": 20,
+              "raw": "Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Heavy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jetbike Riders",
+      "size": 3,
+      "points": 200,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Bike-Rifles",
+          "count": 3,
+          "range": 24,
+          "a": 2,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Barb Rifles",
+          "count": 3,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Barb Bike-Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Barb Bike-Rifle",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Barb Bike-Rifle",
+              "p": 15,
+              "raw": "Assault Barb Bike-Rifle (12\", A2, Assault, Lacerate)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Barb Rifles and Strikes",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Barb Pistol + Hand Weapon",
+              "p": 5,
+              "raw": "Barb Pistol (12\", A1, Assault, Lacerate), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Rifle",
+              "p": 15,
+              "raw": "Plas-Burster Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 30,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Razor-Net",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Razor-Net",
+              "p": 10,
+              "raw": "Razor-Net (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Scythe-Hook",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Scythe-Hook",
+              "p": 20,
+              "raw": "Scythe-Hook (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Barb Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Barb Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [
+                "Sgt. Hand Weapon"
+              ],
+              "label": "Sgt. Barb Pistol",
+              "p": 5,
+              "raw": "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Barb Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Pistol",
+              "p": 5,
+              "raw": "Plas-Burster Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark Trident",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark Trident",
+              "p": 5,
+              "raw": "Dark Trident (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clawed Beast",
+      "size": 1,
+      "points": 120,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Furious",
+        "Harassing",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Claws",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter"
+              ],
+              "label": "Combat Beast Handler",
+              "p": 15,
+              "raw": "Combat Beast Handler (Unpredictable Fighter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Vanguard"
+              ],
+              "label": "Pathfinder Beast Handler",
+              "p": 15,
+              "raw": "Pathfinder Beast Handler (Vanguard)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leech Engine",
+      "size": 1,
+      "points": 145,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fear(1)",
+        "Fearless",
+        "Harassing",
+        "Relentless",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Leech-Shot Blaster",
+          "count": 1,
+          "range": 24,
+          "a": 2,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Leech-Shot Blaster",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barbed Stinger",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault",
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "n": "Toxin Claws",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barbed Stinger + Toxin Claws",
+              "p": 5,
+              "raw": "Barbed Stinger (12\", A3, Assault, Lacerate), Toxin Claws (A3, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Leech-Slug Blaster",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Leech-Slug Blaster",
+              "p": 30,
+              "raw": "Leech-Slug Blaster (18\", A2, AP(2), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Fighting Mark"
+              ],
+              "label": "Widow Maker",
+              "p": 25,
+              "raw": "Widow Maker (Precision Fighting Mark)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Buff"
+              ],
+              "label": "Soul Conductor",
+              "p": 35,
+              "raw": "Soul Conductor (Regeneration Buff)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engine of Suffering",
+      "size": 1,
+      "points": 155,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fear(1)",
+        "Fearless",
+        "Harassing",
+        "Regeneration",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Flechette Launcher",
+          "count": 1,
+          "range": 24,
+          "a": 2,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Flechette Launcher",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Acid Stinger",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane) Free Twin EMP Rifle (18\"",
+                    "A6",
+                    "Rending"
+                  ]
+                },
+                {
+                  "n": "Acid Stinger",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Bane) Free Twin EMP Rifle (18\"",
+                    "A6",
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Acid Stinger + Acid Stinger",
+              "p": 20,
+              "raw": "2x Acid Stinger (A3, Bane) Free Twin EMP Rifle (18\", A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Twin Barb Cannon",
+                  "range": 36,
+                  "a": 6,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Barb Cannon",
+              "p": 25,
+              "raw": "Twin Barb Cannon (36\", A6, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Twin Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Heavy Fusion Rifle",
+              "p": 40,
+              "raw": "Twin Heavy Fusion Rifle (18\", A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Acid Stinger",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Scourge",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Scourge",
+              "p": 5,
+              "raw": "Shredder Scourge (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Acid Spewer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Acid Spewer",
+              "p": 10,
+              "raw": "Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Claws",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Claws",
+              "p": 10,
+              "raw": "Heavy Claws (A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regenerative Strength"
+              ],
+              "label": "Pain Fueled",
+              "p": 20,
+              "raw": "Pain Fueled (Regenerative Strength)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Fighting Mark"
+              ],
+              "label": "Widow Maker",
+              "p": 25,
+              "raw": "Widow Maker (Precision Fighting Mark)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Jetbike",
+      "size": 1,
+      "points": 160,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Cannon",
+          "count": 1,
+          "range": 36,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Twin Barb Rifle",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Twin Barb Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Cannon",
+              "p": 5,
+              "raw": "Barb Cannon (36\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hook-Missile Launcher",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hook-Missile Launcher",
+              "p": 15,
+              "raw": "Hook-Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Agile"
+              ],
+              "label": "Dark-Sails",
+              "p": 5,
+              "raw": "Dark-Sails (Agile)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Shield of Darkness",
+              "p": 15,
+              "raw": "Shield of Darkness (Stealth)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Transport(6)"
+              ],
+              "label": "Open Deck",
+              "p": 20,
+              "raw": "Open Deck (Transport(6))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Heavy Impact(3)"
+              ],
+              "label": "Energy Ram",
+              "p": 20,
+              "raw": "Energy Ram (Heavy Impact(3))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light Skimmer",
+      "size": 1,
+      "points": 200,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Twin Barb Rifle",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Cannon",
+              "p": 35,
+              "raw": "Barb Cannon (36\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Cannon",
+              "p": 60,
+              "raw": "Plas-Burster Cannon (36\", A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Cannon",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Cannon",
+              "p": 60,
+              "raw": "Dark-Energy Cannon (36\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Haze-Launcher",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Haze-Launcher",
+              "p": 5,
+              "raw": "Disposable Haze-Launcher (24\", A1, Blast(3), Limited)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Agile"
+              ],
+              "label": "Dark-Sails",
+              "p": 10,
+              "raw": "Dark-Sails (Agile)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Shield of Darkness",
+              "p": 15,
+              "raw": "Shield of Darkness (Stealth)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Heavy Impact(3)"
+              ],
+              "label": "Energy Ram",
+              "p": 20,
+              "raw": "Energy Ram (Heavy Impact(3))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Skimmer",
+      "size": 1,
+      "points": 355,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Strider",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Barb Cannons",
+          "count": 2,
+          "range": 36,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Twin Barb Rifle",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Barb Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Cannon",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Cannon",
+              "p": 25,
+              "raw": "Dark-Energy Cannon (36\", A1, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Cannon",
+              "p": 25,
+              "raw": "Plas-Burster Cannon (36\", A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Twin Barb Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Barb Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Barb Cannon",
+              "p": 10,
+              "raw": "Barb Cannon (36\", A3, Lacerate)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dark-Energy Cannon",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dark-Energy Cannon",
+              "p": 35,
+              "raw": "Dark-Energy Cannon (36\", A1, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plas-Burster Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plas-Burster Cannon",
+              "p": 35,
+              "raw": "Plas-Burster Cannon (36\", A3, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Haze-Launcher",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Haze-Launcher",
+              "p": 5,
+              "raw": "Disposable Haze-Launcher (24\", A1, Blast(3), Limited)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Agile"
+              ],
+              "label": "Dark-Sails",
+              "p": 10,
+              "raw": "Dark-Sails (Agile)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Heavy Impact(3)"
+              ],
+              "label": "Energy Ram",
+              "p": 20,
+              "raw": "Energy Ram (Heavy Impact(3))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Shield of Darkness",
+              "p": 25,
+              "raw": "Shield of Darkness (Stealth)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Razor Fighter",
+      "size": 1,
+      "points": 260,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Aircraft",
+        "Harassing",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Strafing Plas-Burster Cannons",
+          "count": 1,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "AP(2)"
+          ]
+        },
+        {
+          "n": "Strafing Acid-Missiles",
+          "count": 1,
+          "range": 15,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "n": "Strafing Twin Barb Rifle",
+          "count": 1,
+          "range": 12,
+          "a": 3,
+          "rs": [
+            "Lacerate"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Strafing Twin Barb Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Aircraft Barb Cannon",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Aircraft Barb Cannon",
+              "p": 10,
+              "raw": "Aircraft Barb Cannon (15\", A3, AP(1), Lacerate)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Strafing Plas-Burster Cannons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Strafing Dark-Energy Cannons",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Dark-Energy Cannons",
+              "p": 5,
+              "raw": "Strafing Dark-Energy Cannons (18\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Strafing Acid-Missiles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Strafing Haze-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Haze-Missiles",
+              "p": 5,
+              "raw": "Strafing Haze-Missiles (15\", A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Strafing Hook-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Hook-Missiles",
+              "p": 10,
+              "raw": "Strafing Hook-Missiles (15\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raven Bomber",
+      "size": 1,
+      "points": 290,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Aircraft",
+        "Harassing",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Strafing Haze-Missiles",
+          "count": 1,
+          "range": 15,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Strafing Plas-Blaster",
+          "count": 1,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "AP(2)"
+          ]
+        },
+        {
+          "n": "Reaper Bombs",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(4)",
+            "Deadly(3)",
+            "Crossing Strike"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Strafing Plas-Blaster",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Strafing Reaper Cannon",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Reaper Cannon",
+              "p": 20,
+              "raw": "Strafing Reaper Cannon (18\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Strafing Haze-Missiles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Strafing Reaper-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Reaper-Missiles",
+              "p": 15,
+              "raw": "Strafing Reaper-Missiles (15\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Warriors",
+      "Replace one Barb Rifle and Strike",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Witches",
+      "Replace one Barb Pistol and Hand Weapon",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon Free (A1)",
+      "no parsed price"
+    ],
+    [
+      "Winged Warriors",
+      "Replace one Barb Carbine and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Energy Sword Free (A1, Rending)",
+      "no parsed price"
+    ],
+    [
+      "Gene-Brutes",
+      "Replace all Dual Heavy Arm-Spikes",
+      "Arm-Spike (A1, AP(2))",
+      "no parsed price"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace one Barb Rifle and Strike",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Dark Lord",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dark Lord",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Weapon (A3) Burst Barb Rifle (24\", A3, Lacerate), Hand Weapon (A1)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite True Raider",
+      "Upgrade with one",
+      "Combat Jetbike (Barb Bike-Rifle (24\", A3, Lacerate), Armor(4), Fast, Strider, Tough(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite True Raider",
+      "Upgrade with one",
+      "Assault Jetbike (Assault Barb Bike-Rifle (12\", A3, Assault, Lacerate), Armor(4), Fast, Strider, Tough(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Weapon (A3) Spiked Catchpole (A4, Thrust)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Tech Master",
+      "Replace Dual Hand Weapons",
+      "Strike (A1) Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Strike",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite Raider",
+      "Upgrade with one",
+      "Combat Jetbike (Barb Bike-Rifle (24\", A3, Lacerate), Armor(4), Fast, Strider, Tough(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Elite Raider",
+      "Upgrade with one",
+      "Assault Jetbike (Assault Barb Bike-Rifle (12\", A3, Assault, Lacerate), Armor(4), Fast, Strider, Tough(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "Barb Pistol (12\", A1, Assault, Lacerate), Slashing Arm-Claws",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "Hand Weapon (A1) Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "Weapon (A1) Barb Pistol (12\", A1, Assault, Lacerate), Heavy Arm-Spike (A3, AP(2))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "Barb Pistol (12\", A1, Assault, Lacerate), Poisoned Arm-Blade",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "(A1, AP(4), Deadly(3)) Skull-Shredder Gun (9\", A3, Rending, Assault), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Warriors",
+      "Replace one Dual Hand Weapons",
+      "(A1) Syringe Pistol (6\", A1, AP(4), Deadly(3), Assault), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Warriors",
+      "Replace one Barb Rifle and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Court Henchmen",
+      "Replace any Courtesan's Sword",
+      "Naga Guns (9\", A3, Anti-Cover, Assault, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Court Henchmen",
+      "Replace any Courtesan's Sword",
+      "Naga Guns (9\", A3, Anti-Cover, Assault, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Court Henchmen",
+      "Replace any Courtesan's Sword",
+      "Naga Guns (9\", A3, Anti-Cover, Assault, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Gene-Brutes",
+      "Replace all Dual Heavy Arm-Spikes",
+      "Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Heavy",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace one Barb Rifle and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace one Barb Rifle and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Engine of Suffering",
+      "Replace Flechette Launcher",
+      "2x Acid Stinger (A3, Bane) Free Twin EMP Rifle (18\", A6, Rending)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Heavy Jetbike",
+      "Upgrade with any",
+      "Energy Ram (Heavy Impact(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Light Skimmer",
+      "Upgrade with any",
+      "Energy Ram (Heavy Impact(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Heavy Skimmer",
+      "Upgrade with any",
+      "Energy Ram (Heavy Impact(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Dark Lord",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Torrent Pistol (6\", A1, Reliable, Anti-Cover, Assault), Hand",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dark Lord",
+      "Replace Haze-Launcher and Hand Weapon",
+      "Weapon (A3) Burst Barb Rifle (24\", A3, Lacerate), Hand Weapon (A1)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dark Lord",
+      "Replace Torrent Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dark Lord",
+      "Replace Torrent Pistol",
+      "Barb Pistol (12\", A1, Assault, Lacerate)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dark Lord",
+      "Replace Torrent Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Dark Lord",
+      "Replace Torrent Pistol",
+      "Dark-Energy Pistol (9\", A1, AP(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Torrent Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Torrent Pistol",
+      "Barb Pistol (12\", A1, Assault, Lacerate)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Torrent Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Elite True Raider",
+      "Replace Torrent Pistol",
+      "Dark-Energy Pistol (9\", A1, AP(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace one Barb Rifle and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace Sgt. Barb Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace Sgt. Barb Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace Sgt. Hand Weapon",
+      "Energy Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warriors",
+      "Replace Sgt. Hand Weapon",
+      "Dark Trident (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Witches",
+      "Replace Sgt. Barb Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Witches",
+      "Replace Sgt. Barb Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Witches",
+      "Replace Sgt. Hand Weapon",
+      "Energy Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Witches",
+      "Replace Sgt. Hand Weapon",
+      "Dark Trident (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Winged Warriors",
+      "Replace Sgt. Barb Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Winged Warriors",
+      "Replace Sgt. Barb Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Winged Warriors",
+      "Replace Sgt. Energy Sword",
+      "Dark Trident (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Gene-Brutes",
+      "Replace all Dual Heavy Arm-Spikes",
+      "Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane), Heavy",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace one Barb Rifle and Strike",
+      "Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace Sgt. Barb Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace Sgt. Barb Pistol",
+      "Plas-Burster Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace Sgt. Hand Weapon",
+      "Energy Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace Sgt. Hand Weapon",
+      "Dark Trident (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Engine of Suffering",
+      "Replace any Acid Stinger",
+      "Shredder Scourge (A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Engine of Suffering",
+      "Replace any Acid Stinger",
+      "Acid Spewer (6\", A1, Blast(3), Reliable, Assault, Bane)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Engine of Suffering",
+      "Replace any Acid Stinger",
+      "Heavy Claws (A3, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Gene-Warriors: unpriced (A1)",
+    "Warriors: unpriced (A1)",
+    "Witches: unpriced Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Hand Weapon Free (A1)",
+    "Winged Warriors: unpriced Sgt. Barb Pistol (12\", A1, Assault, Lacerate), Sgt. Energy Sword Free (A1, Rending)",
+    "Gene-Brutes: unpriced Arm-Spike (A1, AP(2))",
+    "Jetbike Riders: unpriced (A1)"
+  ]
+}

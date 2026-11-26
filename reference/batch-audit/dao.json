@@ -1,0 +1,4113 @@
+{
+  "report": {
+    "file": "DAO_Union.cat",
+    "units": 19,
+    "spells": 6,
+    "localRules": 34,
+    "upgradeRows": 188,
+    "encodedGroups": 55,
+    "skipped": 26,
+    "missing": [
+      "Armor(3)",
+      "A4) Free Hull Hypersonic Missiles (18\"",
+      "A2",
+      "Blast(6)) Free Twin Homing HE-Missile Array (18\"",
+      "Free Indirect) Twin Heavy Gauss Coilgun (30\""
+    ],
+    "warnings": 5,
+    "bytes": 389221
+  },
+  "sourceUnits": [
+    {
+      "name": "Battle Suit Elite",
+      "size": 1,
+      "points": 110,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Hero",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Suit-Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strike",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Targeting Visor Aura"
+              ],
+              "label": "Captain",
+              "p": 10,
+              "raw": "Captain (Enhanced Targeting Visor Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Hit & Run Shooter Aura"
+              ],
+              "label": "Storm Leader",
+              "p": 10,
+              "raw": "Storm Leader (Hit & Run Shooter Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ranged Slayer Aura"
+              ],
+              "label": "Big Game Hunter",
+              "p": 10,
+              "raw": "Big Game Hunter (Ranged Slayer Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Counter in Melee Aura"
+              ],
+              "label": "Master Armorer",
+              "p": 35,
+              "raw": "Master Armorer (Counter in Melee Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Suit-Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Mortars",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Mortars",
+              "p": 15,
+              "raw": "Dual Suit-Mortars (24\", A2, Blast(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Hypersonics",
+                  "range": 18,
+                  "a": 4,
+                  "rs": [
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Hypersonics",
+              "p": 15,
+              "raw": "Dual Suit-Hypersonics (18\", A4, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Shredders",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Shredders",
+              "p": 25,
+              "raw": "Dual Suit-Shredders (18\", A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Helixes",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Helixes",
+              "p": 25,
+              "raw": "Dual Suit-Helixes (30\", A2, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Sword",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Combat Shield",
+              "p": 30,
+              "raw": "Plasma Sword (A6, Rending), Combat Shield (Armor(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Fusers",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Fusers",
+              "p": 30,
+              "raw": "Dual Suit-Fusers (12\", A2, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Suit-Shredder Cannon",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Suit-Shredder Cannon",
+              "p": 40,
+              "raw": "Heavy Suit-Shredder Cannon (30\", A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Plasmas",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Plasmas",
+              "p": 40,
+              "raw": "Dual Suit-Plasmas (18\", A6, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Missiles",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Missiles",
+              "p": 50,
+              "raw": "Dual Suit-Missiles (30\", A2, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Flamers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Flamers",
+              "p": 15,
+              "raw": "Dual Assault Suit-Flamers (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Guns",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Guns",
+              "p": 20,
+              "raw": "Dual Assault Suit-Guns (12\", A3, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Mortars",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Mortars",
+              "p": 20,
+              "raw": "Dual Assault Suit-Mortars (12\", A1, Blast(3), Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Hypersonics",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Hypersonics",
+              "p": 25,
+              "raw": "Dual Assault Suit-Hypersonics (9\", A2, Assault, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Shredders",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Shredders",
+              "p": 25,
+              "raw": "Dual Assault Suit-Shredders (9\", A3, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Helixes",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Helixes",
+              "p": 25,
+              "raw": "Dual Assault Suit-Helixes (15\", A1, AP(1), Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Fusers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Fusers",
+              "p": 35,
+              "raw": "Dual Assault Suit-Fusers (6\", A1, AP(4), Deadly(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Plasmas",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Plasmas",
+              "p": 35,
+              "raw": "Dual Assault Suit-Plasmas (9\", A3, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Suit-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Suit-Missiles",
+              "p": 40,
+              "raw": "Dual Assault Suit-Missiles (15\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 15,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 30,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grunt Leader",
+      "size": 1,
+      "points": 40,
+      "quality": "5+",
+      "defense": "4+",
+      "rules": [
+        "Good Shot",
+        "Hero",
+        "Targeting Visor",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Pistol",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Targeting Visor Aura"
+              ],
+              "label": "Captain",
+              "p": 10,
+              "raw": "Captain (Enhanced Targeting Visor Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fortified Aura"
+              ],
+              "label": "High Sage",
+              "p": 10,
+              "raw": "High Sage (Fortified Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ranged Slayer Aura"
+              ],
+              "label": "Big Game Hunter",
+              "p": 10,
+              "raw": "Big Game Hunter (Ranged Slayer Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Elder Sage",
+              "p": 35,
+              "raw": "Elder Sage (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Counter in Melee Aura"
+              ],
+              "label": "Master Armorer",
+              "p": 35,
+              "raw": "Master Armorer (Counter in Melee Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sage Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sage Staff",
+              "p": 15,
+              "raw": "Sage Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Carbine",
+                  "range": 18,
+                  "a": 4,
+                  "rs": []
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Carbine + Hand Weapon",
+              "p": 15,
+              "raw": "Burst Carbine (18\", A4), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Pistol",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(3)"
+              ],
+              "label": "Particle Wall",
+              "p": 15,
+              "raw": "Burst Pistol (12\", A3, Assault), Particle Wall (Armor(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Shotgun",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Shotgun + Hand Weapon",
+              "p": 15,
+              "raw": "Burst Shotgun (12\", A4, AP(1)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Long Rifle",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Long Rifle + Hand Weapon",
+              "p": 25,
+              "raw": "Burst Long Rifle (30\", A3, AP(1)), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Burst Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Plasma Pistol",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Plasma Pistol",
+              "p": 5,
+              "raw": "Burst Plasma Pistol (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Flamer Pistol",
+              "p": 5,
+              "raw": "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Shredder Pistol",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Shredder Pistol",
+              "p": 10,
+              "raw": "Burst Shredder Pistol (9\", A3, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Fusion Pistol",
+              "p": 10,
+              "raw": "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 5,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma Batons",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Batons",
+              "p": 5,
+              "raw": "Plasma Batons (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Sword",
+              "p": 5,
+              "raw": "Plasma Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Dual-Spear",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Dual-Spear",
+              "p": 5,
+              "raw": "Plasma Dual-Spear (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Halberd",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Halberd",
+              "p": 10,
+              "raw": "Plasma Halberd (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Scout"
+              ],
+              "label": "Master Spotter",
+              "p": 5,
+              "raw": "Master Spotter (Scout)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security Grunts",
+      "size": 5,
+      "points": 70,
+      "quality": "5+",
+      "defense": "4+",
+      "rules": [
+        "Armor(3)",
+        "Good Shot",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Pistols",
+          "count": 5,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Particle Wall",
+          "rs": [
+            "Armor(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Inhibitor Drone",
+              "p": 5,
+              "raw": "Inhibitor Drone (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Beacon"
+              ],
+              "label": "Recon Drone",
+              "p": 15,
+              "raw": "Recon Drone (Ambush Beacon)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Pistols and Particle Walls",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shotgun",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Shotgun + Strike",
+              "p": 40,
+              "raw": "Shotgun (12\", A2, AP(1)), Strike (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Shotgun",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 5,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 15,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 15,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Carbine",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Carbine",
+              "p": 20,
+              "raw": "Fusion Carbine (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Hand Weapon",
+              "p": 5,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Sword",
+              "p": 5,
+              "raw": "Plasma Sword (A1, Rending)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gun Drones",
+      "size": 5,
+      "points": 80,
+      "quality": "5+",
+      "defense": "4+",
+      "rules": [
+        "Good Shot",
+        "Strider",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Drone Missile-Guns",
+          "count": 5,
+          "range": 18,
+          "a": 1,
+          "rs": [
+            "Unstoppable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Drone Missile-Guns",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Shredder-Guns",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drone Shredder-Guns",
+              "p": 10,
+              "raw": "Drone Shredder-Guns (18\", A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Drone Guns",
+              "p": 25,
+              "raw": "Drone Guns (18\", A2)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Self-Repair",
+              "p": 15,
+              "raw": "Self-Repair (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tactical Grunts",
+      "size": 5,
+      "points": 100,
+      "quality": "5+",
+      "defense": "4+",
+      "rules": [
+        "Good Shot",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Long Rifles",
+          "count": 5,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Long Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Carbine",
+                  "range": 18,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Carbine",
+              "p": 5,
+              "raw": "Carbine (18\", A2)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Long Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 5,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hypersonic Missiles",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Support Turret",
+              "p": 15,
+              "raw": "Support Turret (Hypersonic Missiles (18\", A2, Precise, Puncture))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 15,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 15,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Missile Salvo",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Support Turret",
+              "p": 20,
+              "raw": "Support Turret (Missile Salvo (18\", A1, AP(2), Deadly(3), Unstoppable))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Carbine",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Carbine",
+              "p": 20,
+              "raw": "Fusion Carbine (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Homing Missiles",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Support Turret",
+              "p": 25,
+              "raw": "Support Turret (Homing Missiles (30\", A3, Indirect))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Long Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Carbine",
+                  "range": 18,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Carbine",
+              "p": 5,
+              "raw": "Carbine (18\", A2)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Sword",
+              "p": 5,
+              "raw": "Plasma Sword (A1, Rending)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Spotter"
+              ],
+              "label": "Spotter Drone",
+              "p": 15,
+              "raw": "Spotter Drone (Precision Spotter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spotters",
+      "size": 5,
+      "points": 105,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Good Shot",
+        "Scout",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Carbines",
+          "count": 5,
+          "range": 18,
+          "a": 2,
+          "rs": []
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace one Carbine",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Helix Tandem-Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Helix Tandem-Rifle",
+              "p": 15,
+              "raw": "Helix Tandem-Rifle (30\", A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Gauss Tandem-Rifle",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gauss Tandem-Rifle",
+              "p": 45,
+              "raw": "Gauss Tandem-Rifle (36\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade any model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Spotter"
+              ],
+              "label": "Spotting Laser",
+              "p": 15,
+              "raw": "Spotting Laser (Precision Spotter)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding Aura"
+              ],
+              "label": "Inhibitor Drone",
+              "p": 5,
+              "raw": "Inhibitor Drone (Melee Shrouding Aura)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Accelerator Drone",
+              "p": 15,
+              "raw": "Accelerator Drone (Increased Shooting Range Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Beacon"
+              ],
+              "label": "Recon Drone",
+              "p": 15,
+              "raw": "Recon Drone (Ambush Beacon)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sniper Drones",
+      "size": 3,
+      "points": 105,
+      "quality": "5+",
+      "defense": "4+",
+      "rules": [
+        "Good Shot",
+        "Strider",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Drone Sniper-Guns",
+          "count": 3,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Drone Sniper-Guns",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Helix-Gun",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drone Helix-Gun",
+              "p": 15,
+              "raw": "Drone Helix-Gun (30\", A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Drone Gauss-Gun",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Drone Gauss-Gun",
+              "p": 35,
+              "raw": "Drone Gauss-Gun (18\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spotter Gunners",
+      "size": 3,
+      "points": 115,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Good Shot",
+        "Scout",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Helix Tandem-Rifles",
+          "count": 3,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Helix Tandem-Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Gauss Tandem-Rifle",
+                  "range": 36,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gauss Tandem-Rifle",
+              "p": 75,
+              "raw": "Gauss Tandem-Rifle (36\", A1, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade any model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Spotter"
+              ],
+              "label": "Spotting Laser",
+              "p": 15,
+              "raw": "Spotting Laser (Precision Spotter)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Battle Suits",
+      "size": 3,
+      "points": 150,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Targeting Visor",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Suit-Flamers",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dual Suit-Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Combat Shield",
+              "p": 45,
+              "raw": "Plasma Sword (A3, Rending), Combat Shield (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Dual Suit-Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Mortars",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Mortars",
+              "p": 10,
+              "raw": "Dual Suit-Mortars (24\", A1, Blast(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Hypersonics",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Hypersonics",
+              "p": 10,
+              "raw": "Dual Suit-Hypersonics (18\", A2, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Shredders",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Shredders",
+              "p": 10,
+              "raw": "Dual Suit-Shredders (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Helixes",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Helixes",
+              "p": 15,
+              "raw": "Dual Suit-Helixes (30\", A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Fusers",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Fusers",
+              "p": 15,
+              "raw": "Dual Suit-Fusers (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Plasmas",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Plasmas",
+              "p": 20,
+              "raw": "Dual Suit-Plasmas (18\", A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Suit-Missiles",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Suit-Missiles",
+              "p": 25,
+              "raw": "Dual Suit-Missiles (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Gun",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Gun",
+              "p": 5,
+              "raw": "Assault Suit-Gun (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Flamer",
+              "p": 5,
+              "raw": "Assault Suit-Flamer (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Shredder",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Shredder",
+              "p": 10,
+              "raw": "Assault Suit-Shredder (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Hypersonics",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Hypersonics",
+              "p": 10,
+              "raw": "Assault Suit-Hypersonics (9\", A1, Assault, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Mortars",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Mortars",
+              "p": 10,
+              "raw": "Assault Suit-Mortars (12\", A1, Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Helixes",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Helixes",
+              "p": 10,
+              "raw": "Assault Suit-Helixes (15\", A1, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Plasma",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Plasma",
+              "p": 10,
+              "raw": "Assault Suit-Plasma (9\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Fuser",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Fuser",
+              "p": 15,
+              "raw": "Assault Suit-Fuser (6\", A1, AP(4), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Suit-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Suit-Missiles",
+              "p": 15,
+              "raw": "Assault Suit-Missiles (15\", A1, AP(2), Assault, Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 20,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 45,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Spotter"
+              ],
+              "label": "Spotter Drone",
+              "p": 15,
+              "raw": "Spotter Drone (Precision Spotter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth Aura"
+              ],
+              "label": "Shield Drone",
+              "p": 45,
+              "raw": "Shield Drone (Stealth Aura)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stealth Suits",
+      "size": 3,
+      "points": 160,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Relentless",
+        "Stealth",
+        "Targeting Visor"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Shredder Rifles",
+          "count": 3,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "Rending"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Shredder Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fusion Carbine",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Carbine",
+              "p": 5,
+              "raw": "Fusion Carbine (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Precision Spotter"
+              ],
+              "label": "Spotting Laser",
+              "p": 15,
+              "raw": "Spotting Laser (Precision Spotter)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Beacon"
+              ],
+              "label": "Recon Locator",
+              "p": 15,
+              "raw": "Recon Locator (Ambush Beacon)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 5,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 15,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hover Attack Bike",
+      "size": 1,
+      "points": 160,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hull Carbines",
+          "count": 1,
+          "range": 18,
+          "a": 4,
+          "rs": []
+        },
+        {
+          "n": "Shredder Rifle",
+          "count": 1,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "Rending"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Shredder Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fusion Carbine",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Carbine",
+              "p": 5,
+              "raw": "Fusion Carbine (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing HE-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing HE-Rockets",
+              "p": 10,
+              "raw": "Disposable Homing HE-Rockets (18\", A1, AP(1), Blast(3), Indirect, Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing AT-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing AT-Rockets",
+              "p": 15,
+              "raw": "Disposable Homing AT-Rockets (18\", A1, AP(3), Deadly(3), Indirect, Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding"
+              ],
+              "label": "Inhibitor System",
+              "p": 5,
+              "raw": "Inhibitor System (Melee Shrouding)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Vision Scrambler",
+              "p": 15,
+              "raw": "Vision Scrambler (Stealth)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Shooting Mark"
+              ],
+              "label": "Weak Spot Locator",
+              "p": 45,
+              "raw": "Weak Spot Locator (Piercing Shooting Mark)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hover Transport",
+      "size": 1,
+      "points": 165,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hull Mortar Pods",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Hull Mortar Pods",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "A4) Free Hull Hypersonic Missiles (18\"",
+                "A2",
+                "Precise",
+                "Puncture"
+              ],
+              "label": "Hull Carbines",
+              "p": 5,
+              "raw": "Hull Carbines (18\", A4) Free Hull Hypersonic Missiles (18\", A2, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Shredder Rifles",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Shredder Rifles",
+              "p": 5,
+              "raw": "Hull Shredder Rifles (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Homing Missiles",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Homing Missiles",
+              "p": 15,
+              "raw": "Hull Homing Missiles (30\", A3, Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Missile Salvos",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Missile Salvos",
+              "p": 15,
+              "raw": "Hull Missile Salvos (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing HE-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing HE-Rockets",
+              "p": 10,
+              "raw": "Disposable Homing HE-Rockets (18\", A1, AP(1), Blast(3), Indirect, Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing AT-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing AT-Rockets",
+              "p": 15,
+              "raw": "Disposable Homing AT-Rockets (18\", A1, AP(3), Deadly(3), Indirect, Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding"
+              ],
+              "label": "Inhibitor System",
+              "p": 5,
+              "raw": "Inhibitor System (Melee Shrouding)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Vision Scrambler",
+              "p": 15,
+              "raw": "Vision Scrambler (Stealth)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 30,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Battle Suit",
+      "size": 1,
+      "points": 255,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Fear(2)",
+        "Targeting Visor",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Mortar Pods",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dual Mortar Pods",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Hypersonic Missiles",
+                  "range": 18,
+                  "a": 6,
+                  "rs": [
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Hypersonic Missiles",
+              "p": 5,
+              "raw": "Dual Hypersonic Missiles (18\", A6, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Missile Salvos",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Missile Salvos",
+              "p": 45,
+              "raw": "Dual Missile Salvos (30\", A3, AP(2), Deadly(3), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Gauss Tandem-Rifle",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Gauss Tandem-Rifle",
+              "p": 90,
+              "raw": "Heavy Gauss Tandem-Rifle (36\", A3, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Hypersonic Missiles",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Hypersonic Missiles",
+              "p": 30,
+              "raw": "Suit-Hull Hypersonic Missiles (9\", A2, Assault, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Plasma Rifles",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Plasma Rifles",
+              "p": 35,
+              "raw": "Suit-Hull Plasma Rifles (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Homing Missiles",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Homing Missiles",
+              "p": 35,
+              "raw": "Suit-Hull Homing Missiles (15\", A3, Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Missile Salvos",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Missile Salvos",
+              "p": 35,
+              "raw": "Suit-Hull Missile Salvos (9\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Fusion Carbines",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Fusion Carbines",
+              "p": 40,
+              "raw": "Suit-Hull Fusion Carbines (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing HE-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing HE-Rockets",
+              "p": 10,
+              "raw": "Disposable Homing HE-Rockets (18\", A1, AP(1), Blast(3), Indirect, Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing AT-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing AT-Rockets",
+              "p": 15,
+              "raw": "Disposable Homing AT-Rockets (18\", A1, AP(3), Deadly(3), Indirect, Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Drone Guns",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Gun Drone",
+              "p": 5,
+              "raw": "Gun Drone (Drone Guns (18\", A2, Limited))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Shield Drone",
+              "p": 25,
+              "raw": "Shield Drone (Stealth)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Stealth Suit",
+      "size": 1,
+      "points": 290,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Fear(2)",
+        "Stealth",
+        "Targeting Visor",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Helix Carbine",
+          "count": 1,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hull Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Heavy Helix Carbine",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Carbine",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Carbine",
+              "p": 60,
+              "raw": "Heavy Fusion Carbine (18\", A3, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Shredder Rifles",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Shredder Rifles",
+              "p": 10,
+              "raw": "Hull Shredder Rifles (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Fusion Carbines",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Fusion Carbines",
+              "p": 15,
+              "raw": "Hull Fusion Carbines (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Thrusters",
+              "p": 25,
+              "raw": "Thrusters (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Thrusters",
+              "p": 60,
+              "raw": "Airdrop Thrusters (Ambush, Flying)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Shooting Mark"
+              ],
+              "label": "Weak Spot Locator",
+              "p": 45,
+              "raw": "Weak Spot Locator (Piercing Shooting Mark)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Evasive"
+              ],
+              "label": "Stealth Drone",
+              "p": 55,
+              "raw": "Stealth Drone (Evasive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hover Tank",
+      "size": 1,
+      "points": 405,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Targeting Visor",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Helix Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hull Mortar Pods",
+          "count": 1,
+          "range": 24,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Helix Cannon and Hull Mortar Pods",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Twin Heavy Helix Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)) Free Twin Homing HE-Missile Array (18\"",
+                    "A2",
+                    "AP(2)",
+                    "Blast(6)",
+                    "Free Indirect) Twin Heavy Gauss Coilgun (30\"",
+                    "A2",
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Heavy Helix Cannon",
+              "p": 50,
+              "raw": "Twin Heavy Helix Cannon (30\", A2, AP(2), Blast(6)) Free Twin Homing HE-Missile Array (18\", A2, AP(2), Blast(6), Free Indirect) Twin Heavy Gauss Coilgun (30\", A2, AP(4), Deadly(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Twin Homing AT-Missile Array",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Homing AT-Missile Array",
+              "p": 55,
+              "raw": "Twin Homing AT-Missile Array (18\", A2, AP(4), Deadly(6), Indirect)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Helix Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Homing HE-Missile Array",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Homing HE-Missile Array",
+              "p": 5,
+              "raw": "Homing HE-Missile Array (18\", A3, AP(1), Blast(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Homing AT-Missile Array",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Homing AT-Missile Array",
+              "p": 55,
+              "raw": "Homing AT-Missile Array (18\", A3, AP(3), Deadly(3), Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Twin Gauss Coilgun",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Gauss Coilgun",
+              "p": 75,
+              "raw": "Twin Gauss Coilgun (36\", A3, AP(3), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Mortar Pods",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "A4) Free Hull Hypersonic Missiles (18\"",
+                "A2",
+                "Precise",
+                "Puncture"
+              ],
+              "label": "Hull Carbines",
+              "p": 5,
+              "raw": "Hull Carbines (18\", A4) Free Hull Hypersonic Missiles (18\", A2, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Shredder Rifles",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Shredder Rifles",
+              "p": 5,
+              "raw": "Hull Shredder Rifles (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Homing Missiles",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Homing Missiles",
+              "p": 15,
+              "raw": "Hull Homing Missiles (30\", A3, Indirect)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Missile Salvos",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Missile Salvos",
+              "p": 15,
+              "raw": "Hull Missile Salvos (30\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing HE-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing HE-Rockets",
+              "p": 10,
+              "raw": "Disposable Homing HE-Rockets (18\", A1, AP(1), Blast(3), Indirect, Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Homing AT-Rockets",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Homing AT-Rockets",
+              "p": 15,
+              "raw": "Disposable Homing AT-Rockets (18\", A1, AP(3), Deadly(3), Indirect, Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Melee Shrouding"
+              ],
+              "label": "Inhibitor System",
+              "p": 5,
+              "raw": "Inhibitor System (Melee Shrouding)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Stealth"
+              ],
+              "label": "Vision Scrambler",
+              "p": 30,
+              "raw": "Vision Scrambler (Stealth)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tide Titan",
+      "size": 1,
+      "points": 550,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Evasive",
+        "Fear(3)",
+        "Targeting Visor",
+        "Tough(18)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Titan Plasma Sword",
+          "count": 1,
+          "range": 0,
+          "a": 12,
+          "rs": [
+            "Rending"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Nova Shield",
+          "rs": [
+            "Evasive"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Titan Plasma Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Twin Heavy Helix Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Twin Heavy Helix Cannon",
+              "p": 95,
+              "raw": "Twin Heavy Helix Cannon (30\", A3, AP(2), Blast(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Shredder Rifle",
+                  "range": 18,
+                  "a": 18,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Shredder Rifle",
+              "p": 100,
+              "raw": "Titan Shredder Rifle (18\", A18, Rending)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Hypersonic Missiles",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Hypersonic Missiles",
+              "p": 30,
+              "raw": "Suit-Hull Hypersonic Missiles (9\", A2, Assault, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Plasma Rifles",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Plasma Rifles",
+              "p": 35,
+              "raw": "Suit-Hull Plasma Rifles (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Homing Missiles",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Homing Missiles",
+              "p": 35,
+              "raw": "Suit-Hull Homing Missiles (15\", A3, Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Missile Salvos",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Missile Salvos",
+              "p": 35,
+              "raw": "Suit-Hull Missile Salvos (9\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Long Rifles",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Long Rifles",
+              "p": 40,
+              "raw": "Suit-Hull Long Rifles (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Fusion Carbines",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Fusion Carbines",
+              "p": 40,
+              "raw": "Suit-Hull Fusion Carbines (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surge Titan",
+      "size": 1,
+      "points": 775,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Fear(4)",
+        "Targeting Visor",
+        "Tough(24)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dispersed Energy Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 2,
+          "rs": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "n": "Dual AT-Rocket Arrays",
+          "count": 1,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "n": "Dual HE-Rocket Arrays",
+          "count": 1,
+          "range": 24,
+          "a": 3,
+          "rs": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 8,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dispersed Energy Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Focused Energy Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Focused Energy Cannon",
+              "p": 55,
+              "raw": "Focused Energy Cannon (30\", A2, AP(4), Deadly(6))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Hypersonic Missiles",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Precise",
+                    "Puncture"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Hypersonic Missiles",
+              "p": 30,
+              "raw": "Suit-Hull Hypersonic Missiles (9\", A2, Assault, Precise, Puncture)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Homing Missiles",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Homing Missiles",
+              "p": 35,
+              "raw": "Suit-Hull Homing Missiles (15\", A3, Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Missile Salvos",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Missile Salvos",
+              "p": 35,
+              "raw": "Suit-Hull Missile Salvos (9\", A1, AP(2), Deadly(3), Assault, Unstoppable)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Flamers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Flamers",
+              "p": 25,
+              "raw": "Suit-Hull Flamers (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Mortar Pods",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Indirect",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Mortar Pods",
+              "p": 25,
+              "raw": "Suit-Hull Mortar Pods (12\", A1, Blast(3), Indirect, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Suit-Hull Shredder Rifles",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Suit-Hull Shredder Rifles",
+              "p": 35,
+              "raw": "Suit-Hull Shredder Rifles (9\", A3, Rending, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Razor Fighter",
+      "size": 1,
+      "points": 200,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Aircraft",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Strafing Helix Cannon",
+          "count": 1,
+          "range": 15,
+          "a": 2,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Strafing Hypersonic Missiles",
+          "count": 1,
+          "range": 9,
+          "a": 2,
+          "rs": [
+            "Precise",
+            "Puncture"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Strafing HE-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Strafing HE-Missiles",
+              "p": 5,
+              "raw": "Disposable Strafing HE-Missiles (15\", A1, AP(1), Blast(3), Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Strafing AT-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Strafing AT-Missiles",
+              "p": 10,
+              "raw": "Disposable Strafing AT-Missiles (15\", A1, AP(3), Deadly(3), Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Strafing Hypersonic Missiles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Strafing Shredder Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Shredder Rifle",
+              "p": 5,
+              "raw": "Strafing Shredder Rifle (9\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Strafing Missile Salvo",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Strafing Missile Salvo",
+              "p": 10,
+              "raw": "Strafing Missile Salvo (15\", A1, AP(2), Deadly(3), Unstoppable)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sun Bomber",
+      "size": 1,
+      "points": 225,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Aircraft",
+        "Targeting Visor",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Strafing Helix Rifles",
+          "count": 1,
+          "range": 15,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Strafing Hypersonic Missiles",
+          "count": 1,
+          "range": 9,
+          "a": 2,
+          "rs": [
+            "Precise",
+            "Puncture"
+          ]
+        },
+        {
+          "n": "Pulse Bombs",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(2)",
+            "Blast(3)",
+            "Crossing Strike"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Pulse Bombs",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fusion Bombs",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Crossing Strike"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Bombs",
+              "p": 20,
+              "raw": "Fusion Bombs (A1, AP(4), Deadly(3), Crossing Strike)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Strafing HE-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Strafing HE-Missiles",
+              "p": 5,
+              "raw": "Disposable Strafing HE-Missiles (15\", A1, AP(1), Blast(3), Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Disposable Strafing AT-Missiles",
+                  "range": 15,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Strafing AT-Missiles",
+              "p": 10,
+              "raw": "Disposable Strafing AT-Missiles (15\", A1, AP(3), Deadly(3), Limited)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Tactical Grunts",
+      "Replace one Long Rifle and Strike",
+      "Sgt. Long Rifle (30\", A1, AP(1)), Sgt. Hand Weapon (A1) Free",
+      "no parsed price"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Pistol and Hand Weapon",
+      "Burst Pistol (12\", A3, Assault), Particle Wall (Armor(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Hover Transport",
+      "Replace Hull Mortar Pods",
+      "Hull Carbines (18\", A4) Free Hull Hypersonic Missiles (18\", A2, Precise, Puncture)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Hover Tank",
+      "Replace Helix Cannon and Hull Mortar Pods",
+      "Twin Heavy Helix Cannon (30\", A2, AP(2), Blast(6)) Free Twin Homing HE-Missile Array (18\", A2, AP(2), Blast(6), Free Indirect) Twin Heavy Gauss Coilgun (30\", A2, AP(4), Deadly(6))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Burst Pistol",
+      "Burst Plasma Pistol (12\", A2, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Burst Pistol",
+      "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Burst Pistol",
+      "Burst Shredder Pistol (9\", A3, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Burst Pistol",
+      "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Pistol",
+      "Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Pistol",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Grunt Leader",
+      "Replace Pistol",
+      "Fusion Pistol (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Security Grunts",
+      "Replace all Pistols and Particle Walls",
+      "Shotgun (12\", A2, AP(1)), Strike (A1)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Security Grunts",
+      "Replace one Shotgun",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Security Grunts",
+      "Replace one Shotgun",
+      "Shredder Rifle (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Security Grunts",
+      "Replace one Shotgun",
+      "Plasma Rifle (24\", A2, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Security Grunts",
+      "Replace one Shotgun",
+      "Fusion Carbine (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Tactical Grunts",
+      "Replace Sgt. Long Rifle",
+      "Carbine (18\", A2)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Tactical Grunts",
+      "Replace Sgt. Hand Weapon",
+      "Plasma Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Helix Cannon",
+      "Homing HE-Missile Array (18\", A3, AP(1), Blast(3), Indirect)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Helix Cannon",
+      "Homing AT-Missile Array (18\", A3, AP(3), Deadly(3), Indirect)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Helix Cannon",
+      "Twin Gauss Coilgun (36\", A3, AP(3), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Hull Mortar Pods",
+      "Hull Carbines (18\", A4) Free Hull Hypersonic Missiles (18\", A2, Precise, Puncture)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Hull Mortar Pods",
+      "Hull Shredder Rifles (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Hull Mortar Pods",
+      "Hull Homing Missiles (30\", A3, Indirect)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Hover Tank",
+      "Replace Hull Mortar Pods",
+      "Hull Missile Salvos (30\", A1, AP(2), Deadly(3), Unstoppable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Tactical Grunts: unpriced Sgt. Long Rifle (30\", A1, AP(1)), Sgt. Hand Weapon (A1) Free",
+    "Security Grunts: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation",
+    "Tactical Grunts: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation",
+    "Spotters: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation",
+    "Battle Suits: Upgrade one model with one: added weapon belongs to unit-level upgrade, verify ForceOrg model allocation"
+  ]
+}

@@ -1,0 +1,2272 @@
+{
+  "report": {
+    "file": "Elven_Jesters.cat",
+    "units": 11,
+    "spells": 6,
+    "localRules": 33,
+    "upgradeRows": 99,
+    "encodedGroups": 30,
+    "skipped": 19,
+    "missing": [
+      "Anti- Cover",
+      "Armor(4)",
+      "Takedown Shot(1)",
+      "Hand",
+      "A1) Fragment Sniper Rifle (24\"",
+      "A2",
+      "Strike"
+    ],
+    "warnings": 2,
+    "bytes": 436618
+  },
+  "sourceUnits": [
+    {
+      "name": "Master Jester",
+      "size": 1,
+      "points": 70,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Armor(4)",
+        "Furious",
+        "Hero",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Jester Buckler",
+          "rs": [
+            "Armor(4)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Death Dealer",
+              "p": 10,
+              "raw": "Death Dealer (Increased Shooting Range Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Takedown Strike(1)"
+              ],
+              "label": "Trickster Assassin",
+              "p": 15,
+              "raw": "Trickster Assassin (Takedown Strike(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shielded Aura"
+              ],
+              "label": "Stage Master",
+              "p": 20,
+              "raw": "Stage Master (Shielded Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Rapid Blink Aura"
+              ],
+              "label": "Troupe Lord",
+              "p": 20,
+              "raw": "Troupe Lord (Enhanced Rapid Blink Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Unpredictable Fighter Aura"
+              ],
+              "label": "Apex Killer",
+              "p": 30,
+              "raw": "Apex Killer (Unpredictable Fighter Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Jester Seer",
+              "p": 35,
+              "raw": "Jester Seer (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Jester Seer",
+              "p": 60,
+              "raw": "Master Jester Seer (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon and Jester Buckler",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle + Strike",
+              "p": 5,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Atom Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Bane"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Atom Pistol + Hand Weapon",
+              "p": 10,
+              "raw": "Atom Pistol (9\", A1, Assault, Bane), Hand Weapon (A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Arm-Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Arm-Claws",
+              "p": 25,
+              "raw": "Dual Arm-Claws (A4, AP(1), Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Seer Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Seer Staff",
+              "p": 35,
+              "raw": "Seer Staff (A2, Spell Amplifier)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sniper Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Explosive Jester-Sling",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Explosive Jester-Sling",
+              "p": 5,
+              "raw": "Explosive Jester-Sling (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mirage-Launcher",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mirage-Launcher",
+              "p": 5,
+              "raw": "Mirage-Launcher (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Sniper Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Destructive",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Sniper Rifle",
+              "p": 15,
+              "raw": "Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Jester-Sling",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Jester-Sling",
+              "p": 30,
+              "raw": "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Atom Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Pistol",
+              "p": 5,
+              "raw": "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mesmer Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mesmer Pistol",
+              "p": 5,
+              "raw": "Mesmer Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 10,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Whip",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Whip",
+              "p": 5,
+              "raw": "Arm-Whip (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Star-Spear",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Star-Spear",
+              "p": 5,
+              "raw": "Star-Spear (A3, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Blade",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Blade",
+              "p": 15,
+              "raw": "Arm-Blade (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Baton",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Baton",
+              "p": 20,
+              "raw": "Arm-Baton (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Spike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Spike",
+              "p": 25,
+              "raw": "Arm-Spike (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Re-Deployment"
+              ],
+              "label": "Twisted Illusion",
+              "p": 25,
+              "raw": "Twisted Illusion (Ambush Re-Deployment)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Joker Hoverpack",
+              "p": 10,
+              "raw": "Joker Hoverpack (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration",
+                "Scout"
+              ],
+              "label": "Prankster Suit",
+              "p": 20,
+              "raw": "Prankster Suit (Regeneration, Scout)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fast",
+                "Impact(3)",
+                "Tough(3)"
+              ],
+              "label": "Raptor Beast",
+              "p": 70,
+              "raw": "Raptor Beast (Fast, Impact(3), Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Combat Jetbike",
+              "p": 135,
+              "raw": "Combat Jetbike (Fragment Cannon (36\", A3, Anti-Cover, Destructive), Fast, Strider, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Fragment Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti- Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Strider",
+                "Tough(3)"
+              ],
+              "label": "Assault Jetbike",
+              "p": 145,
+              "raw": "Assault Jetbike (Assault Fragment Cannon (18\", A3, Anti- Cover, Assault, Destructive), Fast, Strider, Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fool Champion",
+      "size": 1,
+      "points": 50,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Furious",
+        "Hero",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Atom Pistol",
+          "count": 1,
+          "range": 9,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Bane"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Death Dealer",
+              "p": 10,
+              "raw": "Death Dealer (Increased Shooting Range Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Teleport Aura"
+              ],
+              "label": "Harlequin",
+              "p": 15,
+              "raw": "Harlequin (Teleport Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Takedown Shot(1)"
+              ],
+              "label": "Solitaire Assassin",
+              "p": 15,
+              "raw": "Solitaire Assassin (Takedown Shot(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shielded Aura"
+              ],
+              "label": "Stage Master",
+              "p": 20,
+              "raw": "Stage Master (Shielded Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Rapid Blink Aura"
+              ],
+              "label": "Troupe Lord",
+              "p": 20,
+              "raw": "Troupe Lord (Enhanced Rapid Blink Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Jester Seer",
+              "p": 35,
+              "raw": "Jester Seer (Caster(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Atom Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Sniper Rifle",
+              "p": 5,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "A1) Fragment Sniper Rifle (24\"",
+                "A2",
+                "Reliable",
+                "Anti-Cover",
+                "Destructive",
+                "Takedown"
+              ],
+              "label": "Weapon",
+              "p": 20,
+              "raw": "Weapon (A1) Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Seer Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Seer Staff",
+              "p": 30,
+              "raw": "Seer Staff (A2, Spell Amplifier)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Atom Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fragment Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Pistol",
+              "p": 5,
+              "raw": "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 5,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mesmer Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mesmer Pistol",
+              "p": 5,
+              "raw": "Mesmer Pistol (9\", A1, Assault, Shred)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Baton",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Baton",
+              "p": 10,
+              "raw": "Arm-Baton (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Blade",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Blade",
+              "p": 15,
+              "raw": "Arm-Blade (A3, Rending)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambushing Piercing Shot"
+              ],
+              "label": "Solitaire Suit",
+              "p": 5,
+              "raw": "Solitaire Suit (Ambushing Piercing Shot)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrating Precision Strike"
+              ],
+              "label": "Trickster Suit",
+              "p": 10,
+              "raw": "Trickster Suit (Infiltrating Precision Strike)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Repel Ambushers"
+              ],
+              "label": "Pet Raptor",
+              "p": 10,
+              "raw": "Pet Raptor (Repel Ambushers)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fools",
+      "size": 5,
+      "points": 95,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Atom Pistols",
+          "count": 5,
+          "range": 9,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Bane"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Atom Pistols",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Mesmer Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mesmer Pistol",
+              "p": 5,
+              "raw": "Mesmer Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Pistol",
+              "p": 10,
+              "raw": "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 25,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Blade",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Blade",
+              "p": 25,
+              "raw": "Arm-Blade (A1, Rending)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tricksters",
+      "size": 5,
+      "points": 110,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Atom Pistols",
+          "count": 5,
+          "range": 9,
+          "a": 2,
+          "rs": [
+            "Assault",
+            "Bane"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Dual Atom Pistols",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Mesmer Pistols",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Mesmer Pistols",
+              "p": 10,
+              "raw": "Dual Mesmer Pistols (9\", A2, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Fragment Pistols",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Fragment Pistols",
+              "p": 20,
+              "raw": "Dual Fragment Pistols (12\", A2, Anti-Cover, Assault, Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual EMP Pistols",
+                  "range": 9,
+                  "a": 2,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual EMP Pistols",
+              "p": 50,
+              "raw": "Dual EMP Pistols (9\", A2, Rending, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Infiltrating Precision Strike"
+              ],
+              "label": "Dramatic Entrance",
+              "p": 20,
+              "raw": "Dramatic Entrance (Infiltrating Precision Strike)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pranksters",
+      "size": 5,
+      "points": 130,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Furious",
+        "Rapid Blink",
+        "Regeneration",
+        "Scout",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Star-Spears",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Re-Deployment"
+              ],
+              "label": "Twisted Illusion",
+              "p": 40,
+              "raw": "Twisted Illusion (Ambush Re-Deployment)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Star-Spear",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Whip",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Whip",
+              "p": 15,
+              "raw": "Arm-Whip (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Spike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Spike",
+              "p": 35,
+              "raw": "Arm-Spike (A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jesters",
+      "size": 5,
+      "points": 145,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Atom Pistols",
+          "count": 5,
+          "range": 9,
+          "a": 1,
+          "rs": [
+            "Assault",
+            "Bane"
+          ]
+        },
+        {
+          "n": "Hand Weapons",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Re-Deployment"
+              ],
+              "label": "Twisted Illusion",
+              "p": 40,
+              "raw": "Twisted Illusion (Ambush Re-Deployment)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Atom Pistols",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Mesmer Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mesmer Pistol",
+              "p": 10,
+              "raw": "Mesmer Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 20,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Pistol",
+              "p": 20,
+              "raw": "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Blade",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Blade",
+              "p": 25,
+              "raw": "Arm-Blade (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Baton",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Baton",
+              "p": 30,
+              "raw": "Arm-Baton (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Atom Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Mirage-Launcher",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Mirage-Launcher + Strike",
+              "p": 15,
+              "raw": "Mirage-Launcher (6\", A1, Blast(3), Reliable, Assault), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Atom Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Bane"
+                  ]
+                },
+                {
+                  "n": "Arm-Whip",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Atom Pistol + Arm-Whip",
+              "p": 15,
+              "raw": "Atom Pistol (9\", A1, Assault, Bane), Arm-Whip (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Atom Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Bane"
+                  ]
+                },
+                {
+                  "n": "Arm-Spike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Atom Pistol + Arm-Spike",
+              "p": 35,
+              "raw": "Atom Pistol (9\", A1, Assault, Bane), Arm-Spike (A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Strike"
+              ],
+              "label": "Burst Fusion Pistol",
+              "p": 45,
+              "raw": "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault), Strike"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Solitaires",
+      "size": 3,
+      "points": 95,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Sniper Rifles",
+          "count": 3,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Sniper Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fragment Sniper Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Destructive",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Sniper Rifle",
+              "p": 45,
+              "raw": "Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambushing Piercing Shot"
+              ],
+              "label": "Grand Arrival",
+              "p": 10,
+              "raw": "Grand Arrival (Ambushing Piercing Shot)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jokers",
+      "size": 3,
+      "points": 140,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Flying",
+        "Furious",
+        "Rapid Blink",
+        "Stealth"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Explosive Jester-Slings",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Assault"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Explosive Jester-Slings",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Fragment Jester-Sling",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Jester-Sling",
+              "p": 65,
+              "raw": "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush Re-Deployment"
+              ],
+              "label": "Twisted Illusion",
+              "p": 25,
+              "raw": "Twisted Illusion (Ambush Re-Deployment)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raptor Riders",
+      "size": 3,
+      "points": 200,
+      "quality": "3+",
+      "defense": "5+",
+      "rules": [
+        "Armor(4)",
+        "Fast",
+        "Furious",
+        "Impact(3)",
+        "Rapid Blink",
+        "Stealth",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapons",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Jester Buckler",
+          "rs": [
+            "Armor(4)"
+          ]
+        },
+        {
+          "n": "Raptor Charge",
+          "rs": [
+            "Impact(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace all Hand Weapons and Jester Bucklers and Raptor Charges",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle + Strike",
+              "p": 10,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Strike (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Jester Bucklers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Atom Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Bane"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Atom Pistol",
+              "p": 25,
+              "raw": "Atom Pistol (9\", A1, Assault, Bane)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Mesmer Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Assault",
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Mesmer Pistol",
+              "p": 35,
+              "raw": "Mesmer Pistol (9\", A1, Assault, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "EMP Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Pistol",
+              "p": 40,
+              "raw": "EMP Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Pistol",
+              "p": 40,
+              "raw": "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Star-Spear",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Star-Spear",
+              "p": 5,
+              "raw": "Star-Spear (A1, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Blade",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Blade",
+              "p": 15,
+              "raw": "Arm-Blade (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Baton",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Baton",
+              "p": 20,
+              "raw": "Arm-Baton (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Whip",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Whip",
+              "p": 15,
+              "raw": "Arm-Whip (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Spike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Spike",
+              "p": 35,
+              "raw": "Arm-Spike (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Sniper Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Explosive Jester-Sling",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Explosive Jester-Sling",
+              "p": 20,
+              "raw": "Explosive Jester-Sling (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Sniper Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Destructive",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Sniper Rifle",
+              "p": 45,
+              "raw": "Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Jester-Sling",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Jester-Sling",
+              "p": 85,
+              "raw": "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jetbike Riders",
+      "size": 3,
+      "points": 315,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Fast",
+        "Furious",
+        "Rapid Blink",
+        "Stealth",
+        "Strider",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Assault Fragment Bike-Rifles",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Anti-Cover",
+            "Assault",
+            "Destructive"
+          ]
+        },
+        {
+          "n": "Star-Spears",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Assault Fragment Bike-Rifles and Star-Spears",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "n": "Fragment Bike-Rifle",
+                  "range": 24,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Destructive"
+                  ]
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "EMP Cannon + Fragment Bike-Rifle + Strike",
+              "p": 45,
+              "raw": "EMP Cannon (30\", A3, Rending), Fragment Bike-Rifle (24\", A1, Anti-Cover, Destructive), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fragment"
+              ],
+              "label": "Fragment Cannon",
+              "p": 60,
+              "raw": "Fragment Cannon (36\", A3, Anti-Cover, Destructive), Fragment"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Star-Spears",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Explosive Jester-Sling",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Explosive Jester-Sling",
+              "p": 5,
+              "raw": "Explosive Jester-Sling (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Jester-Sling",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Jester-Sling",
+              "p": 70,
+              "raw": "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heavy Jetbike",
+      "size": 1,
+      "points": 245,
+      "quality": "3+",
+      "defense": "3+",
+      "rules": [
+        "Fast",
+        "Furious",
+        "Rapid Blink",
+        "Stealth",
+        "Strider",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Assault Fragment Cannon",
+          "count": 1,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "Anti-Cover",
+            "Assault",
+            "Destructive"
+          ]
+        },
+        {
+          "n": "Star-Spear",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Thrust"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Star-Spear",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Explosive Jester-Sling",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Explosive Jester-Sling",
+              "p": 5,
+              "raw": "Explosive Jester-Sling (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Jester-Sling",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Jester-Sling",
+              "p": 25,
+              "raw": "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Scatter Cannon",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                },
+                {
+                  "n": "Scatter Cannon",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Scatter Cannon + Scatter Cannon",
+              "p": 25,
+              "raw": "2x Scatter Cannon (18\", A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Fragment Cannon",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Fragment Cannon",
+              "p": 30,
+              "raw": "Assault Fragment Cannon (18\", A3, Anti-Cover, Assault, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Scatter Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "EMP Cannon",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "EMP Cannon",
+              "p": 15,
+              "raw": "EMP Cannon (30\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Focal Cannon",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Focal Cannon",
+              "p": 15,
+              "raw": "Focal Cannon (18\", A1, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fragment Cannon",
+                  "range": 36,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Destructive"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fragment Cannon",
+              "p": 20,
+              "raw": "Fragment Cannon (36\", A3, Anti-Cover, Destructive)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Transport(6)"
+              ],
+              "label": "Open Back",
+              "p": 20,
+              "raw": "Open Back (Transport(6))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Slayer Mark"
+              ],
+              "label": "Spectacle of Death",
+              "p": 35,
+              "raw": "Spectacle of Death (Slayer Mark)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Jesters",
+      "Replace one Atom Pistol and Hand Weapon",
+      "(A1)",
+      "no parsed price"
+    ],
+    [
+      "Jetbike Riders",
+      "Replace all Assault Fragment Bike-Rifles and Star-Spears",
+      "Bike-Rifle (24\", A1, Anti-Cover, Destructive), Strike (A1)",
+      "no parsed price"
+    ],
+    [
+      "Master Jester",
+      "Upgrade with one",
+      "Assault Jetbike (Assault Fragment Cannon (18\", A3, Anti- Cover, Assault, Destructive), Fast, Strider, Tough(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Fool Champion",
+      "Upgrade with one",
+      "Solitaire Assassin (Takedown Shot(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Fool Champion",
+      "Replace Atom Pistol and Hand Weapon",
+      "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Fool Champion",
+      "Replace Atom Pistol and Hand Weapon",
+      "Weapon (A1) Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown), Hand Weapon (A1)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Jesters",
+      "Replace one Atom Pistol and Hand Weapon",
+      "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault), Strike",
+      "unknown or malformed rule"
+    ],
+    [
+      "Fool Champion",
+      "Replace Atom Pistol",
+      "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Fool Champion",
+      "Replace Atom Pistol",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Fool Champion",
+      "Replace Atom Pistol",
+      "Mesmer Pistol (9\", A1, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Fool Champion",
+      "Replace Hand Weapon",
+      "Arm-Baton (A3, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Fool Champion",
+      "Replace Hand Weapon",
+      "Arm-Blade (A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Jester Bucklers",
+      "Atom Pistol (9\", A1, Assault, Bane)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Jester Bucklers",
+      "Mesmer Pistol (9\", A1, Assault, Shred)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Jester Bucklers",
+      "EMP Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Jester Bucklers",
+      "Fragment Pistol (12\", A1, Anti-Cover, Assault, Destructive)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Sniper Rifles",
+      "Explosive Jester-Sling (12\", A1, Blast(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Sniper Rifles",
+      "Fragment Sniper Rifle (24\", A2, Reliable, Anti-Cover, Destructive, Takedown)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Raptor Riders",
+      "Replace all Sniper Rifles",
+      "Fragment Jester-Sling (12\", A3, Anti-Cover, Assault, Destructive)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Jesters: unpriced (A1)",
+    "Jetbike Riders: unpriced Bike-Rifle (24\", A1, Anti-Cover, Destructive), Strike (A1)"
+  ]
+}

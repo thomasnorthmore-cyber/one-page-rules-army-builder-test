@@ -1,0 +1,6948 @@
+{
+  "report": {
+    "file": "Blessed_Sisters.cat",
+    "units": 29,
+    "spells": 6,
+    "localRules": 34,
+    "upgradeRows": 315,
+    "encodedGroups": 87,
+    "skipped": 74,
+    "missing": [
+      "Shred in Melee",
+      "Enhanced Devout Aura",
+      "A6) Burst Cyclic Rifle (18\"",
+      "A6",
+      "Hand Weapon",
+      "Armor(3)",
+      "Hand",
+      "A1) Plasma Rifle (24\"",
+      "A2",
+      "Precision Target(1)",
+      "Energy",
+      "Rending) Burst Flamer Pistol (6\"",
+      "A1",
+      "Counter) Burst Flamer Pistol (6\"",
+      "AP(2)) Sacred Spear (A1",
+      "A3) Burst Cyclic Rifle (18\"",
+      "A3",
+      "Titan",
+      "Blast(3)) Assault Missile Array (9\"",
+      "A4",
+      "Blast(3)) Assault Autocannon (18\"",
+      "A12"
+    ],
+    "warnings": 2,
+    "bytes": 599555
+  },
+  "sourceUnits": [
+    {
+      "name": "Exo-Suit High Sister",
+      "size": 1,
+      "points": 180,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fear(2)",
+        "Hero",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Energy Mace",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Devout"
+              ],
+              "label": "Superior",
+              "p": 5,
+              "raw": "Superior (Enhanced Devout)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee"
+              ],
+              "label": "Priestess",
+              "p": 15,
+              "raw": "Priestess (Shred in Melee)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fast"
+              ],
+              "label": "Abbess",
+              "p": 20,
+              "raw": "Abbess (Fast)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fortified"
+              ],
+              "label": "Reverend",
+              "p": 30,
+              "raw": "Reverend (Fortified)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Witch",
+              "p": 40,
+              "raw": "Witch (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Witch",
+              "p": 60,
+              "raw": "Master Witch (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Energy Mace",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 20,
+              "raw": "Energy Sword (A6, Rending)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Stomp",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Mounted Grenade Launcher",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Mounted Grenade Launcher",
+              "p": 5,
+              "raw": "Arm-Mounted Grenade Launcher (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Mounted Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Mounted Cyclic Rifle",
+              "p": 15,
+              "raw": "Arm-Mounted Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Flamer",
+              "p": 40,
+              "raw": "Assault Heavy Flamer (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Blessed Flamer",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Blessed Flamer",
+              "p": 50,
+              "raw": "Assault Blessed Flamer (9\", A1, Blast(3), Reliable, Assault, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Machinegun",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Machinegun",
+              "p": 50,
+              "raw": "Assault Heavy Machinegun (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Fusion Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Fusion Rifle",
+              "p": 60,
+              "raw": "Assault Heavy Fusion Rifle (9\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Backpack Missiles",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Limited",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Backpack Missiles",
+              "p": 5,
+              "raw": "Disposable Backpack Missiles (12\", A1, Blast(3), Limited, Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroyer High Sister",
+      "size": 1,
+      "points": 100,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Armor(3)",
+        "Devout",
+        "Hero",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Armor(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Devout Aura"
+              ],
+              "label": "Superior",
+              "p": 20,
+              "raw": "Superior (Enhanced Devout Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fast Aura"
+              ],
+              "label": "Abbess",
+              "p": 25,
+              "raw": "Abbess (Fast Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee Aura"
+              ],
+              "label": "Priestess",
+              "p": 30,
+              "raw": "Priestess (Shred in Melee Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Canoness",
+              "p": 35,
+              "raw": "Canoness (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Witch",
+              "p": 40,
+              "raw": "Witch (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Witch",
+              "p": 60,
+              "raw": "Master Witch (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon and Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Witch Staff",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Witch Staff",
+              "p": 20,
+              "raw": "Witch Staff (A4, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Burst Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Burst Cyclic Rifle",
+              "p": 20,
+              "raw": "Assault Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge),"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A6) Burst Cyclic Rifle (18\"",
+                "A6",
+                "Anti-Cover",
+                "Surge",
+                "Hand Weapon"
+              ],
+              "label": "Hand Weapon",
+              "p": 25,
+              "raw": "Hand Weapon (A6) Burst Cyclic Rifle (18\", A6, Anti-Cover, Surge), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A2) Dual Energy Claws",
+                  "range": 0,
+                  "a": 8,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "(A2) Dual Energy Claws",
+              "p": 35,
+              "raw": "(A2) Dual Energy Claws (A8, AP(1), Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Mace",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Mace",
+              "p": 5,
+              "raw": "Energy Mace (A2, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 25,
+              "raw": "Energy Sword (A6, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 30,
+              "raw": "Energy Fist (A6, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chain-Fist",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chain-Fist",
+              "p": 40,
+              "raw": "Chain-Fist (A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Orbital Drop",
+              "p": 15,
+              "raw": "Orbital Drop (Ambush)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial High Sister",
+      "size": 1,
+      "points": 65,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Armor(3)",
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Armor(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fortified Aura"
+              ],
+              "label": "Reverend",
+              "p": 10,
+              "raw": "Reverend (Fortified Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Devout Aura"
+              ],
+              "label": "Superior",
+              "p": 20,
+              "raw": "Superior (Enhanced Devout Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee Aura"
+              ],
+              "label": "Priestess",
+              "p": 30,
+              "raw": "Priestess (Shred in Melee Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Canoness",
+              "p": 35,
+              "raw": "Canoness (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Witch",
+              "p": 40,
+              "raw": "Witch (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Witch",
+              "p": 60,
+              "raw": "Master Witch (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon and Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Battle Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Battle Rifle + Hand Weapon",
+              "p": 10,
+              "raw": "Burst Battle Rifle (24\", A3), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Great Chain-Sword",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Chain-Sword",
+              "p": 10,
+              "raw": "Great Chain-Sword (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle + Hand Weapon",
+              "p": 15,
+              "raw": "Plasma Rifle (24\", A2, AP(2)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "Burst Cyclic Rifle",
+              "p": 15,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Burst Shotgun",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "(A1) Burst Shotgun + Hand Weapon",
+              "p": 20,
+              "raw": "(A1) Burst Shotgun (12\", A4, AP(1)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Holy Spear",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Holy Spear",
+              "p": 25,
+              "raw": "Holy Spear (A4, AP(1), Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Witch Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Witch Staff",
+              "p": 30,
+              "raw": "Witch Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Take one Burst Battle Rifle attachment Flamer-Mod",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Limited",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Take one Burst Battle Rifle attachment Flamer-Mod",
+              "p": 5,
+              "raw": "Take one Burst Battle Rifle attachment Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Crossbow-Mod",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Crossbow-Mod",
+              "p": 10,
+              "raw": "Crossbow-Mod (18\", A2, Limited, Reliable, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma-Mod",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma-Mod",
+              "p": 10,
+              "raw": "Plasma-Mod (24\", A2, AP(2), Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion-Mod",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion-Mod",
+              "p": 15,
+              "raw": "Fusion-Mod (12\", A1, AP(4), Deadly(3), Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Combat Shield",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol",
+              "p": 5,
+              "raw": "Pistol (12\", A1, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 10,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 15,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 20,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Mace",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Mace",
+              "p": 5,
+              "raw": "Energy Mace (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 10,
+              "raw": "Energy Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Procession Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Procession Sword",
+              "p": 20,
+              "raw": "Procession Sword (A3, AP(1), Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 20,
+              "raw": "Energy Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chain-Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chain-Fist",
+              "p": 25,
+              "raw": "Chain-Fist (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Jetpack",
+              "p": 10,
+              "raw": "Jetpack (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Jetpack",
+              "p": 20,
+              "raw": "Airdrop Jetpack (Ambush, Flying)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Tough(3)"
+              ],
+              "label": "Combat Bike",
+              "p": 80,
+              "raw": "Combat Bike (Bike-Rifle (24\", A3), Fast, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Tough(3)"
+              ],
+              "label": "Assault Bike",
+              "p": 90,
+              "raw": "Assault Bike (Assault Bike-Rifle (12\", A3, Assault), Fast, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Holy Flame Blast",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Flying",
+                "Tough(3)"
+              ],
+              "label": "Holy Wings",
+              "p": 100,
+              "raw": "Holy Wings (Holy Flame Blast (9\", A1, Blast(3), Reliable, Assault, Purge), Flying, Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "High Sister",
+      "size": 1,
+      "points": 55,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Pistol",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Hand Weapon",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fortified Aura"
+              ],
+              "label": "Reverend",
+              "p": 10,
+              "raw": "Reverend (Fortified Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Devout Aura"
+              ],
+              "label": "Superior",
+              "p": 20,
+              "raw": "Superior (Enhanced Devout Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee Aura"
+              ],
+              "label": "Priestess",
+              "p": 30,
+              "raw": "Priestess (Shred in Melee Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Canoness",
+              "p": 35,
+              "raw": "Canoness (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Witch",
+              "p": 40,
+              "raw": "Witch (Caster(2))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(3)"
+              ],
+              "label": "Master Witch",
+              "p": 60,
+              "raw": "Master Witch (Caster(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol and Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Chain-Sword",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Chain-Sword",
+              "p": 5,
+              "raw": "Great Chain-Sword (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Battle Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Battle Rifle + Hand Weapon",
+              "p": 5,
+              "raw": "Burst Battle Rifle (24\", A3), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Sniper Rifle",
+              "p": 5,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Hand"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "A1) Plasma Rifle (24\"",
+                "A2",
+                "AP(2)"
+              ],
+              "label": "Weapon",
+              "p": 10,
+              "raw": "Weapon (A1) Plasma Rifle (24\", A2, AP(2)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand Weapon"
+              ],
+              "label": "Burst Cyclic Rifle",
+              "p": 10,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Burst Shotgun",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "(A1) Burst Shotgun + Hand Weapon",
+              "p": 10,
+              "raw": "(A1) Burst Shotgun (12\", A4, AP(1)), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Witch Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Witch Staff",
+              "p": 30,
+              "raw": "Witch Staff (A2, Spell Amplifier)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Take one Burst Battle Rifle attachment Flamer-Mod",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Limited",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Take one Burst Battle Rifle attachment Flamer-Mod",
+              "p": 5,
+              "raw": "Take one Burst Battle Rifle attachment Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Crossbow-Mod",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Limited",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Crossbow-Mod",
+              "p": 10,
+              "raw": "Crossbow-Mod (18\", A2, Limited, Reliable, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma-Mod",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma-Mod",
+              "p": 10,
+              "raw": "Plasma-Mod (24\", A2, AP(2), Limited)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion-Mod",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Limited"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion-Mod",
+              "p": 10,
+              "raw": "Fusion-Mod (12\", A1, AP(4), Deadly(3), Limited)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 10,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Mace",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Mace",
+              "p": 5,
+              "raw": "Energy Mace (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 10,
+              "raw": "Energy Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Procession Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Procession Sword",
+              "p": 15,
+              "raw": "Procession Sword (A3, AP(1), Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 15,
+              "raw": "Energy Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chain-Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chain-Fist",
+              "p": 20,
+              "raw": "Chain-Fist (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Flying"
+              ],
+              "label": "Jetpack",
+              "p": 5,
+              "raw": "Jetpack (Flying)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Scout",
+                "Strider"
+              ],
+              "label": "Vanguard",
+              "p": 15,
+              "raw": "Vanguard (Scout, Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Ambush",
+                "Flying"
+              ],
+              "label": "Airdrop Jetpack",
+              "p": 15,
+              "raw": "Airdrop Jetpack (Ambush, Flying)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Bike-Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Tough(3)"
+              ],
+              "label": "Combat Bike",
+              "p": 60,
+              "raw": "Combat Bike (Bike-Rifle (24\", A3), Fast, Tough(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Bike-Rifle",
+                  "range": 12,
+                  "a": 3,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Fast",
+                "Tough(3)"
+              ],
+              "label": "Assault Bike",
+              "p": 65,
+              "raw": "Assault Bike (Assault Bike-Rifle (12\", A3, Assault), Fast, Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fanatic Superior",
+      "size": 1,
+      "points": 50,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Devout",
+        "Fearless",
+        "Hero",
+        "Piercing Charge",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Whip-Blast",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Dual Shock-Whips",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fortified Aura"
+              ],
+              "label": "Reverend",
+              "p": 10,
+              "raw": "Reverend (Fortified Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Spell Conduit"
+              ],
+              "label": "Deacon",
+              "p": 15,
+              "raw": "Deacon (Spell Conduit)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Enhanced Devout Aura"
+              ],
+              "label": "Superior",
+              "p": 20,
+              "raw": "Superior (Enhanced Devout Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fast Aura"
+              ],
+              "label": "Abbess",
+              "p": 25,
+              "raw": "Abbess (Fast Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee Aura"
+              ],
+              "label": "Priestess",
+              "p": 30,
+              "raw": "Priestess (Shred in Melee Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Shock-Whips and Whip-Blast",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Great Chain-Sword",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Chain-Sword",
+              "p": 5,
+              "raw": "Great Chain-Sword (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Whip-Blast",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Dual Plasma-Whips",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Whip-Blast + Dual Plasma-Whips",
+              "p": 10,
+              "raw": "Whip-Blast (12\", A1, Assault), Dual Plasma-Whips (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Whip-Blast",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Dual Force-Whips",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Whip-Blast + Dual Force-Whips",
+              "p": 10,
+              "raw": "Whip-Blast (12\", A1, Assault), Dual Force-Whips (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Flagellant",
+              "p": 10,
+              "raw": "Flagellant (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Novice Leader",
+      "size": 1,
+      "points": 35,
+      "quality": "5+",
+      "defense": "6+",
+      "rules": [
+        "Devout",
+        "Hero",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Hand Weapons",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fortified Aura"
+              ],
+              "label": "Reverend",
+              "p": 10,
+              "raw": "Reverend (Fortified Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Spell Conduit"
+              ],
+              "label": "Deacon",
+              "p": 15,
+              "raw": "Deacon (Spell Conduit)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Fast Aura"
+              ],
+              "label": "Abbess",
+              "p": 25,
+              "raw": "Abbess (Fast Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Shred in Melee Aura"
+              ],
+              "label": "Priestess",
+              "p": 30,
+              "raw": "Priestess (Shred in Melee Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Piercing Marksman Aura"
+              ],
+              "label": "Canoness",
+              "p": 35,
+              "raw": "Canoness (Piercing Marksman Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Caster(2)"
+              ],
+              "label": "Witch",
+              "p": 40,
+              "raw": "Witch (Caster(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Hand Weapons",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Hand Weapon",
+              "p": 5,
+              "raw": "Pistol (12\", A1, Assault), Hand Weapon (A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Great Chain-Sword",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Chain-Sword",
+              "p": 5,
+              "raw": "Great Chain-Sword (A4, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Battle Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Battle Rifle + Hand Weapon",
+              "p": 5,
+              "raw": "Burst Battle Rifle (24\", A3), Hand Weapon (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Witch Staff",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "Spell Amplifier"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Witch Staff",
+              "p": 35,
+              "raw": "Witch Staff (A2, Spell Amplifier)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 5,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Pistol",
+              "p": 10,
+              "raw": "Fusion Pistol (6\", A1, AP(4), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Mace",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Mace",
+              "p": 10,
+              "raw": "Energy Mace (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 20,
+              "raw": "Energy Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 20,
+              "raw": "Energy Fist (A3, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Novice Sisters",
+      "size": 10,
+      "points": 110,
+      "quality": "5+",
+      "defense": "6+",
+      "rules": [
+        "Devout"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Energy Clubs",
+          "count": 10,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Sacred Banner",
+              "p": 10,
+              "raw": "Sacred Banner (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Target(1)"
+              ],
+              "label": "Canticle Megaphone",
+              "p": 25,
+              "raw": "Canticle Megaphone (Precision Target(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 45,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Energy Clubs",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Hand Weapons",
+                  "range": 0,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Dual Hand Weapons",
+              "p": 5,
+              "raw": "Dual Hand Weapons (A2)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Battle Rifle",
+                  "range": 24,
+                  "a": 1,
+                  "rs": []
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Battle Rifle + Strike",
+              "p": 20,
+              "raw": "Battle Rifle (24\", A1), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Dagger",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Dagger",
+              "p": 40,
+              "raw": "Pistol (12\", A1, Assault), Dagger (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace up to two Energy Clubs",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 10,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 20,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fanatic Sisters",
+      "size": 5,
+      "points": 60,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Devout",
+        "Fearless",
+        "Piercing Charge"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Chain-Swords",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Shred"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Chain-Swords",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Arc-Flails",
+                  "range": 0,
+                  "a": 2,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Dual Arc-Flails",
+              "p": 15,
+              "raw": "Dual Arc-Flails (A2)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Chain-Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Shock-Whips",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Shock-Whips",
+              "p": 10,
+              "raw": "Dual Shock-Whips (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Great Chain-Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Great Chain-Sword",
+              "p": 10,
+              "raw": "Great Chain-Sword (A3, Shred)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Plasma-Whips",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Plasma-Whips",
+              "p": 20,
+              "raw": "Dual Plasma-Whips (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Force-Whips",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Force-Whips",
+              "p": 20,
+              "raw": "Dual Force-Whips (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Flagellants",
+              "p": 15,
+              "raw": "Flagellants (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warrior Sisters",
+      "size": 5,
+      "points": 90,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Rifles",
+          "count": 5,
+          "range": 24,
+          "a": 1,
+          "rs": []
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Sacred Banner",
+              "p": 10,
+              "raw": "Sacred Banner (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Target(1)"
+              ],
+              "label": "Canticle Megaphone",
+              "p": 25,
+              "raw": "Canticle Megaphone (Precision Target(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 25,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 10,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Flamer",
+              "p": 20,
+              "raw": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 20,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Cyclic Rifle",
+              "p": 25,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 25,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 30,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Blessed Flamer",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Blessed Flamer",
+              "p": 30,
+              "raw": "Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 30,
+              "raw": "Heavy Machinegun (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 40,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Hand Weapon",
+              "p": 5,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 5,
+              "raw": "Energy Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protector Sisters",
+      "size": 5,
+      "points": 110,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Armor(3)",
+        "Devout"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Procession Swords",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Purge"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Armor(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Sacred Banner",
+              "p": 15,
+              "raw": "Sacred Banner (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Target(1)"
+              ],
+              "label": "Canticle Megaphone",
+              "p": 25,
+              "raw": "Canticle Megaphone (Precision Target(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 25,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Procession Swords",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Energy Halberd",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Energy Halberd",
+              "p": 45,
+              "raw": "Pistol (12\", A1, Assault), Energy Halberd (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Energy Spear",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Energy Spear",
+              "p": 45,
+              "raw": "Pistol (12\", A1, Assault), Energy Spear (A1, Counter)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Energy Club",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Energy Club",
+              "p": 60,
+              "raw": "Pistol (12\", A1, Assault), Energy Club (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Procession Sword",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Energy"
+              ],
+              "label": "Burst Flamer Pistol",
+              "p": 25,
+              "raw": "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Halberd",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending) Burst Flamer Pistol (6\"",
+                    "A1",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Energy"
+              ],
+              "label": "Halberd",
+              "p": 25,
+              "raw": "Halberd (A1, Rending) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Spear",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Counter) Burst Flamer Pistol (6\"",
+                    "A1",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Energy"
+              ],
+              "label": "Spear",
+              "p": 25,
+              "raw": "Spear (A1, Counter) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Club",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)) Sacred Spear (A1",
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Club",
+              "p": 30,
+              "raw": "Club (A1, AP(2)) Sacred Spear (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Burst Flamer Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Plasma Pistol",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Plasma Pistol",
+              "p": 25,
+              "raw": "Burst Plasma Pistol (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Fusion Pistol",
+              "p": 35,
+              "raw": "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade one model with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Fear(2)"
+              ],
+              "label": "Procession Banner",
+              "p": 20,
+              "raw": "Procession Banner (Fear(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Sisters",
+      "size": 5,
+      "points": 115,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Scout",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Rifles",
+          "count": 5,
+          "range": 24,
+          "a": 1,
+          "rs": []
+        },
+        {
+          "n": "Strikes",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Battle Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shotgun",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shotgun",
+              "p": 40,
+              "raw": "Shotgun (12\", A2, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 10,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Sniper Rifle",
+                  "range": 30,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sniper Rifle",
+              "p": 15,
+              "raw": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 20,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Cyclic Rifle",
+              "p": 25,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 25,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 30,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Blessed Flame-Sniper Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Blessed Flame-Sniper Rifle",
+              "p": 30,
+              "raw": "Blessed Flame-Sniper Rifle (24\", A2, Reliable, Purge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle and Strike",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Hand Weapon",
+              "p": 5,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 5,
+              "raw": "Energy Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pistoleer Sisters",
+      "size": 5,
+      "points": 155,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Flying",
+        "Relentless"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Pistols",
+          "count": 5,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "Assault"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace one Dual Pistols",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Burst Flamer Pistols",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Burst Flamer Pistols",
+              "p": 5,
+              "raw": "Dual Burst Flamer Pistols (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Burst Fusion Pistols",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Burst Fusion Pistols",
+              "p": 30,
+              "raw": "Dual Burst Fusion Pistols (6\", A1, AP(4), Deadly(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Burst Plasma Pistols",
+                  "range": 12,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Burst Plasma Pistols",
+              "p": 65,
+              "raw": "Dual Burst Plasma Pistols (12\", A4, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Aerial Drop",
+              "p": 15,
+              "raw": "Aerial Drop (Ambush)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Reliable",
+                    "Anti-Cover",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer Pistol",
+              "p": 5,
+              "raw": "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 5,
+              "raw": "Energy Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assault Sisters",
+      "size": 5,
+      "points": 160,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Flying",
+        "Furious"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Pistols",
+          "count": 5,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Energy Swords",
+          "count": 5,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Rending"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace one Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Flamer Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Flamer Pistol",
+              "p": 20,
+              "raw": "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Plasma Pistol",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Plasma Pistol",
+              "p": 35,
+              "raw": "Burst Plasma Pistol (12\", A2, AP(2), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Fusion Pistol",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Fusion Pistol",
+              "p": 50,
+              "raw": "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Aerial Drop",
+              "p": 15,
+              "raw": "Aerial Drop (Ambush)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Celestial Warrior Sisters",
+      "size": 3,
+      "points": 95,
+      "quality": "3+",
+      "defense": "4+",
+      "rules": [
+        "Devout"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Flamers",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Sacred Banner",
+              "p": 10,
+              "raw": "Sacred Banner (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Target(1)"
+              ],
+              "label": "Canticle Megaphone",
+              "p": 25,
+              "raw": "Canticle Megaphone (Precision Target(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 15,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Burst Battle Rifle",
+                  "range": 24,
+                  "a": 3,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Burst Battle Rifle",
+              "p": 10,
+              "raw": "Burst Battle Rifle (24\", A3)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Burst Cyclic Rifle",
+              "p": 15,
+              "raw": "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 20,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Shredder Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Rifle",
+              "p": 20,
+              "raw": "Shredder Rifle (18\", A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 25,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Snipers",
+      "size": 3,
+      "points": 125,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Scout",
+        "Stealth",
+        "Strider"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Sniper Rifles",
+          "count": 3,
+          "range": 30,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Sniper Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flame-Sniper Carbine",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flame-Sniper Carbine",
+              "p": 5,
+              "raw": "Flame-Sniper Carbine (18\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Blessed Flame-Sniper Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Blessed Flame-Sniper Rifle",
+              "p": 30,
+              "raw": "Blessed Flame-Sniper Rifle (24\", A2, Reliable, Purge)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Support Sisters",
+      "size": 3,
+      "points": 130,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Relentless"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Heavy Flamers",
+          "count": 3,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Strikes",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": []
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace any Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Blessed Flamer",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Blessed Flamer",
+              "p": 15,
+              "raw": "Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Machinegun",
+              "p": 20,
+              "raw": "Heavy Machinegun (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 25,
+              "raw": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroyer Sisters",
+      "size": 3,
+      "points": 130,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Armor(3)",
+        "Devout",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hand Weapons",
+          "count": 3,
+          "range": 0,
+          "a": 3,
+          "rs": []
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Combat Shield",
+          "rs": [
+            "Armor(3)"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Upgrade one model with one",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Bravery Aura"
+              ],
+              "label": "Sacred Banner",
+              "p": 20,
+              "raw": "Sacred Banner (Bravery Aura)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Precision Target(1)"
+              ],
+              "label": "Canticle Megaphone",
+              "p": 25,
+              "raw": "Canticle Megaphone (Precision Target(1))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration Aura"
+              ],
+              "label": "Medical Training",
+              "p": 65,
+              "raw": "Medical Training (Regeneration Aura)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Hand Weapons and Combat Shields",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Cyclic Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Hand"
+              ],
+              "label": "Assault Cyclic Rifle",
+              "p": 15,
+              "raw": "Assault Cyclic Rifle (9\", A1, Anti-Cover, Assault, Surge), Hand"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "A3) Burst Cyclic Rifle (18\"",
+                "A3",
+                "Anti-Cover",
+                "Surge",
+                "Hand Weapon"
+              ],
+              "label": "Weapon",
+              "p": 40,
+              "raw": "Weapon (A3) Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon"
+            },
+            {
+              "ws": [
+                {
+                  "n": "(A1) Dual Energy Claws",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "(A1) Dual Energy Claws",
+              "p": 55,
+              "raw": "(A1) Dual Energy Claws (A4, AP(1), Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Mace",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Mace",
+              "p": 5,
+              "raw": "Energy Mace (A1, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 10,
+              "raw": "Energy Sword (A3, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 15,
+              "raw": "Energy Fist (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chain-Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chain-Fist",
+              "p": 20,
+              "raw": "Chain-Fist (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Burst Cyclic Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Flamer",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Flamer",
+              "p": 25,
+              "raw": "Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Blessed Flamer",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Blessed Flamer",
+              "p": 45,
+              "raw": "Blessed Flamer (18\", A2, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Fusion Rifle",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Fusion Rifle",
+              "p": 60,
+              "raw": "Heavy Fusion Rifle (18\", A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Ambush"
+              ],
+              "label": "Orbital Drop",
+              "p": 25,
+              "raw": "Orbital Drop (Ambush)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biker Sisters",
+      "size": 3,
+      "points": 150,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Bike-Rifles",
+          "count": 3,
+          "range": 24,
+          "a": 2,
+          "rs": []
+        },
+        {
+          "n": "Energy Lances",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Bike-Rifles",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Bike-Rifle",
+                  "range": 12,
+                  "a": 2,
+                  "rs": [
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Bike-Rifle",
+              "p": 15,
+              "raw": "Assault Bike-Rifle (12\", A2, Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace all Energy Lances",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Battle Rifle",
+                  "range": 24,
+                  "a": 1,
+                  "rs": []
+                },
+                {
+                  "n": "Strike",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Battle Rifle + Strike",
+              "p": 15,
+              "raw": "Battle Rifle (24\", A1), Strike (A1)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Pistol + Hand Weapon",
+              "p": 25,
+              "raw": "Pistol (12\", A1, Assault), Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Battle Rifle",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Flamer",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flamer",
+              "p": 10,
+              "raw": "Flamer (12\", A1, Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Rifle",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Rifle",
+              "p": 20,
+              "raw": "Plasma Rifle (24\", A2, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Fusion Rifle",
+              "p": 25,
+              "raw": "Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace one Energy Lance",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sgt. Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Sgt. Hand Weapon",
+                  "range": 0,
+                  "a": 1,
+                  "rs": []
+                }
+              ],
+              "rs": [],
+              "label": "Sgt. Pistol + Sgt. Hand Weapon",
+              "p": 10,
+              "raw": "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Pistol",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Shredder Pistol",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Rending",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Shredder Pistol",
+              "p": 5,
+              "raw": "Shredder Pistol (9\", A1, Rending, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Plasma Pistol",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma Pistol",
+              "p": 10,
+              "raw": "Plasma Pistol (12\", A1, AP(2), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sgt. Hand Weapon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Lance",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Lance",
+              "p": 5,
+              "raw": "Energy Lance (A1, Thrust)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 5,
+              "raw": "Energy Sword (A1, Rending)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Energy Fist",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Fist",
+              "p": 5,
+              "raw": "Energy Fist (A1, AP(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biker Fanatics",
+      "size": 3,
+      "points": 150,
+      "quality": "5+",
+      "defense": "5+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Fearless",
+        "Piercing Charge",
+        "Tough(3)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Assault Bike-Rifles",
+          "count": 3,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "Assault"
+          ]
+        },
+        {
+          "n": "Chain-Swords",
+          "count": 3,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Shred"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace all Chain-Swords",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Plasma-Whip",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Plasma-Whip",
+              "p": 5,
+              "raw": "Plasma-Whip (A1, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade all models with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Regeneration"
+              ],
+              "label": "Flagellants",
+              "p": 30,
+              "raw": "Flagellants (Regeneration)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exo-Suit",
+      "size": 1,
+      "points": 100,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fear(1)",
+        "Tough(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Energy Mace",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Energy Mace",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Energy Sword",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Energy Sword",
+              "p": 10,
+              "raw": "Energy Sword (A3, Rending)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Stomp",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Arm-Mounted Grenade Launcher",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Mounted Grenade Launcher",
+              "p": 10,
+              "raw": "Arm-Mounted Grenade Launcher (12\", A1, Blast(3), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Arm-Mounted Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Arm-Mounted Cyclic Rifle",
+              "p": 20,
+              "raw": "Arm-Mounted Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Flamer",
+              "p": 40,
+              "raw": "Assault Heavy Flamer (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Blessed Flamer",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Blessed Flamer",
+              "p": 50,
+              "raw": "Assault Blessed Flamer (9\", A1, Blast(3), Reliable, Assault, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Machinegun",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Machinegun",
+              "p": 50,
+              "raw": "Assault Heavy Machinegun (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Heavy Fusion Rifle",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Heavy Fusion Rifle",
+              "p": 60,
+              "raw": "Assault Heavy Fusion Rifle (9\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Spell Drain"
+              ],
+              "label": "God-Queen's Curse",
+              "p": 10,
+              "raw": "God-Queen's Curse (Spell Drain)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "APC",
+      "size": 1,
+      "points": 150,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Hull Burst Cyclic Rifle",
+          "count": 1,
+          "range": 18,
+          "a": 3,
+          "rs": [
+            "Anti-Cover",
+            "Surge"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Missile",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Limited",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Missile",
+              "p": 10,
+              "raw": "Disposable Guided Missile (18\", A1, AP(2), Deadly(3), Limited, Unstoppable)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 25,
+              "raw": "Dozer Blade (Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Flamer",
+              "p": 25,
+              "raw": "Pintle Flamer (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Burst Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Burst Cyclic Rifle",
+              "p": 35,
+              "raw": "Pintle Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Fusion Rifle",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Fusion Rifle",
+              "p": 50,
+              "raw": "Pintle Fusion Rifle (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Procession Altar",
+      "size": 1,
+      "points": 205,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Bravery Buff",
+        "Devout",
+        "Guarded Buff",
+        "Precision Fighter Buff",
+        "Tough(6)",
+        "Transport(6)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Holy Statue's Flame Strikes",
+          "count": 1,
+          "range": 0,
+          "a": 6,
+          "rs": [
+            "AP(1)",
+            "Purge"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Angelic Aura",
+          "rs": [
+            "Bravery Buff"
+          ]
+        },
+        {
+          "n": "Protective Aura",
+          "rs": [
+            "Guarded Buff"
+          ]
+        },
+        {
+          "n": "Holy Statue of Judgment",
+          "rs": [
+            "Precision Fighter Buff"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Holy Statue's Flame Strikes and Holy Statue of Judgment",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Holy Statue's Flame Blasts",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Holy Statue's Flame Blasts",
+              "p": 20,
+              "raw": "Holy Statue's Flame Blasts (18\", A2, Blast(3), Reliable, Purge),"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Spell Drain"
+              ],
+              "label": "God-Queen's Curse",
+              "p": 10,
+              "raw": "God-Queen's Curse (Spell Drain)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Transport(6)"
+              ],
+              "label": "Extra Cargo Space",
+              "p": 20,
+              "raw": "Extra Cargo Space (Transport(6))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 30,
+              "raw": "Extra Armor (Armor(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Holy Spear",
+                  "range": 0,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [
+                "Tough(3)"
+              ],
+              "label": "Angelic High Sister",
+              "p": 75,
+              "raw": "Angelic High Sister (Holy Spear (A4, AP(1), Purge), Tough(3))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infernal Attack Vehicle",
+      "size": 1,
+      "points": 215,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Heavy Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 2,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Hull Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dual Heavy Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Flamer Cannons",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Flamer Cannons",
+              "p": 20,
+              "raw": "Dual Flamer Cannons (18\", A2, AP(1), Blast(3), Reliable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy Machineguns",
+                  "range": 30,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy Machineguns",
+              "p": 25,
+              "raw": "Dual Heavy Machineguns (30\", A6, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Blessed Flamer Cannons",
+                  "range": 24,
+                  "a": 2,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blessed Flamer Cannons",
+              "p": 30,
+              "raw": "Dual Blessed Flamer Cannons (24\", A2, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Linked Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Linked Heavy Fusion Rifles",
+              "p": 35,
+              "raw": "Dual Linked Heavy Fusion Rifles (18\", A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Missile",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Limited",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Missile",
+              "p": 10,
+              "raw": "Disposable Guided Missile (18\", A1, AP(2), Deadly(3), Limited, Unstoppable)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Transport(6)"
+              ],
+              "label": "Cargo Space",
+              "p": 20,
+              "raw": "Cargo Space (Transport(6))"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 35,
+              "raw": "Dozer Blade (Strider)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 45,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Burst Cyclic Rifle",
+              "p": 5,
+              "raw": "Hull Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Fusion Rifle",
+              "p": 5,
+              "raw": "Hull Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Blessed Flamer",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Blessed Flamer",
+              "p": 10,
+              "raw": "Hull Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Heavy Machinegun",
+              "p": 10,
+              "raw": "Hull Heavy Machinegun (30\", A3, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Flamer",
+              "p": 25,
+              "raw": "Pintle Flamer (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Burst Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Burst Cyclic Rifle",
+              "p": 35,
+              "raw": "Pintle Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Fusion Rifle",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Fusion Rifle",
+              "p": 50,
+              "raw": "Pintle Fusion Rifle (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assault Walker",
+      "size": 1,
+      "points": 255,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fear(2)",
+        "Fearless",
+        "Regeneration",
+        "Scout",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Walker Flails",
+          "count": 1,
+          "range": 0,
+          "a": 2,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dual Walker Flails",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Walker Fists",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Walker Fists",
+              "p": 25,
+              "raw": "Dual Walker Fists (A6, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Walker Claws",
+                  "range": 0,
+                  "a": 6,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Walker Claws",
+              "p": 25,
+              "raw": "Dual Walker Claws (A6, AP(1), Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Walker Chainsaws",
+                  "range": 0,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Walker Chainsaws",
+              "p": 35,
+              "raw": "Dual Walker Chainsaws (A2, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Heavy Flamers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Heavy Flamers",
+              "p": 40,
+              "raw": "Dual Assault Heavy Flamers (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Blessed Flamers",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Blessed Flamers",
+              "p": 50,
+              "raw": "Dual Assault Blessed Flamers (9\", A1, Blast(3), Reliable, Assault, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Assault Heavy Machineguns",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Assault Heavy Machineguns",
+              "p": 50,
+              "raw": "Dual Assault Heavy Machineguns (15\", A3, AP(1), Assault)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 45,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Support Walker",
+      "size": 1,
+      "points": 300,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fear(2)",
+        "Fearless",
+        "Fortified",
+        "Regeneration",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Dual Heavy Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Dual Light Walker Flails",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Dual Heavy Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Blessed Flamers",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Blessed Flamers",
+              "p": 35,
+              "raw": "Dual Blessed Flamers (18\", A3, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Heavy Machineguns",
+                  "range": 30,
+                  "a": 9,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Heavy Machineguns",
+              "p": 35,
+              "raw": "Dual Heavy Machineguns (30\", A9, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Dual Light Walker Flails",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Dual Light Walker Claws",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Light Walker Claws",
+              "p": 15,
+              "raw": "Dual Light Walker Claws (A3, AP(1), Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Light Walker Fists",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Light Walker Fists",
+              "p": 15,
+              "raw": "Dual Light Walker Fists (A3, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Dual Light Walker Chainsaws",
+                  "range": 0,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Dual Light Walker Chainsaws",
+              "p": 15,
+              "raw": "Dual Light Walker Chainsaws (A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Armor(2)"
+              ],
+              "label": "Extra Armor",
+              "p": 35,
+              "raw": "Extra Armor (Armor(2))"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Organ Tank",
+      "size": 1,
+      "points": 315,
+      "quality": "4+",
+      "defense": "3+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Tough(9)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Organ Mortar Array",
+          "count": 1,
+          "range": 30,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "n": "Hull Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Hull Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Burst Cyclic Rifle",
+              "p": 5,
+              "raw": "Hull Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Fusion Rifle",
+              "p": 5,
+              "raw": "Hull Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Blessed Flamer",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Blessed Flamer",
+              "p": 10,
+              "raw": "Hull Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Heavy Machinegun",
+              "p": 10,
+              "raw": "Hull Heavy Machinegun (30\", A3, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Missile",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Limited",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Missile",
+              "p": 10,
+              "raw": "Disposable Guided Missile (18\", A1, AP(2), Deadly(3), Limited, Unstoppable)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 35,
+              "raw": "Dozer Blade (Strider)"
+            }
+          ]
+        },
+        {
+          "h": "Replace Organ Mortar Array",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Organ Missile Array",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Organ Missile Array",
+              "p": 95,
+              "raw": "Organ Missile Array (30\", A3, AP(3), Deadly(3), Indirect)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Spell Drain"
+              ],
+              "label": "God-Queen's Curse",
+              "p": 10,
+              "raw": "God-Queen's Curse (Spell Drain)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Battle Tank",
+      "size": 1,
+      "points": 370,
+      "quality": "4+",
+      "defense": "2+",
+      "rules": [
+        "Devout",
+        "Fast",
+        "Tough(12)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Battle Cannon",
+          "count": 1,
+          "range": 30,
+          "a": 2,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "n": "Hull Heavy Flamer",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Sponson Heavy Flamers",
+          "count": 1,
+          "range": 12,
+          "a": 1,
+          "rs": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "n": "Overrun",
+          "count": 1,
+          "range": 0,
+          "a": 4,
+          "rs": [
+            "Thrust"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace Battle Cannon",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Anti-Tank Cannon",
+              "p": 40,
+              "raw": "Anti-Tank Cannon (30\", A2, AP(3), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Linked Autocannon",
+                  "range": 36,
+                  "a": 6,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Linked Autocannon",
+              "p": 55,
+              "raw": "Linked Autocannon (36\", A6, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Sponson Heavy Flamers",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Sponson Blessed Flamers",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Blessed Flamers",
+              "p": 10,
+              "raw": "Sponson Blessed Flamers (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Sponson Heavy Machineguns",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Heavy Machineguns",
+              "p": 10,
+              "raw": "Sponson Heavy Machineguns (30\", A3, AP(1))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Sponson Heavy Fusion Rifles",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Sponson Heavy Fusion Rifles",
+              "p": 20,
+              "raw": "Sponson Heavy Fusion Rifles (18\", A1, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace Hull Heavy Flamer",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Hull Burst Cyclic Rifle",
+                  "range": 18,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Burst Cyclic Rifle",
+              "p": 5,
+              "raw": "Hull Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Fusion Rifle",
+                  "range": 12,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Fusion Rifle",
+              "p": 5,
+              "raw": "Hull Fusion Rifle (12\", A1, AP(4), Deadly(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Blessed Flamer",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Blessed Flamer",
+              "p": 10,
+              "raw": "Hull Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Hull Heavy Machinegun",
+                  "range": 30,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Hull Heavy Machinegun",
+              "p": 10,
+              "raw": "Hull Heavy Machinegun (30\", A3, AP(1))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with any",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Disposable Guided Missile",
+                  "range": 18,
+                  "a": 1,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Limited",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Disposable Guided Missile",
+              "p": 10,
+              "raw": "Disposable Guided Missile (18\", A1, AP(2), Deadly(3), Limited, Unstoppable)"
+            },
+            {
+              "ws": [],
+              "rs": [
+                "Strider"
+              ],
+              "label": "Dozer Blade",
+              "p": 50,
+              "raw": "Dozer Blade (Strider)"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Pintle Flamer",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Flamer",
+              "p": 25,
+              "raw": "Pintle Flamer (6\", A1, Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Burst Cyclic Rifle",
+                  "range": 9,
+                  "a": 3,
+                  "rs": [
+                    "Anti-Cover",
+                    "Assault",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Burst Cyclic Rifle",
+              "p": 35,
+              "raw": "Pintle Burst Cyclic Rifle (9\", A3, Anti-Cover, Assault, Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Pintle Fusion Rifle",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Pintle Fusion Rifle",
+              "p": 50,
+              "raw": "Pintle Fusion Rifle (6\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blessed Titan",
+      "size": 1,
+      "points": 765,
+      "quality": "3+",
+      "defense": "2+",
+      "rules": [
+        "Devout",
+        "Fear(4)",
+        "Tough(24)"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Stomp",
+          "count": 1,
+          "range": 0,
+          "a": 8,
+          "rs": [
+            "AP(2)"
+          ]
+        },
+        {
+          "n": "Titan Flails",
+          "count": 2,
+          "range": 0,
+          "a": 3,
+          "rs": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "baseGear": [],
+      "upgrades": [
+        {
+          "h": "Replace 2x Titan Flail",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Assault Battle Cannon",
+                  "range": 15,
+                  "a": 4,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [
+                "Titan"
+              ],
+              "label": "Assault Battle Cannon",
+              "p": 125,
+              "raw": "Assault Battle Cannon (15\", A4, AP(1), Blast(3), Assault), Titan"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Flail",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)) Assault Missile Array (9\"",
+                    "A4",
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault",
+                    "Unstoppable"
+                  ]
+                },
+                {
+                  "n": "Titan Flail",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Flail + Titan Flail",
+              "p": 155,
+              "raw": "Flail (A3, AP(1), Blast(3)) Assault Missile Array (9\", A4, AP(2), Deadly(3), Assault, Unstoppable), Titan Flail (A3, AP(1), Blast(3))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Proximity Missile Array",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(6)",
+                    "Unstoppable"
+                  ]
+                },
+                {
+                  "n": "Heavy Proximity Missile Array",
+                  "range": 18,
+                  "a": 2,
+                  "rs": [
+                    "AP(3)",
+                    "Deadly(6)",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Proximity Missile Array + Heavy Proximity Missile Array",
+              "p": 175,
+              "raw": "2x Heavy Proximity Missile Array (18\", A2, AP(3), Deadly(6), Unstoppable)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Assault Anti-Tank Cannon",
+                  "range": 15,
+                  "a": 4,
+                  "rs": [
+                    "AP(2)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Assault Anti-Tank Cannon",
+              "p": 200,
+              "raw": "Assault Anti-Tank Cannon (15\", A4, AP(2), Deadly(3), Assault),"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Flail",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)) Assault Autocannon (18\"",
+                    "A12",
+                    "AP(2)",
+                    "Assault"
+                  ]
+                },
+                {
+                  "n": "Titan Flail",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Flail + Titan Flail",
+              "p": 285,
+              "raw": "Titan Flail (A3, AP(1), Blast(3)) Assault Autocannon (18\", A12, AP(2), Assault), Titan Flail (A3, AP(1), Blast(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Titan Flail",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Titan Claw",
+                  "range": 0,
+                  "a": 8,
+                  "rs": [
+                    "AP(1)",
+                    "Surge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Claw",
+              "p": 30,
+              "raw": "Titan Claw (A8, AP(1), Surge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Fist",
+                  "range": 0,
+                  "a": 8,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Fist",
+              "p": 35,
+              "raw": "Titan Fist (A8, AP(2))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Titan Chainsaw",
+                  "range": 0,
+                  "a": 3,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Titan Chainsaw",
+              "p": 65,
+              "raw": "Titan Chainsaw (A3, AP(4), Deadly(3))"
+            }
+          ]
+        },
+        {
+          "h": "Replace any Heavy Proximity Missile Array",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Heavy Battle Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(2)",
+                    "Blast(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Battle Cannon",
+              "p": 5,
+              "raw": "Heavy Battle Cannon (30\", A2, AP(2), Blast(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Heavy Anti-Tank Cannon",
+                  "range": 30,
+                  "a": 2,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(6)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Heavy Anti-Tank Cannon",
+              "p": 70,
+              "raw": "Heavy Anti-Tank Cannon (30\", A2, AP(4), Deadly(6))"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Autocannon",
+                  "range": 36,
+                  "a": 12,
+                  "rs": [
+                    "AP(2)"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Autocannon",
+              "p": 145,
+              "raw": "Autocannon (36\", A12, AP(2))"
+            }
+          ]
+        },
+        {
+          "h": "Upgrade with one",
+          "os": [
+            {
+              "ws": [
+                {
+                  "n": "Chest Assault Heavy Flamers",
+                  "range": 6,
+                  "a": 1,
+                  "rs": [
+                    "AP(1)",
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chest Assault Heavy Flamers",
+              "p": 40,
+              "raw": "Chest Assault Heavy Flamers (6\", A1, AP(1), Blast(3), Reliable, Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chest Assault Blessed Flamers",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "Blast(3)",
+                    "Reliable",
+                    "Assault",
+                    "Purge"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chest Assault Blessed Flamers",
+              "p": 50,
+              "raw": "Chest Assault Blessed Flamers (9\", A1, Blast(3), Reliable, Assault, Purge)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chest Assault Heavy Machineguns",
+                  "range": 15,
+                  "a": 3,
+                  "rs": [
+                    "AP(1)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chest Assault Heavy Machineguns",
+              "p": 60,
+              "raw": "Chest Assault Heavy Machineguns (15\", A3, AP(1), Assault)"
+            },
+            {
+              "ws": [
+                {
+                  "n": "Chest Assault Heavy Fusion Rifles",
+                  "range": 9,
+                  "a": 1,
+                  "rs": [
+                    "AP(4)",
+                    "Deadly(3)",
+                    "Assault"
+                  ]
+                }
+              ],
+              "rs": [],
+              "label": "Chest Assault Heavy Fusion Rifles",
+              "p": 75,
+              "raw": "Chest Assault Heavy Fusion Rifles (9\", A1, AP(4), Deadly(3), Assault)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Constance",
+      "size": 1,
+      "points": 110,
+      "quality": "4+",
+      "defense": "4+",
+      "rules": [
+        "Devout",
+        "Increased Shooting Range",
+        "Scout",
+        "Strider",
+        "Tough(3)",
+        "Unique Hero"
+      ],
+      "baseWeapons": [
+        {
+          "n": "Burst Blessed Flamer Pistol",
+          "count": 1,
+          "range": 9,
+          "a": 1,
+          "rs": [
+            "Blast(3)",
+            "Reliable",
+            "Assault",
+            "Purge"
+          ]
+        },
+        {
+          "n": "Energy Sword",
+          "count": 1,
+          "range": 0,
+          "a": 1,
+          "rs": [
+            "Rending"
+          ]
+        }
+      ],
+      "baseGear": [
+        {
+          "n": "Rangefinder Backpack",
+          "rs": [
+            "Increased Shooting Range"
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "h": "Replace Rangefinder Backpack",
+          "os": [
+            {
+              "ws": [],
+              "rs": [
+                "Increased Shooting Range Aura"
+              ],
+              "label": "Rangefinder Backpack - Leader",
+              "p": 5,
+              "raw": "Rangefinder Backpack - Leader (Increased Shooting Range Aura)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    [
+      "Pistoleer Sisters",
+      "Replace one Dual Pistols",
+      "Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1) Free",
+      "no parsed price"
+    ],
+    [
+      "Procession Altar",
+      "Replace Holy Statue's Flame Strikes and Holy Statue of Judgment",
+      "Holy Statue of Retribution (Precision Shooter Buff)",
+      "no parsed price"
+    ],
+    [
+      "Exo-Suit High Sister",
+      "Upgrade with one",
+      "Priestess (Shred in Melee)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer High Sister",
+      "Upgrade with one",
+      "Superior (Enhanced Devout Aura)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer High Sister",
+      "Replace Hand Weapon and Combat Shield",
+      "Hand Weapon (A6) Burst Cyclic Rifle (18\", A6, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Celestial High Sister",
+      "Upgrade with one",
+      "Superior (Enhanced Devout Aura)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Hand Weapon and Combat Shield",
+      "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "High Sister",
+      "Upgrade with one",
+      "Superior (Enhanced Devout Aura)",
+      "unknown or malformed rule"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol and Hand Weapon",
+      "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol and Hand Weapon",
+      "Weapon (A1) Plasma Rifle (24\", A2, AP(2)), Hand Weapon (A1)",
+      "unknown or malformed rule"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol and Hand Weapon",
+      "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Fanatic Superior",
+      "Upgrade with one",
+      "Superior (Enhanced Devout Aura)",
+      "unknown or malformed rule"
+    ],
+    [
+      "Novice Sisters",
+      "Upgrade one model with one",
+      "Canticle Megaphone (Precision Target(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Warrior Sisters",
+      "Upgrade one model with one",
+      "Canticle Megaphone (Precision Target(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Protector Sisters",
+      "Upgrade one model with one",
+      "Canticle Megaphone (Precision Target(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "unknown or malformed rule"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Halberd (A1, Rending) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "unknown or malformed rule"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Spear (A1, Counter) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "unknown or malformed rule"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Club (A1, AP(2)) Sacred Spear (A1, AP(4), Deadly(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Celestial Warrior Sisters",
+      "Upgrade one model with one",
+      "Canticle Megaphone (Precision Target(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer Sisters",
+      "Replace all Hand Weapons and Combat Shields",
+      "Assault Cyclic Rifle (9\", A1, Anti-Cover, Assault, Surge), Hand",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer Sisters",
+      "Replace all Hand Weapons and Combat Shields",
+      "Weapon (A3) Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge), Hand Weapon",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer Sisters",
+      "Upgrade one model with one",
+      "Canticle Megaphone (Precision Target(1))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Blessed Titan",
+      "Replace 2x Titan Flail",
+      "Assault Battle Cannon (15\", A4, AP(1), Blast(3), Assault), Titan",
+      "unknown or malformed rule"
+    ],
+    [
+      "Blessed Titan",
+      "Replace 2x Titan Flail",
+      "Flail (A3, AP(1), Blast(3)) Assault Missile Array (9\", A4, AP(2), Deadly(3), Assault, Unstoppable), Titan Flail (A3, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Blessed Titan",
+      "Replace 2x Titan Flail",
+      "Titan Flail (A3, AP(1), Blast(3)) Assault Autocannon (18\", A12, AP(2), Assault), Titan Flail (A3, AP(1), Blast(3))",
+      "unknown or malformed rule"
+    ],
+    [
+      "Destroyer High Sister",
+      "Replace Hand Weapon",
+      "Energy Mace (A2, AP(1), Blast(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer High Sister",
+      "Replace Hand Weapon",
+      "Energy Sword (A6, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer High Sister",
+      "Replace Hand Weapon",
+      "Energy Fist (A6, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer High Sister",
+      "Replace Hand Weapon",
+      "Chain-Fist (A2, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Combat Shield",
+      "Pistol (12\", A1, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Combat Shield",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Combat Shield",
+      "Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Combat Shield",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Celestial High Sister",
+      "Replace Combat Shield",
+      "Fusion Pistol (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol",
+      "Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "High Sister",
+      "Replace Pistol",
+      "Fusion Pistol (6\", A1, AP(4), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Novice Sisters",
+      "Replace up to two Energy Clubs",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Novice Sisters",
+      "Replace up to two Energy Clubs",
+      "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Plasma Rifle (24\", A2, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Shredder Rifle (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Blessed Flamer (18\", A1, Blast(3), Reliable, Purge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Heavy Machinegun (30\", A3, AP(1))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Warrior Sisters",
+      "Replace one Battle Rifle",
+      "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Halberd (A1, Rending) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Spear (A1, Counter) Burst Flamer Pistol (6\", A1, Blast(3), Reliable, Assault), Energy",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace one Procession Sword",
+      "Club (A1, AP(2)) Sacred Spear (A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace Burst Flamer Pistol",
+      "Burst Plasma Pistol (12\", A2, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Protector Sisters",
+      "Replace Burst Flamer Pistol",
+      "Burst Fusion Pistol (6\", A1, AP(4), Deadly(3), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Flamer (12\", A1, Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Plasma Rifle (24\", A2, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Burst Cyclic Rifle (18\", A3, Anti-Cover, Surge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Shredder Rifle (18\", A3, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Vanguard Sisters",
+      "Replace one Battle Rifle",
+      "Blessed Flame-Sniper Rifle (24\", A2, Reliable, Purge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Pistoleer Sisters",
+      "Replace Sgt. Pistol",
+      "Shredder Pistol (9\", A1, Rending, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Pistoleer Sisters",
+      "Replace Sgt. Pistol",
+      "Flamer Pistol (6\", A1, Reliable, Anti-Cover, Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Pistoleer Sisters",
+      "Replace Sgt. Pistol",
+      "Plasma Pistol (12\", A1, AP(2), Assault)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Pistoleer Sisters",
+      "Replace Sgt. Hand Weapon",
+      "Energy Sword (A1, Rending)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Pistoleer Sisters",
+      "Replace Sgt. Hand Weapon",
+      "Energy Fist (A1, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer Sisters",
+      "Replace one Burst Cyclic Rifle",
+      "Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer Sisters",
+      "Replace one Burst Cyclic Rifle",
+      "Blessed Flamer (18\", A2, Blast(3), Reliable, Purge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Destroyer Sisters",
+      "Replace one Burst Cyclic Rifle",
+      "Heavy Fusion Rifle (18\", A2, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Blessed Titan",
+      "Replace any Titan Flail",
+      "Titan Claw (A8, AP(1), Surge)",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Blessed Titan",
+      "Replace any Titan Flail",
+      "Titan Fist (A8, AP(2))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ],
+    [
+      "Blessed Titan",
+      "Replace any Titan Flail",
+      "Titan Chainsaw (A3, AP(4), Deadly(3))",
+      "source weapon/gear not matched or conditional chain not representable"
+    ]
+  ],
+  "warnings": [
+    "Pistoleer Sisters: unpriced Sgt. Pistol (12\", A1, Assault), Sgt. Hand Weapon (A1) Free",
+    "Procession Altar: unpriced Holy Statue of Retribution (Precision Shooter Buff)"
+  ]
+}
