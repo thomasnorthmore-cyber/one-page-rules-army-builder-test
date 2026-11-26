@@ -14,3 +14,9 @@ Development branch; not complete or approved for main.
 - Verify squad-wide mobility and tire rules, the conditional Tough(6) for mounted heroes, shield ownership and display, and combined weapon modifiers in actual New Recruit rosters. Unit profile may not reflect optional gear in the same way as selected rule links.
 - Validate equipment and source-rule wording against PDF and core rule definitions; check alternate default profiles and aircraft Crossing Strike output.
 - Do not mark Completed or merge to main before outstanding checks are resolved.
+
+## Revision 5
+
+- Revision 4 CI confirmed zero strict errors across 12 factions and all general tests; one legacy Alien Hives name assertion failed. The revision 5 test now checks the actual catalogue identity independently of the Completed suffix; structural checks are unchanged.
+- Added source default weapon/rule/model fixture and CI test. Added selection-dependent unit profile rule modifiers for squad mobility, shields, tires, and hero mobility; these are not a substitute for real New Recruit/ForceOrg visual testing.
+- Optional equipment combinations and any remaining source discrepancies must still be independently audited before merging.

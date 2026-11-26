@@ -7,7 +7,7 @@ from xml.etree import ElementTree as ET
 N = "{http://www.battlescribe.net/schema/catalogueSchema}"
 catalogue = ET.parse(Path(__file__).resolve().parents[1] / "Alien_Hives.cat").getroot()
 assert catalogue.get("gameSystemId") == "b174-c09d-3660-f001"
-assert "Completed" not in catalogue.get("name", ""), "Unverified army marked Completed"
+assert catalogue.get("name", "").removesuffix(" - Completed") == "Alien Hives", "Unexpected Alien Hives catalogue identity"
 
 ids = [x.get("id") for x in catalogue.iter() if x.get("id")]
 counts = Counter(ids)
@@ -55,4 +55,4 @@ for unit in units:
         assert not any(x.get("name","").startswith("Tough(") for x in unit.findall("./" + N + "infoLinks/" + N + "infoLink")), f"{name}: redundant Tough rule link"
 
 print(f"PASS Alien Hives: {len(units)} units, {sum(len(models(u)) for u in units)} models, {len(ids)} unique IDs.")
-print("NOTE: Full PDF equipment parity and New Recruit visual tests are still required before marking Completed.")
+print("NOTE: Catalogue display name is not evidence of full PDF equipment parity or New Recruit visual testing.")

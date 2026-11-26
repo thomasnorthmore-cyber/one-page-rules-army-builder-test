@@ -54,6 +54,10 @@ jobs:
             python3 "scripts/$script.py" || status=1
           done
           exit "$status"
+      - name: Verify Dark Brothers source default loadouts
+        if: always()
+        run: |
+          if [ -f Dark_Brothers.cat ]; then python3 scripts/validate_dark_brothers_defaults.py; fi
       - name: Verify New Recruit weapon modifier conditions
         if: always()
         run: python3 scripts/validate_weapon_inheritance.py
