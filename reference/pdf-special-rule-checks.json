@@ -1,0 +1,200 @@
+{
+  "_source": "User-supplied Grimdark Future faction PDFs, v3.6.0, page 3: ARMY-WIDE SPECIAL RULE, SPECIAL RULES, and AURA SPECIAL RULES. Core game rules not printed on that page are outside this fixture.",
+  "Alien_Hives.cat": [
+    "Hive Bond",
+    "Caster Group",
+    "Crossing Attack",
+    "Crossing Strike",
+    "Cumbersome",
+    "Enhanced Hive Bond",
+    "Enhanced Valiant",
+    "Fragment",
+    "Furious Buff",
+    "Hit & Run Fighter",
+    "Imprecise",
+    "Infiltrate",
+    "No Retreat",
+    "Piercing Growth",
+    "Piercing Target",
+    "Precise",
+    "Precision Debuff",
+    "Predator",
+    "Rapid Charge",
+    "Ravage",
+    "Regenerative Strength",
+    "Retaliate",
+    "Self-Destruct",
+    "Spawn",
+    "Spell Conduit",
+    "Spell Resistance",
+    "Stealth Buff",
+    "Surprise Attack",
+    "Takedown Strike",
+    "Unique Hero",
+    "Unpredictable",
+    "Unpredictable Fighter",
+    "Unpredictable Fighter Mark",
+    "Unstoppable",
+    "Unwieldy",
+    "Valiant",
+    "Enhanced Hive Bond Aura",
+    "Furious Aura",
+    "Increased Shooting Range Aura",
+    "Predator Aura",
+    "Rapid Charge Aura",
+    "Regeneration Aura"
+  ],
+  "Battle_Brothers.cat": [
+    "Battleborn",
+    "Cumbersome",
+    "Evasive",
+    "Melee Shrouding",
+    "Mend",
+    "Rapid Rush",
+    "Re-Deployment",
+    "Smash",
+    "Steadfast",
+    "Unstoppable",
+    "Unstoppable Mark",
+    "Vanguard",
+    "Versatile Expert",
+    "Versatile Reach",
+    "Bane in Melee Aura",
+    "Bane when Shooting Aura",
+    "Bravery Aura",
+    "Melee Shrouding Aura",
+    "Rapid Rush Aura",
+    "Regeneration Aura",
+    "Versatile Reach Aura"
+  ],
+  "Custodian_Brothers.cat": [
+    "Guardian",
+    "Dash",
+    "Disintegrate",
+    "Dodge",
+    "Enhanced Fortified",
+    "Enhanced Guardian",
+    "Fortified",
+    "Hit & Run",
+    "Hit & Run Shooter",
+    "Piercing Target",
+    "Ranged Shrouding",
+    "Shred Mark",
+    "Steadfast",
+    "Unpredictable Fighter",
+    "Unstoppable",
+    "Versatile Expert",
+    "Dash Aura",
+    "Enhanced Guardian Aura",
+    "Hit & Run Shooter Aura",
+    "Ranged Shrouding Aura",
+    "Regeneration Aura",
+    "Shred when Shooting Aura",
+    "Steadfast Aura",
+    "Stealth Aura",
+    "Unstoppable in Melee Aura"
+  ],
+  "Robot_Legions.cat": [
+    "Self-Repair",
+    "Ambushing Piercing Shot",
+    "Casting Buff",
+    "Enhanced Protected",
+    "Enhanced Self-Repair",
+    "Enhanced Self-Repair Buff",
+    "Imprecise",
+    "Indirect Mark",
+    "Infiltrate",
+    "Mend",
+    "No Retreat",
+    "Piercing Charge",
+    "Protected",
+    "Protection Feat",
+    "Rapid Advance",
+    "Ravage",
+    "Reanimation",
+    "Repel Ambushers",
+    "Shatter",
+    "Spawn",
+    "Stealth Buff",
+    "Swift",
+    "Swift Buff",
+    "Unique Hero",
+    "Unstoppable",
+    "Ambush Aura",
+    "No Retreat Aura",
+    "Piercing Charge Aura",
+    "Protection Feat Aura",
+    "Reanimation Aura",
+    "Relentless Aura",
+    "Stealth Aura",
+    "Unstoppable when Shooting Aura"
+  ],
+  "_effect_markers": {
+    "Alien_Hives.cat": {
+      "Regenerative Strength": [
+        "Fatigued",
+        "4+"
+      ],
+      "Piercing Target": [
+        "X enemy units",
+        "18"
+      ],
+      "Unpredictable": [
+        "1-3",
+        "4-6"
+      ],
+      "Surprise Attack": [
+        "Infiltrate",
+        "2+"
+      ],
+      "Spell Conduit": [
+        "12",
+        "casting"
+      ]
+    },
+    "Battle_Brothers.cat": {
+      "Battleborn": [
+        "Shaken",
+        "4+"
+      ],
+      "Smash": [
+        "half",
+        "Defense"
+      ],
+      "Versatile Expert": [
+        "AP(+1)",
+        "+1 to hit"
+      ]
+    },
+    "Custodian_Brothers.cat": {
+      "Guardian": [
+        "AP(-1)"
+      ],
+      "Disintegrate": [
+        "Regeneration",
+        "AP(+2)"
+      ],
+      "Dodge": [
+        "Fatigued"
+      ],
+      "Enhanced Guardian": [
+        "AP(-2)"
+      ]
+    },
+    "Robot_Legions.cat": {
+      "Self-Repair": [
+        "6+"
+      ],
+      "Shatter": [
+        "AP(+3)"
+      ],
+      "Reanimation": [
+        "5+",
+        "coherency"
+      ],
+      "Protection Feat": [
+        "5+"
+      ]
+    }
+  }
+}
