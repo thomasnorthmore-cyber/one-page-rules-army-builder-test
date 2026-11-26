@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (BSData Model Structure v3.6.0)" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -965,7 +965,7 @@
                     <constraint id="rl36p-e2d24a0a8914" type="max" value="1" field="selections" scope="parent" shared="false" />
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="rl36p-e17fc28e3f14" name="Combat Shield" hidden="false" type="upgrade" collective="false" import="true">
+                    <selectionEntry id="rl36p-e17fc28e3f14" name="Combat Shield" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36shield-fixed-1" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/></infoLinks>
                       <costs>
                         <cost name="pts" typeId="b174-c09d-3660-f002" value="5" />
                       </costs>
@@ -1907,7 +1907,7 @@
                 <cost name="pts" typeId="b174-c09d-3660-f002" value="0" />
               </costs>
             </selectionEntry>
-            <selectionEntry id="rl36-3607fed05ccf" name="5x Atomizer Sword + Combat Shield" hidden="false" type="upgrade" collective="false" import="true">
+            <selectionEntry id="rl36-3607fed05ccf" name="5x Atomizer Sword + Combat Shield" hidden="false" type="upgrade" collective="false" import="true"><infoLinks><infoLink id="rl36shield-fixed-2" name="Armor(2+)" hidden="false" targetId="rl36-core-0005" type="rule"/></infoLinks>
               <selectionEntries><selectionEntry id="rl36full-8af69721-2-m1" name="Model 1" hidden="false" collective="false" import="true" type="model"><infoLinks><infoLink id="wref-5-7-0" name="Rending" hidden="false" targetId="rl36-core-0027" type="rule"/></infoLinks><constraints><constraint id="rl36full-8af69721-2-m1-min" type="min" field="selections" scope="parent" shared="true" value="1"/><constraint id="rl36full-8af69721-2-m1-max" type="max" field="selections" scope="parent" shared="true" value="1"/></constraints><profiles><profile id="rl36full-8af69721-2-weapon-1-0" name="Atomizer Sword" hidden="false" typeId="b174-c09d-3660-f030" typeName="Melee Weapon">
                   <characteristics>
                     <characteristic name="Attacks" typeId="b174-c09d-3660-f031">A1</characteristic>
