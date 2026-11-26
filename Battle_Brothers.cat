@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Completed)" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b174-c09d-3660-b001" name="Battle Brothers (Completed)" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules><rule id="bb-flying-conditional-rule" name="Flying" hidden="false"><description>Flying: use the current Grimdark Future core rule for models with this special rule.</description></rule>
     <rule id="b174-c09d-3660-c100" name="Battleborn" hidden="false"><description>If a unit where most models have this rule is Shaken at the beginning of the round, roll one die. On a 4+, it stops being Shaken.</description></rule>
     <rule id="b174-c09d-3660-c101" name="Fearless" hidden="false"><description>When a unit where most models have this rule fails a Morale test, roll one die. On a 4+, the test counts as passed.</description></rule>
@@ -58,7 +58,7 @@
     <rule id="opr36-spell-1500004" name="Blessed Ammo (3)" hidden="false"><description>Pick up to three friendly units within 18 inches, which get Shred on their weapons when shooting once (the next time the effect would apply).</description></rule>
     <rule id="opr36-spell-1500005" name="Cerebral Trauma (3)" hidden="false"><description>Pick one enemy unit within 24 inches and line of sight, which takes 6 hits with AP(1) and Smash.</description></rule>
 </sharedRules>
-  <selectionEntries>
+  <selectionEntries><selectionEntry id="opr-armyrule-bb" name="Army Rule — Battleborn" type="upgrade" hidden="false" collective="false" import="true"><categoryLinks><categoryLink id="opr-armyrule-bb-category" name="Army Rules" hidden="false" targetId="opr-army-rules-category" primary="true"/></categoryLinks><infoLinks><infoLink id="opr-armyrule-bb-rule" name="Battleborn" hidden="false" targetId="b174-c09d-3660-c100" type="rule"/></infoLinks><constraints><constraint id="opr-armyrule-bb-max" type="max" value="1" field="selections" scope="parent" shared="true"/></constraints></selectionEntry>
     <selectionEntry id="b174-c09d-1000-07d0" name="Master Destroyer" hidden="false" collective="false" import="true" type="unit">
       <profiles><profile id="b174-c09d-1000-07d1" name="Master Destroyer" hidden="false" typeId="b174-c09d-3660-f010" typeName="Unit"><characteristics>
         <characteristic name="Quality" typeId="b174-c09d-3660-f011">3+</characteristic><characteristic name="Defense" typeId="b174-c09d-3660-f012">3+</characteristic><characteristic name="Special Rules" typeId="b174-c09d-3660-f013">Battleborn, Fearless, Hero, Tough(6)</characteristic>
