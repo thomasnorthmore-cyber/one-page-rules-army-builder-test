@@ -7,6 +7,7 @@ on:
       - 'reference/**'
       - 'scripts/validate_all_factions.py'
       - 'scripts/validate_spell_catalogues.py'
+      - 'scripts/validate_pdf_special_rules.py'
       - '.github/workflows/validate-catalogues.yml'
   pull_request:
     paths:
@@ -30,6 +31,8 @@ jobs:
         run: python3 scripts/validate_all_factions.py --strict --output validation-report.json
       - name: Validate top-level spell catalogue references
         run: python3 scripts/validate_spell_catalogues.py
+      - name: Verify PDF faction special rules and equipment rule links
+        run: python3 scripts/validate_pdf_special_rules.py
       - name: Upload detailed report even when checks fail
         if: always()
         uses: actions/upload-artifact@v4
