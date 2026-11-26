@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="rl36-0000-a000-b000" name="Robot Legions (Completed)" revision="30" battleScribeVersion="2.03" library="false" gameSystemId="b174-c09d-3660-f001" gameSystemRevision="3">
   <sharedRules>
     <rule id="rl36-9ef457bfaf11" name="Self-Repair" hidden="false">
       <description>When a unit where most models have this rule takes wounds, roll one die for each. On a 6+ it is ignored.</description>
@@ -147,7 +147,7 @@
     <rule id="rl36-core-0027" name="Rending" hidden="false"><description>Targets get -1 to Regeneration rolls, and unmodified hit rolls of 6 are resolved with AP(4).</description></rule>
     <rule id="rl36-core-0028" name="Shred" hidden="false"><description>When targets roll unmodified results of 1 to block hits from this weapon, they suffer one additional wound.</description></rule>
   <rule id="rl36-audit-bane" name="Bane" hidden="false"><description>This weapon ignores Regeneration. When defending against it, the target must re-roll unmodified Defense results of 6.</description></rule><rule id="rl36-audit-anti-regen" name="Anti-Regen" hidden="false"><description>Refer to the Grimdark Future v3.6.0 rules for Anti-Regen.</description></rule><rule id="rl36-equipped-rending-melee" name="Rending in Melee" hidden="false"><description>Weapons used by this model in melee gain Rending.</description></rule></sharedRules>
-  <selectionEntries><selectionEntry id="opr-armyrule-rl" name="Army Rule — Self-Repair" type="upgrade" hidden="false" collective="false" import="true"><categoryLinks><categoryLink id="opr-armyrule-rl-category" name="Army Rules" hidden="false" targetId="opr-army-rules-category" primary="true"/></categoryLinks><infoLinks><infoLink id="opr-armyrule-rl-rule" name="Self-Repair" hidden="false" targetId="rl36-9ef457bfaf11" type="rule"/></infoLinks><constraints><constraint id="opr-armyrule-rl-max" type="max" value="1" field="selections" scope="parent" shared="true"/></constraints></selectionEntry>
+  <selectionEntries>
     <selectionEntry id="rl36-55eedb2f4a16" name="Tri-Scorpion Lord" hidden="false" type="unit" collective="false" import="true">
       <categoryLinks>
         <categoryLink id="rl36-f5929af9b1a9" name="f041" hidden="false" targetId="b174-c09d-3660-f041" primary="true" />
