@@ -12,6 +12,10 @@ The **Master Destroyer** unit in `Battle_Brothers.cat` is the reference implemen
 6. **References**: Only link rule definitions that exist in the catalogue/game-system data. Parameterised weapon rules such as AP(X), Blast(X), Deadly(X) must be linked to the selected weapon entries. Rule links on the squad parent that merely collect rules from every possible weapon are prohibited. Avoid redundant rule links on both a parent loadout and its nested weapon entries.
 7. **Categories**: Distinguish `Heroes` from `Epic Heroes`. Use Epic Heroes for the source's unique/named heroes; preserve any one-per-army restrictions.
 
+## Permanent rule-link audit
+
+For every unit, compare direct parent-level `infoLinks` with the permanent rules in its Unit profile. **Do not place rules granted only by optional equipment, weapons, mobility upgrades, transport upgrades, or spell selections on the parent unit.** Keep those rule links on the selection that grants them. Preserve source-native abilities (including parameterized rules such as `Fear(2)` or `Ravage(6)`) and avoid changing weapon profiles, Tough/wounds, or points as part of a rules-display cleanup. Use `scripts/validate_robot_rules.py` as the reference regression check.
+
 ## Required verification before committing
 
 - XML parses, has unique IDs, and has no dangling `targetId` or `defaultSelectionEntryId`.
