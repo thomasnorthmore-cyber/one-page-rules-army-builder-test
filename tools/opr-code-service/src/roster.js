@@ -8,6 +8,26 @@ const descendants = x => children(x).flatMap(c => [c,...descendants(c)]);
 const prof = (x,t) => arr(x?.profiles?.profile).filter(p => p.typeName === t);
 const stat = (p,n) => val(arr(p?.characteristics?.characteristic).find(c=>c.name===n)).trim();
 
+// Only explicit, unconditional weapon-rule grants are projected onto weapon profiles.
+const grants = new Map([
+  ['Rending in Melee',['Melee Weapon','Rending']],
+  ['Shred in Melee',['Melee Weapon','Shred']],
+  ['Unstoppable in Melee',['Melee Weapon','Unstoppable']],
+  ['Shred when Shooting',['Ranged Weapon','Shred']],
+  ['Anti-Cover when Shooting',['Ranged Weapon','Anti-Cover']],
+  ['Counter in Melee Aura',['Melee Weapon','Counter']],
+  ['Shred in Melee Aura',['Melee Weapon','Shred']],
+  ['Unstoppable in Melee Aura',['Melee Weapon','Unstoppable']],
+  ['Shred when Shooting Aura',['Ranged Weapon','Shred']],
+  ['Bane in Melee Aura',['Melee Weapon','Bane']],
+  ['Bane when Shooting Aura',['Ranged Weapon','Bane']],
+  ['Anti-Cover when Shooting Aura',['Ranged Weapon','Anti-Cover']],
+  ['Anti-Cover Aura',['Ranged Weapon','Anti-Cover']],
+  ['Unstoppable when Shooting Aura',['Ranged Weapon','Unstoppable']],
+]);
+const splitRules = text => String(text||'').split(/,\s*(?![^()]*\))/).map(s=>s.trim()).filter(s=>s && s!=='-');
+const namesOn = sel => [...arr(sel?.rules?.rule).map(r=>r.name), ...prof(sel,'Unit').flatMap(p=>splitRules(stat(p,'Special Rules')))].filter(Boolean);
+const nonModelSelections = sel => children(sel).filter(c=>c.type!=='model' && c.type!=='unit').flatMap(c=>[c,...nonModelSelections(c)]);
 export function convertRosz(bytes){
   if(bytes.length > 1048576) throw Error('Maximum file size is 1 MB');
   const files = Object.entries(unzipSync(bytes,{filter:f=>f.name.toLowerCase().endsWith('.ros')}));
@@ -23,6 +43,8 @@ export function convertRosz(bytes){
     const up=prof(unit,'Unit')[0],qua=stat(up,'Quality'),def=stat(up,'Defense'),unitRules=stat(up,'Special Rules');
     const models=descendants(unit).filter(x=>x.type==='model');
     const definitions=[];
+    const commonRules=[unit,...nonModelSelections(unit)].flatMap(namesOn);
+    const auraRules=models.flatMap(m=>[m,...nonModelSelections(m)].flatMap(namesOn)).filter(n=>n.endsWith(' Aura'));
     for(const model of models.length?models:[unit]){
       const gear=[model,...descendants(model)].flatMap(x=>arr(x?.profiles?.profile)).filter(p=>['Ranged Weapon','Melee Weapon'].includes(p.typeName));
       // Tabletop Simulator tooltip BB codes; short model name on normal hover.
@@ -39,11 +61,13 @@ export function convertRosz(bytes){
           ? unitSingular+' Specialist'
           : baseName.replace(/\s*[—–-]\s*(fixed equipment|model \d+)$/i,'').trim();
       const descriptions=[];
+      const activeGrants=new Set([...commonRules,...auraRules,...[model,...nonModelSelections(model)].flatMap(namesOn)].filter(n=>grants.has(n)));
+      const effectiveRules=p=>[...new Set([...splitRules(stat(p,'Special Rules')),...[...activeGrants].map(n=>grants.get(n)).filter(([kind])=>kind===p.typeName).map(([,rule])=>rule)])].join(', ');
       descriptions.push(green('Quality '+qua+'   Defense '+def));
       const ranged=gear.filter(p=>p.typeName==='Ranged Weapon');
       const melee=gear.filter(p=>p.typeName==='Melee Weapon');
       const writeWeapon=(p)=>{
-        const info=[stat(p,'Range'),stat(p,'Attacks'),stat(p,'Special Rules')].filter(Boolean).join('  ');
+        const info=[stat(p,'Range'),stat(p,'Attacks'),effectiveRules(p)].filter(Boolean).join('  ');
         descriptions.push(yellow(String(p.name)));
         if(info)descriptions.push(pale(info));
       };
@@ -58,8 +82,9 @@ export function convertRosz(bytes){
         for(const rule of selectionRules)if(rule.name && !/^AP\(X\)|Blast\(X\)|Deadly\(X\)$/i.test(String(rule.name)))abilityNames.add(String(rule.name));
       }
       // Rule links on weapon selection entries are not model-level abilities.
-      const weaponNames=new Set(gear.flatMap(p=>stat(p,'Special Rules').split(/,\s*/).map(s=>s.trim())));
+      const weaponNames=new Set(gear.flatMap(p=>splitRules(effectiveRules(p))));
       for(const w of weaponNames)abilityNames.delete(w);
+      for(const n of activeGrants)if(!n.endsWith(' Aura') && gear.some(p=>p.typeName===grants.get(n)[0]))abilityNames.delete(n);
       if(abilityNames.size)descriptions.push('',purple('Abilities'),...Array.from(abilityNames,x=>pale(x)));
       const details=descriptions.join('\r\n');
       const quantity=Number(model.number??1);
